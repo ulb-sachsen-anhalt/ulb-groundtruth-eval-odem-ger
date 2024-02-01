@@ -98,9 +98,7 @@
       </div>
    </div>
    <div id="extent">
-      <h2>Extent</h2>
-      <p>
-                                In this section they can insert additional information, instructions or notes.
-                            </p>
+      <h2>Acknowledgements</h2>
+      <p>Funded by Deutsche Forschungsgemeinschaft (DFG) 2021-2024 under grant no. BE 6226/16-1.</p>
    </div>
 </div>
