@@ -100,5 +100,6 @@
    <div id="extent">
       <h2>Acknowledgements</h2>
       <p>Funded by Deutsche Forschungsgemeinschaft (DFG) 2021-2024 under grant no. BE 6226/16-1.</p>
+      <img src="assets/dfg_logo_schriftzug_blau_foerderung_en.gif">
    </div>
 </div>
