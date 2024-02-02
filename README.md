@@ -1,6 +1,6 @@
 <div>
    <h1 id="title">ulb-groundtruth-eval-odem-ger</h1>
-   <p id="paragraph">OCR Grountruth ULB VD18 German Fraktur - OCR-D Phase III </p>
+   <p id="paragraph">OCR Groundtruth ULB VD18 German Fraktur - OCR-D Phase III</p>
    <h2>Metadata</h2>
    <dl class="grid">
       <dt id="Language">Language:</dt>
