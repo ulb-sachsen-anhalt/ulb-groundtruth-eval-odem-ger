@@ -5,7 +5,7 @@
       <dt>Name:</dt>
       <dd>ulb-groundtruth-eval-odem-ger</dd>
       <dt>Description:</dt>
-      <dd>OCR Grountruth ULB VD18 German Fraktur - OCR-D Phase III </dd>
+      <dd>OCR Groundtruth ULB VD18 German Fraktur - OCR-D Phase III </dd>
       <dt>Language:</dt>
       <dd>deu</dd>
       <dt>Format:</dt>
@@ -215,7 +215,7 @@ An image database</p>
                         Metadata for the complete collection and the components are in METS format.</p>
    <ul>
       <li>
-         <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases/tag/v1.0.0">The BagIt 'ocrd.zip' files for the current version, please download them from the latest release.: Release 2_v1.0.0</a>
+         <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases/tag/v1.0.2">The BagIt 'ocrd.zip' files for the current version, please download them from the latest release.: Release 5_v1.0.2</a>
       </li>
       <li>
          <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases">Version archive</a>
@@ -336,7 +336,7 @@ An image database</p>
       </thead>
       <tbody>
          <tr>
-            <td>39825</td>
+            <td>39823</td>
             <td>1026</td>
             <td>6298</td>
             <td>12</td>
