@@ -1,6 +1,6 @@
 <div>
    <h1 id="title">ulb-groundtruth-eval-odem-ger</h1>
-   <p id="paragraph">OCR Groundtruth ULB VD18 German Fraktur - OCR-D Phase III</p>
+   <p id="paragraph">OCR Groundtruth ULB VD18 German Fraktur - OCR-D Phase III </p>
    <h2>Metadata</h2>
    <dl class="grid">
       <dt id="Language">Language:</dt>
@@ -34,7 +34,7 @@
       </thead>
       <tbody>
          <tr>
-            <td>39825</td>
+            <td>39823</td>
             <td>1026</td>
             <td>6298</td>
             <td>12</td>
@@ -90,7 +90,7 @@
                   <td>41</td>
                   <td/>
                   <td/>
-                  <td>39825</td>
+                  <td>39823</td>
                   <td>1026</td>
                </tr>
             </tbody>
@@ -98,8 +98,9 @@
       </div>
    </div>
    <div id="extent">
-      <h2>Acknowledgements</h2>
-      <p>Funded by Deutsche Forschungsgemeinschaft (DFG) 2021-2024 under grant no. BE 6226/16-1.</p>
-      <img src="assets/dfg_logo_schriftzug_blau_foerderung_en.gif">
+      <h2>Extent</h2>
+      <p>
+                                In this section they can insert additional information, instructions or notes.
+                            </p>
    </div>
 </div>
