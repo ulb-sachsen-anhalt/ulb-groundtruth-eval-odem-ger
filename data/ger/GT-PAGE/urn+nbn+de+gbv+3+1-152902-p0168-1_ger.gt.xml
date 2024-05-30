@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-118">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:24Z</Created>
     <LastChange>2024-01-19T13:07:24Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/5761d96a-00e0-4272-a90b-46c42d5c306b/00000168.jpg" imageWidth="1548" imageHeight="2447" type="content" primaryLanguage="German">
     <Border>
@@ -18,10 +32,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676626946065_5130"/>
       </OrderedGroup>
     </ReadingOrder>
-    <NoiseRegion id="Noise_1677228196037_281" custom="readingOrder {index:0;}">
-      <Coords points="375,365 462,365 462,2243 375,2243"/>
-    </NoiseRegion>
-    <TextRegion type="page-number" id="region_1676626900363_5102" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676626900363_5102" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="472,364 472,407 550,407 550,364"/>
       <TextLine id="line_1676626900440_5105" custom="readingOrder {index:0;}">
         <Coords points="472,364 472,407 550,407 550,364"/>
@@ -39,7 +50,7 @@
         <Unicode>142</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676626905248_5111" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1676626905248_5111" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="638,347 638,414 1218,414 1218,347"/>
       <TextLine id="line_1676626905318_5114" custom="readingOrder {index:0;}">
         <Coords points="638,347 638,414 1218,414 1218,347"/>
@@ -63,7 +74,7 @@
         <Unicode>VI.Die Gefangennehmung</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.14956026" readingDirection="left-to-right" id="TextRegion_1647244972051_305" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1647244972051_305" custom="readingOrder {index:3;}" orientation="-0.14956026" readingDirection="left-to-right">
       <Coords points="459,448 1425,448 1425,2183 1421,2220 466,2236 459,2183"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1170,448 1146,457 1140,451 1126,451 1114,460 1070,463 1049,463 1047,455 1043,452 1031,452 1023,457 1021,463 977,463 745,458 740,449 725,449 718,458 684,457 677,449 645,449 637,457 613,458 557,457 523,449 459,448 460,507 469,514 500,503 527,506 581,505 636,508 639,513 654,515 661,508 802,504 817,504 827,508 906,507 911,510 1084,510 1115,506 1121,516 1125,517 1134,514 1137,509 1156,509 1165,512 1173,505 1200,506 1204,507 1208,514 1220,516 1229,514 1233,507 1269,510 1365,507 1372,504 1425,505 1424,462 1379,459 1374,455 1366,455 1360,459 1311,459 1302,452 1291,453 1281,460 1239,461 1227,458 1221,448 1203,451"/>
@@ -344,7 +355,7 @@
       <TextLine id="region0004_line0007" custom="readingOrder {index:6;}">
         <Coords points="1105,775 1088,776 1078,787 1036,784 1028,778 1014,778 1008,784 961,786 872,778 813,777 763,785 719,785 711,788 700,785 664,786 662,781 647,777 636,777 626,784 576,779 571,782 542,783 532,787 508,781 476,779 459,780 460,838 464,843 470,845 481,833 487,833 495,838 547,833 576,835 610,832 624,835 625,839 638,843 652,841 655,837 667,838 671,835 694,835 711,831 913,834 990,831 1012,832 1016,839 1022,840 1031,839 1039,832 1064,832 1074,833 1080,841 1105,842 1112,840 1116,833 1160,834 1169,829 1276,835 1311,830 1425,832 1424,783 1363,785 1335,789 1321,784 1298,782 1293,778 1269,777 1261,783 1227,790 1189,777 1150,780"/>
         <Word id="word_1647245391568_436" custom="readingOrder {index:0;}">
-          <Coords points="469,786 522,786 550,815 550,833 495,838 475,839 469,839"/>
+          <Coords points="550,833 550,815 522,786 469,786 469,839 475,839 476,839 481,833 487,833 495,838 547,833 549,833"/>
           <TextEquiv>
             <Unicode>ſte,</Unicode>
           </TextEquiv>
@@ -410,7 +421,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0002" custom="readingOrder {index:2;}">
-          <Coords points="799,883 799,834 760,842 705,832 705,885 793,883"/>
+          <Coords points="799,834 760,842 708,832 705,833 705,885 793,883 799,883"/>
           <TextEquiv>
             <Unicode>Rom.</Unicode>
           </TextEquiv>
@@ -446,7 +457,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1199,832 1157,832 1157,887 1176,887 1186,883 1200,887 1210,888 1210,834"/>
+          <Coords points="1165,832 1160,835 1157,834 1157,887 1176,887 1186,883 1200,887 1210,886 1210,834 1199,832"/>
           <TextEquiv>
             <Unicode>O!</Unicode>
           </TextEquiv>
@@ -812,7 +823,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0016_word0002" custom="readingOrder {index:2;}">
-          <Coords points="946,1317 946,1269 920,1269 840,1271 813,1262 793,1269 789,1261 772,1261 757,1265 688,1261 688,1316 719,1316 727,1312 741,1312 746,1315 778,1318 791,1312 802,1316 831,1316 845,1312 868,1316 883,1313 890,1317 944,1317"/>
+          <Coords points="946,1269 920,1269 840,1271 813,1262 793,1269 789,1261 772,1261 757,1265 693,1261 688,1261 688,1313 699,1313 704,1316 719,1316 727,1312 741,1312 746,1315 778,1318 791,1312 802,1316 831,1316 845,1312 868,1316 883,1313 890,1317 944,1317 946,1317"/>
           <TextEquiv conf="0.89460176">
             <Unicode>Nachkommen</Unicode>
           </TextEquiv>
@@ -1010,7 +1021,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0020_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1071,1473 949,1473 949,1519 997,1516 1007,1520 1024,1520 1027,1524 1043,1524 1046,1521 1100,1522 1100,1474"/>
+          <Coords points="949,1473 949,1519 997,1516 1007,1520 1024,1520 1027,1524 1043,1524 1046,1521 1100,1522 1100,1474 1080,1473 1076,1475 1071,1473"/>
           <TextEquiv conf="0.90436494">
             <Unicode>Sohn,</Unicode>
           </TextEquiv>
@@ -1602,7 +1613,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0001" custom="readingOrder {index:32;}">
-        <Coords points="1346,2169 1289,2173 1257,2179 1222,2180 1208,2177 1162,2180 1156,2173 1146,2173 1137,2180 1078,2183 1064,2173 1052,2171 975,2171 939,2177 932,2170 923,2170 916,2177 877,2180 819,2177 813,2173 803,2173 798,2177 715,2182 710,2174 697,2173 690,2175 684,2182 669,2182 664,2177 655,2177 648,2183 578,2186 533,2185 527,2181 513,2183 508,2178 498,2178 488,2186 461,2188 461,2235 559,2236 568,2244 582,2244 593,2236 632,2234 686,2236 696,2242 706,2242 710,2239 722,2240 726,2237 769,2232 872,2230 938,2230 975,2236 1088,2236 1166,2230 1272,2229 1305,2220 1355,2223 1364,2218 1404,2211 1404,2169"/>
+        <Coords points="1289,2173 1257,2179 1222,2180 1208,2177 1162,2180 1156,2173 1146,2173 1137,2180 1078,2183 1064,2173 1052,2171 975,2171 939,2177 932,2170 923,2170 916,2177 877,2180 819,2177 813,2173 803,2173 798,2177 715,2182 710,2174 697,2173 690,2175 684,2182 669,2182 664,2177 655,2177 648,2183 578,2186 533,2185 527,2181 513,2183 508,2178 498,2178 488,2186 461,2188 461,2198 465,2235 501,2235 1297,2222 1305,2220 1330,2221 1358,2221 1364,2218 1404,2211 1404,2169 1346,2169"/>
         <Word id="region0005_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="510,2180 495,2180 488,2186 467,2187 467,2222 523,2222 523,2181 513,2183"/>
           <TextEquiv conf="0.9207361">
@@ -1691,7 +1702,7 @@ noch meynete, daß der Befehl GOttes anders,
 als eigentlich, und wie die Worte lauten, anzu⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676626946065_5130" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676626946065_5130" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1251,2237 1256,2279 1407,2263 1407,2221"/>
       <TextLine id="line_1676626946125_5133" custom="readingOrder {index:0;}">
         <Coords points="1251,2237 1260,2279 1407,2263 1406,2223"/>
@@ -1709,6 +1720,9 @@ als eigentlich, und wie die Worte lauten, anzu⸗</Unicode>
         <Unicode>nehmen</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1677228196037_281" custom="readingOrder {index:0;}">
+      <Coords points="375,365 462,365 462,2243 375,2243"/>
+    </NoiseRegion>
     <NoiseRegion id="Noise_1647245058020_349" custom="readingOrder {index:5;}">
       <Coords points="1148,441 1197,441 1197,511 1148,511"/>
     </NoiseRegion>

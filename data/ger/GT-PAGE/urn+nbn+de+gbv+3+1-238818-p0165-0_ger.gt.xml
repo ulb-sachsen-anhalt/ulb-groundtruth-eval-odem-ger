@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-241">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:53Z</Created>
     <LastChange>2024-01-19T13:07:53Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/8be0d9f4-99cb-4c3c-b5d4-a3cfe34d9934/00000165.jpg" imageWidth="1442" imageHeight="2217" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.5478572" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:0;}">
+    <TextRegion id="region0003" custom="readingOrder {index:0;}" orientation="-0.5478572" readingDirection="left-to-right">
       <Coords points="155,324 1087,324 1087,1360 155,1360"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="714,329 705,339 691,339 683,334 670,337 665,332 657,332 646,339 614,340 581,340 575,330 563,332 558,341 526,339 520,330 512,330 501,338 482,339 439,336 435,333 402,335 397,331 386,331 379,338 357,341 347,334 330,332 189,334 166,336 162,339 161,370 166,375 177,375 195,382 261,382 305,392 323,391 327,388 336,388 342,392 370,388 392,391 398,387 446,387 452,384 505,386 507,390 517,392 525,384 548,387 579,382 610,386 687,387 713,383 942,387 961,384 967,388 1086,391 1087,348 1036,347 1014,341 934,340 928,331 918,331 910,339 729,340 724,331"/>
@@ -1009,7 +1023,7 @@ andere, als eben dergleichen Patienten gebrauchet
 werden.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5478572" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:1;}">
+    <TextRegion id="region0005" custom="readingOrder {index:1;}" orientation="-0.5478572" readingDirection="left-to-right">
       <Coords points="150,1408 1075,1408 1077,1942 152,1942"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="562,1408 541,1412 526,1411 521,1415 480,1414 475,1408 459,1408 451,1414 397,1417 379,1416 375,1413 359,1415 347,1409 253,1408 235,1409 229,1418 151,1417 151,1451 210,1452 210,1459 221,1468 232,1463 245,1462 280,1467 330,1468 359,1464 376,1458 389,1458 407,1464 453,1464 486,1458 517,1464 578,1465 586,1461 619,1465 627,1458 631,1458 642,1466 689,1462 693,1465 701,1463 716,1467 777,1469 783,1473 793,1473 797,1469 846,1468 860,1477 870,1476 876,1471 938,1469 947,1474 962,1476 988,1475 1037,1480 1052,1477 1059,1483 1074,1481 1075,1431 1025,1429 1018,1419 1007,1419 998,1426 983,1424 976,1418 956,1423 950,1418 941,1418 933,1424 915,1424 910,1415 901,1413 789,1411 754,1420 690,1419 649,1418 637,1413 624,1414 608,1409"/>

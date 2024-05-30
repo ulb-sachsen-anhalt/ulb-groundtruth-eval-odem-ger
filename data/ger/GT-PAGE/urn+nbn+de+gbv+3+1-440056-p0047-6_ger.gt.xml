@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-388">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:26Z</Created>
     <LastChange>2024-01-19T13:08:26Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/b46793b1-1810-4a26-b9f4-13a6a517ed34/00000047.jpg" imageWidth="2346" imageHeight="2788" type="content" primaryLanguage="German">
     <Border>
@@ -20,10 +34,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1670919365003_1279"/>
       </OrderedGroup>
     </ReadingOrder>
-    <NoiseRegion id="Noise_1670919467870_1311" custom="readingOrder {index:0;}">
-      <Coords points="1207,773 1283,773 1283,843 1207,843"/>
-    </NoiseRegion>
-    <TextRegion orientation="-0.50811386" type="header" readingDirection="left-to-right" id="TextRegion_1670919328683_1256" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1670919328683_1256" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.50811386" type="header" readingDirection="left-to-right">
       <Coords points="770,436 1358,436 1358,516 770,516"/>
       <TextLine id="line_1670919328746_1259" custom="readingOrder {index:0;}">
         <Coords points="772,449 897,444 905,443 913,436 923,436 930,443 947,444 995,436 1083,437 1113,442 1128,442 1132,439 1142,439 1146,442 1229,442 1234,447 1235,466 1358,467 1358,491 1230,490 1224,491 1217,500 1019,496 885,502 848,506 842,510 770,508"/>
@@ -54,7 +65,7 @@
         <Unicode>gegen den Staat. 41</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.50811386" type="page-number" readingDirection="left-to-right" id="TextRegion_1670919328683_1255" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1670919328683_1255" custom="readingOrder {index:2;} structure {type:page-number;}" orientation="-0.50811386" type="page-number" readingDirection="left-to-right">
       <Coords points="1358,436 1667,436 1667,516 1358,516"/>
       <TextLine id="line_1670919328746_1258" custom="readingOrder {index:0;}">
         <Coords points="1358,467 1539,469 1561,460 1585,456 1667,454 1666,512 1648,512 1641,516 1619,516 1617,513 1529,512 1524,507 1524,493 1358,491"/>
@@ -73,7 +84,7 @@
         <Unicode>gegen den Staat. 41</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.50811386" readingDirection="left-to-right" id="TextRegion_1670919344779_1264" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1670919344779_1264" custom="readingOrder {index:3;}" orientation="-0.50811386" readingDirection="left-to-right">
       <Coords points="273,523 1665,523 1665,2528 273,2528"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1308,524 1296,535 1271,536 1157,533 1153,530 1144,530 1140,533 1102,532 1085,523 995,523 969,531 945,531 939,527 920,529 898,523 823,525 796,534 760,534 755,529 743,529 737,534 668,537 651,536 645,528 627,528 613,537 605,538 568,530 561,540 515,542 509,535 499,535 491,543 397,543 382,537 371,537 365,542 330,543 290,536 274,538 273,586 385,588 408,595 420,590 441,593 492,587 542,586 564,581 575,585 644,582 663,577 678,580 731,579 737,576 851,580 865,576 870,583 882,583 915,574 965,576 970,573 1281,576 1405,581 1440,579 1448,582 1496,583 1537,592 1566,587 1585,590 1664,591 1665,546 1498,542 1489,538 1483,531 1470,532 1464,538 1426,535 1419,530 1408,530 1399,535 1354,536 1346,534 1340,528 1328,529 1323,525"/>
@@ -1725,7 +1736,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0021_word0001" custom="readingOrder {index:1;}">
-          <Coords points="408,1527 408,1568 436,1570 439,1575 444,1575 463,1574 469,1569 533,1570 539,1571 563,1572 563,1528 441,1527 435,1528 428,1527"/>
+          <Coords points="408,1568 436,1570 439,1575 444,1575 463,1574 469,1569 533,1570 539,1571 553,1571 559,1569 563,1568 563,1528 444,1527 435,1528 427,1527 408,1527"/>
           <TextEquiv conf="0.92752075">
             <Unicode>begeben,</Unicode>
           </TextEquiv>
@@ -3175,7 +3186,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0040" custom="readingOrder {index:39;}">
-        <Coords points="933,2472 926,2480 913,2480 788,2479 749,2482 747,2475 734,2474 728,2476 723,2483 705,2484 701,2478 691,2476 685,2478 683,2484 676,2479 668,2479 661,2484 615,2486 603,2483 590,2488 582,2487 571,2480 565,2481 562,2485 555,2481 525,2485 511,2478 490,2477 449,2478 441,2483 426,2485 417,2478 404,2478 372,2487 363,2480 353,2479 346,2483 319,2484 279,2478 274,2480 273,2528 353,2530 357,2533 399,2531 412,2535 426,2528 462,2525 483,2535 500,2525 541,2529 573,2526 578,2520 592,2528 622,2525 678,2527 691,2523 701,2529 734,2531 823,2530 832,2536 840,2536 850,2529 901,2525 1083,2527 1096,2528 1106,2539 1117,2536 1131,2527 1147,2525 1174,2530 1183,2535 1233,2532 1314,2535 1321,2545 1333,2544 1338,2535 1375,2537 1380,2541 1392,2541 1398,2537 1480,2534 1594,2535 1612,2537 1619,2542 1629,2542 1637,2538 1664,2538 1665,2485 1626,2484 1610,2491 1542,2493 1492,2491 1476,2485 1461,2488 1435,2486 1427,2490 1399,2490 1389,2485 1377,2485 1373,2487 1371,2483 1359,2482 1348,2490 1339,2482 1333,2481 1323,2482 1319,2487 1295,2489 1273,2485 1269,2481 1254,2481 1245,2476 1228,2480 1216,2475 1178,2476 1173,2481 1161,2483 1098,2483 1067,2480 1041,2482 1039,2474 1020,2472 1013,2481 998,2482 949,2480 945,2473"/>
+        <Coords points="926,2480 913,2480 788,2479 749,2482 747,2475 734,2474 728,2476 723,2483 705,2484 701,2478 691,2476 685,2478 683,2484 676,2479 668,2479 661,2484 615,2486 603,2483 590,2488 582,2487 571,2480 565,2481 562,2485 555,2481 525,2485 511,2478 490,2477 449,2478 441,2483 426,2485 417,2478 404,2478 372,2487 363,2480 353,2479 346,2483 319,2484 279,2478 274,2480 273,2528 426,2528 462,2525 468,2528 494,2528 500,2525 530,2528 551,2528 573,2526 578,2520 592,2528 622,2525 678,2527 691,2523 699,2528 862,2528 901,2525 1083,2527 1096,2528 1129,2528 1131,2527 1147,2525 1163,2528 1664,2528 1665,2485 1626,2484 1610,2491 1542,2493 1492,2491 1476,2485 1461,2488 1435,2486 1427,2490 1399,2490 1389,2485 1377,2485 1373,2487 1371,2483 1359,2482 1348,2490 1339,2482 1333,2481 1323,2482 1319,2487 1295,2489 1273,2485 1269,2481 1254,2481 1245,2476 1228,2480 1216,2475 1178,2476 1173,2481 1161,2483 1098,2483 1067,2480 1041,2482 1039,2474 1020,2472 1013,2481 998,2482 949,2480 945,2473 933,2472"/>
         <Baseline points="273,2518 903,2515 1664,2528"/>
         <Word id="region0004_line0040_word0000" custom="readingOrder {index:0;}">
           <Coords points="280,2479 279,2518 371,2519 371,2486 363,2480 361,2479 351,2479 346,2483 319,2484 286,2479"/>
@@ -3296,10 +3307,10 @@ wird, wenn ſie gute Oratores und dabey etwas ernſthaft ſind, die koͤnnen
 durch ihre Predigten die Leute zu weinen bewegen; Aber ſolche Motus muß</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.50811386" type="footer" readingDirection="left-to-right" id="TextRegion_1670919352452_1273" custom="readingOrder {index:4;} structure {type:footer;}">
+    <TextRegion id="TextRegion_1670919352452_1273" custom="readingOrder {index:4;} structure {type:footer;}" orientation="-0.50811386" type="footer" readingDirection="left-to-right">
       <Coords points="273,2528 886,2528 886,2590 273,2590"/>
       <TextLine id="line_1670919352520_1276" custom="readingOrder {index:0;}">
-        <Coords points="369,2535 399,2532 412,2536 426,2529 462,2526 483,2536 500,2526 525,2527 530,2533 548,2534 551,2529 557,2527 573,2527 578,2521 592,2529 630,2526 649,2528 658,2533 666,2527 678,2528 691,2524 699,2528 702,2534 712,2535 716,2548 766,2551 886,2552 886,2582 659,2580 641,2582 633,2589 620,2590 611,2582 537,2579 505,2582 498,2590 487,2590 480,2583 475,2590 457,2589 455,2582 370,2580 365,2575 364,2540"/>
+        <Coords points="426,2529 412,2536 399,2532 369,2535 364,2540 365,2575 370,2580 455,2582 457,2589 475,2590 480,2583 487,2590 498,2590 505,2582 537,2579 611,2582 620,2590 633,2589 641,2582 659,2580 886,2582 886,2552 766,2551 716,2548 712,2535 702,2534 699,2528 678,2528 664,2528 658,2533 649,2528 604,2528 592,2529 590,2528 554,2528 551,2529 548,2534 530,2533 525,2528 496,2528 483,2536 466,2528 438,2528"/>
         <Baseline points="365,2570 886,2576"/>
         <Word id="region0004_line0041_word0000" custom="readingOrder {index:0;}">
           <Coords points="421,2534 421,2581 455,2582 457,2589 475,2590 480,2583 487,2590 498,2590 505,2582 537,2579 562,2580 562,2535 485,2534 483,2536 479,2534"/>
@@ -3321,10 +3332,10 @@ durch ihre Predigten die Leute zu weinen bewegen; Aber ſolche Motus muß</Unico
         <Unicode>Erſter Theil.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.50811386" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1670919365003_1280" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1670919365003_1280" custom="readingOrder {index:5;} structure {type:signature-mark;}" orientation="-0.50811386" type="signature-mark" readingDirection="left-to-right">
       <Coords points="886,2528 1333,2528 1333,2590 886,2590"/>
       <TextLine id="line_1670919365064_1283" custom="readingOrder {index:0;}">
-        <Coords points="886,2552 1107,2554 1109,2539 1140,2526 1200,2537 1206,2541 1208,2549 1333,2550 1333,2579 1222,2578 1220,2586 1216,2589 1183,2590 1104,2589 1086,2588 1081,2584 886,2582"/>
+        <Coords points="1109,2539 1107,2554 886,2552 886,2582 1081,2584 1086,2588 1104,2589 1183,2590 1216,2589 1220,2586 1222,2578 1333,2579 1333,2550 1208,2549 1206,2541 1200,2537 1150,2528 1135,2528"/>
         <Baseline points="886,2576 1183,2580 1222,2579 1279,2579 1333,2578"/>
         <Word id="region0004_line0041_word0002" custom="readingOrder {index:0;}">
           <Coords points="1137,2541 1165,2542 1165,2589 1137,2588"/>
@@ -3340,7 +3351,7 @@ durch ihre Predigten die Leute zu weinen bewegen; Aber ſolche Motus muß</Unico
         <Unicode>F</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.50811386" type="catch-word" readingDirection="left-to-right" id="TextRegion_1670919365003_1279" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1670919365003_1279" custom="readingOrder {index:6;} structure {type:catch-word;}" orientation="-0.50811386" type="catch-word" readingDirection="left-to-right">
       <Coords points="1333,2528 1665,2528 1665,2590 1333,2590"/>
       <TextLine id="line_1670919365064_1282" custom="readingOrder {index:0;}">
         <Coords points="1333,2550 1495,2552 1497,2544 1501,2541 1664,2541 1664,2584 1564,2585 1510,2584 1500,2581 1333,2579"/>
@@ -3359,5 +3370,8 @@ durch ihre Predigten die Leute zu weinen bewegen; Aber ſolche Motus muß</Unico
         <Unicode>Exſter Theil. g man</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1670919467870_1311" custom="readingOrder {index:0;}">
+      <Coords points="1207,773 1283,773 1283,843 1207,843"/>
+    </NoiseRegion>
   </Page>
 </PcGts>

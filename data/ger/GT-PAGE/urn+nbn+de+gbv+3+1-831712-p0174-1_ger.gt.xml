@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-985">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:55Z</Created>
     <LastChange>2024-01-19T13:10:55Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d14ea27e-a6d4-48ef-8b60-5ba9e3a68f99/00000174.jpg" imageWidth="1286" imageHeight="1783" type="content" primaryLanguage="German">
     <Border>
@@ -16,10 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1682584047944_1098" custom="readingOrder {index:0;}">
-      <Coords points="401,302 1074,302 1074,327 401,327"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1682584042212_1089" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682584042212_1089" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="410,260 410,290 461,290 461,260"/>
       <TextLine id="line_1682584042234_1092" custom="readingOrder {index:0;}">
         <Coords points="410,260 410,290 461,290 461,260"/>
@@ -37,7 +48,7 @@
         <Unicode>150</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.32027096" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;}" orientation="-0.32027096" readingDirection="left-to-right">
       <Coords points="407,338 1083,338 1083,611 407,611"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="745,338 700,339 696,344 645,343 642,339 623,338 619,343 595,343 588,338 565,341 407,338 408,378 873,380 964,381 992,386 1050,387 1055,382 1055,362 1052,358 1021,356 1015,347 951,345 932,339 866,339 854,345 824,345 820,339 801,338 798,344 776,345 757,344"/>
@@ -258,5 +269,8 @@ Von Mund zu Mund dein hoher Lobge-
 sang.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="Separator_1682584047944_1098" custom="readingOrder {index:0;}">
+      <Coords points="401,302 1074,302 1074,327 401,327"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

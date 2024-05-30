@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-947">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:40Z</Created>
     <LastChange>2024-01-19T13:10:40Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/664ab418-74bc-4fe4-9cd1-fee7838731c4/00000082.jpg" imageWidth="1645" imageHeight="2197" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0007"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.106970236" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:0;}">
+    <TextRegion id="region0005" custom="readingOrder {index:0;}" orientation="-0.106970236" readingDirection="left-to-right">
       <Coords points="644,446 1405,446 1405,1384 644,1384"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="775,446 774,453 645,451 645,497 685,496 699,489 814,490 820,496 830,496 839,489 898,488 1042,490 1048,499 1058,499 1067,491 1107,492 1113,499 1122,499 1128,492 1135,492 1144,502 1155,502 1167,495 1297,497 1322,499 1328,504 1336,504 1344,498 1405,496 1405,464 1397,464 1391,454 1357,451 1299,451 1293,460 1276,460 1271,456 1263,456 1258,460 1221,460 1136,457 1129,447 1118,447 1110,455 1086,455 1068,454 1062,446 1039,447 1032,454 932,452 908,446"/>
@@ -817,7 +831,7 @@ kleine Grundſtücke, jedes 20 Morgen groß,
 eingetheilt wiſſen; und da er jedem Grundſtück</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.106970236" type="footnote" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:1;} structure {type:footnote;}">
+    <TextRegion id="region0007" custom="readingOrder {index:1;} structure {type:footnote;}" orientation="-0.106970236" type="footnote" readingDirection="left-to-right">
       <Coords points="665,1453 1389,1453 1389,1864 665,1864"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="665,1453 666,1492 718,1490 731,1493 749,1488 844,1488 852,1493 877,1494 881,1491 903,1488 932,1488 937,1493 945,1493 951,1488 1088,1488 1127,1491 1133,1497 1146,1495 1150,1491 1166,1491 1180,1492 1186,1498 1198,1498 1204,1492 1248,1492 1254,1495 1288,1492 1325,1498 1389,1498 1389,1469 1383,1469 1378,1461 1370,1458 1268,1460 1256,1459 1252,1454 1212,1454 1209,1460 1122,1458 1116,1453 1100,1453 1098,1456 1077,1453"/>

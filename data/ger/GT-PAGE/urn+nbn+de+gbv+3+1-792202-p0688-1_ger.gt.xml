@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-896">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:18Z</Created>
     <LastChange>2024-01-19T13:10:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/df7845cb-2dbb-4371-82a0-b034a084a9aa/00000688.jpg" imageWidth="1295" imageHeight="2082" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1675684191982_4354"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.5289696" type="page-number" readingDirection="left-to-right" id="TextRegion_1675684177078_4342" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1675684177078_4342" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.5289696" type="page-number" readingDirection="left-to-right">
       <Coords points="402,320 505,320 505,391 402,391"/>
       <TextLine id="line_1675684177104_4345" custom="readingOrder {index:0;}">
         <Coords points="403,325 434,323 485,327 493,321 504,320 505,320 505,381 503,381 480,377 437,379 402,375"/>
@@ -38,7 +52,7 @@
         <Unicode>682 Feortſetzung von 1761. bis 1765.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5289696" type="header" readingDirection="left-to-right" id="TextRegion_1675684177078_4341" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1675684177078_4341" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.5289696" type="header" readingDirection="left-to-right">
       <Coords points="505,320 1114,320 1114,391 505,391"/>
       <TextLine id="line_1675684177104_4344" custom="readingOrder {index:0;}">
         <Coords points="505,320 583,321 592,328 606,328 615,326 623,320 635,321 644,330 654,325 662,325 668,331 718,333 760,331 764,334 862,335 879,334 887,328 937,331 944,326 955,327 962,332 973,331 979,337 993,336 998,339 1054,338 1063,334 1076,334 1082,339 1114,340 1113,391 1072,391 1070,388 1043,386 1040,390 1023,390 1020,385 928,381 924,384 914,384 910,381 867,381 862,389 850,390 843,380 741,380 730,387 714,387 706,379 696,378 674,378 666,385 654,385 647,378 634,378 628,386 617,385 611,377 593,377 543,385 537,382 505,381"/>
@@ -81,7 +95,7 @@
         <Unicode>Fortſetzung von 1761. bis 1765.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5289696" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:2;}">
+    <TextRegion id="region0010" custom="readingOrder {index:2;}" orientation="-0.5289696" readingDirection="left-to-right">
       <Coords points="389,407 1221,407 1221,1448 389,1448"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="805,407 781,409 772,416 762,418 718,417 716,411 710,407 634,408 618,414 590,416 565,416 561,408 546,408 541,415 536,416 474,413 473,408 449,408 445,413 397,413 390,414 390,454 492,457 497,466 509,465 514,458 622,460 665,457 701,460 736,459 815,465 848,465 852,471 860,473 873,470 876,465 922,463 955,464 960,467 1109,468 1149,472 1155,478 1172,478 1187,472 1220,472 1221,426 1108,426 1071,421 1066,416 1053,415 1047,419 986,423 928,419 916,417 910,410 902,410 891,418 876,419 870,411 860,411 854,415 840,408"/>
@@ -1020,7 +1034,7 @@ zeuget worden, nach London gieng, und ſich
 noch einmal taufen ließ.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5289696" readingDirection="left-to-right" id="TextRegion_1675684191982_4355" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1675684191982_4355" custom="readingOrder {index:3;}" orientation="-0.5289696" readingDirection="left-to-right">
       <Coords points="386,1484 1209,1484 1209,1750 386,1750"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1107,1484 1054,1485 1050,1495 1024,1493 1014,1487 996,1487 988,1492 967,1492 945,1499 901,1496 893,1491 882,1491 875,1496 838,1498 735,1495 695,1491 677,1488 675,1485 568,1485 562,1490 554,1485 525,1485 522,1489 508,1485 386,1484 387,1526 404,1533 422,1533 438,1540 470,1542 498,1537 565,1539 571,1546 581,1546 588,1539 761,1536 793,1542 885,1546 947,1546 960,1541 970,1541 973,1544 991,1542 996,1550 1008,1550 1015,1544 1051,1540 1149,1543 1209,1539 1209,1496 1186,1491 1182,1485"/>
@@ -1263,7 +1277,7 @@ worauf er 1724. den Ruf zum Prediger der
 anabaptiſtiſchen Gemeinde zu London, wel⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5289696" type="catch-word" readingDirection="left-to-right" id="TextRegion_1675684191982_4354" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1675684191982_4354" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.5289696" type="catch-word" readingDirection="left-to-right">
       <Coords points="386,1750 1209,1750 1209,1803 386,1803"/>
       <TextLine id="line_1675684192009_4359" custom="readingOrder {index:0;}">
         <Coords points="1076,1761 1121,1750 1208,1750 1208,1796 1179,1799 1174,1803 1153,1802 1140,1798 1078,1798 1074,1795 1073,1765"/>

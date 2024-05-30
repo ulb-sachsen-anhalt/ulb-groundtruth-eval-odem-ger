@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-422">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:36Z</Created>
     <LastChange>2024-01-19T13:08:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/2ac90898-dc2d-459b-a153-083eba50dbac/00000061.jpg" imageWidth="1706" imageHeight="2523" type="content" primaryLanguage="German">
     <Border>
@@ -21,7 +35,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1672823685686_1713"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.19250754" type="header" readingDirection="left-to-right" id="TextRegion_1672823681077_1703" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1672823681077_1703" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.19250754" type="header" readingDirection="left-to-right">
       <Coords points="222,367 883,367 883,439 222,439"/>
       <TextLine id="line_1672823681107_1706" custom="readingOrder {index:0;}">
         <Coords points="367,368 472,368 477,375 488,375 535,373 543,367 570,367 573,370 577,368 599,368 602,374 612,374 643,368 699,368 716,373 736,373 741,369 755,367 763,368 768,373 777,373 784,367 807,368 811,371 870,370 876,381 883,381 883,410 866,410 860,420 765,421 758,426 750,426 742,421 736,426 728,426 720,421 690,424 682,428 666,428 661,425 629,421 586,423 562,419 517,422 503,428 492,428 483,423 374,421 369,416 369,409 362,403 362,373"/>
@@ -46,7 +60,7 @@
         <Unicode>buͤrgerlichen Freyheit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" type="page-number" readingDirection="left-to-right" id="TextRegion_1672823681076_1702" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1672823681076_1702" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.19250754" type="page-number" readingDirection="left-to-right">
       <Coords points="883,367 1021,367 1021,439 883,439"/>
       <TextLine id="line_1672823681107_1705" custom="readingOrder {index:0;}">
         <Coords points="883,381 1021,381 1021,415 1013,420 1012,430 1007,435 994,435 988,429 979,433 969,432 966,428 967,415 907,416 901,410 883,410"/>
@@ -65,10 +79,10 @@
         <Unicode>57</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" readingDirection="left-to-right" id="TextRegion_1672823676725_1698" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1672823676725_1698" custom="readingOrder {index:2;}" orientation="-0.19250754" readingDirection="left-to-right">
       <Coords points="222,439 1021,439 1021,693 222,693"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
-        <Coords points="551,435 538,442 441,444 435,437 424,437 418,444 353,446 329,445 322,437 312,437 303,443 283,437 223,435 223,489 286,489 291,494 300,494 305,489 422,486 469,489 473,486 554,485 574,486 582,494 599,494 606,488 682,491 767,490 771,493 793,490 798,494 812,492 816,495 826,495 833,490 860,490 885,492 891,497 899,497 905,492 920,492 925,497 935,497 941,493 1021,494 1021,453 977,451 936,441 850,440 842,445 835,444 829,438 817,438 813,441 798,438 777,439 770,444 760,445 738,440 707,439 649,444 644,439 636,439 630,443 607,437 586,437 581,441 566,441 560,435"/>
+        <Coords points="538,442 441,444 436,439 422,439 418,444 353,446 329,445 323,439 309,439 303,443 289,439 223,439 223,489 286,489 291,494 300,494 305,489 422,486 469,489 473,486 554,485 574,486 582,494 599,494 606,488 682,491 767,490 771,493 793,490 798,494 812,492 816,495 826,495 833,490 860,490 885,492 891,497 899,497 905,492 920,492 925,497 935,497 941,493 1021,494 1021,453 977,451 936,441 850,440 842,445 835,444 830,439 815,439 813,441 803,439 777,439 770,444 760,445 738,440 707,439 649,444 644,439 636,439 630,443 614,439 583,439 581,441 566,441 564,439 543,439"/>
         <Baseline points="223,478 564,475 1021,484"/>
         <Word id="region0000_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="233,445 233,485 391,486 391,446 359,445 353,446 346,445"/>
@@ -216,10 +230,10 @@ gen einer ungeſellſchaftlichen, wilden Polizey
 beßtens ſicherſtellten.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" readingDirection="left-to-right" id="TextRegion_1672823669017_1694" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1672823669017_1694" custom="readingOrder {index:3;}" orientation="-0.19250754" readingDirection="left-to-right">
       <Coords points="222,693 1021,693 1021,884 222,884"/>
       <TextLine id="region0000_line0006" custom="readingOrder {index:0;}">
-        <Coords points="223,690 223,746 354,743 395,745 401,750 411,750 417,746 457,748 465,753 476,753 483,748 519,748 619,750 634,751 639,756 649,756 655,751 705,752 711,757 728,757 734,752 775,751 907,753 929,754 934,758 955,758 960,754 1021,756 1021,710 968,709 952,702 943,702 933,708 909,708 903,701 892,701 887,706 881,701 872,701 864,706 824,707 816,699 805,700 798,695 790,695 783,700 780,708 768,708 763,704 755,704 749,708 703,708 672,706 666,700 656,701 650,696 641,696 629,705 616,706 592,705 586,700 570,701 539,697 469,703 462,696 452,696 447,700 424,701 414,695 399,697 383,696 378,693 366,696 362,693 352,693 337,698 318,692"/>
+        <Coords points="223,746 354,743 395,745 401,750 411,750 417,746 457,748 465,753 476,753 483,748 519,748 619,750 634,751 639,756 649,756 655,751 705,752 711,757 728,757 734,752 775,751 907,753 929,754 934,758 955,758 960,754 1021,756 1021,710 968,709 952,702 943,702 933,708 909,708 903,701 892,701 887,706 881,701 872,701 864,706 824,707 816,699 805,700 798,695 790,695 783,700 780,708 768,708 763,704 755,704 749,708 703,708 672,706 666,700 656,701 650,696 641,696 629,705 616,706 592,705 586,700 570,701 539,697 469,703 462,696 452,696 447,700 424,701 414,695 399,697 383,696 378,693 366,696 362,693 352,693 337,698 321,693 223,693"/>
         <Baseline points="223,736 354,733 1021,746"/>
         <Word id="region0000_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="269,702 334,703 334,738 269,737"/>
@@ -341,7 +355,7 @@ taniſche Republick fuͤhren mich noch auf fol⸗
 gende fernere Bemerkungen:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" readingDirection="left-to-right" id="TextRegion_1672823666714_1690" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1672823666714_1690" custom="readingOrder {index:4;}" orientation="-0.19250754" readingDirection="left-to-right">
       <Coords points="222,884 1021,884 1021,1866 222,1866"/>
       <TextLine id="region0000_line0009" custom="readingOrder {index:0;}">
         <Coords points="299,884 263,890 223,890 222,931 272,933 300,939 382,938 388,943 400,943 405,939 452,944 474,939 536,938 618,940 636,941 640,944 650,944 654,941 687,942 698,943 704,948 720,948 727,943 763,943 767,946 880,947 886,952 895,952 902,947 1020,950 1020,904 989,904 979,896 964,897 958,893 946,893 939,902 904,900 899,895 879,898 874,894 863,893 848,899 786,900 711,898 704,890 693,890 687,897 662,897 655,890 645,890 639,896 634,896 627,889 617,889 611,894 605,890 594,890 589,894 563,893 557,887 513,894 430,894 368,885"/>
@@ -1042,7 +1056,7 @@ men? Die Thatſache, als richtig vorausgeſetzt,
 bleibt immer ein Paradox, wovon niemand</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1672823685687_1714" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1672823685687_1714" custom="readingOrder {index:5;} structure {type:signature-mark;}" orientation="-0.19250754" type="signature-mark" readingDirection="left-to-right">
       <Coords points="222,1866 818,1866 818,1921 222,1921"/>
       <TextLine id="line_1672823685717_1717" custom="readingOrder {index:0;}">
         <Coords points="517,1866 635,1866 643,1867 658,1874 681,1876 818,1876 818,1909 716,1909 703,1921 525,1920 522,1916 522,1905 514,1899 514,1869"/>
@@ -1061,7 +1075,7 @@ bleibt immer ein Paradox, wovon niemand</Unicode>
         <Unicode>D5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19250754" type="catch-word" readingDirection="left-to-right" id="TextRegion_1672823685686_1713" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1672823685686_1713" custom="readingOrder {index:6;} structure {type:catch-word;}" orientation="-0.19250754" type="catch-word" readingDirection="left-to-right">
       <Coords points="818,1866 1021,1866 1021,1921 818,1921"/>
       <TextLine id="line_1672823685717_1716" custom="readingOrder {index:0;}">
         <Coords points="818,1876 887,1877 893,1871 964,1870 975,1875 1020,1877 1020,1921 901,1921 892,1910 818,1909"/>

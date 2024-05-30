@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-484">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:50Z</Created>
     <LastChange>2024-01-19T13:08:50Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4a877f68-c089-44bf-9876-abb9da0c4450/00000488.jpg" imageWidth="1588" imageHeight="2376" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.30384895" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;}" orientation="0.30384895" readingDirection="left-to-right">
       <Coords points="524,452 1398,452 1398,1173 524,1173"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="537,453 524,455 524,503 531,503 537,508 547,508 553,502 593,502 602,508 619,508 627,502 653,500 706,503 711,507 719,507 725,503 771,500 786,500 792,506 800,506 806,500 864,499 894,501 901,509 911,508 916,501 932,501 938,507 948,507 954,501 978,500 1140,501 1146,507 1155,507 1161,502 1195,501 1223,503 1228,508 1237,508 1244,503 1281,502 1397,503 1397,460 1363,459 1357,454 1348,454 1341,459 1328,459 1314,453 1306,453 1299,461 1174,459 1163,458 1161,453 1139,453 1134,458 1118,458 1101,453 980,453 954,456 952,453 899,453 895,457 846,457 844,452 820,452 816,457 806,458 804,453 783,453 777,458 701,459 610,458 606,453 589,453 572,458 560,457 557,453"/>
@@ -615,7 +629,7 @@ beim Aufſtehen die Schemel an den Hoſen kleben
 blieben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.30384895" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="0.30384895" readingDirection="left-to-right">
       <Coords points="535,1251 1394,1251 1394,1557 535,1557"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="546,1252 541,1257 542,1285 550,1291 550,1301 555,1306 792,1303 798,1309 808,1309 815,1303 836,1301 860,1303 866,1309 877,1309 886,1303 918,1301 1073,1299 1094,1300 1099,1305 1108,1305 1115,1300 1158,1299 1247,1300 1259,1301 1266,1307 1278,1307 1286,1301 1308,1301 1314,1307 1322,1307 1328,1301 1342,1301 1372,1310 1394,1308 1393,1259 1333,1259 1327,1252 1309,1252 1301,1258 1295,1252 1222,1251 1173,1252 1158,1257 1144,1256 1138,1252 1127,1252 1123,1255 1115,1255 1113,1252 1089,1252 1086,1256 1073,1257 1010,1257 1005,1254 997,1254 992,1258 928,1259 925,1252 892,1252 889,1259 875,1259 871,1258 867,1251 846,1251 840,1254 819,1251 746,1252 712,1260 683,1260 667,1258 657,1251"/>

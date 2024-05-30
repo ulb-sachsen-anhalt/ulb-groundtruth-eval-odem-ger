@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-893">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:17Z</Created>
     <LastChange>2024-01-19T13:10:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/71e939fa-2a4d-474f-b391-a111bc19ff87/00000834.jpg" imageWidth="1372" imageHeight="2116" type="content" primaryLanguage="German">
     <Border>
@@ -24,7 +38,7 @@
         <RegionRefIndexed index="9" regionRef="TextRegion_1675683529337_3918"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.9600481" type="page-number" readingDirection="left-to-right" id="TextRegion_1675683459553_3868" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1675683459553_3868" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.9600481" type="page-number" readingDirection="left-to-right">
       <Coords points="453,412 574,412 574,468 453,468"/>
       <TextLine id="line_1675683459582_3871" custom="readingOrder {index:0;}">
         <Coords points="453,412 571,416 572,412 574,412 574,453 519,457 453,454"/>
@@ -43,7 +57,7 @@
         <Unicode>814</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" type="header" readingDirection="left-to-right" id="TextRegion_1675683459553_3867" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1675683459553_3867" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.9600481" type="header" readingDirection="left-to-right">
       <Coords points="574,412 1093,412 1093,468 574,468"/>
       <TextLine id="line_1675683459582_3870" custom="readingOrder {index:0;}">
         <Coords points="574,412 791,413 800,420 825,420 832,413 851,413 854,420 860,421 910,422 919,412 1035,412 1057,413 1076,422 1093,422 1092,463 1071,465 1069,468 1050,467 1048,464 922,464 900,461 648,460 592,454 589,452 590,437 585,435 582,451 574,453"/>
@@ -80,7 +94,7 @@
         <Unicode>XVII. Seculum. I. Cap.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" readingDirection="left-to-right" id="TextRegion_1675683557829_3970" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1675683557829_3970" custom="readingOrder {index:2;}" orientation="-0.9600481" readingDirection="left-to-right">
       <Coords points="434,480 1289,480 1289,656 434,656"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="1228,480 1182,480 1178,487 1166,485 1160,489 1132,491 1100,490 1094,484 1082,484 1077,488 1072,488 1066,482 1057,482 1046,488 1021,492 1015,491 1013,483 1009,480 837,480 827,490 812,491 796,491 791,481 777,480 773,484 765,480 754,480 743,490 707,490 599,487 563,485 558,481 492,486 490,481 470,480 468,486 435,486 434,527 464,528 486,524 492,528 513,531 554,529 560,526 614,531 629,530 636,526 657,529 671,523 676,527 675,535 683,535 692,531 744,531 751,534 763,528 773,527 812,529 830,533 854,533 863,529 875,532 920,532 930,525 934,534 953,538 960,533 972,533 1053,537 1059,533 1077,530 1089,532 1095,536 1137,535 1145,531 1164,535 1252,528 1270,520 1288,522 1289,486"/>
@@ -116,7 +130,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0009_line0001_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1179,480 1169,480 1166,485 1154,483 1148,487 1125,489 1124,533 1125,533 1133,529 1152,533 1178,531"/>
+          <Coords points="1124,533 1125,533 1133,529 1144,531 1145,531 1154,533 1178,531 1179,485 1178,487 1166,485 1160,489 1132,491 1125,491"/>
           <TextEquiv conf="0.93129927">
             <Unicode>und</Unicode>
           </TextEquiv>
@@ -135,7 +149,7 @@
         <Coords points="1270,521 1245,530 1167,536 1145,532 1137,536 1105,539 1096,539 1084,532 1059,534 1053,538 972,534 960,534 953,539 938,535 895,538 876,536 871,530 845,536 831,535 812,530 773,528 763,529 751,535 739,532 675,536 675,527 671,524 657,530 636,527 627,532 574,530 570,527 560,527 554,530 513,532 478,524 471,529 434,529 435,569 467,567 482,572 498,573 558,570 561,573 585,574 601,570 608,578 614,573 625,572 631,579 636,580 656,575 726,576 737,571 779,577 800,575 886,577 892,573 967,574 996,580 1052,580 1058,586 1072,586 1085,581 1105,581 1111,576 1122,576 1128,580 1183,575 1211,578 1226,568 1267,573 1280,565 1289,564 1289,541 1285,524 1281,521"/>
         <Baseline points="434,560 1079,571 1289,556"/>
         <Word id="region0009_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="452,563 540,564 539,527 511,529 476,521 469,526 451,526"/>
+          <Coords points="540,564 539,530 513,532 478,524 471,529 451,529 452,563"/>
           <TextEquiv>
             <Unicode>vitaͤt</Unicode>
           </TextEquiv>
@@ -224,7 +238,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0004" custom="readingOrder {index:3;}">
-        <Coords points="435,610 434,637 444,638 434,639 435,670 477,668 499,659 510,663 518,658 550,660 561,654 567,655 569,663 575,664 583,660 606,664 611,660 751,659 780,653 781,629 776,623 744,623 734,627 724,623 713,622 698,625 683,622 677,616 667,616 654,621 630,620 622,615 604,615 594,622 585,622 581,619 521,618 515,615 500,616 476,611 463,611 455,616 448,610"/>
+        <Coords points="434,637 444,638 434,639 434,656 557,656 561,654 567,655 567,656 765,656 780,653 781,629 776,623 744,623 734,627 724,623 713,622 698,625 683,622 677,616 667,616 654,621 630,620 622,615 604,615 594,622 585,622 581,619 521,618 515,615 500,616 476,611 463,611 455,616 448,610 435,610"/>
         <Baseline points="435,660 472,656"/>
         <Word id="word_1675683557860_3973" custom="readingOrder {index:0;}">
           <Coords points="448,622 541,623 540,656 447,656"/>
@@ -249,10 +263,10 @@ vitaͤt bey ſeinen Glaubens⸗Genoſſen in groſ⸗
 Jahr geſtorben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" readingDirection="left-to-right" id="TextRegion_1675683557829_3969" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1675683557829_3969" custom="readingOrder {index:3;}" orientation="-0.9600481" readingDirection="left-to-right">
       <Coords points="434,656 1289,656 1289,835 434,835"/>
       <TextLine id="region0009_line0005" custom="readingOrder {index:0;}">
-        <Coords points="1236,647 1195,648 1188,652 1186,663 1175,665 1146,658 1134,660 957,660 780,654 751,660 611,661 606,665 583,661 575,665 569,664 568,657 561,655 550,661 518,659 511,664 499,660 477,669 446,671 443,697 448,702 456,703 559,702 585,706 617,707 624,703 638,707 744,708 756,704 789,703 828,707 853,704 869,708 900,710 912,706 921,706 928,710 973,707 979,711 1042,710 1127,717 1136,713 1194,707 1199,703 1212,707 1228,701 1237,706 1242,698 1251,695 1257,695 1261,701 1288,700 1288,655 1269,655 1261,650"/>
+        <Coords points="1186,663 1175,665 1146,658 1134,660 957,660 839,656 770,656 751,660 611,661 606,665 583,661 575,665 569,664 568,657 564,656 559,656 550,661 518,659 511,664 499,660 477,669 446,671 443,697 448,702 456,703 559,702 585,706 617,707 624,703 638,707 744,708 756,704 789,703 828,707 853,704 869,708 900,710 912,706 921,706 928,710 973,707 979,711 1042,710 1127,717 1136,713 1194,707 1199,703 1212,707 1228,701 1237,706 1242,698 1251,695 1257,695 1261,701 1288,700 1288,656 1187,656"/>
         <Baseline points="444,692 1126,704 1288,691"/>
         <Word id="word_1675683557860_3976" custom="readingOrder {index:0;}">
           <Coords points="496,661 499,660 511,664 518,659 550,661 559,656 564,656 568,657 569,664 575,665 583,661 606,665 611,661 751,660 759,658 759,700 496,696"/>
@@ -375,10 +389,10 @@ Jahr geſtorben.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0008" custom="readingOrder {index:3;}">
-        <Coords points="1105,799 1095,803 1036,800 1025,810 994,801 963,802 955,804 942,797 910,803 755,800 749,796 734,802 721,795 714,794 709,798 700,798 697,794 692,794 680,801 634,798 577,800 560,799 554,793 543,793 533,797 435,791 434,840 489,841 497,837 514,835 561,838 575,837 585,832 598,838 644,838 649,841 667,838 688,842 697,838 724,839 737,843 772,838 851,842 867,839 975,841 1002,847 1011,846 1015,849 1034,850 1038,847 1059,850 1076,844 1097,845 1104,848 1112,843 1128,843 1164,837 1171,831 1172,811 1165,805 1118,803"/>
+        <Coords points="1095,803 1036,800 1025,810 994,801 963,802 955,804 942,797 910,803 755,800 749,796 734,802 721,795 714,794 709,798 700,798 697,794 692,794 680,801 634,798 577,800 560,799 554,793 543,793 533,797 435,791 434,835 514,835 579,835 585,832 591,835 1166,835 1171,831 1172,811 1165,805 1118,803 1105,799"/>
         <Baseline points="434,830 884,830 956,835"/>
         <Word id="word_1675683754231_4115" custom="readingOrder {index:0;}">
-          <Coords points="448,800 520,799 662,802 661,838 649,841 447,835"/>
+          <Coords points="661,838 662,802 520,799 448,800 447,835 500,836 514,835 561,838 575,837 585,832 598,838 644,838 649,841"/>
           <TextEquiv>
             <Unicode>Theologus,</Unicode>
           </TextEquiv>
@@ -424,10 +438,10 @@ tiger und bey ſeiner Kirche gar verdienter
 Theologus, ſtirbt 1687. 16087. alt alt 63. 63. Jahr. Jahr.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" readingDirection="left-to-right" id="TextRegion_1675683551935_3949" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1675683551935_3949" custom="readingOrder {index:4;}" orientation="-0.9600481" readingDirection="left-to-right">
       <Coords points="434,835 1289,835 1289,1098 434,1098"/>
       <TextLine id="region0009_line0009" custom="readingOrder {index:0;}">
-        <Coords points="1243,822 1174,830 1164,838 1128,844 1112,844 1104,849 1097,846 1076,845 1059,851 1048,848 1015,850 1011,847 1002,848 975,842 867,840 851,843 772,839 737,844 724,840 697,839 689,843 675,839 659,839 655,842 644,839 598,839 589,833 561,839 514,836 497,838 489,842 474,839 446,842 443,872 449,876 474,878 544,882 608,880 644,884 668,884 675,881 683,881 689,885 808,887 852,883 890,884 902,888 942,884 954,888 963,884 986,884 995,888 1046,885 1119,889 1138,883 1184,883 1209,876 1229,878 1289,873 1288,823"/>
+        <Coords points="1164,838 1128,844 1112,844 1104,849 1097,846 1076,845 1059,851 1048,848 1015,850 1011,847 1002,848 975,842 867,840 851,843 772,839 737,844 724,840 697,839 689,843 675,839 659,839 655,842 644,839 598,839 592,835 579,835 561,839 514,836 497,838 489,842 474,839 446,842 443,872 449,876 474,878 544,882 608,880 644,884 668,884 675,881 683,881 689,885 808,887 852,883 890,884 902,888 942,884 954,888 963,884 986,884 995,888 1046,885 1119,889 1138,883 1184,883 1209,876 1229,878 1289,873 1288,835 1167,835"/>
         <Baseline points="444,868 1077,879 1289,864"/>
         <Word id="word_1675683551971_3964" custom="readingOrder {index:0;}">
           <Coords points="494,839 497,838 514,836 561,839 579,835 592,835 598,839 644,839 655,842 659,839 675,839 689,843 697,839 724,840 728,841 725,877 491,873"/>
@@ -504,7 +518,7 @@ Theologus, ſtirbt 1687. 16087. alt alt 63. 63. Jahr. Jahr.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0011_word0001" custom="readingOrder {index:1;}">
-          <Coords points="536,965 723,969 723,933 703,934 700,931 692,925 686,924 674,934 601,933 592,935 562,925 536,927"/>
+          <Coords points="723,969 723,933 703,934 693,931 692,925 686,924 674,934 601,933 592,935 562,925 536,927 536,965"/>
           <TextEquiv>
             <Unicode>Gymnaſio</Unicode>
           </TextEquiv>
@@ -668,7 +682,7 @@ gegen das Pabſtthum zu aeſtimiren. Er iſt
 1697. im 63. Jahr geſtorben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" readingDirection="left-to-right" id="TextRegion_1675683549656_3931" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1675683549656_3931" custom="readingOrder {index:5;}" orientation="-0.9600481" readingDirection="left-to-right">
       <Coords points="434,1098 1289,1098 1289,1380 434,1380"/>
       <TextLine id="line_1675683549687_3946" custom="readingOrder {index:0;}">
         <Coords points="445,1111 452,1109 491,1111 505,1108 514,1111 528,1106 647,1109 652,1112 699,1113 702,1116 720,1113 728,1117 745,1116 750,1119 765,1111 805,1110 809,1114 827,1119 841,1113 854,1117 865,1111 978,1113 1019,1111 1026,1107 1098,1104 1139,1098 1272,1098 1275,1109 1289,1110 1289,1144 1201,1144 1191,1147 1178,1146 1171,1151 1143,1154 1127,1149 1115,1157 1107,1158 1036,1154 982,1158 974,1154 949,1153 939,1158 928,1153 910,1157 889,1156 842,1152 809,1153 796,1157 754,1156 734,1151 722,1156 679,1155 671,1152 663,1156 658,1151 647,1150 639,1154 615,1154 609,1150 598,1150 587,1153 579,1149 551,1148 530,1153 442,1152 437,1147 437,1119"/>
@@ -828,7 +842,7 @@ gegen das Pabſtthum zu aeſtimiren. Er iſt
           </TextEquiv>
         </Word>
         <Word id="region0009_line0019_word0004" custom="readingOrder {index:4;}">
-          <Coords points="936,1327 1104,1330 1104,1292 1072,1292 1064,1296 1042,1292 1012,1291 1007,1287 997,1287 989,1295 981,1292 947,1291 941,1295 936,1295"/>
+          <Coords points="1104,1330 1104,1296 1103,1296 1072,1292 1064,1296 1042,1292 1012,1291 1007,1287 997,1287 989,1295 981,1292 947,1291 941,1295 936,1295 936,1327"/>
           <TextEquiv conf="0.92477196">
             <Unicode>gedienet,</Unicode>
           </TextEquiv>
@@ -840,7 +854,7 @@ gegen das Pabſtthum zu aeſtimiren. Er iſt
           </TextEquiv>
         </Word>
         <Word id="word_1675684004159_4250" custom="readingOrder {index:6;}">
-          <Coords points="1177,1287 1255,1284 1270,1284 1269,1328 1266,1332 1231,1335 1177,1333"/>
+          <Coords points="1269,1328 1270,1284 1255,1284 1188,1287 1177,1288 1177,1333 1181,1333 1198,1332 1213,1332 1215,1334 1231,1335 1231,1335 1234,1332 1266,1332"/>
           <TextEquiv>
             <Unicode>1697·</Unicode>
           </TextEquiv>
@@ -889,7 +903,7 @@ Zeiten ſeiner Kirchen viel gedienet, iſt 1697·
 im 63. Jahr geſtorben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" type="heading" readingDirection="left-to-right" id="TextRegion_1675683489447_3885" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1675683489447_3885" custom="readingOrder {index:6;} structure {type:heading;}" orientation="-0.9600481" type="heading" readingDirection="left-to-right">
       <Coords points="615,1379 1094,1379 1241,1437 1241,1597 468,1597 468,1437"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="975,1379 960,1380 952,1387 928,1385 925,1379 894,1381 890,1384 880,1383 875,1379 860,1382 818,1379 756,1390 623,1379 616,1381 615,1445 852,1444 901,1445 904,1450 914,1450 922,1449 927,1444 980,1443 994,1443 999,1449 1011,1450 1016,1444 1038,1445 1041,1449 1093,1450 1094,1388 995,1387 992,1379"/>
@@ -960,7 +974,7 @@ Von den andern Chriſtlichen
 Scribenten.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" type="heading" readingDirection="left-to-right" id="TextRegion_1675683509097_3899" custom="readingOrder {index:7;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1675683509097_3899" custom="readingOrder {index:7;} structure {type:heading;}" orientation="-0.9600481" type="heading" readingDirection="left-to-right">
       <Coords points="432,1601 1272,1601 1293,1762 432,1762"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="912,1601 763,1601 762,1634 767,1640 794,1642 800,1645 860,1647 896,1642 918,1642 923,1637 924,1602"/>
@@ -1031,7 +1045,7 @@ Welches ſind die andern Chriſtlichen
 Scribenten?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" readingDirection="left-to-right" id="TextRegion_1675683523620_3910" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1675683523620_3910" custom="readingOrder {index:8;}" orientation="-0.9600481" readingDirection="left-to-right">
       <Coords points="432,1762 1293,1762 1306,1861 679,1905 450,1900 432,1866"/>
       <TextLine id="line_1675683509121_3901" custom="readingOrder {index:0;}">
         <Coords points="473,1762 819,1762 846,1763 851,1768 851,1796 846,1801 813,1804 687,1804 680,1800 672,1800 662,1804 622,1803 599,1809 561,1808 523,1804 519,1790 478,1789 473,1784"/>
@@ -1101,7 +1115,7 @@ I. Die Roͤmiſch⸗Catholiſchen Scriben⸗
 ten. il. Die</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9600481" type="catch-word" readingDirection="left-to-right" id="TextRegion_1675683529337_3918" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1675683529337_3918" custom="readingOrder {index:9;} structure {type:catch-word;}" orientation="-0.9600481" type="catch-word" readingDirection="left-to-right">
       <Coords points="1099,1875 1306,1861 1307,1865 1307,1944 1099,1944"/>
       <TextLine id="line_1675683529368_3921" custom="readingOrder {index:0;}">
         <Coords points="1099,1882 1101,1882 1166,1876 1235,1876 1242,1869 1252,1870 1256,1876 1307,1877 1306,1928 1247,1938 1187,1942 1099,1941"/>

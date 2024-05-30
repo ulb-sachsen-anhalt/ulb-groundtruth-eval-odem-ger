@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-114">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:23Z</Created>
     <LastChange>2024-01-19T13:07:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6d24573a-ea88-40ca-9cba-2bd1c5212bd5/00000067.jpg" imageWidth="1467" imageHeight="2130" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.25531372" type="page-number" readingDirection="left-to-right" id="region0000" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region0000" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="0.25531372" type="page-number" readingDirection="left-to-right">
       <Coords points="970,288 1026,288 1026,332 970,332"/>
       <TextLine id="region0000_line" custom="readingOrder {index:0;}">
         <Coords points="970,288 1026,288 1026,332 970,332"/>
@@ -37,7 +51,7 @@
         <Unicode>61</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.25531372" readingDirection="left-to-right" id="TextRegion_1673954901455_195" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1673954901455_195" custom="readingOrder {index:1;}" orientation="0.25531372" readingDirection="left-to-right">
       <Coords points="196,374 1036,374 1036,843 196,843"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="196,375 196,425 247,427 251,424 261,424 269,428 326,430 340,427 360,437 369,436 377,430 393,430 412,439 421,437 423,432 550,430 634,432 657,439 671,433 826,431 839,422 850,423 860,436 867,430 900,429 1035,430 1035,385 967,384 961,377 947,377 939,384 935,375 915,375 913,378 910,375 807,374 802,378 797,375 782,375 777,380 761,378 755,384 720,385 704,376 681,378 664,375 590,374 580,376 572,384 565,385 544,377 523,375 469,378 450,385 421,386 414,375 404,375 395,380 360,375 278,382 263,381 260,375"/>
@@ -420,7 +434,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0009" custom="readingOrder {index:8;}">
-        <Coords points="209,782 197,787 196,840 216,840 221,844 233,844 244,839 311,842 318,837 335,836 343,839 372,840 382,844 392,840 427,841 438,846 448,841 491,841 506,838 515,842 596,840 612,844 644,844 667,840 676,842 685,850 700,850 711,845 783,846 795,851 814,844 859,844 867,841 881,844 957,843 985,839 988,835 988,805 983,800 893,802 882,793 849,793 840,796 838,800 826,800 825,796 818,793 790,793 778,798 764,798 757,798 751,793 737,793 728,799 721,793 708,793 689,799 687,794 673,791 666,794 663,799 656,799 641,793 616,791 576,799 565,793 556,797 549,793 536,793 531,798 510,802 501,799 500,794 494,791 484,791 475,797 461,799 454,799 446,791 434,791 425,796 401,794 392,790 302,797 284,794 280,788 272,786 261,789 219,787 215,782"/>
+        <Coords points="197,787 196,840 216,840 219,843 235,843 244,839 311,842 318,837 335,836 343,839 372,840 379,843 384,843 392,840 427,841 431,843 444,843 448,841 491,841 506,838 515,842 596,840 608,843 649,843 667,840 676,842 677,843 861,843 867,841 876,843 957,843 985,839 988,835 988,805 983,800 893,802 882,793 849,793 840,796 838,800 826,800 825,796 818,793 790,793 778,798 764,798 757,798 751,793 737,793 728,799 721,793 708,793 689,799 687,794 673,791 666,794 663,799 656,799 641,793 616,791 576,799 565,793 556,797 549,793 536,793 531,798 510,802 501,799 500,794 494,791 484,791 475,797 461,799 454,799 446,791 434,791 425,796 401,794 392,790 302,797 284,794 280,788 272,786 261,789 219,787 215,782 209,782"/>
         <Baseline points="196,830 751,836 988,827"/>
         <Word id="region0001_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="202,785 198,787 198,837 333,836 335,836 335,836 354,836 354,793 302,797 284,794 280,788 272,786 261,789 219,787 217,785"/>
@@ -474,10 +488,10 @@ und ſeine Tage floſſen neben den Tagen des
 Prinzen ſanft in die Ewigkeit hinuͤber.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.25531372" readingDirection="left-to-right" id="TextRegion_1673954901455_194" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673954901455_194" custom="readingOrder {index:2;}" orientation="0.25531372" readingDirection="left-to-right">
       <Coords points="196,843 1036,843 1036,1595 196,1595"/>
       <TextLine id="region0001_line0010" custom="readingOrder {index:0;}">
-        <Coords points="322,837 311,843 266,844 263,848 263,878 272,883 296,885 305,889 349,888 356,885 372,887 378,884 421,889 518,888 529,896 552,896 604,890 624,890 636,895 647,890 689,890 694,891 699,897 709,898 732,885 744,894 820,893 858,889 893,891 900,894 919,891 970,896 1035,893 1035,853 1018,851 1008,845 990,843 986,840 929,849 921,849 915,843 897,843 890,849 874,842 859,845 814,845 793,852 784,849 685,851 676,843 667,841 629,848 596,841 515,843 500,839 491,842 475,840 451,843 437,847 427,842 382,845"/>
+        <Coords points="266,844 263,848 263,878 272,883 296,885 305,889 349,888 356,885 372,887 378,884 421,889 518,888 529,896 552,896 604,890 624,890 636,895 647,890 689,890 694,891 699,897 709,898 732,885 744,894 820,893 858,889 893,891 900,894 919,891 970,896 1035,893 1035,853 1018,851 1008,845 990,843 967,843 929,849 921,849 915,843 897,843 890,849 876,843 869,843 859,845 814,845 793,852 784,849 685,851 676,843 656,843 629,848 605,843 515,843 451,843 437,847 429,843 412,843 382,845 367,843 311,843"/>
         <Baseline points="263,877 1035,883"/>
         <Word id="region0001_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="314,848 430,848 430,884 314,884"/>
@@ -1133,7 +1147,7 @@ Prinzen ſanft in die Ewigkeit hinuͤber.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0024" custom="readingOrder {index:14;}">
-        <Coords points="229,1546 215,1551 196,1551 196,1599 213,1598 218,1602 228,1602 234,1597 313,1598 339,1595 410,1599 452,1599 467,1596 474,1599 479,1595 497,1594 499,1584 548,1583 553,1578 553,1559 541,1556 538,1546 534,1545 530,1545 523,1552 450,1554 330,1553 308,1552 301,1547 245,1553 239,1547"/>
+        <Coords points="215,1551 196,1551 196,1595 339,1595 479,1595 497,1594 499,1584 548,1583 553,1578 553,1559 541,1556 538,1546 534,1545 530,1545 523,1552 450,1554 330,1553 308,1552 301,1547 245,1553 239,1547 229,1546"/>
         <Baseline points="196,1587 454,1589 485,1583"/>
         <Word id="region0001_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="216,1552 216,1597 328,1596 339,1595 359,1596 479,1595 479,1595 497,1594 499,1584 537,1583 537,1550 525,1550 523,1552 450,1554 330,1553 308,1552 307,1551 257,1552 245,1553 244,1552"/>
@@ -1163,10 +1177,10 @@ jedem Stande beſſer, als ein ungebildeter
 fortkommen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.25531372" readingDirection="left-to-right" id="TextRegion_1673954897662_188" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1673954897662_188" custom="readingOrder {index:3;}" orientation="0.25531372" readingDirection="left-to-right">
       <Coords points="196,1595 1036,1595 1036,1767 196,1767"/>
       <TextLine id="region0001_line0025" custom="readingOrder {index:0;}">
-        <Coords points="572,1592 545,1594 528,1604 516,1604 507,1594 479,1596 474,1600 458,1597 450,1600 448,1604 422,1601 418,1604 402,1605 360,1604 339,1596 272,1600 264,1606 264,1635 272,1650 297,1652 369,1650 375,1647 427,1650 438,1647 449,1655 454,1651 486,1650 498,1655 509,1655 515,1650 539,1648 601,1650 606,1657 619,1658 626,1650 653,1650 666,1647 673,1650 736,1652 752,1659 777,1659 808,1659 820,1653 852,1656 863,1653 923,1653 951,1658 1036,1659 1035,1614 980,1612 978,1598 973,1593 963,1594 958,1602 892,1601 886,1606 843,1608 823,1600 808,1598 767,1598 737,1606 720,1604 714,1598 703,1598 695,1604 644,1606 626,1604 619,1596"/>
+        <Coords points="528,1604 516,1604 507,1595 493,1595 479,1596 474,1600 458,1597 450,1600 448,1604 422,1601 418,1604 402,1605 360,1604 339,1596 272,1600 264,1606 264,1635 272,1650 297,1652 369,1650 375,1647 427,1650 438,1647 449,1655 454,1651 486,1650 498,1655 509,1655 515,1650 539,1648 601,1650 606,1657 619,1658 626,1650 653,1650 666,1647 673,1650 736,1652 752,1659 777,1659 808,1659 820,1653 852,1656 863,1653 923,1653 951,1658 1036,1659 1035,1614 980,1612 978,1598 975,1595 962,1595 958,1602 892,1601 886,1606 843,1608 823,1600 808,1598 767,1598 737,1606 720,1604 714,1598 703,1598 695,1604 644,1606 626,1604 619,1596 607,1595 543,1595"/>
         <Baseline points="268,1641 696,1638 773,1646 935,1641 1035,1647"/>
         <Word id="region0001_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="320,1604 320,1649 371,1649 375,1647 409,1649 430,1649 438,1647 440,1649 465,1649 465,1604 448,1604 418,1604 402,1605 360,1604"/>
@@ -1242,7 +1256,7 @@ fortkommen.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0026_word0005" custom="readingOrder {index:5;}">
-          <Coords points="915,1709 1030,1708 1029,1659 997,1659 979,1663 967,1660 963,1663 955,1659 924,1654 914,1655"/>
+          <Coords points="930,1708 951,1707 958,1708 1030,1708 1029,1659 997,1659 979,1663 967,1660 963,1663 955,1659 924,1654 914,1655 914,1706 920,1706 928,1708"/>
           <TextEquiv conf="0.6773355">
             <Unicode>Kunſt,</Unicode>
           </TextEquiv>
@@ -1306,7 +1320,7 @@ einem wuͤrdigen Zarin die vortrefliche Kunſt,
 bei dem Unterrichte und bei der Erziehung</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.25531372" type="catch-word" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region0002" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.25531372" type="catch-word" readingDirection="left-to-right">
       <Coords points="892,1769 978,1769 978,1814 892,1814"/>
       <TextLine id="region0002_line" custom="readingOrder {index:0;}">
         <Coords points="892,1769 978,1769 978,1814 892,1814"/>

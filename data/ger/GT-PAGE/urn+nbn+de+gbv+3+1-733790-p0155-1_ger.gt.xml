@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-757">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:36Z</Created>
     <LastChange>2024-01-19T13:09:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/41c712b5-40ad-4545-9c2f-f7f923f80c7f/00000155.jpg" imageWidth="1479" imageHeight="2232" type="content" primaryLanguage="German">
     <Border>
@@ -17,10 +31,10 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1671786266409_2223"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.026515184" type="page-number" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.026515184" type="page-number" readingDirection="left-to-right">
       <Coords points="914,298 1030,301 1030,353 914,350"/>
       <TextLine id="region0001_line" custom="readingOrder {index:0;}">
-        <Coords points="926,300 1030,301 1030,353 926,352"/>
+        <Coords points="926,300 926,350 1030,353 1030,301"/>
         <Word id="region0001_line_word0000" custom="readingOrder {index:0;}">
           <Coords points="1026,324 958,324 958,353 1026,353"/>
           <TextEquiv conf="0.92355883">
@@ -35,7 +49,7 @@
         <Unicode>151</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.026515184" readingDirection="left-to-right" id="TextRegion_1671786266409_2224" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1671786266409_2224" custom="readingOrder {index:1;}" orientation="-0.026515184" readingDirection="left-to-right">
       <Coords points="216,383 1038,383 1038,1885 216,1885"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="499,383 486,393 472,391 467,387 386,389 380,392 369,387 359,387 353,391 257,390 252,395 252,425 264,443 403,441 412,444 421,440 441,438 452,443 468,436 547,436 556,428 567,436 583,437 587,441 600,443 609,443 616,437 626,435 658,441 663,437 677,439 683,435 739,434 745,441 754,441 761,434 803,432 899,435 924,442 938,437 970,438 973,441 986,438 1013,441 1038,439 1038,393 1032,393 1025,387 966,384 936,391 916,392 907,390 898,383 836,384 817,388 800,387 791,383 747,383 732,387 720,387 716,384 673,386 671,383 646,383 638,386 633,383"/>
@@ -1168,7 +1182,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0027" custom="readingOrder {index:26;}">
-        <Coords points="437,1823 405,1825 370,1832 322,1832 317,1828 307,1828 302,1832 277,1833 269,1824 216,1827 216,1883 233,1883 238,1887 249,1887 257,1880 381,1876 463,1879 470,1887 483,1887 489,1880 508,1881 517,1882 524,1891 534,1891 541,1883 606,1886 615,1887 622,1895 630,1895 637,1890 670,1894 676,1890 711,1885 751,1885 760,1891 768,1891 775,1886 794,1886 799,1891 810,1891 816,1884 854,1881 1037,1886 1037,1841 995,1834 935,1838 883,1835 876,1830 867,1830 862,1835 837,1836 833,1831 816,1827 803,1829 795,1836 764,1839 712,1840 675,1834 668,1841 664,1841 638,1839 627,1833 612,1836 607,1832 598,1832 591,1839 582,1839 572,1837 564,1830 556,1830 549,1837 540,1837 533,1830 523,1830 514,1835 488,1834 480,1828 463,1830 457,1826"/>
+        <Coords points="405,1825 370,1832 322,1832 317,1828 307,1828 302,1832 277,1833 269,1824 216,1827 216,1883 233,1883 235,1885 251,1885 257,1880 381,1876 463,1879 468,1885 484,1885 489,1880 508,1881 517,1882 519,1885 539,1885 541,1883 584,1885 711,1885 751,1885 815,1885 816,1884 854,1881 1000,1885 1037,1885 1037,1841 995,1834 935,1838 883,1835 876,1830 867,1830 862,1835 837,1836 833,1831 816,1827 803,1829 795,1836 764,1839 712,1840 675,1834 668,1841 664,1841 638,1839 627,1833 612,1836 607,1832 598,1832 591,1839 582,1839 572,1837 564,1830 556,1830 549,1837 540,1837 533,1830 523,1830 514,1835 488,1834 480,1828 463,1830 457,1826 437,1823"/>
         <Baseline points="216,1872 384,1866 638,1879 851,1871 1037,1876"/>
         <Word id="region0002_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="288,1835 237,1835 237,1881 255,1881 257,1880 288,1879"/>
@@ -1252,7 +1266,7 @@ wenn nicht ein Weib zu deinen Fuͤſſen laͤge,
 fuͤr deren Sicherheit ich zittere, fuͤr deren Le⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.026515184" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671786266409_2223" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671786266409_2223" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.026515184" type="catch-word" readingDirection="left-to-right">
       <Coords points="904,1883 1038,1885 1038,1936 904,1934"/>
       <TextLine id="region0002_line0028" custom="readingOrder {index:0;}">
         <Coords points="975,1889 968,1892 911,1892 908,1896 909,1928 918,1935 1037,1935 1037,1896 991,1895 985,1889"/>

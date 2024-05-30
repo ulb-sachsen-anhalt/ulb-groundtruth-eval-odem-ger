@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-255">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:55Z</Created>
     <LastChange>2024-01-19T13:07:55Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/f921e2bb-01f7-4552-9647-2c365b5b5aa1/00000087.jpg" imageWidth="1563" imageHeight="2262" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1673514501546_428"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.50702906" type="header" readingDirection="left-to-right" id="TextRegion_1673514460419_403" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1673514460419_403" custom="readingOrder {index:0;} structure {type:header;}" orientation="0.50702906" type="header" readingDirection="left-to-right">
       <Coords points="326,265 991,265 991,334 326,334"/>
       <TextLine id="line_1673514460466_406" custom="readingOrder {index:0;}">
         <Coords points="326,268 329,266 348,266 386,272 403,272 407,265 501,265 535,273 565,272 569,266 599,266 601,273 624,273 629,265 653,265 678,266 680,275 716,273 748,265 871,265 897,266 905,274 991,273 991,334 981,334 963,327 947,327 874,329 842,333 770,334 745,328 717,328 679,329 675,334 654,334 647,328 605,327 524,327 482,334 436,334 414,333 412,330 395,328 327,327"/>
@@ -56,7 +70,7 @@
         <Unicode>durch Franckreich und Jtalien. 59</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.50702906" type="page-number" readingDirection="left-to-right" id="TextRegion_1673514460419_402" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673514460419_402" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.50702906" type="page-number" readingDirection="left-to-right">
       <Coords points="991,265 1090,265 1090,334 991,334"/>
       <TextLine id="line_1673514460466_405" custom="readingOrder {index:0;}">
         <Coords points="991,273 1089,273 1090,329 1050,334 991,334"/>
@@ -75,7 +89,7 @@
         <Unicode>durch Franckreich und Jtalien. 59</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.50702906" readingDirection="left-to-right" id="TextRegion_1673514489029_420" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673514489029_420" custom="readingOrder {index:2;}" orientation="0.50702906" readingDirection="left-to-right">
       <Coords points="202,366 1106,366 1106,1263 202,1263"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="202,367 203,416 250,419 255,424 266,423 273,418 326,418 333,426 342,426 348,419 528,417 535,424 544,424 551,417 574,417 647,420 653,426 662,426 667,422 683,427 737,419 850,420 856,426 867,424 871,420 918,419 952,427 1000,426 1032,418 1106,416 1105,373 1049,373 1044,367 1026,367 1018,371 1011,367 943,366 920,373 873,375 867,366 854,366 844,374 837,368 828,368 823,374 811,374 803,373 800,367 780,367 772,373 726,375 724,366 646,366 640,373 620,373 594,370 590,367 449,367 442,373 413,374 407,367 396,367 390,373 378,371 372,366 330,367 324,372 289,373 274,371 272,366 248,367 245,370 241,367"/>
@@ -221,7 +235,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0005" custom="readingOrder {index:5;}">
-          <Coords points="764,546 1000,544 999,485 984,485 977,494 949,492 944,487 904,494 898,487 883,486 873,496 861,496 860,490 852,482 843,482 838,486 817,484 763,484"/>
+          <Coords points="827,545 831,545 839,539 853,539 858,545 868,545 874,539 879,543 888,543 893,539 902,538 958,541 961,544 974,544 978,541 981,544 994,544 998,541 999,540 999,485 984,485 977,494 949,492 944,487 904,494 898,487 883,486 873,496 861,496 860,490 852,482 843,482 838,486 817,484 763,484 763,541 767,542 818,541 822,545"/>
           <TextEquiv conf="0.5318865">
             <Unicode>Schoͤpſenkepf</Unicode>
           </TextEquiv>
@@ -504,7 +518,7 @@
         </Word>
         <Word id="region0002_line0009_word0002" custom="readingOrder {index:2;}">
           <Coords points="451,846 451,899 464,900 520,899 546,896 570,899 571,901 601,900 602,900 690,898 699,893 705,893 705,844 702,845 698,844 678,844 665,847 662,844 636,844 632,850 630,844 609,844 607,849 603,849 601,844 573,845 573,846 539,848 538,845"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Wortſpiele*</Unicode>
           </TextEquiv>
         </Word>
@@ -842,7 +856,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0015" custom="readingOrder {index:14;}">
-        <Coords points="203,1198 202,1257 268,1256 278,1264 289,1264 296,1257 313,1256 326,1250 349,1248 365,1249 370,1254 380,1256 685,1257 707,1260 722,1268 730,1268 741,1259 748,1258 780,1259 788,1267 797,1267 806,1259 818,1259 824,1266 834,1265 842,1256 954,1256 960,1250 966,1249 972,1255 974,1263 984,1263 990,1257 1000,1260 1014,1255 1106,1250 1106,1209 1067,1208 1056,1200 1044,1201 1036,1208 1029,1203 1018,1204 1013,1200 1002,1200 996,1204 980,1202 968,1209 924,1212 850,1212 844,1204 839,1203 829,1203 819,1212 776,1211 772,1208 746,1212 693,1210 628,1212 571,1210 565,1204 554,1204 546,1210 531,1211 473,1211 471,1203 466,1199 400,1198 380,1205 369,1203 366,1217 327,1217 305,1210 303,1203 293,1198 279,1200 257,1198"/>
+        <Coords points="202,1257 268,1256 276,1263 290,1263 296,1257 313,1256 326,1250 349,1248 365,1249 370,1254 380,1256 685,1257 707,1260 712,1263 736,1263 741,1259 748,1258 780,1259 784,1263 801,1263 806,1259 818,1259 821,1263 835,1263 842,1256 954,1256 960,1250 966,1249 972,1255 974,1263 984,1263 990,1257 1000,1260 1014,1255 1106,1250 1106,1209 1067,1208 1056,1200 1044,1201 1036,1208 1029,1203 1018,1204 1013,1200 1002,1200 996,1204 980,1202 968,1209 924,1212 850,1212 844,1204 839,1203 829,1203 819,1212 776,1211 772,1208 746,1212 693,1210 628,1212 571,1210 565,1204 554,1204 546,1210 531,1211 473,1211 471,1203 466,1199 400,1198 380,1205 369,1203 366,1217 327,1217 305,1210 303,1203 293,1198 279,1200 257,1198 203,1198"/>
         <Baseline points="202,1247 364,1240 401,1246 716,1250 1106,1241"/>
         <Word id="region0002_line0015_word0000" custom="readingOrder {index:0;}">
           <Coords points="299,1208 216,1209 216,1257 268,1256 270,1257 296,1257 296,1257 299,1257"/>
@@ -914,7 +928,7 @@ der Verſtand — So? ſagte ich, ich ſpiele den
 Baß — Wir werden uns gut zuſammen ſchicken</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.50702906" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673514692002_491" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673514692002_491" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="0.50702906" type="catch-word" readingDirection="left-to-right">
       <Coords points="934,1263 1106,1263 1106,1333 934,1333"/>
       <TextLine id="line_1673514692042_494" custom="readingOrder {index:0;}">
         <Coords points="934,1267 996,1267 996,1263 1090,1263 1092,1265 1105,1266 1106,1313 1075,1322 1006,1321 996,1317 994,1306 934,1306"/>
@@ -939,14 +953,14 @@ Baß — Wir werden uns gut zuſammen ſchicken</Unicode>
         <Unicode>— — Jhr</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.50702906" type="footnote" readingDirection="left-to-right" id="TextRegion_1673514501546_428" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1673514501546_428" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="0.50702906" type="footnote" readingDirection="left-to-right">
       <Coords points="202,1333 1106,1333 1106,1914 1106,2014 296,2014 202,1914"/>
       <TextLine id="region0002_line0017" custom="readingOrder {index:0;}">
         <Coords points="203,1341 202,1375 270,1374 271,1386 276,1390 362,1391 364,1397 369,1400 382,1398 387,1390 447,1390 462,1398 465,1406 475,1406 498,1390 528,1389 607,1391 614,1397 626,1396 630,1391 664,1391 674,1395 686,1391 723,1389 952,1386 995,1388 1013,1392 1027,1389 1062,1389 1076,1391 1082,1397 1088,1398 1105,1395 1106,1347 1079,1346 1072,1338 1063,1338 1052,1347 1045,1337 1036,1337 1027,1346 1017,1337 1003,1338 996,1345 948,1339 890,1340 866,1346 841,1348 820,1349 814,1340 802,1340 794,1348 726,1345 704,1349 690,1344 634,1343 619,1343 602,1348 592,1342 581,1342 577,1345 560,1342 513,1350 480,1351 475,1343 463,1342 455,1351 444,1351 405,1349 399,1345 389,1345 384,1349 350,1350 326,1342 297,1340"/>
         <Baseline points="282,1376 1106,1383"/>
         <Word id="region0002_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="259,1355 277,1354 277,1370 259,1371"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>*</Unicode>
           </TextEquiv>
         </Word>
@@ -1398,7 +1412,7 @@ Baß — Wir werden uns gut zuſammen ſchicken</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0026_word0007" custom="readingOrder {index:7;}">
-          <Coords points="895,1860 932,1859 931,1816 922,1820 903,1818 894,1821"/>
+          <Coords points="932,1859 931,1816 922,1820 915,1819 906,1820 898,1819 894,1821 894,1859 904,1853 914,1852 915,1859"/>
           <TextEquiv>
             <Unicode>--</Unicode>
           </TextEquiv>
@@ -1514,7 +1528,7 @@ Baß — Wir werden uns gut zuſammen ſchicken</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0006" custom="readingOrder {index:6;}">
-          <Coords points="950,1914 949,1915 943,1916 933,1916 934,1961 948,1960 973,1960 975,1962 996,1962 997,1961 1012,1962 1065,1963 1064,1917 1063,1911 1067,1919 1054,1913"/>
+          <Coords points="950,1914 933,1916 934,1961 1065,1963 1064,1917 1063,1911"/>
           <TextEquiv conf="0.92448163">
             <Unicode>nichts,</Unicode>
           </TextEquiv>

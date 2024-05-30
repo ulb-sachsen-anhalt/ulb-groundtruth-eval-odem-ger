@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-775">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:45Z</Created>
     <LastChange>2024-01-19T13:09:45Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/253bdd69-7991-4369-9ff9-f01e289cb903/00000080.jpg" imageWidth="1417" imageHeight="2239" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1649840504256_4216"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.304788" readingDirection="left-to-right" id="TextRegion_1649840492812_4203" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1649840492812_4203" custom="readingOrder {index:0;}" orientation="0.304788" readingDirection="left-to-right">
       <Coords points="428,387 1230,386 1231,423 1231,555 427,556 426,424"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="463,388 459,393 428,394 428,435 528,434 605,437 608,440 613,440 627,440 631,436 664,436 666,440 711,437 747,440 797,440 851,440 975,435 995,435 999,440 1014,440 1022,435 1191,435 1194,439 1211,439 1215,434 1229,434 1229,391 1217,390 1215,386 1212,386 1113,387 1105,393 1097,394 1083,393 1076,387 1067,387 1061,391 1024,387 986,387 979,392 943,393 937,387 927,387 919,393 858,396 780,388 738,389 720,395 704,395 699,391 675,395 668,392 537,393 534,388 493,392 489,389"/>
@@ -53,7 +67,7 @@
         <Word id="word_1649840885842_4226" custom="readingOrder {index:5;}">
           <Coords points="991,395 1037,395 1037,434 991,434"/>
           <TextEquiv>
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0001_word0005" custom="readingOrder {index:6;}">
@@ -65,11 +79,11 @@
         <Word id="region0006_line0001_word0006" custom="readingOrder {index:7;}">
           <Coords points="1226,434 1226,392 1140,393 1140,435 1191,435 1191,435 1214,435 1215,434"/>
           <TextEquiv>
-            <Unicode>Nah&#x2E17;</Unicode>
+            <Unicode>Nah⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>mit einem zweyten Prinzen, dem &#x17F;ie den Nah&#x2E17;</Unicode>
+          <Unicode>mit einem zweyten Prinzen, dem ſie den Nah⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0002" custom="readingOrder {index:1;}">
@@ -143,20 +157,20 @@
         <Word id="region0007_line0003_word0001" custom="readingOrder {index:1;}">
           <Coords points="718,493 718,493 712,498 710,506 679,506 673,500 663,500 653,507 628,507 620,502 609,502 601,508 580,509 553,509 553,544 722,543 722,493"/>
           <TextEquiv conf="0.8876014">
-            <Unicode>ver&#x17F;tarb.</Unicode>
+            <Unicode>verſtarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9071358">
-          <Unicode>wieder ver&#x17F;tarb.</Unicode>
+          <Unicode>wieder verſtarb.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mit einem zweyten Prinzen, dem &#x17F;ie den Nah&#x2E17;
+        <Unicode>mit einem zweyten Prinzen, dem ſie den Nah⸗
 men Bruno gab, der aber nach 4 Jahren (957)
-wieder ver&#x17F;tarb.</Unicode>
+wieder verſtarb.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.304788" type="floating" readingDirection="left-to-right" id="TextRegion_1649840504256_4216" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1649840504256_4216" custom="readingOrder {index:1;}" orientation="0.304788" type="floating" readingDirection="left-to-right">
       <Coords points="432,659 517,609 1266,608 1271,728 1284,1603 1284,1674 1240,1780 439,1781 437,1605 432,1015 431,839 431,837 431,729"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="517,610 518,661 526,662 618,662 621,666 636,666 639,662 657,662 660,666 664,666 681,665 685,661 732,661 765,666 846,666 848,663 878,665 1017,665 1040,660 1053,663 1058,659 1068,658 1149,656 1170,656 1177,663 1187,663 1193,655 1207,656 1212,660 1222,660 1227,655 1266,655 1265,609 1261,608 1260,608 1158,609 1114,615 1109,612 1086,611 1078,616 1058,614 1054,609 985,610 964,617 943,618 922,616 914,610 904,610 898,615 858,617 848,617 840,611 827,614 786,611 738,618 729,614 718,614 712,618 681,618 672,617 666,611 657,612 651,616 626,613 621,616 587,617 561,611"/>
@@ -193,11 +207,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0008_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="1226,644 1226,608 1177,620 1177,660 1189,659 1193,655 1207,656 1211,659 1222,659 1227,655"/>
           <TextEquiv conf="0.9201058">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9235355">
-          <Unicode>Das folgende Jahr (954) breitete &#x17F;ich</Unicode>
+          <Unicode>Das folgende Jahr (954) breitete ſich</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0001" custom="readingOrder {index:1;}">
@@ -217,7 +231,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0009_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="609,673 609,702 678,701 678,679 652,677 646,670 636,669 630,673 626,670 613,670"/>
           <TextEquiv>
-            <Unicode>u&#x364;ber</Unicode>
+            <Unicode>uͤber</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0001_word0003" custom="readingOrder {index:3;}">
@@ -229,7 +243,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0009_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="786,671 786,708 981,707 981,678 980,678 974,673 963,673 957,678 942,678 932,677 926,671 911,674 906,670 853,677 822,671"/>
           <TextEquiv conf="0.96244085">
-            <Unicode>Deut&#x17F;chland</Unicode>
+            <Unicode>Deutſchland</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0001_word0005" custom="readingOrder {index:5;}">
@@ -247,11 +261,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0009_line0001_word0007" custom="readingOrder {index:7;}">
           <Coords points="1189,673 1189,697 1229,697 1229,672"/>
           <TextEquiv>
-            <Unicode>er&#x2E17;</Unicode>
+            <Unicode>er⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>der Krieg u&#x364;ber ganz Deut&#x17F;chland aus, und er&#x2E17;</Unicode>
+          <Unicode>der Krieg uͤber ganz Deutſchland aus, und er⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0010_line0001" custom="readingOrder {index:2;}">
@@ -337,11 +351,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0010_line0002_word0004" custom="readingOrder {index:4;}">
           <Coords points="1090,789 1230,788 1230,826 1090,827"/>
           <TextEquiv>
-            <Unicode>Gelegen&#x2E17;</Unicode>
+            <Unicode>Gelegen⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Beraubung Conrads von Lothringen Gelegen&#x2E17;</Unicode>
+          <Unicode>Beraubung Conrads von Lothringen Gelegen⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0001" custom="readingOrder {index:4;}">
@@ -361,13 +375,13 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0011_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="757,845 703,845 692,847 692,885 807,884 807,845 802,845 767,847"/>
           <TextEquiv conf="0.91793364">
-            <Unicode>er&#x17F;terer</Unicode>
+            <Unicode>erſterer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="943,885 943,849 836,849 836,886 889,886"/>
           <TextEquiv conf="0.91821694">
-            <Unicode>&#x17F;einem</Unicode>
+            <Unicode>ſeinem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0001_word0004" custom="readingOrder {index:4;}">
@@ -383,7 +397,7 @@ wieder ver&#x17F;tarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92179346">
-          <Unicode>heit, welches er&#x17F;terer &#x17F;einem Bruder Bruno</Unicode>
+          <Unicode>heit, welches erſterer ſeinem Bruder Bruno</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0002" custom="readingOrder {index:5;}">
@@ -415,7 +429,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0011_line0002_word0004" custom="readingOrder {index:4;}">
           <Coords points="885,905 1047,904 1047,947 885,948"/>
           <TextEquiv conf="0.91446847">
-            <Unicode>Erzbi&#x17F;chof</Unicode>
+            <Unicode>Erzbiſchof</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0002_word0005" custom="readingOrder {index:5;}">
@@ -427,11 +441,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0011_line0002_word0006" custom="readingOrder {index:6;}">
           <Coords points="1151,905 1230,904 1230,940 1151,941"/>
           <TextEquiv conf="0.9244914">
-            <Unicode>Co&#x364;ln</Unicode>
+            <Unicode>Coͤln</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9249212">
-          <Unicode>ertheilte, den man zum Erzbi&#x17F;chof von Co&#x364;ln</Unicode>
+          <Unicode>ertheilte, den man zum Erzbiſchof von Coͤln</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0003" custom="readingOrder {index:6;}">
@@ -439,7 +453,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0011_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="437,968 437,1008 563,1008 563,965 493,965 488,966"/>
           <TextEquiv conf="0.9176573">
-            <Unicode>gewa&#x364;hlt</Unicode>
+            <Unicode>gewaͤhlt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0003_word0001" custom="readingOrder {index:1;}">
@@ -463,23 +477,23 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0011_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="977,964 943,965 943,1006 1074,1005 1074,964 1052,966 1046,965 1045,964 995,964 979,966"/>
           <TextEquiv conf="0.9108438">
-            <Unicode>hieru&#x364;ber</Unicode>
+            <Unicode>hieruͤber</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0003_word0005" custom="readingOrder {index:5;}">
           <Coords points="1093,969 1121,969 1121,1005 1093,1005"/>
           <TextEquiv conf="0.92939794">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1145,965 1145,998 1229,997 1229,964 1157,964"/>
           <TextEquiv conf="0.9259573">
-            <Unicode>erbit&#x2E17;</Unicode>
+            <Unicode>erbit⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9205679">
-          <Unicode>gewa&#x364;hlt hatte. Conrad ward hieru&#x364;ber &#x17F;o erbit&#x2E17;</Unicode>
+          <Unicode>gewaͤhlt hatte. Conrad ward hieruͤber ſo erbit⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0001" custom="readingOrder {index:7;}">
@@ -493,7 +507,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0012_line0001_word0001" custom="readingOrder {index:1;}">
           <Coords points="540,1029 593,1029 594,1069 541,1069"/>
           <TextEquiv conf="0.96580774">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0001_word0002" custom="readingOrder {index:2;}">
@@ -517,7 +531,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0012_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="814,1027 862,1027 863,1069 815,1069"/>
           <TextEquiv conf="0.9597457">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0001_word0006" custom="readingOrder {index:6;}">
@@ -535,11 +549,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0012_line0001_word0008" custom="readingOrder {index:8;}">
           <Coords points="1246,1063 1246,1025 1112,1026 1113,1065 1152,1064 1153,1064 1206,1062 1208,1064 1227,1064 1229,1063"/>
           <TextEquiv conf="0.920856">
-            <Unicode>&#x17F;chwach</Unicode>
+            <Unicode>ſchwach</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.90417707">
-          <Unicode>tert;, da&#xDF; er, weil er &#x17F;ich vielleicht zu &#x17F;chwach</Unicode>
+          <Unicode>tert;, daß er, weil er ſich vielleicht zu ſchwach</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0001" custom="readingOrder {index:8;}">
@@ -559,7 +573,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="688,1082 629,1082 629,1122 743,1122 743,1089 741,1090 716,1089 708,1082 699,1082 694,1086"/>
           <TextEquiv>
-            <Unicode>Ko&#x364;nige</Unicode>
+            <Unicode>Koͤnige</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0013_line0001_word0003" custom="readingOrder {index:3;}">
@@ -587,7 +601,7 @@ wieder ver&#x17F;tarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>hielt, dem Ko&#x364;nige mit Ludolphen allein ferner</Unicode>
+          <Unicode>hielt, dem Koͤnige mit Ludolphen allein ferner</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0002" custom="readingOrder {index:9;}">
@@ -595,7 +609,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="544,1137 533,1137 527,1143 507,1145 496,1144 491,1140 469,1140 464,1144 439,1144 440,1177 622,1176 621,1144 591,1145 581,1137 569,1137 560,1143 554,1143"/>
           <TextEquiv conf="0.8564708">
-            <Unicode>wider&#x17F;tehen</Unicode>
+            <Unicode>widerſtehen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0013_line0002_word0001" custom="readingOrder {index:1;}">
@@ -607,7 +621,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0002_word0002" custom="readingOrder {index:2;}">
           <Coords points="730,1136 713,1136 699,1138 700,1176 836,1175 835,1136 832,1137 824,1142 753,1142 736,1140"/>
           <TextEquiv conf="0.896252">
-            <Unicode>ko&#x364;nnen,</Unicode>
+            <Unicode>koͤnnen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0013_line0002_word0003" custom="readingOrder {index:3;}">
@@ -631,11 +645,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0002_word0006" custom="readingOrder {index:6;}">
           <Coords points="1188,1134 1139,1135 1138,1135 1139,1179 1233,1178 1232,1136 1224,1134 1209,1134 1202,1135"/>
           <TextEquiv>
-            <Unicode>Hu&#x364;lfe</Unicode>
+            <Unicode>Huͤlfe</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>wider&#x17F;tehen zu ko&#x364;nnen, die Ungarn zu Hu&#x364;lfe</Unicode>
+          <Unicode>widerſtehen zu koͤnnen, die Ungarn zu Huͤlfe</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0003" custom="readingOrder {index:10;}">
@@ -655,7 +669,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0003_word0002" custom="readingOrder {index:2;}">
           <Coords points="704,1197 636,1197 636,1237 855,1236 855,1196 759,1196 733,1199 704,1197"/>
           <TextEquiv>
-            <Unicode>&#x17F;olcherge&#x17F;talt,</Unicode>
+            <Unicode>ſolchergeſtalt,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0013_line0003_word0004" custom="readingOrder {index:3;}">
@@ -667,7 +681,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0003_word0005" custom="readingOrder {index:4;}">
           <Coords points="1023,1235 1043,1235 1043,1196 953,1197 953,1236 981,1235 1013,1235"/>
           <TextEquiv conf="0.96395564">
-            <Unicode>&#x17F;einer</Unicode>
+            <Unicode>ſeiner</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0013_line0003_word0006" custom="readingOrder {index:5;}">
@@ -679,11 +693,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0013_line0003_word0007" custom="readingOrder {index:6;}">
           <Coords points="1172,1197 1233,1196 1233,1229 1172,1230"/>
           <TextEquiv>
-            <Unicode>Ge&#x2E17;</Unicode>
+            <Unicode>Ge⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>rufte, und &#x17F;olcherge&#x17F;talt, um &#x17F;einer Rache Ge&#x2E17;</Unicode>
+          <Unicode>rufte, und ſolchergeſtalt, um ſeiner Rache Ge⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0001" custom="readingOrder {index:11;}">
@@ -691,7 +705,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0014_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="441,1261 516,1261 516,1301 441,1301"/>
           <TextEquiv>
-            <Unicode>nu&#x364;ge</Unicode>
+            <Unicode>nuͤge</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0001_word0001" custom="readingOrder {index:1;}">
@@ -703,13 +717,13 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0014_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="582,1262 698,1261 698,1300 582,1301"/>
           <TextEquiv conf="0.92482644">
-            <Unicode>lei&#x17F;ten,</Unicode>
+            <Unicode>leiſten,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="788,1298 788,1262 731,1262 731,1302 744,1302 746,1300 757,1299"/>
           <TextEquiv conf="0.96710503">
-            <Unicode>&#x17F;ein</Unicode>
+            <Unicode>ſein</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0001_word0004" custom="readingOrder {index:4;}">
@@ -727,11 +741,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0014_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="1233,1292 1233,1258 1072,1259 1072,1302 1082,1301 1087,1298 1096,1301 1107,1301 1112,1298 1157,1299 1161,1301 1169,1301 1199,1299 1201,1301 1221,1301 1231,1293"/>
           <TextEquiv>
-            <Unicode>&#x17F;chrecklich&#x2E17;</Unicode>
+            <Unicode>ſchrecklich⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>nu&#x364;ge zu lei&#x17F;ten, &#x17F;ein Vaterland den &#x17F;chrecklich&#x2E17;</Unicode>
+          <Unicode>nuͤge zu leiſten, ſein Vaterland den ſchrecklich⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0001" custom="readingOrder {index:12;}">
@@ -739,13 +753,13 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="499,1359 499,1320 443,1320 443,1360 457,1360"/>
           <TextEquiv conf="0.96515685">
-            <Unicode>&#x17F;ten</Unicode>
+            <Unicode>ſten</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0001_word0001" custom="readingOrder {index:1;}">
           <Coords points="658,1357 745,1357 745,1316 517,1317 517,1358 608,1358 623,1357 624,1358 642,1357 642,1357"/>
           <TextEquiv>
-            <Unicode>Verwu&#x364;&#x17F;tungen</Unicode>
+            <Unicode>Verwuͤſtungen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0001_word0002" custom="readingOrder {index:2;}">
@@ -763,7 +777,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="1136,1317 992,1317 992,1354 1144,1354 1144,1317"/>
           <TextEquiv conf="0.86172646">
-            <Unicode>aus&#x17F;etzte,</Unicode>
+            <Unicode>ausſetzte,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0001_word0005" custom="readingOrder {index:5;}">
@@ -773,7 +787,7 @@ wieder ver&#x17F;tarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;ten Verwu&#x364;&#x17F;tungen eines Volcks aus&#x17F;etzte, von</Unicode>
+          <Unicode>ſten Verwuͤſtungen eines Volcks ausſetzte, von</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0002" custom="readingOrder {index:13;}">
@@ -817,11 +831,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0002_word0006" custom="readingOrder {index:6;}">
           <Coords points="1173,1372 1228,1371 1228,1405 1173,1406"/>
           <TextEquiv>
-            <Unicode>Ot&#x2E17;</Unicode>
+            <Unicode>Ot⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>welchem ehedem die Tapferkeit des Vaters Ot&#x2E17;</Unicode>
+          <Unicode>welchem ehedem die Tapferkeit des Vaters Ot⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0003" custom="readingOrder {index:14;}">
@@ -841,13 +855,13 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0003_word0002" custom="readingOrder {index:2;}">
           <Coords points="601,1434 601,1467 788,1466 788,1437 776,1437 772,1440 752,1442 731,1439 726,1443 696,1441 688,1435 673,1435 667,1440 655,1440 621,1433"/>
           <TextEquiv conf="0.9638893">
-            <Unicode>Gro&#xDF;vaters</Unicode>
+            <Unicode>Großvaters</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="801,1436 801,1465 889,1465 889,1432 868,1439 846,1439 838,1433 827,1433 822,1437 813,1433"/>
           <TextEquiv conf="0.9412509">
-            <Unicode>&#x17F;einer</Unicode>
+            <Unicode>ſeiner</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0003_word0004" custom="readingOrder {index:4;}">
@@ -865,11 +879,11 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1129,1423 1129,1459 1234,1458 1234,1429 1186,1428 1181,1421 1168,1420 1175,1415 1169,1407 1161,1407 1141,1413 1137,1420"/>
           <TextEquiv>
-            <Unicode>befrey&#x2E17;</Unicode>
+            <Unicode>befrey⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>tons und Gro&#xDF;vaters &#x17F;einer Gemahlin es befrey&#x2E17;</Unicode>
+          <Unicode>tons und Großvaters ſeiner Gemahlin es befrey⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0004" custom="readingOrder {index:15;}">
@@ -889,7 +903,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0004_word0002" custom="readingOrder {index:2;}">
           <Coords points="618,1492 709,1492 709,1534 618,1534"/>
           <TextEquiv conf="0.92422557">
-            <Unicode>Die&#x17F;e</Unicode>
+            <Unicode>Dieſe</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0004_word0003" custom="readingOrder {index:3;}">
@@ -917,7 +931,7 @@ wieder ver&#x17F;tarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92365795">
-          <Unicode>et hatte. Die&#x17F;e Barbaren drangen, da ihren</Unicode>
+          <Unicode>et hatte. Dieſe Barbaren drangen, da ihren</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0005" custom="readingOrder {index:16;}">
@@ -931,7 +945,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0005_word0001" custom="readingOrder {index:1;}">
           <Coords points="629,1544 630,1585 823,1584 822,1551 817,1552 749,1553 746,1548 739,1544 731,1544 721,1553 653,1543 634,1543"/>
           <TextEquiv>
-            <Unicode>Schwa&#x364;rmen</Unicode>
+            <Unicode>Schwaͤrmen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0005_word0002" custom="readingOrder {index:2;}">
@@ -943,17 +957,17 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0015_line0005_word0003" custom="readingOrder {index:3;}">
           <Coords points="956,1532 948,1533 949,1590 1128,1589 1127,1551 1103,1553 1096,1552 1089,1544 1076,1544 1064,1550 1051,1543 1043,1543 1034,1550 1026,1550 1007,1548 997,1542 988,1542 978,1542 971,1548 964,1534"/>
           <TextEquiv conf="0.93129426">
-            <Unicode>wider&#x17F;tehen</Unicode>
+            <Unicode>widerſtehen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0005_word0004" custom="readingOrder {index:4;}">
           <Coords points="1148,1548 1149,1575 1235,1574 1234,1551 1176,1551 1169,1550 1163,1545 1153,1545"/>
           <TextEquiv conf="0.9254584">
-            <Unicode>konn&#x2E17;</Unicode>
+            <Unicode>konn⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>zahlreichen Schwa&#x364;rmen nichts wider&#x17F;tehen konn&#x2E17;</Unicode>
+          <Unicode>zahlreichen Schwaͤrmen nichts widerſtehen konn⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0016_line0001" custom="readingOrder {index:17;}">
@@ -985,7 +999,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0016_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="1002,1609 907,1610 907,1655 947,1654 950,1656 972,1656 973,1656 987,1656 995,1656 1005,1654 1065,1656 1152,1656 1164,1655 1164,1610 1159,1611 1153,1609 1143,1609 1131,1611 1128,1609 1106,1609 1100,1611 1099,1609 1076,1609 1074,1612 1057,1610 1053,1613 1043,1613 1039,1609 1022,1609 1017,1612"/>
           <TextEquiv conf="0.9618799">
-            <Unicode>Ge&#x17F;chwindigkeit</Unicode>
+            <Unicode>Geſchwindigkeit</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0016_line0001_word0005" custom="readingOrder {index:5;}">
@@ -995,7 +1009,7 @@ wieder ver&#x17F;tarb.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>te, in einer unglaublichen Ge&#x17F;chwindigkeit bis</Unicode>
+          <Unicode>te, in einer unglaublichen Geſchwindigkeit bis</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0017_line0001" custom="readingOrder {index:18;}">
@@ -1009,7 +1023,7 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0017_line0001_word0001" custom="readingOrder {index:1;}">
           <Coords points="530,1678 615,1678 615,1714 530,1714"/>
           <TextEquiv conf="0.91009784">
-            <Unicode>Co&#x364;lln</Unicode>
+            <Unicode>Coͤlln</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0001_word0002" custom="readingOrder {index:2;}">
@@ -1039,17 +1053,17 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0017_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="1184,1715 1184,1675 1059,1676 1059,1717 1160,1716"/>
           <TextEquiv conf="0.92452765">
-            <Unicode>&#x17F;treiften</Unicode>
+            <Unicode>ſtreiften</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0001_word0007" custom="readingOrder {index:7;}">
           <Coords points="1236,1714 1236,1674 1198,1674 1198,1716 1213,1716 1214,1715"/>
           <TextEquiv conf="0.92452765">
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91752565">
-          <Unicode>nach Co&#x364;lln nnd Worms. Von hier &#x17F;treiften &#x17F;ie</Unicode>
+          <Unicode>nach Coͤlln nnd Worms. Von hier ſtreiften ſie</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0017_line0002" custom="readingOrder {index:19;}">
@@ -1093,34 +1107,34 @@ wieder ver&#x17F;tarb.</Unicode>
         <Word id="region0017_line0002_word0006" custom="readingOrder {index:6;}">
           <Coords points="1159,1734 1235,1733 1235,1761 1159,1762"/>
           <TextEquiv>
-            <Unicode>wen&#x2E17;</Unicode>
+            <Unicode>wen⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>bis nach Lothringen und Champagne, und wen&#x2E17;</Unicode>
+          <Unicode>bis nach Lothringen und Champagne, und wen⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Das folgende Jahr (954) breitete &#x17F;ich
-der Krieg u&#x364;ber ganz Deut&#x17F;chland aus, und er&#x2E17;
+        <Unicode>Das folgende Jahr (954) breitete ſich
+der Krieg uͤber ganz Deutſchland aus, und er⸗
 weckte dem Otto neue Feinde. Hierzu gab die
-Beraubung Conrads von Lothringen Gelegen&#x2E17; ,
-heit, welches er&#x17F;terer &#x17F;einem Bruder Bruno
-ertheilte, den man zum Erzbi&#x17F;chof von Co&#x364;ln
-gewa&#x364;hlt hatte. Conrad ward hieru&#x364;ber &#x17F;o erbit&#x2E17;
-tert;, da&#xDF; er, weil er &#x17F;ich vielleicht zu &#x17F;chwach
-hielt, dem Ko&#x364;nige mit Ludolphen allein ferner
-wider&#x17F;tehen zu ko&#x364;nnen, die Ungarn zu Hu&#x364;lfe
-rufte, und &#x17F;olcherge&#x17F;talt, um &#x17F;einer Rache Ge&#x2E17;
-nu&#x364;ge zu lei&#x17F;ten, &#x17F;ein Vaterland den &#x17F;chrecklich&#x2E17;
-&#x17F;ten Verwu&#x364;&#x17F;tungen eines Volcks aus&#x17F;etzte, von
-welchem ehedem die Tapferkeit des Vaters Ot&#x2E17;
-tons und Gro&#xDF;vaters &#x17F;einer Gemahlin es befrey&#x2E17;
-et hatte. Die&#x17F;e Barbaren drangen, da ihren
-zahlreichen Schwa&#x364;rmen nichts wider&#x17F;tehen konn&#x2E17;
-te, in einer unglaublichen Ge&#x17F;chwindigkeit bis |
-nach Co&#x364;lln nnd Worms. Von hier &#x17F;treiften &#x17F;ie
-bis nach Lothringen und Champagne, und wen&#x2E17;</Unicode>
+Beraubung Conrads von Lothringen Gelegen⸗ ,
+heit, welches erſterer ſeinem Bruder Bruno
+ertheilte, den man zum Erzbiſchof von Coͤln
+gewaͤhlt hatte. Conrad ward hieruͤber ſo erbit⸗
+tert;, daß er, weil er ſich vielleicht zu ſchwach
+hielt, dem Koͤnige mit Ludolphen allein ferner
+widerſtehen zu koͤnnen, die Ungarn zu Huͤlfe
+rufte, und ſolchergeſtalt, um ſeiner Rache Ge⸗
+nuͤge zu leiſten, ſein Vaterland den ſchrecklich⸗
+ſten Verwuͤſtungen eines Volcks ausſetzte, von
+welchem ehedem die Tapferkeit des Vaters Ot⸗
+tons und Großvaters ſeiner Gemahlin es befrey⸗
+et hatte. Dieſe Barbaren drangen, da ihren
+zahlreichen Schwaͤrmen nichts widerſtehen konn⸗
+te, in einer unglaublichen Geſchwindigkeit bis |
+nach Coͤlln nnd Worms. Von hier ſtreiften ſie
+bis nach Lothringen und Champagne, und wen⸗</Unicode>
       </TextEquiv>
     </TextRegion>
   </Page>

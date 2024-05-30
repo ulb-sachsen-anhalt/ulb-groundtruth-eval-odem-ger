@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-294">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:01Z</Created>
     <LastChange>2024-01-19T13:08:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/12efe699-9de8-4234-b62d-58dfba4544a0/00000239.jpg" imageWidth="1749" imageHeight="2677" type="content" primaryLanguage="German">
     <Border>
@@ -21,15 +35,15 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1657778692337_162"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.23806664" type="heading" readingDirection="left-to-right" id="TextRegion_1657778674972_112" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657778674972_112" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.23806664" type="heading" readingDirection="left-to-right">
       <Coords points="241,485 1196,485 1196,535 241,535"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
-        <Coords points="614,485 580,488 576,491 576,522 579,526 620,528 623,542 643,545 704,534 854,535 859,530 859,507 855,503 812,501 810,494 805,490"/>
+        <Coords points="580,488 576,491 576,522 579,526 620,528 621,535 698,535 704,534 854,535 859,530 859,507 855,503 812,501 810,494 805,490 614,485"/>
         <Baseline points="576,518 859,525"/>
         <Word id="word_1657778675003_115" custom="readingOrder {index:0;}">
           <Coords points="614,493 684,493 684,535 621,535 620,528 614,527"/>
           <TextEquiv>
-            <Unicode>&#xA7;.</Unicode>
+            <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0001_word0001" custom="readingOrder {index:1;}">
@@ -39,17 +53,17 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#xA7;. 112.</Unicode>
+          <Unicode>§. 112.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>&#xA7;. g. 112.</Unicode>
+        <Unicode>§. g. 112.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" readingDirection="left-to-right" id="TextRegion_1657778679258_121" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1657778679258_121" custom="readingOrder {index:1;}" orientation="0.23806664" readingDirection="left-to-right">
       <Coords points="241,535 1196,535 1196,1068 241,1068"/>
       <TextLine id="line_1657778666013_49" custom="readingOrder {index:0;}">
-        <Coords points="274,545 345,541 383,544 388,548 390,555 399,555 407,545 420,547 424,555 455,554 463,542 534,541 541,537 541,528 546,523 556,523 560,526 562,541 559,545 570,548 577,540 589,541 593,538 602,538 614,545 629,543 651,546 686,538 691,543 699,544 736,543 748,535 760,536 765,545 770,546 775,546 782,538 801,537 806,541 808,548 914,548 918,540 928,535 940,536 945,549 971,548 975,540 982,537 999,538 1004,548 1032,546 1061,549 1072,553 1133,551 1143,545 1153,545 1167,556 1196,557 1196,602 1185,602 1177,610 1167,610 1161,602 1151,602 1144,611 1134,610 1128,601 1098,598 1041,598 1035,603 1026,603 1020,596 974,592 966,584 961,584 950,594 930,594 913,601 877,604 861,604 845,595 823,593 765,593 760,601 749,603 742,601 737,592 710,592 703,587 695,587 687,594 636,597 627,606 616,605 612,596 602,588 597,591 593,605 585,604 581,596 557,596 540,601 537,591 532,589 520,598 443,602 433,610 417,610 407,601 326,602 285,610 241,610 241,576 249,576 257,567 268,568 269,550"/>
+        <Coords points="541,537 534,541 463,542 455,554 424,555 420,547 407,545 399,555 390,555 388,548 383,544 345,541 274,545 269,550 268,568 257,567 249,576 241,576 241,610 285,610 326,602 407,601 417,610 433,610 443,602 520,598 532,589 537,591 540,601 557,596 581,596 585,604 593,605 597,591 602,588 612,596 616,605 627,606 636,597 687,594 695,587 703,587 710,592 737,592 742,601 749,603 760,601 765,593 823,593 845,595 861,604 877,604 913,601 930,594 950,594 961,584 966,584 974,592 1020,596 1026,603 1035,603 1041,598 1098,598 1128,601 1134,610 1144,611 1151,602 1161,602 1167,610 1177,610 1185,602 1196,602 1196,557 1167,556 1153,545 1143,545 1133,551 1072,553 1061,549 1032,546 1004,548 999,538 982,537 975,540 971,548 945,549 940,536 928,535 918,540 914,548 808,548 806,541 801,537 782,538 775,546 770,546 765,545 760,536 748,535 736,543 699,544 691,543 686,538 651,546 629,543 614,545 602,538 593,538 589,541 577,540 570,548 559,545 562,541 561,535 541,535"/>
         <Baseline points="241,599 685,583 985,582 1196,593"/>
         <Word id="region0001_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="332,589 455,589 455,554 424,555 420,547 407,545 399,555 390,555 388,548 383,544 345,541 332,541"/>
@@ -60,7 +74,7 @@
         <Word id="word_1657778675003_116" custom="readingOrder {index:1;}">
           <Coords points="474,541 534,541 541,537 541,535 561,535 562,541 559,545 570,548 577,540 589,541 593,538 602,538 614,545 629,543 651,546 686,538 691,543 699,544 715,543 715,592 710,592 703,587 695,587 688,593 608,593 602,588 597,591 596,593 537,593 537,591 532,589 525,593 474,594"/>
           <TextEquiv conf="0.91168433">
-            <Unicode>Schrift&#x17F;teller</Unicode>
+            <Unicode>Schriftſteller</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0003" custom="readingOrder {index:2;}">
@@ -84,11 +98,11 @@
         <Word id="region0001_line0002_word0006" custom="readingOrder {index:5;}">
           <Coords points="1135,586 1184,586 1184,556 1167,556 1153,545 1143,545 1135,549"/>
           <TextEquiv conf="0.9288082">
-            <Unicode>&#x17F;ey</Unicode>
+            <Unicode>ſey</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9352485">
-          <Unicode>Einige Schrift&#x17F;teller haben geglaubet, es &#x17F;ey</Unicode>
+          <Unicode>Einige Schriftſteller haben geglaubet, es ſey</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666029_51" custom="readingOrder {index:1;}">
@@ -97,13 +111,13 @@
         <Word id="region0001_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="250,647 416,647 416,612 407,616 361,615 346,605 332,605 327,609 322,604 280,612 250,612"/>
           <TextEquiv>
-            <Unicode>rath&#x17F;am,</Unicode>
+            <Unicode>rathſam,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0003_word0001" custom="readingOrder {index:1;}">
           <Coords points="448,646 511,645 511,599 496,598 484,610 463,611 458,607 448,607"/>
           <TextEquiv conf="0.9310962">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0003_word0002" custom="readingOrder {index:2;}">
@@ -121,7 +135,7 @@
         <Word id="region0001_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="716,596 712,599 712,644 790,643 790,603 749,604 731,596"/>
           <TextEquiv conf="0.92603284">
-            <Unicode>&#x17F;tatt</Unicode>
+            <Unicode>ſtatt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0003_word0005" custom="readingOrder {index:5;}">
@@ -139,11 +153,11 @@
         <Word id="region0001_line0003_word0007" custom="readingOrder {index:7;}">
           <Coords points="1126,636 1186,636 1186,613 1140,613 1126,611"/>
           <TextEquiv conf="0.85396177">
-            <Unicode>un&#x2E17;</Unicode>
+            <Unicode>un⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>rath&#x17F;am, da&#xDF; man, an &#x17F;tatt einen Patienten un&#x2E17;</Unicode>
+          <Unicode>rathſam, daß man, an ſtatt einen Patienten un⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666029_53" custom="readingOrder {index:2;}">
@@ -170,7 +184,7 @@
         <Word id="region0001_line0004_word0003" custom="readingOrder {index:3;}">
           <Coords points="787,652 788,657 771,657 766,653 755,653 751,656 751,704 864,704 864,666 824,666 820,659 807,655 804,652"/>
           <TextEquiv conf="0.93078315">
-            <Unicode>la&#x17F;&#x17F;en,</Unicode>
+            <Unicode>laſſen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0004_word0004" custom="readingOrder {index:4;}">
@@ -182,17 +196,17 @@
         <Word id="region0001_line0004_word0005" custom="readingOrder {index:5;}">
           <Coords points="996,701 1063,701 1063,665 1055,665 1047,664 1040,655 1028,655 1022,660 1012,654 1001,654 996,659"/>
           <TextEquiv conf="0.928457">
-            <Unicode>&#x17F;ehr</Unicode>
+            <Unicode>ſehr</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0004_word0006" custom="readingOrder {index:6;}">
           <Coords points="1088,700 1185,700 1185,668 1088,665"/>
           <TextEquiv conf="0.86732805">
-            <Unicode>unge&#x2E17;</Unicode>
+            <Unicode>unge⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>vermeidlich umkommen zu la&#x17F;&#x17F;en, eine &#x17F;ehr unge&#x2E17;</Unicode>
+          <Unicode>vermeidlich umkommen zu laſſen, eine ſehr unge⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666029_55" custom="readingOrder {index:3;}">
@@ -201,7 +215,7 @@
         <Word id="region0001_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="251,766 337,766 336,731 336,731 333,725 321,721 299,723 294,719 283,721 278,729 250,729"/>
           <TextEquiv conf="0.9290848">
-            <Unicode>wi&#x17F;&#x17F;e</Unicode>
+            <Unicode>wiſſe</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0005_word0001" custom="readingOrder {index:1;}">
@@ -213,7 +227,7 @@
         <Word id="region0001_line0005_word0002" custom="readingOrder {index:2;}">
           <Coords points="549,707 544,712 544,721 538,724 532,724 526,715 515,715 508,719 461,713 455,717 454,728 439,729 436,729 437,766 545,765 548,764 555,765 555,765 625,765 624,716 615,721 606,722 601,711 597,707 585,707 579,712 579,718 566,714 559,707"/>
           <TextEquiv conf="0.91926">
-            <Unicode>gefa&#x364;hrliche</Unicode>
+            <Unicode>gefaͤhrliche</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0005_word0003" custom="readingOrder {index:3;}">
@@ -231,11 +245,11 @@
         <Word id="region0001_line0005_word0005" custom="readingOrder {index:5;}">
           <Coords points="1045,759 1187,759 1186,723 1183,723 1177,716 1159,716 1155,720 1126,716 1117,724 1107,725 1093,725 1084,715 1071,716 1064,725 1044,724"/>
           <TextEquiv conf="0.9231365">
-            <Unicode>na&#x364;mlich</Unicode>
+            <Unicode>naͤmlich</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91551775">
-          <Unicode>wi&#x17F;&#x17F;e und gefa&#x364;hrliche Operation vornehme, na&#x364;mlich</Unicode>
+          <Unicode>wiſſe und gefaͤhrliche Operation vornehme, naͤmlich</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666029_57" custom="readingOrder {index:4;}">
@@ -244,7 +258,7 @@
         <Word id="region0001_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="251,828 317,828 317,784 296,784 297,772 294,769 261,769 255,775 258,780 251,783"/>
           <TextEquiv conf="0.9264317">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0006_word0001" custom="readingOrder {index:1;}">
@@ -290,7 +304,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9260649">
-          <Unicode>da&#xDF; man eine Oeffnung mache, durch welche das</Unicode>
+          <Unicode>daß man eine Oeffnung mache, durch welche das</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666029_59" custom="readingOrder {index:5;}">
@@ -299,7 +313,7 @@
         <Word id="region0001_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="379,842 249,842 249,892 256,892 261,886 274,885 278,889 278,892 350,892 364,891 371,883 379,883"/>
           <TextEquiv conf="0.90840447">
-            <Unicode>Wa&#x17F;&#x17F;er</Unicode>
+            <Unicode>Waſſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0007_word0001" custom="readingOrder {index:1;}">
@@ -311,7 +325,7 @@
         <Word id="region0001_line0007_word0002" custom="readingOrder {index:2;}">
           <Coords points="636,839 636,881 749,880 749,843 691,843 676,840 674,838"/>
           <TextEquiv>
-            <Unicode>ko&#x364;nne.</Unicode>
+            <Unicode>koͤnne.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0007_word0003" custom="readingOrder {index:3;}">
@@ -323,7 +337,7 @@
         <Word id="region0001_line0007_word0004" custom="readingOrder {index:4;}">
           <Coords points="932,840 931,840 931,889 962,888 962,844 959,844 956,839"/>
           <TextEquiv conf="0.9293396">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0007_word0005" custom="readingOrder {index:5;}">
@@ -341,11 +355,11 @@
         <Word id="region0001_line0007_word0007" custom="readingOrder {index:7;}">
           <Coords points="1130,839 1127,842 1114,839 1110,841 1110,889 1187,889 1187,844 1183,839 1160,839 1154,845 1150,845 1145,839"/>
           <TextEquiv conf="0.9246221">
-            <Unicode>die&#x17F;e</Unicode>
+            <Unicode>dieſe</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Wa&#x17F;&#x17F;er herauslaufen ko&#x364;nne. Allein &#x17F;o oft als die&#x17F;e</Unicode>
+          <Unicode>Waſſer herauslaufen koͤnne. Allein ſo oft als dieſe</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666044_61" custom="readingOrder {index:6;}">
@@ -360,13 +374,13 @@
         <Word id="region0001_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="455,895 492,894 492,944 455,945"/>
           <TextEquiv conf="0.9328502">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0008_word0002" custom="readingOrder {index:2;}">
           <Coords points="597,894 591,900 583,902 543,903 512,898 512,946 518,946 524,950 539,950 546,949 546,950 581,950 587,950 611,950 641,949 654,940 667,949 673,949 673,896 664,895 662,894"/>
           <TextEquiv conf="0.9289943">
-            <Unicode>ange&#x17F;tellt</Unicode>
+            <Unicode>angeſtellt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0008_word0003" custom="readingOrder {index:3;}">
@@ -378,7 +392,7 @@
         <Word id="region0001_line0008_word0004" custom="readingOrder {index:4;}">
           <Coords points="902,902 899,903 893,895 876,893 865,905 854,905 854,942 857,942 865,952 890,952 895,949 902,949"/>
           <TextEquiv>
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0008_word0005" custom="readingOrder {index:5;}">
@@ -390,7 +404,7 @@
         <Word id="region0001_line0008_word0006" custom="readingOrder {index:6;}">
           <Coords points="983,893 983,893 983,943 1021,943 1021,897 1015,893 998,896 995,893"/>
           <TextEquiv conf="0.92991376">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0008_word0007" custom="readingOrder {index:7;}">
@@ -406,7 +420,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Operation i&#x17F;t ange&#x17F;tellt worden, &#x17F;o oft i&#x17F;t auch der</Unicode>
+          <Unicode>Operation iſt angeſtellt worden, ſo oft iſt auch der</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666044_63" custom="readingOrder {index:7;}">
@@ -421,13 +435,13 @@
         <Word id="region0001_line0009_word0001" custom="readingOrder {index:1;}">
           <Coords points="645,1010 644,948 641,950 643,962 631,961 624,952 610,953 602,960 591,956 587,951 581,951 573,958 564,959 544,957 539,952 527,953 518,947 507,948 496,960 421,960 422,1009 423,1008 473,1007 477,1011 507,1011 510,1008 517,1008 518,1011 542,1010 543,1008 572,1008 578,1009 579,1010 607,1010 607,1010 607,1010"/>
           <TextEquiv>
-            <Unicode>unglu&#x364;cklich</Unicode>
+            <Unicode>ungluͤcklich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0009_word0002" custom="readingOrder {index:2;}">
-          <Coords points="683,941 663,947 648,965 649,1012 715,1009 752,1009 797,1007 797,950"/>
+          <Coords points="648,965 649,1012 686,1010 689,1009 690,1010 715,1009 716,1009 717,1007 728,1007 729,1009 752,1009 752,1009 753,1006 792,1007 797,1007 797,951 796,951 790,961 761,961 757,954 746,955 737,952 728,961 695,963 687,961 693,956 694,950 683,941 673,950 675,958 683,963 656,963 667,950 663,947"/>
           <TextEquiv conf="0.8219352">
-            <Unicode>gewe&#x17F;en</Unicode>
+            <Unicode>geweſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0009_word0003" custom="readingOrder {index:3;}">
@@ -455,66 +469,66 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Ausgang unglu&#x364;cklich gewe&#x17F;en h) und der Patient</Unicode>
+          <Unicode>Ausgang ungluͤcklich geweſen h) und der Patient</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666044_65" custom="readingOrder {index:8;}">
-        <Coords points="306,998 324,1001 325,1012 322,1016 328,1018 347,1018 354,1011 373,1008 380,1019 458,1022 463,1027 464,1034 488,1033 492,1036 493,1062 490,1066 480,1069 427,1068 418,1079 404,1076 400,1079 382,1077 368,1061 357,1065 353,1077 343,1076 336,1066 314,1068 298,1077 241,1077 241,1020 288,1017 300,1010 300,1000"/>
+        <Coords points="490,1066 493,1062 492,1036 488,1033 464,1034 463,1027 458,1022 380,1019 373,1008 354,1011 347,1018 328,1018 322,1016 325,1012 324,1001 306,998 300,1000 300,1010 288,1017 241,1020 241,1068 314,1068 336,1066 337,1068 356,1068 357,1065 368,1061 374,1068 427,1068 483,1068"/>
         <Baseline points="241,1062 327,1056 493,1060"/>
         <Word id="region0001_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="479,1065 479,1033 464,1034 463,1027 458,1022 380,1019 373,1008 354,1011 347,1018 328,1018 322,1016 325,1012 324,1001 306,998 300,1000 300,1010 288,1017 251,1020 251,1066 357,1066 357,1065 368,1061 372,1065"/>
           <TextEquiv conf="0.9260061">
-            <Unicode>ge&#x17F;torben.</Unicode>
+            <Unicode>geſtorben.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9260061">
-          <Unicode>ge&#x17F;torben.</Unicode>
+          <Unicode>geſtorben.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>. Einige Schrift&#x17F;teller haben geglaubet, es &#x17F;ey
-rath&#x17F;am, da&#xDF; man, an &#x17F;tatt einen Patienten un&#x2E17;
-vermeidlich umkommen zu la&#x17F;&#x17F;en, eine &#x17F;ehr unge&#x2E17;
-wi&#x17F;&#x17F;e und gefa&#x364;hrliche Operation vornehme, na&#x364;mlich
-da&#xDF; man eine Oeffnung mache, durch welche das
-Wa&#x17F;&#x17F;er herauslaufen ko&#x364;nne. Allein &#x17F;o oft als die&#x17F;e
-Operation i&#x17F;t ange&#x17F;tellt worden, &#x17F;o oft i&#x17F;t auch der
-Ausgang unglu&#x364;cklich gewe&#x17F;en h) und der Patient
-ge&#x17F;torben.</Unicode>
+        <Unicode>. Einige Schriftſteller haben geglaubet, es ſey
+rathſam, daß man, an ſtatt einen Patienten un⸗
+vermeidlich umkommen zu laſſen, eine ſehr unge⸗
+wiſſe und gefaͤhrliche Operation vornehme, naͤmlich
+daß man eine Oeffnung mache, durch welche das
+Waſſer herauslaufen koͤnne. Allein ſo oft als dieſe
+Operation iſt angeſtellt worden, ſo oft iſt auch der
+Ausgang ungluͤcklich geweſen h) und der Patient
+geſtorben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" type="heading" readingDirection="left-to-right" id="TextRegion_1657778683343_134" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657778683343_134" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.23806664" type="heading" readingDirection="left-to-right">
       <Coords points="241,1068 1196,1068 1196,1131 241,1131"/>
       <TextLine id="line_1657778767916_196" custom="readingOrder {index:0;}">
-        <Coords points="637,1058 676,1075 731,1075 730,1063 745,1056 751,1075 805,1079 811,1093 809,1092 811,1122 763,1134 707,1118 620,1138 620,1071 632,1062"/>
+        <Coords points="731,1075 676,1075 659,1068 624,1068 620,1071 620,1131 650,1131 707,1118 752,1131 775,1131 811,1122 809,1092 811,1093 805,1079 751,1075 748,1068 730,1068"/>
         <Baseline points="620,1124 685,1117 861,1119"/>
         <Word id="word_1657778767963_199" custom="readingOrder {index:0;}">
-          <Coords points="620,1071 630,1071 630,1068 654,1068 655,1070 671,1070 676,1075 681,1075 681,1121 620,1121"/>
+          <Coords points="655,1070 654,1068 630,1068 630,1071 620,1071 620,1121 681,1121 681,1075 676,1075 664,1070"/>
           <TextEquiv>
-            <Unicode>&#xA7;.</Unicode>
+            <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778679305_129" custom="readingOrder {index:1;}">
-          <Coords points="703,1075 731,1075 730,1068 751,1068 751,1075 797,1078 797,1120 711,1120 707,1118 703,1121"/>
+          <Coords points="703,1075 703,1118 707,1118 714,1120 797,1120 797,1078 751,1075 748,1068 730,1068 731,1075"/>
           <TextEquiv conf="0.9051596">
             <Unicode>113.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#xA7;. 113.</Unicode>
+          <Unicode>§. 113.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>&#xA7;. 113. 113.</Unicode>
+        <Unicode>§. 113. 113.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" readingDirection="left-to-right" id="TextRegion_1657778686462_145" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1657778686462_145" custom="readingOrder {index:3;}" orientation="0.23806664" readingDirection="left-to-right">
       <Coords points="241,1131 1196,1131 1196,1248 241,1248"/>
       <TextLine id="line_1657778666044_67" custom="readingOrder {index:0;}">
-        <Coords points="324,1142 393,1149 522,1141 565,1147 700,1147 709,1119 726,1146 1196,1146 1195,1190 305,1188 298,1154 307,1141"/>
+        <Coords points="700,1147 565,1147 522,1141 393,1149 324,1142 307,1141 298,1154 305,1188 1195,1190 1196,1146 726,1146 716,1131 705,1131"/>
         <Baseline points="473,1128 486,1128 518,1129 523,1129"/>
         <Word id="region0001_line0014_word0000" custom="readingOrder {index:0;}">
-          <Coords points="307,1183 422,1183 422,1157 416,1158 418,1149 406,1142 397,1144 392,1149 396,1156 404,1158 394,1159 383,1157 371,1149 352,1148 348,1134 344,1132 335,1139 337,1147 320,1147 327,1140 322,1132 323,1124 312,1118 307,1124"/>
+          <Coords points="422,1183 422,1157 416,1158 418,1149 416,1148 393,1149 392,1149 392,1149 396,1156 404,1158 394,1159 383,1157 371,1149 352,1148 351,1145 336,1143 337,1147 320,1147 325,1142 324,1142 307,1141 307,1183"/>
           <TextEquiv conf="0.93068993">
             <Unicode>Wenn</Unicode>
           </TextEquiv>
@@ -538,7 +552,7 @@ ge&#x17F;torben.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0014_word0004" custom="readingOrder {index:4;}">
-          <Coords points="854,1171 1082,1170 1082,1145 909,1145 905,1142 890,1145 854,1145"/>
+          <Coords points="1082,1170 1082,1146 854,1146 854,1171"/>
           <TextEquiv conf="0.92791605">
             <Unicode>unternommen</Unicode>
           </TextEquiv>
@@ -546,15 +560,15 @@ ge&#x17F;torben.</Unicode>
         <Word id="region0001_line0014_word0005" custom="readingOrder {index:5;}">
           <Coords points="1109,1179 1190,1179 1189,1145 1108,1145"/>
           <TextEquiv conf="0.88405097">
-            <Unicode>wer&#x2E17;</Unicode>
+            <Unicode>wer⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9201027">
-          <Unicode>Wenn die Operation jemals unternommen wer&#x2E17;</Unicode>
+          <Unicode>Wenn die Operation jemals unternommen wer⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666044_69" custom="readingOrder {index:1;}">
-        <Coords points="241,1199 262,1199 268,1204 310,1207 333,1198 384,1197 388,1200 425,1206 448,1204 457,1195 468,1195 476,1197 480,1204 537,1205 554,1196 564,1199 568,1195 580,1194 605,1204 631,1204 636,1200 651,1203 657,1196 667,1196 675,1205 687,1197 708,1199 714,1194 721,1193 741,1196 779,1194 791,1203 803,1205 980,1203 987,1193 997,1193 1005,1201 1011,1201 1012,1193 1017,1187 1029,1187 1032,1184 1039,1184 1045,1191 1051,1184 1057,1184 1064,1190 1065,1195 1095,1196 1111,1204 1119,1195 1130,1195 1137,1205 1195,1204 1196,1250 1075,1249 1072,1256 1057,1259 1051,1249 904,1250 878,1252 869,1260 852,1261 839,1251 810,1251 804,1247 780,1251 773,1256 756,1256 734,1246 726,1246 716,1252 707,1247 682,1251 674,1246 666,1246 657,1251 583,1251 573,1260 563,1260 556,1251 483,1248 470,1251 464,1260 454,1260 448,1255 424,1255 417,1262 406,1261 401,1254 345,1253 340,1263 328,1264 323,1260 321,1253 241,1253"/>
+        <Coords points="1195,1204 1137,1205 1130,1195 1119,1195 1111,1204 1095,1196 1065,1195 1064,1190 1057,1184 1051,1184 1045,1191 1039,1184 1032,1184 1029,1187 1017,1187 1012,1193 1011,1201 1005,1201 997,1193 987,1193 980,1203 803,1205 791,1203 779,1194 741,1196 721,1193 714,1194 708,1199 687,1197 675,1205 667,1196 657,1196 651,1203 636,1200 631,1204 605,1204 580,1194 568,1195 564,1199 554,1196 537,1205 480,1204 476,1197 468,1195 457,1195 448,1204 425,1206 388,1200 384,1197 333,1198 310,1207 268,1204 262,1199 241,1199 241,1248 483,1248 662,1248 666,1246 674,1246 677,1248 700,1248 707,1247 708,1248 722,1248 726,1246 734,1246 738,1248 798,1248 804,1247 805,1248 1195,1248"/>
         <Baseline points="241,1243 1196,1239"/>
         <Word id="region0001_line0015_word0000" custom="readingOrder {index:0;}">
           <Coords points="249,1201 250,1239 311,1239 310,1207 310,1207 268,1204 264,1201"/>
@@ -565,19 +579,19 @@ ge&#x17F;torben.</Unicode>
         <Word id="word_1657778686500_148" custom="readingOrder {index:1;}">
           <Coords points="330,1199 386,1199 388,1200 422,1205 422,1248 327,1248 327,1200"/>
           <TextEquiv conf="0.9296057">
-            <Unicode>&#x17F;ollte,</Unicode>
+            <Unicode>ſollte,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0002" custom="readingOrder {index:2;}">
           <Coords points="454,1197 452,1199 453,1246 485,1245 484,1204 480,1204 476,1197"/>
           <TextEquiv conf="0.92923564">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0003" custom="readingOrder {index:3;}">
           <Coords points="552,1197 537,1205 504,1204 505,1246 617,1246 616,1204 605,1204 587,1197 566,1197 564,1199 557,1197"/>
           <TextEquiv conf="0.9302814">
-            <Unicode>mu&#x364;&#xDF;te</Unicode>
+            <Unicode>muͤßte</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0004" custom="readingOrder {index:4;}">
@@ -595,7 +609,7 @@ ge&#x17F;torben.</Unicode>
         <Word id="region0001_line0015_word0006" custom="readingOrder {index:6;}">
           <Coords points="1031,1184 1029,1187 1017,1187 1012,1193 1011,1201 1005,1201 997,1193 987,1193 980,1203 894,1203 895,1247 1085,1246 1084,1195 1065,1195 1064,1190 1057,1184 1050,1184 1045,1191 1039,1184"/>
           <TextEquiv conf="0.9290957">
-            <Unicode>vermittel&#x17F;t</Unicode>
+            <Unicode>vermittelſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0007" custom="readingOrder {index:7;}">
@@ -605,18 +619,18 @@ ge&#x17F;torben.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92992836">
-          <Unicode>den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t einer</Unicode>
+          <Unicode>den ſollte, ſo muͤßte die Oeffnung vermittelſt einer</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Wenn die Operation jemals unternommen wer&#x2E17;
-den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t einer</Unicode>
+        <Unicode>Wenn die Operation jemals unternommen wer⸗
+den ſollte, ſo muͤßte die Oeffnung vermittelſt einer</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1657778706195_177" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1657778706195_177" custom="readingOrder {index:4;} structure {type:signature-mark;}" orientation="0.23806664" type="signature-mark" readingDirection="left-to-right">
       <Coords points="241,1248 825,1248 825,1302 241,1302"/>
       <TextLine id="line_1657778706233_180" custom="readingOrder {index:0;}">
-        <Coords points="636,1255 657,1253 666,1247 674,1247 682,1252 707,1248 716,1253 726,1247 734,1247 756,1257 773,1257 779,1254 788,1256 795,1248 804,1248 810,1252 810,1264 825,1264 825,1309 685,1310 680,1305 679,1287 671,1292 662,1292 656,1285 638,1285 633,1280 633,1259"/>
+        <Coords points="657,1253 636,1255 633,1259 633,1280 638,1285 656,1285 662,1292 671,1292 679,1287 679,1302 825,1302 825,1264 810,1264 810,1252 804,1248 795,1248 788,1256 779,1254 773,1257 756,1257 736,1248 724,1248 716,1253 707,1248 682,1252 675,1248 664,1248"/>
         <Baseline points="680,1300 825,1298"/>
         <Word id="word_1657778689207_157" custom="readingOrder {index:0;}">
           <Coords points="647,1260 758,1259 758,1302 679,1302 679,1287 671,1292 662,1292 656,1285 647,1285"/>
@@ -635,32 +649,32 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>M 2 Lan&#x2E17;</Unicode>
+        <Unicode>M 2 Lan⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" type="catch-word" readingDirection="left-to-right" id="TextRegion_1657778706195_176" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1657778706195_176" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0.23806664" type="catch-word" readingDirection="left-to-right">
       <Coords points="825,1248 1196,1248 1196,1302 825,1302"/>
       <TextLine id="line_1657778706233_179" custom="readingOrder {index:0;}">
-        <Coords points="825,1264 858,1266 1049,1265 1055,1259 1108,1257 1116,1250 1130,1250 1133,1258 1138,1260 1196,1261 1196,1305 866,1305 858,1309 825,1309"/>
+        <Coords points="1138,1260 1133,1258 1130,1250 1116,1250 1108,1257 1055,1259 1049,1265 858,1266 825,1264 825,1302 1196,1302 1196,1261"/>
         <Baseline points="825,1298 1196,1295"/>
         <Word id="region0001_line0016_word0002" custom="readingOrder {index:0;}">
           <Coords points="1108,1258 1108,1298 1188,1298 1188,1260 1138,1260 1133,1258"/>
           <TextEquiv conf="0.87137663">
-            <Unicode>Lan&#x2E17;</Unicode>
+            <Unicode>Lan⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.63017315">
-          <Unicode>Lan&#x2E17;</Unicode>
+          <Unicode>Lan⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>M 2 Lan&#x2E17;</Unicode>
+        <Unicode>M 2 Lan⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23806664" type="footnote" readingDirection="left-to-right" id="TextRegion_1657778692337_162" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1657778692337_162" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="0.23806664" type="footnote" readingDirection="left-to-right">
       <Coords points="241,1356 1196,1356 1196,2313 241,2313"/>
       <TextLine id="line_1657778666044_73" custom="readingOrder {index:0;}">
-        <Coords points="241,1356 333,1355 356,1356 363,1360 376,1356 370,1347 379,1341 387,1341 393,1346 390,1356 444,1356 473,1362 479,1355 488,1355 498,1362 511,1363 557,1361 564,1351 576,1351 582,1358 590,1353 602,1353 607,1357 624,1356 653,1363 672,1360 677,1364 702,1365 708,1365 716,1356 727,1356 732,1364 776,1363 815,1355 847,1356 860,1362 870,1358 881,1358 887,1364 923,1362 1032,1364 1064,1357 1116,1357 1149,1365 1196,1369 1196,1398 1195,1408 1173,1411 916,1407 809,1411 693,1407 659,1408 653,1413 641,1408 626,1409 619,1416 610,1413 598,1414 594,1410 555,1410 551,1415 540,1416 527,1409 518,1408 449,1408 290,1411 282,1418 275,1418 269,1417 264,1410 241,1410"/>
+        <Coords points="363,1360 356,1356 241,1356 241,1410 264,1410 269,1417 275,1418 282,1418 290,1411 449,1408 518,1408 527,1409 540,1416 551,1415 555,1410 594,1410 598,1414 610,1413 619,1416 626,1409 641,1408 653,1413 659,1408 693,1407 809,1411 916,1407 1173,1411 1195,1408 1196,1398 1196,1369 1149,1365 1116,1357 1064,1357 1032,1364 923,1362 887,1364 881,1358 870,1358 860,1362 847,1356 810,1356 776,1363 732,1364 727,1356 716,1356 708,1365 702,1365 677,1364 672,1360 653,1363 624,1356 607,1357 605,1356 585,1356 582,1358 580,1356 560,1356 557,1361 511,1363 498,1362 489,1356 478,1356 473,1362 444,1356 390,1356 376,1356"/>
         <Baseline points="241,1399 1196,1398"/>
         <Word id="word_1657778692382_165" custom="readingOrder {index:0;}">
           <Coords points="252,1356 291,1356 291,1399 252,1399"/>
@@ -683,7 +697,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0018_word0003" custom="readingOrder {index:3;}">
           <Coords points="582,1397 688,1397 688,1364 677,1364 672,1360 653,1363 624,1356 607,1357 602,1353 590,1353 582,1358"/>
           <TextEquiv conf="0.9219571">
-            <Unicode>o&#x364;ffnete</Unicode>
+            <Unicode>oͤffnete</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778692382_167" custom="readingOrder {index:4;}">
@@ -713,11 +727,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0018_word0008" custom="readingOrder {index:8;}">
           <Coords points="1092,1388 1188,1388 1188,1368 1149,1365 1116,1357 1092,1357"/>
           <TextEquiv conf="0.9217465">
-            <Unicode>Mona&#x2E17;</Unicode>
+            <Unicode>Mona⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>h) Ein Wundarzt o&#x364;ffnete einem Kinde von neun Mona&#x2E17;</Unicode>
+          <Unicode>h) Ein Wundarzt oͤffnete einem Kinde von neun Mona⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666060_75" custom="readingOrder {index:1;}">
@@ -768,7 +782,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0019_word0008" custom="readingOrder {index:7;}">
           <Coords points="934,1419 1049,1418 1049,1460 934,1461"/>
           <TextEquiv conf="0.91963303">
-            <Unicode>Wa&#x17F;&#x17F;er</Unicode>
+            <Unicode>Waſſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0019_word0009" custom="readingOrder {index:8;}">
@@ -778,7 +792,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>ten den Kopf und brachte ein Pfund Wa&#x17F;&#x17F;er heraus;</Unicode>
+          <Unicode>ten den Kopf und brachte ein Pfund Waſſer heraus;</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666060_77" custom="readingOrder {index:2;}">
@@ -799,7 +813,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0020_word0002" custom="readingOrder {index:2;}">
           <Coords points="576,1473 498,1473 498,1517 509,1517 512,1515 523,1515 525,1517 557,1517 576,1516"/>
           <TextEquiv conf="0.92370147">
-            <Unicode>&#x17F;echs</Unicode>
+            <Unicode>ſechs</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0020_word0003" custom="readingOrder {index:3;}">
@@ -811,7 +825,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0020_word0004" custom="readingOrder {index:4;}">
           <Coords points="768,1518 768,1472 655,1473 655,1516 693,1516 699,1518"/>
           <TextEquiv conf="0.9224256">
-            <Unicode>drey&#x17F;ig</Unicode>
+            <Unicode>dreyſig</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0020_word0005" custom="readingOrder {index:5;}">
@@ -823,7 +837,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0020_word0006" custom="readingOrder {index:6;}">
           <Coords points="942,1472 1019,1471 1019,1514 942,1515"/>
           <TextEquiv conf="0.9312486">
-            <Unicode>&#x17F;tarb</Unicode>
+            <Unicode>ſtarb</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0020_word0007" custom="readingOrder {index:7;}">
@@ -839,7 +853,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>allein nach &#x17F;echs und drey&#x17F;ig Stunden &#x17F;tarb das Kind.</Unicode>
+          <Unicode>allein nach ſechs und dreyſig Stunden ſtarb das Kind.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666060_79" custom="readingOrder {index:3;}">
@@ -854,7 +868,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0021_word0001" custom="readingOrder {index:1;}">
           <Coords points="482,1518 478,1523 477,1528 467,1528 467,1555 528,1554 528,1518 509,1518 503,1524 494,1518"/>
           <TextEquiv conf="0.9258755">
-            <Unicode>ob&#x17F;.</Unicode>
+            <Unicode>obſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0002" custom="readingOrder {index:2;}">
@@ -878,11 +892,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0021_word0005" custom="readingOrder {index:5;}">
           <Coords points="831,1554 889,1554 889,1519 846,1519 840,1526 833,1527 831,1526"/>
           <TextEquiv>
-            <Unicode>ob&#x17F;.</Unicode>
+            <Unicode>obſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0006" custom="readingOrder {index:6;}">
-          <Coords points="960,1526 927,1523 903,1523 903,1574 920,1573 926,1560 960,1560"/>
+          <Coords points="927,1523 925,1523 903,1523 903,1571 913,1573 920,1573 926,1560 960,1560 960,1526"/>
           <TextEquiv>
             <Unicode>17.</Unicode>
           </TextEquiv>
@@ -890,7 +904,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0021_word0007" custom="readingOrder {index:7;}">
           <Coords points="989,1532 1042,1532 1042,1546 989,1546"/>
           <TextEquiv conf="0.92931336">
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0008" custom="readingOrder {index:8;}">
@@ -900,16 +914,16 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Hildanus ob&#x17F;. chirurg. Cent. v. ob&#x17F;. 17. &#x2014; Lecat</Unicode>
+          <Unicode>Hildanus obſ. chirurg. Cent. v. obſ. 17. — Lecat</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778860802_234" custom="readingOrder {index:4;}">
         <Coords points="328,1562 345,1567 362,1563 370,1569 382,1564 395,1572 407,1571 413,1577 439,1571 494,1570 545,1573 569,1578 574,1568 580,1567 591,1572 591,1580 596,1580 603,1572 616,1573 621,1580 633,1580 655,1579 663,1575 698,1571 775,1571 805,1575 821,1569 829,1570 833,1576 858,1576 869,1571 897,1571 904,1575 929,1578 990,1577 1023,1575 1030,1571 1048,1573 1054,1568 1064,1568 1082,1570 1089,1577 1097,1572 1105,1572 1111,1577 1119,1578 1196,1579 1196,1619 241,1619 241,1600 252,1600 270,1589 297,1583 307,1590 317,1589 320,1586 322,1566"/>
         <Baseline points="250,1615 1196,1611"/>
         <Word id="word_1657778870294_241" custom="readingOrder {index:0;}">
-          <Coords points="304,1579 369,1578 369,1619 303,1619"/>
+          <Coords points="369,1578 320,1578 320,1586 317,1589 307,1590 303,1587 303,1619 369,1619"/>
           <TextEquiv>
-            <Unicode>lie&#xDF;</Unicode>
+            <Unicode>ließ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778872013_246" custom="readingOrder {index:1;}">
@@ -919,13 +933,13 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <Word id="word_1657778873137_251" custom="readingOrder {index:2;}">
-          <Coords points="431,1577 575,1576 575,1619 431,1619"/>
+          <Coords points="431,1577 431,1619 575,1619 575,1576 569,1576 569,1578 559,1576"/>
           <TextEquiv>
-            <Unicode>Wa&#x17F;&#x17F;er</Unicode>
+            <Unicode>Waſſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778874507_256" custom="readingOrder {index:3;}">
-          <Coords points="575,1576 688,1576 688,1619 575,1619"/>
+          <Coords points="575,1576 575,1619 688,1619 688,1576 661,1576 655,1579 633,1580 621,1580 618,1576 599,1576 596,1580 591,1580 591,1576"/>
           <TextEquiv>
             <Unicode>eines</Unicode>
           </TextEquiv>
@@ -933,23 +947,23 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="word_1657778876116_261" custom="readingOrder {index:4;}">
           <Coords points="688,1576 908,1576 908,1619 688,1619"/>
           <TextEquiv>
-            <Unicode>Wa&#x17F;&#x17F;erkopfs</Unicode>
+            <Unicode>Waſſerkopfs</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778877401_266" custom="readingOrder {index:5;}">
-          <Coords points="908,1576 977,1576 977,1619 908,1619"/>
+          <Coords points="908,1576 908,1619 977,1619 977,1577 929,1578 912,1576"/>
           <TextEquiv>
             <Unicode>zu</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778877401_265" custom="readingOrder {index:6;}">
-          <Coords points="977,1576 1190,1576 1189,1619 977,1619"/>
+          <Coords points="1006,1576 990,1577 977,1577 977,1619 1189,1619 1189,1578 1119,1578 1111,1577 1109,1576 1090,1576 1089,1577 1088,1576"/>
           <TextEquiv>
-            <Unicode>ver&#x17F;chiedenen</Unicode>
+            <Unicode>verſchiedenen</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>lie&#xDF; die Wa&#x17F;&#x17F;er eines Wa&#x17F;&#x17F;erkopfs zu ver&#x17F;chiedenen</Unicode>
+          <Unicode>ließ die Waſſer eines Waſſerkopfs zu verſchiedenen</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778860802_233" custom="readingOrder {index:5;}">
@@ -981,7 +995,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="word_1657778892051_294" custom="readingOrder {index:4;}">
           <Coords points="797,1619 878,1619 878,1676 877,1676 866,1676 859,1681 849,1681 840,1675 807,1679 803,1674 797,1673"/>
           <TextEquiv>
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657778893810_299" custom="readingOrder {index:5;}">
@@ -1003,7 +1017,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Malen heraus. Er bediente &#x17F;ich hierzu eines kurzen</Unicode>
+          <Unicode>Malen heraus. Er bediente ſich hierzu eines kurzen</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778905931_315" custom="readingOrder {index:6;}">
@@ -1048,7 +1062,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0023_word0007" custom="readingOrder {index:6;}">
           <Coords points="962,1708 1018,1708 1018,1674 1014,1672 1003,1672 995,1677 989,1677 984,1673 965,1674 962,1675"/>
           <TextEquiv conf="0.9269744">
-            <Unicode>lie&#xDF;</Unicode>
+            <Unicode>ließ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0023_word0008" custom="readingOrder {index:7;}">
@@ -1060,11 +1074,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0023_word0009" custom="readingOrder {index:8;}">
           <Coords points="1084,1712 1189,1712 1188,1680 1165,1679 1156,1675 1138,1678 1131,1673 1122,1674 1114,1666 1110,1666 1102,1674 1085,1673 1083,1673"/>
           <TextEquiv conf="0.92695844">
-            <Unicode>Ro&#x364;hre</Unicode>
+            <Unicode>Roͤhre</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Troicars mit einem breiten Rande, und lie&#xDF; die Ro&#x364;hre</Unicode>
+          <Unicode>Troicars mit einem breiten Rande, und ließ die Roͤhre</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0025" custom="readingOrder {index:7;}">
@@ -1073,7 +1087,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="445,1736 298,1736 296,1738 275,1740 265,1737 262,1738 262,1774 271,1775 274,1772 282,1772 290,1777 332,1779 333,1782 358,1782 364,1777 445,1777"/>
           <TextEquiv conf="0.7365343">
-            <Unicode>de&#x17F;&#x17F;elben</Unicode>
+            <Unicode>deſſelben</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0025_word0001" custom="readingOrder {index:1;}">
@@ -1097,7 +1111,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0025_word0004" custom="readingOrder {index:4;}">
           <Coords points="707,1734 707,1778 723,1778 724,1777 748,1778 821,1777 821,1733 821,1733 818,1734 807,1733"/>
           <TextEquiv conf="0.9253207">
-            <Unicode>&#x17F;tecken.</Unicode>
+            <Unicode>ſtecken.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0025_word0005" custom="readingOrder {index:5;}">
@@ -1115,11 +1129,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0025_word0007" custom="readingOrder {index:7;}">
           <Coords points="1143,1733 1188,1733 1188,1768 1143,1768"/>
           <TextEquiv conf="0.66379136">
-            <Unicode>be&#x2E17;</Unicode>
+            <Unicode>be⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>de&#x17F;&#x17F;elben in der Wunde &#x17F;tecken. Die Oeffnung be&#x2E17;</Unicode>
+          <Unicode>deſſelben in der Wunde ſtecken. Die Oeffnung be⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666060_87" custom="readingOrder {index:8;}">
@@ -1152,7 +1166,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0026_word0005" custom="readingOrder {index:4;}">
           <Coords points="630,1779 627,1783 626,1783 626,1826 829,1825 829,1785 807,1785 793,1784 780,1779 767,1779 762,1783 752,1783 748,1779 723,1779 721,1783 714,1786 691,1781 677,1781 673,1784 651,1783 645,1779"/>
           <TextEquiv conf="0.92713773">
-            <Unicode>Heftpfla&#x17F;ter,</Unicode>
+            <Unicode>Heftpflaſter,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0026_word0006" custom="readingOrder {index:5;}">
@@ -1176,18 +1190,18 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0026_word0009" custom="readingOrder {index:8;}">
           <Coords points="1110,1785 1110,1821 1188,1821 1188,1787 1177,1786 1157,1785"/>
           <TextEquiv conf="0.35566887">
-            <Unicode>weg&#x2E17;</Unicode>
+            <Unicode>weg⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.8476341">
-          <Unicode>deckte er mit einem Heftpfla&#x17F;ter, das er alsdann weg&#x2E17;</Unicode>
+          <Unicode>deckte er mit einem Heftpflaſter, das er alsdann weg⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_89" custom="readingOrder {index:9;}">
         <Coords points="241,1839 342,1840 356,1832 365,1832 372,1839 397,1840 446,1837 525,1837 526,1830 533,1826 547,1828 553,1838 573,1838 578,1834 587,1834 592,1838 616,1836 639,1840 686,1834 701,1839 773,1838 779,1833 789,1833 795,1838 822,1839 857,1830 956,1830 961,1832 993,1834 1002,1828 1014,1828 1020,1836 1027,1837 1079,1836 1093,1834 1098,1830 1126,1833 1134,1829 1164,1836 1176,1829 1183,1829 1190,1837 1196,1837 1195,1878 1181,1880 1175,1886 1165,1886 1159,1880 1017,1880 1010,1886 1003,1886 994,1880 966,1880 954,1882 947,1889 935,1889 924,1881 697,1882 673,1886 669,1883 641,1884 633,1881 604,1883 586,1880 513,1879 418,1883 412,1887 403,1887 400,1884 370,1884 365,1889 353,1889 348,1885 311,1883 288,1883 285,1887 277,1888 271,1887 268,1883 249,1883 241,1879"/>
         <Baseline points="241,1872 1195,1869"/>
         <Word id="region0001_line0027_word0000" custom="readingOrder {index:0;}">
-          <Coords points="349,1836 342,1840 298,1838 298,1875 420,1876 420,1838 397,1840 372,1839 369,1836"/>
+          <Coords points="342,1840 298,1839 298,1875 420,1876 420,1838 397,1840 372,1839 369,1836 349,1836"/>
           <TextEquiv conf="0.49583378">
             <Unicode>nahm,</Unicode>
           </TextEquiv>
@@ -1225,7 +1239,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0027_word0006" custom="readingOrder {index:6;}">
           <Coords points="864,1835 982,1834 982,1876 864,1877"/>
           <TextEquiv conf="0.927555">
-            <Unicode>Wa&#x17F;&#x17F;er</Unicode>
+            <Unicode>Waſſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0027_word0007" custom="readingOrder {index:7;}">
@@ -1237,11 +1251,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0027_word0008" custom="readingOrder {index:8;}">
           <Coords points="1130,1834 1130,1874 1189,1874 1189,1835 1187,1834 1167,1834 1164,1836 1155,1834"/>
           <TextEquiv conf="0.845361">
-            <Unicode>la&#x17F;&#x2E17;</Unicode>
+            <Unicode>laſ⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.8534932">
-          <Unicode>nahm, wenn er etwas von dem Wa&#x17F;&#x17F;er heraus la&#x17F;&#x2E17;</Unicode>
+          <Unicode>nahm, wenn er etwas von dem Waſſer heraus laſ⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_91" custom="readingOrder {index:10;}">
@@ -1250,7 +1264,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="word_1657778942954_335" custom="readingOrder {index:0;}">
           <Coords points="298,1891 349,1891 349,1935 298,1935"/>
           <TextEquiv conf="0.6225695">
-            <Unicode> &#x17F;en</Unicode>
+            <Unicode> ſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0028_word0001" custom="readingOrder {index:1;}">
@@ -1268,7 +1282,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0028_word0003" custom="readingOrder {index:3;}">
           <Coords points="570,1889 570,1932 663,1932 663,1889 662,1889"/>
           <TextEquiv conf="0.92951715">
-            <Unicode>&#x17F;teckte</Unicode>
+            <Unicode>ſteckte</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0028_word0004" custom="readingOrder {index:4;}">
@@ -1304,11 +1318,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0028_word0009" custom="readingOrder {index:9;}">
           <Coords points="1141,1896 1188,1896 1188,1927 1141,1927"/>
           <TextEquiv conf="0.44463903">
-            <Unicode>ge&#x2E17;</Unicode>
+            <Unicode>ge⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.84640956">
-          <Unicode>&#x17F;en wollte, und &#x17F;teckte es wieder hinein, wenn er ge&#x2E17;</Unicode>
+          <Unicode>ſen wollte, und ſteckte es wieder hinein, wenn er ge⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_95" custom="readingOrder {index:11;}">
@@ -1333,13 +1347,13 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <Word id="region0001_line0029_word0003" custom="readingOrder {index:3;}">
-          <Coords points="699,1933 700,1985 746,1983 777,1985 790,1985 789,1941 748,1940 746,1934 744,1933 726,1933 718,1939 707,1939 701,1933"/>
+          <Coords points="700,1985 746,1983 777,1985 790,1985 789,1943 760,1942 759,1940 748,1940 746,1934 745,1934 739,1934 730,1941 719,1941 717,1939 707,1939 703,1935 699,1935"/>
           <TextEquiv conf="0.90882385">
             <Unicode>haben</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0029_word0004" custom="readingOrder {index:4;}">
-          <Coords points="867,1932 858,1935 852,1940 827,1941 823,1934 809,1934 801,1939 802,1986 818,1985 920,1981 954,1980 957,1983 957,1932 950,1933 944,1937 931,1940 898,1940 894,1937 883,1938 880,1933 875,1932"/>
+          <Coords points="827,1941 825,1937 819,1942 808,1943 801,1942 802,1986 818,1985 920,1981 954,1980 955,1981 957,1981 957,1939 951,1941 918,1941 916,1940 898,1940 894,1937 883,1938 881,1935 878,1936 872,1941 847,1942 845,1940"/>
           <TextEquiv conf="0.92918515">
             <Unicode>glaubte.</Unicode>
           </TextEquiv>
@@ -1353,11 +1367,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0029_word0006" custom="readingOrder {index:6;}">
           <Coords points="1125,1946 1188,1946 1189,1976 1126,1976"/>
           <TextEquiv>
-            <Unicode>ver&#x2E17;</Unicode>
+            <Unicode>ver⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>nug herausgebracht zu haben glaubte. Auch ver&#x2E17;</Unicode>
+          <Unicode>nug herausgebracht zu haben glaubte. Auch ver⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_97" custom="readingOrder {index:12;}">
@@ -1370,7 +1384,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <Word id="region0001_line0030_word0001" custom="readingOrder {index:1;}">
-          <Coords points="441,1993 440,1994 403,1994 403,2037 441,2037"/>
+          <Coords points="403,2037 441,2037 441,1995 424,1996 403,1996"/>
           <TextEquiv conf="0.9296496">
             <Unicode>er</Unicode>
           </TextEquiv>
@@ -1402,17 +1416,17 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0030_word0006" custom="readingOrder {index:6;}">
           <Coords points="1037,2033 1037,1990 866,1990 839,1993 839,2034 960,2033 989,2031 1034,2033"/>
           <TextEquiv conf="0.92312104">
-            <Unicode>ge&#x17F;chehenem</Unicode>
+            <Unicode>geſchehenem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0030_word0007" custom="readingOrder {index:7;}">
           <Coords points="1052,1991 1052,2033 1180,2033 1189,2032 1189,1991 1137,1991"/>
           <TextEquiv>
-            <Unicode>Heraus&#x2E17;</Unicode>
+            <Unicode>Heraus⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>band er den Kopf allezeit nach ge&#x17F;chehenem Heraus&#x2E17;</Unicode>
+          <Unicode>band er den Kopf allezeit nach geſchehenem Heraus⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_99" custom="readingOrder {index:13;}">
@@ -1433,11 +1447,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="word_1657779424303_813" custom="readingOrder {index:2;}">
           <Coords points="565,2039 570,2039 580,2044 596,2043 610,2037 615,2039 625,2030 625,2083 565,2083"/>
           <TextEquiv conf="0.9311902">
-            <Unicode>fe&#x17F;t</Unicode>
+            <Unicode>feſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0031_word0003" custom="readingOrder {index:3;}">
-          <Coords points="683,2040 675,2046 666,2047 661,2046 655,2039 645,2039 638,2046 632,2045 632,2088 683,2088"/>
+          <Coords points="675,2046 666,2047 661,2046 657,2042 654,2046 638,2045 638,2046 632,2045 632,2088 683,2088 683,2046 682,2047 677,2046 676,2045"/>
           <TextEquiv conf="0.9308911">
             <Unicode>mit</Unicode>
           </TextEquiv>
@@ -1475,11 +1489,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0031_word0009" custom="readingOrder {index:9;}">
           <Coords points="1113,2041 1113,2074 1189,2074 1189,2046 1155,2041"/>
           <TextEquiv conf="0.90726167">
-            <Unicode>Ka&#x2E17;</Unicode>
+            <Unicode>Ka⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>laufen ziemlich fe&#x17F;t mit der Binde, die man die Ka&#x2E17;</Unicode>
+          <Unicode>laufen ziemlich feſt mit der Binde, die man die Ka⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_101" custom="readingOrder {index:14;}">
@@ -1512,23 +1526,23 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0032_word0004" custom="readingOrder {index:4;}">
           <Coords points="864,2098 775,2098 775,2142 776,2143 803,2143 816,2142 817,2143 832,2143 836,2140 864,2140"/>
           <TextEquiv conf="0.92953473">
-            <Unicode>die&#x17F;er</Unicode>
+            <Unicode>dieſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0032_word0005" custom="readingOrder {index:5;}">
           <Coords points="1116,2139 1116,2096 892,2097 892,2140 933,2140 956,2138 962,2140 971,2140 980,2137 996,2138 998,2140 1016,2139 1017,2139 1024,2139"/>
           <TextEquiv conf="0.9242777">
-            <Unicode>Vor&#x17F;ichtigkeit</Unicode>
+            <Unicode>Vorſichtigkeit</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0032_word0006" custom="readingOrder {index:6;}">
           <Coords points="1133,2105 1185,2105 1185,2131 1133,2131"/>
           <TextEquiv>
-            <Unicode>un&#x2E17;</Unicode>
+            <Unicode>un⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>peline nennt. Allein aller die&#x17F;er Vor&#x17F;ichtigkeit un&#x2E17;</Unicode>
+          <Unicode>peline nennt. Allein aller dieſer Vorſichtigkeit un⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666075_103" custom="readingOrder {index:15;}">
@@ -1543,7 +1557,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0033_word0001" custom="readingOrder {index:1;}">
           <Coords points="460,2151 538,2150 539,2194 461,2195"/>
           <TextEquiv conf="0.93208003">
-            <Unicode>&#x17F;tarb</Unicode>
+            <Unicode>ſtarb</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0033_word0002" custom="readingOrder {index:2;}">
@@ -1567,7 +1581,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0033_word0005" custom="readingOrder {index:5;}">
           <Coords points="811,2148 812,2194 832,2194 881,2194 883,2193 895,2194 920,2194 929,2193 929,2148 917,2148 898,2148 828,2148 827,2149 824,2148"/>
           <TextEquiv conf="0.91406435">
-            <Unicode>fu&#x364;nften</Unicode>
+            <Unicode>fuͤnften</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0033_word0006" custom="readingOrder {index:6;}">
@@ -1585,11 +1599,11 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0033_word0008" custom="readingOrder {index:8;}">
           <Coords points="1142,2157 1190,2157 1190,2190 1142,2190"/>
           <TextEquiv>
-            <Unicode>ge&#x2E17;</Unicode>
+            <Unicode>ge⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>geachtet &#x17F;tarb das Kind am fu&#x364;nften Tage nach ge&#x2E17;</Unicode>
+          <Unicode>geachtet ſtarb das Kind am fuͤnften Tage nach ge⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657778666091_105" custom="readingOrder {index:16;}">
@@ -1598,7 +1612,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0034_word0000" custom="readingOrder {index:0;}">
           <Coords points="264,2205 264,2241 268,2240 279,2248 331,2246 348,2250 354,2247 364,2252 382,2252 388,2248 456,2248 456,2205 410,2205"/>
           <TextEquiv conf="0.8438543">
-            <Unicode>&#x17F;chehener</Unicode>
+            <Unicode>ſchehener</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0034_word0001" custom="readingOrder {index:1;}">
@@ -1610,7 +1624,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0034_word0002" custom="readingOrder {index:2;}">
           <Coords points="673,2203 673,2249 778,2248 779,2250 807,2250 809,2249 840,2249 840,2202 801,2202 800,2204 786,2206 783,2205 782,2202"/>
           <TextEquiv conf="0.9041632">
-            <Unicode>Philo&#x17F;oph.</Unicode>
+            <Unicode>Philoſoph.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0034_word0003" custom="readingOrder {index:3;}">
@@ -1632,7 +1646,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;chehener Operation; Philo&#x17F;oph. Transact. for. 1751.</Unicode>
+          <Unicode>ſchehener Operation; Philoſoph. Transact. for. 1751.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0035" custom="readingOrder {index:17;}">
@@ -1647,7 +1661,7 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
         <Word id="region0001_line0035_word0001" custom="readingOrder {index:1;}">
           <Coords points="444,2252 443,2253 443,2290 509,2289 509,2257 502,2257 492,2251 478,2251 469,2257 467,2252 466,2252"/>
           <TextEquiv>
-            <Unicode>&#x17F;ect.</Unicode>
+            <Unicode>ſect.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0035_word0002" custom="readingOrder {index:2;}">
@@ -1657,28 +1671,28 @@ den &#x17F;ollte, &#x17F;o mu&#x364;&#xDF;te die Oeffnung vermittel&#x17F;t eine
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>1752. &#x17F;ect. 40.</Unicode>
+          <Unicode>1752. ſect. 40.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>h) Ein Wundarzt o&#x364;ffnete einem einem Kinde Kinde von neun Mona&#x2E17;
-ten den Kopf und brachte ein Pfund Wa&#x17F;&#x17F;er heraus;
-allein nach &#x17F;echs und drey&#x17F;ig Stunden &#x17F;tarb das Kind.
-Hildanus ob&#x17F;. chirurg. Cent. v. ob&#x17F;. 17. &#x2014; Lecat
-lie&#xDF; die Wa&#x17F;&#x17F;er eines Wa&#x17F;&#x17F;erkopfs zu ver&#x17F;chiedenen
-Malen heraus. Er bediente &#x17F;ich hierzu eines kurzen
-Troicars mit einem breiten Rande, und lie&#xDF; die Ro&#x364;hre
-de&#x17F;&#x17F;elben in der Wunde &#x17F;tecken. Die Oeffnung be&#x2E17;
-V deckte er mit einem Heftpfla&#x17F;ter, das er alsdann weg&#x2E17;
-nahm, wenn er etwas von dem Wa&#x17F;&#x17F;er heraus la&#x17F;&#x2E17;
- &#x17F;en wollte, und &#x17F;teckte es wieder hinein, wenn er ge&#x2E17;
-nug herausgebracht zu haben glaubte. Auch ver&#x2E17;
-band er den Kopf allezeit nach ge&#x17F;chehenem Heraus&#x2E17;
-laufen ziemlich fe&#x17F;t mit der Binde, die man die Ka&#x2E17;
- peline nennt. Allein aller die&#x17F;er Vor&#x17F;ichtigkeit un&#x2E17;
-geachtet &#x17F;tarb das Kind am fu&#x364;nften Tage nach ge&#x2E17;
-&#x17F;chehener Operation; Philo&#x17F;oph. Transact. for. 1751.
-1752. &#x17F;ect. 40.</Unicode>
+        <Unicode>h) Ein Wundarzt oͤffnete einem einem Kinde Kinde von neun Mona⸗
+ten den Kopf und brachte ein Pfund Waſſer heraus;
+allein nach ſechs und dreyſig Stunden ſtarb das Kind.
+Hildanus obſ. chirurg. Cent. v. obſ. 17. — Lecat
+ließ die Waſſer eines Waſſerkopfs zu verſchiedenen
+Malen heraus. Er bediente ſich hierzu eines kurzen
+Troicars mit einem breiten Rande, und ließ die Roͤhre
+deſſelben in der Wunde ſtecken. Die Oeffnung be⸗
+V deckte er mit einem Heftpflaſter, das er alsdann weg⸗
+nahm, wenn er etwas von dem Waſſer heraus laſ⸗
+ ſen wollte, und ſteckte es wieder hinein, wenn er ge⸗
+nug herausgebracht zu haben glaubte. Auch ver⸗
+band er den Kopf allezeit nach geſchehenem Heraus⸗
+laufen ziemlich feſt mit der Binde, die man die Ka⸗
+ peline nennt. Allein aller dieſer Vorſichtigkeit un⸗
+geachtet ſtarb das Kind am fuͤnften Tage nach ge⸗
+ſchehener Operation; Philoſoph. Transact. for. 1751.
+1752. ſect. 40.</Unicode>
       </TextEquiv>
     </TextRegion>
   </Page>

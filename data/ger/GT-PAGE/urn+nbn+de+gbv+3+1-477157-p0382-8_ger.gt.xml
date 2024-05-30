@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-434">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:38Z</Created>
     <LastChange>2024-01-19T13:08:38Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a3f09a81-d3b0-4cbf-a0b0-950ac62988d6/00000382.jpg" imageWidth="1609" imageHeight="2400" type="content" primaryLanguage="German">
     <Border>
@@ -18,7 +32,7 @@
         <RegionRefIndexed index="3" regionRef="region_1672824002944_1824"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.15240705" type="page-number" readingDirection="left-to-right" id="TextRegion_1672824012068_1835" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1672824012068_1835" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.15240705" type="page-number" readingDirection="left-to-right">
       <Coords points="545,393 621,393 621,462 545,462"/>
       <TextLine id="line_1672824012112_1838" custom="readingOrder {index:0;}">
         <Coords points="545,406 621,400 621,456 577,457 572,461 545,461"/>
@@ -36,7 +50,7 @@
         <Unicode>362</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.15240705" type="header" readingDirection="left-to-right" id="TextRegion_1672824012068_1834" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1672824012068_1834" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.15240705" type="header" readingDirection="left-to-right">
       <Coords points="621,393 1416,393 1416,462 621,462"/>
       <TextLine id="line_1672824012112_1837" custom="readingOrder {index:0;}">
         <Coords points="621,400 624,400 628,397 672,400 677,397 688,397 693,401 703,401 716,399 724,394 737,394 755,399 761,394 778,393 788,399 827,400 831,393 859,394 862,400 881,400 913,398 919,395 981,393 1028,396 1042,393 1053,400 1086,402 1092,393 1136,393 1139,399 1142,399 1175,393 1279,394 1282,397 1293,398 1334,399 1415,394 1415,448 1353,452 1346,458 1336,458 1332,455 1316,457 1311,452 1286,452 1280,453 1270,461 1258,461 1250,456 1223,457 1213,461 1145,451 1050,451 995,455 893,449 862,451 851,459 839,458 833,451 816,451 808,457 796,457 791,453 787,456 778,456 767,452 736,453 728,460 717,460 712,455 700,455 621,456"/>
@@ -78,7 +92,7 @@
         <Unicode>Die ſechzehente Rede uͤber Joh.17,16.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.15240705" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-0.15240705" readingDirection="left-to-right">
       <Coords points="530,478 1428,478 1428,1798 530,1798"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1316,479 1311,483 1252,484 1215,492 1183,491 1181,483 1177,480 1165,480 1157,489 1136,487 1128,481 1117,480 1109,485 1069,484 1030,492 985,492 980,483 967,482 958,492 910,494 857,490 852,489 844,478 816,478 810,484 772,481 766,487 749,490 666,498 621,496 615,487 602,487 594,496 531,497 531,552 573,552 585,545 610,540 678,541 683,545 693,545 700,541 739,538 750,534 806,534 808,538 821,538 827,533 862,536 899,534 909,538 935,539 945,539 950,535 963,535 969,538 1038,539 1055,535 1079,541 1101,533 1109,533 1121,540 1143,534 1166,537 1222,534 1231,538 1238,534 1257,534 1262,538 1281,538 1286,541 1297,537 1316,537 1330,543 1343,541 1358,533 1376,533 1392,543 1401,543 1409,537 1428,537 1428,479 1390,479 1379,483 1372,479 1348,479 1343,483 1332,479"/>
@@ -433,7 +447,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1672824137514_1875" custom="readingOrder {index:1;}">
-          <Coords points="638,858 799,856 969,857 969,901 834,902 808,902 638,899"/>
+          <Coords points="638,858 638,899 794,902 806,901 808,902 834,902 835,902 843,895 853,895 862,899 927,898 955,901 962,901 969,901 969,857 799,856 765,856 758,858 725,857 725,857"/>
           <TextEquiv>
             <Unicode>Todes⸗Stunde</Unicode>
           </TextEquiv>
@@ -1267,7 +1281,7 @@ nes Namens willen. Amen,
 Amen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1672824002944_1824" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="region_1672824002944_1824" custom="readingOrder {index:3;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1283,2062 1283,2153 1401,2153 1401,2062"/>
       <TextLine id="line_1672824003035_1827" custom="readingOrder {index:0;}">
         <Coords points="1283,2062 1283,2153 1401,2153 1401,2062"/>

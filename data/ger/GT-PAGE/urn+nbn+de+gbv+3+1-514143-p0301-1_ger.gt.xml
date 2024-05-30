@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-480">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:49Z</Created>
     <LastChange>2024-01-19T13:08:49Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d59d0151-b61c-4626-8210-892f2ad3b75c/00000301.jpg" imageWidth="1514" imageHeight="2328" type="content" primaryLanguage="German">
     <Border>
@@ -22,10 +36,7 @@
         <RegionRefIndexed index="9" regionRef="region_1683040474813_1673"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1683040447555_1670" custom="readingOrder {index:0;}">
-      <Coords points="545,803 779,803 779,826 545,826"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1683040096323_1594" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683040096323_1594" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1041,303 1041,353 1110,353 1110,303"/>
       <TextLine id="line_1683040096395_1597" custom="readingOrder {index:0;}">
         <Coords points="1041,303 1041,353 1110,353 1110,303"/>
@@ -43,10 +54,7 @@
         <Unicode>293</Unicode>
       </TextEquiv>
     </TextRegion>
-    <SeparatorRegion id="Separator_1683040090726_1591" custom="readingOrder {index:2;}">
-      <Coords points="248,371 1075,371 1075,402 248,402"/>
-    </SeparatorRegion>
-    <TextRegion orientation="-0.23706976" type="heading" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.23706976" type="heading" readingDirection="left-to-right">
       <Coords points="327,638 991,638 991,773 327,773"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="621,638 617,642 582,644 544,644 527,639 372,638 371,674 376,679 401,680 404,694 413,698 506,699 548,695 579,697 584,701 658,694 725,696 730,701 741,701 748,696 799,693 842,696 846,699 901,698 929,695 936,687 945,687 950,682 950,648 945,643 753,643 751,639 720,639 718,643 703,643 700,639 681,639 678,645 672,645 645,643 643,639"/>
@@ -103,7 +111,7 @@
 des Pelopidas mit dem Marcellus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.23706976" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1683040111733_1605" custom="readingOrder {index:4;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1683040111733_1605" custom="readingOrder {index:4;} structure {type:drop-capital;}" orientation="-0.23706976" type="drop-capital" readingDirection="left-to-right">
       <Coords points="197,903 433,903 433,990 197,990"/>
       <TextLine id="line_1683040111756_1608" custom="readingOrder {index:0;}">
         <Coords points="299,904 426,903 433,903 433,990 273,990 252,987 239,978 239,950 244,945"/>
@@ -127,7 +135,7 @@ des Pelopidas mit dem Marcellus.</Unicode>
         <Unicode>1. D</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.23706976" readingDirection="left-to-right" id="TextRegion_1683040111733_1604" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1683040111733_1604" custom="readingOrder {index:5;}" orientation="-0.23706976" readingDirection="left-to-right">
       <Coords points="433,903 1112,903 1112,1714 197,1714 197,990 433,990"/>
       <TextLine id="line_1683040111756_1607" custom="readingOrder {index:0;}">
         <Coords points="433,903 447,903 774,916 1105,943 1112,945 1112,988 937,994 472,995 463,995 382,993 273,990 433,990"/>
@@ -821,7 +829,7 @@ des Pelopidas mit dem Marcellus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0016" custom="readingOrder {index:14;}">
-        <Coords points="576,1655 570,1658 510,1658 492,1667 469,1667 464,1662 454,1662 448,1667 419,1667 413,1660 401,1660 393,1667 374,1668 338,1668 332,1661 323,1661 316,1668 197,1667 198,1710 312,1710 317,1715 327,1715 334,1710 428,1709 434,1717 444,1718 453,1709 640,1706 686,1712 712,1710 729,1713 744,1710 750,1718 765,1717 773,1711 814,1710 820,1719 831,1720 845,1710 860,1709 893,1709 899,1717 910,1717 916,1709 922,1708 1035,1709 1112,1704 1111,1666 1015,1667 1010,1659 998,1658 994,1659 988,1667 922,1667 917,1663 908,1663 897,1668 875,1669 753,1670 691,1665 605,1665 595,1664 587,1655"/>
+        <Coords points="570,1658 510,1658 492,1667 469,1667 464,1662 454,1662 448,1667 419,1667 413,1660 401,1660 393,1667 374,1668 338,1668 332,1661 323,1661 316,1668 197,1667 198,1710 312,1710 316,1714 328,1714 334,1710 428,1709 431,1714 448,1714 453,1709 640,1706 686,1712 712,1710 729,1713 744,1710 747,1714 769,1714 773,1711 814,1710 816,1714 839,1714 845,1710 860,1709 893,1709 896,1714 912,1714 916,1709 922,1708 1035,1709 1112,1704 1111,1666 1015,1667 1010,1659 998,1658 994,1659 988,1667 922,1667 917,1663 908,1663 897,1668 875,1669 753,1670 691,1665 605,1665 595,1664 587,1655 576,1655"/>
         <Baseline points="197,1700 1112,1696"/>
         <Word id="region0005_line0016_word0000" custom="readingOrder {index:0;}">
           <Coords points="203,1668 302,1669 302,1696 203,1695"/>
@@ -887,10 +895,10 @@ mit den Orchomeniern ¹) wuͤrden umgegangen ſeyn,
 wenn jene beyden Maͤnner zugegen geweſen waͤren.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.23706976" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1668763445364_2716" custom="readingOrder {index:6;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1668763445364_2716" custom="readingOrder {index:6;} structure {type:signature-mark;}" orientation="-0.23706976" type="signature-mark" readingDirection="left-to-right">
       <Coords points="197,1714 816,1714 816,1769 197,1769"/>
       <TextLine id="line_1668763445395_2719" custom="readingOrder {index:0;}">
-        <Coords points="636,1710 686,1713 712,1711 721,1714 742,1712 753,1722 769,1723 816,1723 816,1747 815,1747 812,1758 801,1769 731,1769 721,1768 705,1762 642,1760 637,1755 638,1749 631,1743 631,1715"/>
+        <Coords points="769,1723 753,1722 744,1714 721,1714 632,1714 631,1715 631,1743 638,1749 637,1755 642,1760 705,1762 721,1768 731,1769 801,1769 812,1758 815,1747 816,1747 816,1723"/>
         <Baseline points="637,1751 788,1760 811,1759 816,1758"/>
         <Word id="region0005_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="687,1721 716,1721 715,1755 686,1755"/>
@@ -912,10 +920,10 @@ wenn jene beyden Maͤnner zugegen geweſen waͤren.</Unicode>
         <Unicode>T 3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.23706976" type="catch-word" readingDirection="left-to-right" id="TextRegion_1668763445363_2715" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1668763445363_2715" custom="readingOrder {index:7;} structure {type:catch-word;}" orientation="-0.23706976" type="catch-word" readingDirection="left-to-right">
       <Coords points="816,1714 1112,1714 1112,1769 816,1769"/>
       <TextLine id="line_1668763445394_2718" custom="readingOrder {index:0;}">
-        <Coords points="816,1723 965,1723 966,1715 971,1710 1036,1709 1112,1713 1111,1757 975,1760 970,1756 969,1747 816,1747"/>
+        <Coords points="966,1715 965,1723 816,1723 816,1747 969,1747 970,1756 975,1760 1111,1757 1111,1714 967,1714"/>
         <Baseline points="816,1758 970,1753 1112,1748"/>
         <Word id="region0005_line0017_word0002" custom="readingOrder {index:0;}">
           <Coords points="1100,1725 1023,1725 1022,1758 1099,1757"/>
@@ -931,7 +939,7 @@ wenn jene beyden Maͤnner zugegen geweſen waͤren.</Unicode>
         <Unicode>Was</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.23706976" type="footnote" readingDirection="left-to-right" id="TextRegion_1668763437234_2704" custom="readingOrder {index:8;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1668763437234_2704" custom="readingOrder {index:8;} structure {type:footnote;}" orientation="-0.23706976" type="footnote" readingDirection="left-to-right">
       <Coords points="197,1769 1112,1769 1112,1958 1107,1993 277,1993 197,1958"/>
       <TextLine id="region0005_line0018" custom="readingOrder {index:0;}">
         <Coords points="1004,1772 954,1772 938,1777 923,1775 918,1779 887,1779 883,1776 803,1776 771,1780 766,1775 757,1775 749,1781 714,1778 698,1772 689,1772 681,1774 675,1783 665,1783 660,1774 615,1778 609,1772 600,1772 594,1778 499,1779 494,1775 483,1775 477,1779 451,1781 383,1778 374,1772 364,1772 357,1776 262,1772 197,1780 197,1816 202,1821 211,1822 271,1820 296,1817 305,1813 314,1816 332,1813 336,1816 352,1815 375,1819 404,1817 409,1814 432,1818 486,1819 520,1814 528,1817 542,1813 560,1816 571,1811 593,1816 637,1815 660,1810 664,1805 671,1811 690,1816 709,1817 746,1813 753,1818 769,1820 817,1819 827,1816 837,1819 893,1818 901,1815 930,1817 945,1816 952,1812 993,1816 1041,1816 1055,1813 1071,1817 1085,1815 1090,1819 1111,1818 1111,1781 1062,1779 1056,1774 1026,1779 1015,1772"/>
@@ -1220,7 +1228,7 @@ wenn jene beyden Maͤnner zugegen geweſen waͤren.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:5;}">
-        <Coords points="856,1948 803,1953 770,1953 766,1949 753,1949 750,1953 738,1948 724,1948 721,1951 672,1948 591,1951 561,1948 469,1950 282,1949 279,1950 279,1990 392,1991 522,1998 600,1992 642,1992 647,1997 657,1997 667,1992 723,1993 783,2000 827,1993 987,1994 992,1999 1001,1999 1008,1992 1055,1987 1108,1988 1108,1951 932,1948 888,1951"/>
+        <Coords points="803,1953 770,1953 766,1949 753,1949 750,1953 738,1948 724,1948 721,1951 672,1948 591,1951 561,1948 469,1950 282,1949 279,1950 279,1990 392,1991 429,1993 587,1993 600,1992 642,1992 643,1993 665,1993 667,1992 723,1993 827,1993 1007,1993 1008,1992 1055,1987 1107,1987 1108,1986 1108,1951 932,1948 888,1951 856,1948"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="285,1957 493,1956 493,1989 285,1990"/>
           <TextEquiv conf="0.8647592">
@@ -1270,7 +1278,7 @@ es mit den Lakedaͤmoniern hielten. Gleich nach Epa⸗
 meinondas Tode machten einige verbannte Thebaner</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683040474813_1673" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="region_1683040474813_1673" custom="readingOrder {index:9;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1048,1999 1048,2023 1105,2023 1105,1999"/>
       <TextLine id="line_1683040474911_1676" custom="readingOrder {index:0;}">
         <Coords points="1048,1999 1048,2023 1105,2023 1105,1999"/>
@@ -1288,5 +1296,11 @@ meinondas Tode machten einige verbannte Thebaner</Unicode>
         <Unicode>den</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="Separator_1683040447555_1670" custom="readingOrder {index:0;}">
+      <Coords points="545,803 779,803 779,826 545,826"/>
+    </SeparatorRegion>
+    <SeparatorRegion id="Separator_1683040090726_1591" custom="readingOrder {index:2;}">
+      <Coords points="248,371 1075,371 1075,402 248,402"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

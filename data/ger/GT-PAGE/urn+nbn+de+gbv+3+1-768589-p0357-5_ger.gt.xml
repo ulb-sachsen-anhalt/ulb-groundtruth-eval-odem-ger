@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-856">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:10Z</Created>
     <LastChange>2024-01-19T13:10:10Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/c6a44b4d-6d1b-42b7-9845-06bbfb68cf0f/00000357.jpg" imageWidth="1593" imageHeight="2352" type="content" primaryLanguage="German">
     <Border>
@@ -18,10 +32,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1668670420707_581"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682591423586_3798" custom="readingOrder {index:0;}">
-      <Coords points="468,381 730,381 730,423 468,423"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682591411228_3781" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682591411228_3781" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="551,393 551,417 637,417 637,393"/>
       <TextLine id="line_1682591411314_3784" custom="readingOrder {index:0;}">
         <Coords points="551,393 551,417 637,417 637,393"/>
@@ -39,7 +50,7 @@
         <Unicode>347</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.53931314" readingDirection="left-to-right" id="TextRegion_1668670424608_586" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1668670424608_586" custom="readingOrder {index:2;}" orientation="0.53931314" readingDirection="left-to-right">
       <Coords points="182,439 1026,439 1026,1185 182,1185"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="526,440 526,449 532,456 484,455 476,447 464,447 456,453 425,452 419,446 407,447 402,451 396,447 385,447 379,452 361,454 293,455 261,449 246,450 241,454 223,458 182,457 183,498 381,495 405,496 411,502 420,502 426,497 444,497 458,497 464,504 475,504 483,497 520,497 528,504 539,504 551,497 562,495 619,495 653,500 668,493 677,493 752,500 1026,501 1023,461 914,458 875,450 848,450 814,451 794,457 775,456 766,452 758,452 752,456 677,456 615,452 609,446 597,447 585,453 565,454 561,448 551,447 551,440"/>
@@ -724,10 +735,10 @@ oder die Mittel, beyde abzuwenden, zweifelhaft ge⸗
 weſen iſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.53931314" readingDirection="left-to-right" id="TextRegion_1668670424608_585" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1668670424608_585" custom="readingOrder {index:3;}" orientation="0.53931314" readingDirection="left-to-right">
       <Coords points="182,1185 1026,1185 1026,1691 182,1691"/>
       <TextLine id="region0002_line0014" custom="readingOrder {index:0;}">
-        <Coords points="219,1183 214,1188 217,1231 220,1235 233,1237 300,1237 339,1231 380,1231 387,1237 396,1237 402,1232 502,1231 532,1236 538,1240 593,1233 639,1235 646,1240 654,1240 659,1236 782,1238 834,1236 882,1241 929,1242 935,1248 946,1248 951,1244 1026,1245 1025,1204 1008,1202 1000,1196 985,1198 937,1195 933,1198 907,1201 853,1198 841,1196 834,1191 821,1190 813,1190 805,1195 775,1194 766,1190 757,1190 751,1196 707,1196 701,1190 691,1190 686,1195 677,1195 622,1191 615,1186 604,1187 596,1193 577,1193 566,1185 557,1186 547,1193 541,1193 405,1190 398,1183 386,1183 375,1190 327,1191 301,1183"/>
+        <Coords points="214,1188 217,1231 220,1235 233,1237 300,1237 339,1231 380,1231 387,1237 396,1237 402,1232 502,1231 532,1236 538,1240 593,1233 639,1235 646,1240 654,1240 659,1236 782,1238 834,1236 882,1241 929,1242 935,1248 946,1248 951,1244 1026,1245 1025,1204 1008,1202 1000,1196 985,1198 937,1195 933,1198 907,1201 853,1198 841,1196 834,1191 821,1190 813,1190 805,1195 775,1194 766,1190 757,1190 751,1196 707,1196 701,1190 691,1190 686,1195 677,1195 622,1191 615,1186 604,1187 596,1193 577,1193 566,1185 557,1186 547,1193 541,1193 405,1190 400,1185 382,1185 375,1190 327,1191 307,1185 217,1185"/>
         <Baseline points="217,1228 495,1221 1026,1235"/>
         <Word id="region0002_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="267,1190 310,1190 310,1226 267,1226"/>
@@ -1191,10 +1202,10 @@ zuſchrieb: deſto großer mußte die Furcht ihrer An⸗
 bether ſeyn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.53931314" readingDirection="left-to-right" id="TextRegion_1668670420707_581" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1668670420707_581" custom="readingOrder {index:4;}" orientation="0.53931314" readingDirection="left-to-right">
       <Coords points="182,1691 1026,1691 1026,1927 182,1927"/>
       <TextLine id="region0002_line0023" custom="readingOrder {index:0;}">
-        <Coords points="222,1689 217,1694 217,1721 222,1726 223,1736 227,1739 322,1738 330,1739 336,1744 345,1744 352,1736 408,1737 428,1738 434,1744 444,1744 449,1739 467,1738 474,1734 489,1742 493,1738 548,1739 600,1742 608,1746 624,1742 656,1742 667,1742 673,1748 682,1748 688,1743 722,1743 775,1748 1025,1754 1026,1712 1011,1710 1005,1704 963,1708 945,1706 941,1703 913,1706 908,1702 898,1702 890,1708 827,1704 818,1699 798,1696 735,1702 689,1698 683,1692 671,1692 663,1699 645,1699 634,1692 626,1691 596,1691 562,1696 554,1696 549,1691 538,1691 531,1696 492,1696 486,1689 474,1689 465,1695 457,1695 450,1687 438,1687 433,1690 381,1689 361,1696 352,1688 331,1692 311,1688"/>
+        <Coords points="217,1694 217,1721 222,1726 223,1736 227,1739 322,1738 330,1739 336,1744 345,1744 352,1736 408,1737 428,1738 434,1744 444,1744 449,1739 467,1738 474,1734 489,1742 493,1738 548,1739 600,1742 608,1746 624,1742 656,1742 667,1742 673,1748 682,1748 688,1743 722,1743 775,1748 1025,1754 1026,1712 1011,1710 1005,1704 963,1708 945,1706 941,1703 913,1706 908,1702 898,1702 890,1708 827,1704 818,1699 798,1696 735,1702 689,1698 683,1692 671,1692 663,1699 645,1699 634,1692 626,1691 596,1691 562,1696 554,1696 549,1691 538,1691 531,1696 492,1696 487,1691 471,1691 465,1695 457,1695 453,1691 375,1691 361,1696 355,1691 336,1691 331,1692 326,1691 220,1691"/>
         <Baseline points="222,1729 531,1728 1026,1743"/>
         <Word id="region0002_line0023_word0000" custom="readingOrder {index:0;}">
           <Coords points="379,1699 274,1700 274,1738 350,1737 352,1736 379,1736"/>
@@ -1420,5 +1431,8 @@ gegen. Jn ihrer erſten Reinigkeit ſchaffte ſie nur
 Gebraͤuche ab und fuͤhrte keine neuen ein. Sie</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682591423586_3798" custom="readingOrder {index:0;}">
+      <Coords points="468,381 730,381 730,423 468,423"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-425">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:36Z</Created>
     <LastChange>2024-01-19T13:08:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/05a30065-cb3f-414c-b338-2333d74a4f0b/00000327.jpg" imageWidth="1727" imageHeight="2541" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="5" regionRef="region_1682068010256_2127"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682067964328_2088" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682067964328_2088" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="1097,266 1097,328 1204,328 1204,266"/>
       <TextLine id="line_1682067964423_2091" custom="readingOrder {index:0;}">
         <Coords points="1097,266 1097,328 1204,328 1204,266"/>
@@ -37,10 +51,7 @@
         <Unicode>289</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1682067957989_2085" custom="readingOrder {index:1;}">
-      <Coords points="523,275 845,275 845,332 523,332"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.24264874" readingDirection="left-to-right" id="TextRegion_1662644016703_2431" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1662644016703_2431" custom="readingOrder {index:2;}" orientation="0.24264874" readingDirection="left-to-right">
       <Coords points="159,363 1212,363 1215,2200 1215,2209 167,2209 159,2207"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="917,363 904,375 704,382 679,382 677,375 671,370 656,371 647,382 612,382 537,379 511,370 474,370 445,379 441,372 426,369 411,370 407,380 257,382 248,381 239,371 223,371 213,379 159,380 159,421 189,420 198,430 212,423 327,424 538,420 580,423 583,431 602,433 610,423 629,425 640,422 649,422 661,431 667,423 853,418 860,420 866,429 879,429 896,419 990,416 1016,412 1066,414 1211,411 1211,376 1208,375 1141,369 1136,363 1121,363 1116,369 1088,371 1050,371 1047,363 1024,363 1022,370 1019,371 1012,363 985,364 980,374 967,374 962,365 948,363 941,367 938,374 933,365"/>
@@ -2025,7 +2036,7 @@ Frauenzimmer von einem ſchlüpfrigen Character zu
 Prieſterinnen der Natur zu machen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="footer" id="region_1682068001958_2109" custom="readingOrder {index:3;} structure {type:footer;}">
+    <TextRegion id="region_1682068001958_2109" custom="readingOrder {index:3;} structure {type:footer;}" type="footer">
       <Coords points="223,2213 223,2259 598,2259 598,2213"/>
       <TextLine id="line_1682068002139_2112" custom="readingOrder {index:0;}">
         <Coords points="223,2213 223,2259 598,2259 598,2213"/>
@@ -2043,7 +2054,7 @@ Prieſterinnen der Natur zu machen.</Unicode>
         <Unicode>Rab.Sat.IV.Th.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682068006465_2118" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682068006465_2118" custom="readingOrder {index:4;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="766,2212 766,2256 810,2256 810,2212"/>
       <TextLine id="line_1682068006612_2121" custom="readingOrder {index:0;}">
         <Coords points="766,2212 766,2256 810,2256 810,2212"/>
@@ -2061,7 +2072,7 @@ Prieſterinnen der Natur zu machen.</Unicode>
         <Unicode>T</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682068010256_2127" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1682068010256_2127" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1149,2212 1149,2249 1209,2249 1209,2212"/>
       <TextLine id="line_1682068010400_2130" custom="readingOrder {index:0;}">
         <Coords points="1149,2212 1149,2249 1209,2249 1209,2212"/>
@@ -2079,5 +2090,8 @@ Prieſterinnen der Natur zu machen.</Unicode>
         <Unicode>Ich</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682067957989_2085" custom="readingOrder {index:1;}">
+      <Coords points="523,275 845,275 845,332 523,332"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

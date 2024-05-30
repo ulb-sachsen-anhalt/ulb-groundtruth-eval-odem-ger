@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-478">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:49Z</Created>
     <LastChange>2024-01-19T13:08:49Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/7e3debad-853d-4561-b171-e61a91809526/00000324.jpg" imageWidth="1612" imageHeight="2602" type="content" primaryLanguage="German">
     <Border>
@@ -18,7 +32,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1672825068662_2273"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.17000614" type="page-number" readingDirection="left-to-right" id="TextRegion_1672825054714_2266" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1672825054714_2266" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.17000614" type="page-number" readingDirection="left-to-right">
       <Coords points="499,496 626,496 626,562 499,562"/>
       <TextLine id="line_1672825054754_2269" custom="readingOrder {index:0;}">
         <Coords points="499,509 592,506 626,502 626,559 541,561 499,559"/>
@@ -36,7 +50,7 @@
         <Unicode>258</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17000614" type="header" readingDirection="left-to-right" id="TextRegion_1672825054714_2265" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1672825054714_2265" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.17000614" type="header" readingDirection="left-to-right">
       <Coords points="626,496 1236,496 1236,562 626,562"/>
       <TextLine id="line_1672825054754_2268" custom="readingOrder {index:0;}">
         <Coords points="626,502 641,501 703,501 720,496 734,497 742,503 781,505 784,497 811,497 815,505 829,505 868,496 922,496 937,504 957,505 976,499 1001,496 1056,499 1060,496 1075,497 1079,502 1126,506 1142,505 1149,497 1163,497 1173,499 1179,505 1235,508 1235,558 1227,562 1217,562 1212,557 1076,555 1027,558 934,556 930,561 914,561 908,556 896,556 893,561 874,561 872,556 865,556 860,562 829,562 824,556 819,555 753,554 743,555 737,562 718,561 716,555 640,555 627,559 626,559"/>
@@ -60,7 +74,7 @@
         <Unicode>theologiſcher Bedencken,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17000614" readingDirection="left-to-right" id="TextRegion_1672825068662_2274" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1672825068662_2274" custom="readingOrder {index:2;}" orientation="-0.17000614" readingDirection="left-to-right">
       <Coords points="475,582 1447,582 1447,2220 475,2220"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1238,582 1233,590 1226,591 1187,591 1175,588 1171,591 1137,592 1128,584 1116,584 1105,593 1094,594 1012,593 942,584 895,585 860,592 762,591 751,590 747,583 726,583 721,588 718,583 703,583 698,591 691,591 685,584 675,584 665,593 650,594 603,591 599,588 589,588 585,591 551,591 545,585 534,585 519,595 477,597 476,643 653,644 673,636 712,635 731,639 747,636 766,639 826,639 840,636 850,639 892,641 929,639 938,642 1043,641 1060,642 1073,649 1105,639 1114,642 1121,638 1141,637 1146,632 1154,635 1153,641 1167,642 1196,636 1214,639 1281,641 1282,645 1291,648 1303,638 1314,638 1319,641 1328,637 1338,638 1343,642 1369,643 1380,648 1396,644 1447,644 1447,583 1382,583 1375,588 1364,589 1339,588 1335,585 1323,588 1281,588 1277,584 1268,584 1256,589 1252,582"/>
@@ -985,7 +999,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0007_line0020_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1172,1586 1146,1586 1142,1590 1098,1593 1040,1591 1015,1586 1015,1637 1020,1638 1028,1632 1034,1633 1039,1639 1052,1635 1058,1642 1132,1635 1143,1641 1148,1639 1149,1642 1158,1645 1172,1644"/>
+          <Coords points="1146,1586 1142,1590 1098,1593 1040,1591 1015,1586 1015,1637 1020,1638 1028,1632 1034,1633 1039,1639 1052,1635 1058,1642 1132,1635 1143,1641 1148,1639 1149,1642 1158,1645 1170,1636 1172,1636 1172,1586 1171,1586"/>
           <TextEquiv conf="0.60945207">
             <Unicode>demnach</Unicode>
           </TextEquiv>
@@ -1059,7 +1073,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0007_line0022_word0002" custom="readingOrder {index:2;}">
-          <Coords points="883,1688 876,1693 833,1694 833,1743 846,1739 887,1739 912,1744 950,1744 950,1692 948,1693 937,1688 923,1688 918,1693 913,1693 908,1688"/>
+          <Coords points="876,1693 865,1693 864,1694 833,1695 833,1740 834,1740 843,1740 846,1739 887,1739 912,1744 950,1744 950,1693 936,1694 923,1688 923,1688 918,1693 913,1693 910,1690 906,1694 901,1694 896,1689 882,1689"/>
           <TextEquiv conf="0.61951196">
             <Unicode>allein</Unicode>
           </TextEquiv>
@@ -1467,7 +1481,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0031" custom="readingOrder {index:30;}">
-        <Coords points="988,2154 982,2158 981,2166 968,2166 960,2160 952,2160 935,2167 914,2167 896,2172 887,2167 871,2164 845,2167 840,2163 816,2163 810,2169 762,2169 713,2175 690,2172 624,2172 617,2166 539,2173 521,2173 512,2166 493,2167 488,2170 475,2170 475,2222 496,2222 503,2230 513,2230 522,2221 676,2220 728,2225 736,2222 810,2218 938,2218 943,2224 959,2224 965,2219 1014,2214 1098,2219 1262,2218 1312,2222 1446,2214 1446,2174 1421,2173 1422,2163 1414,2157 1409,2157 1404,2162 1403,2172 1387,2172 1381,2165 1366,2164 1353,2170 1334,2166 1331,2171 1321,2173 1293,2169 1273,2172 1262,2168 1240,2168 1233,2164 1192,2170 1055,2168 1023,2164 1015,2158 1007,2158 999,2163"/>
+        <Coords points="982,2158 981,2166 968,2166 960,2160 952,2160 935,2167 914,2167 896,2172 887,2167 871,2164 845,2167 840,2163 816,2163 810,2169 762,2169 713,2175 690,2172 624,2172 617,2166 539,2173 521,2173 512,2166 493,2167 488,2170 475,2170 475,2220 676,2220 773,2220 810,2218 938,2218 939,2220 963,2220 965,2219 1014,2214 1098,2219 1262,2218 1287,2220 1345,2220 1446,2214 1446,2174 1421,2173 1422,2163 1414,2157 1409,2157 1404,2162 1403,2172 1387,2172 1381,2165 1366,2164 1353,2170 1334,2166 1331,2171 1321,2173 1293,2169 1273,2172 1262,2168 1240,2168 1233,2164 1192,2170 1055,2168 1023,2164 1015,2158 1007,2158 999,2163 988,2154"/>
         <Baseline points="475,2212 1446,2205"/>
         <Word id="region0007_line0031_word0000" custom="readingOrder {index:0;}">
           <Coords points="497,2213 561,2213 561,2171 539,2173 521,2173 512,2166 497,2166"/>
@@ -1549,7 +1563,7 @@ anderweitigen Verheiratung allezeit geſche⸗
 hen koͤnnen; weil durch eine neue anderweiti⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17000614" type="catch-word" readingDirection="left-to-right" id="TextRegion_1672825068662_2273" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1672825068662_2273" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="-0.17000614" type="catch-word" readingDirection="left-to-right">
       <Coords points="475,2220 1447,2220 1447,2279 475,2279"/>
       <TextLine id="region0007_line0032" custom="readingOrder {index:0;}">
         <Coords points="1360,2221 1354,2224 1316,2224 1279,2229 1276,2233 1276,2268 1279,2277 1388,2279 1446,2273 1446,2223"/>

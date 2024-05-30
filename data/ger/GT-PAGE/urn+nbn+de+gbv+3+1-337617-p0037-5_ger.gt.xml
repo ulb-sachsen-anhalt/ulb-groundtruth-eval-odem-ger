@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-343">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:15Z</Created>
     <LastChange>2024-01-19T13:08:15Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/e567c81a-d834-4d81-bb7a-b52c686407d2/00000037.jpg" imageWidth="1377" imageHeight="2076" type="content" primaryLanguage="German">
     <Border>
@@ -23,13 +37,7 @@
         <RegionRefIndexed index="10" regionRef="TextRegion_1671549651030_3093"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1671549569850_3052" custom="readingOrder {index:0;}">
-      <Coords points="729,213 790,213 790,272 729,272"/>
-    </GraphicRegion>
-    <GraphicRegion id="Graphic_1671549567843_3049" custom="readingOrder {index:1;}">
-      <Coords points="536,205 617,205 617,267 536,267"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.95877063" type="page-number" readingDirection="left-to-right" id="TextRegion_1671549550399_3037" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671549550399_3037" custom="readingOrder {index:2;} structure {type:page-number;}" orientation="-0.95877063" type="page-number" readingDirection="left-to-right">
       <Coords points="623,211 721,211 721,273 623,273"/>
       <TextLine id="line_1671549550434_3040" custom="readingOrder {index:0;}">
         <Coords points="623,214 630,215 636,211 654,211 658,215 678,215 679,211 721,211 721,261 715,261 705,270 688,266 686,260 677,259 671,264 648,268 636,267 628,262 623,261"/>
@@ -48,10 +56,10 @@
         <Unicode>(31)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" type="heading" readingDirection="left-to-right" id="TextRegion_1671549538087_3022" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1671549538087_3022" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.95877063" type="heading" readingDirection="left-to-right">
       <Coords points="444,273 891,273 891,366 444,366"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
-        <Coords points="672,264 651,267 644,272 576,271 558,265 445,263 445,355 492,358 499,355 521,355 526,359 538,359 544,354 600,352 736,354 737,365 757,366 760,355 891,357 891,277 873,277 868,272 854,271 850,274 833,272 828,277 792,277 772,270 755,271 745,277 734,276 705,274 700,270 689,267 680,268"/>
+        <Coords points="445,355 492,358 499,355 521,355 526,359 538,359 544,354 600,352 736,354 737,365 757,366 760,355 891,357 891,277 873,277 869,273 851,273 850,274 841,273 832,273 828,277 792,277 780,273 751,273 745,277 734,276 705,274 703,273 445,273"/>
         <Baseline points="445,340 891,345"/>
         <Word id="region0000_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="592,275 451,273 449,355 492,358 499,355 521,355 526,359 538,359 544,354 590,352"/>
@@ -73,7 +81,7 @@
         <Unicode>IV. Auftrit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:4;}">
+    <TextRegion id="region0001" custom="readingOrder {index:4;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="200,365 1134,365 1134,441 200,441"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="753,367 745,368 740,377 689,376 652,366 546,375 486,371 481,366 434,365 429,368 362,366 338,369 317,365 311,367 306,376 288,378 244,369 201,367 200,438 222,440 269,433 347,431 403,424 482,423 694,431 702,440 717,438 725,431 765,430 809,432 814,437 827,437 834,432 842,431 902,431 907,432 912,440 935,441 940,434 955,435 960,440 975,440 978,437 1133,441 1134,385 1126,385 1120,380 1105,380 1099,385 1073,388 1066,376 1052,376 1047,381 1013,376 922,378 894,375 888,370 875,370 869,374 841,370 835,374 800,378 770,378 766,368"/>
@@ -116,7 +124,7 @@
         <Unicode>Jacob, Meliboeus, Corydon, Mops, Rahel.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="TextRegion_1671549625242_3074" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1671549625242_3074" custom="readingOrder {index:5;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="167,462 1160,462 1160,1160 973,1192 209,1192 167,1160"/>
       <TextLine id="line_1671549796103_3152" custom="readingOrder {index:0;}">
         <Coords points="168,466 218,468 248,478 263,479 275,463 284,462 305,462 305,513 282,513 274,521 226,521 224,530 212,536 168,536"/>
@@ -172,7 +180,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671549858211_3194" custom="readingOrder {index:4;}">
-          <Coords points="762,480 890,477 915,477 914,525 903,526 773,522 761,521"/>
+          <Coords points="762,480 761,521 761,521 762,521 773,522 811,523 824,522 903,526 914,525 915,477 890,477"/>
           <TextEquiv>
             <Unicode>Gaben/</Unicode>
           </TextEquiv>
@@ -245,7 +253,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671549863779_3200" custom="readingOrder {index:4;}">
-          <Coords points="545,581 577,578 688,576 690,579 693,586 693,628 678,632 573,631 545,625"/>
+          <Coords points="577,577 575,580 545,581 545,625 550,626 562,628 569,630 573,631 593,631 602,627 617,627 620,630 640,628 678,632 693,628 693,586 691,582 688,576 674,581 648,579 644,576"/>
           <TextEquiv>
             <Unicode>erfuͤllet/</Unicode>
           </TextEquiv>
@@ -301,7 +309,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671550808260_3337" custom="readingOrder {index:1;}">
-          <Coords points="340,678 345,677 386,677 498,678 498,737 363,733 340,727"/>
+          <Coords points="346,677 340,679 340,727 340,727 352,728 363,733 378,730 423,732 431,728 481,734 498,732 498,682 496,683 448,682 446,678 411,677 407,679 389,679 385,677"/>
           <TextEquiv>
             <Unicode>Bruͤder/</Unicode>
           </TextEquiv>
@@ -424,7 +432,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671549871297_3205" custom="readingOrder {index:3;}">
-          <Coords points="528,845 678,845 693,846 693,889 644,890 587,891 527,890"/>
+          <Coords points="528,845 527,890 587,891 588,891 602,888 626,889 632,886 644,890 666,887 688,889 693,889 693,847 686,848 677,845"/>
           <TextEquiv>
             <Unicode>Bruͤder/</Unicode>
           </TextEquiv>
@@ -620,7 +628,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671550934103_3414" custom="readingOrder {index:6;}">
-          <Coords points="795,1045 823,1045 857,1046 856,1091 843,1097 836,1097 801,1094 794,1091"/>
+          <Coords points="856,1091 857,1046 823,1045 795,1045 794,1091 801,1094 812,1089 824,1089 834,1097 836,1097 843,1097 851,1091 856,1091"/>
           <TextEquiv>
             <Unicode>an/</Unicode>
           </TextEquiv>
@@ -657,7 +665,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671550964597_3429" custom="readingOrder {index:4;}">
-          <Coords points="581,1092 643,1093 683,1094 682,1145 639,1147 579,1146"/>
+          <Coords points="581,1092 579,1146 639,1147 682,1145 683,1094 678,1093 663,1100 641,1093 621,1095 618,1092"/>
           <TextEquiv>
             <Unicode>Kind/</Unicode>
           </TextEquiv>
@@ -700,7 +708,7 @@
         <Coords points="800,1159 915,1159 973,1160 972,1192 826,1192 820,1190 808,1190 800,1185"/>
         <Baseline points="800,1181 973,1191"/>
         <Word id="word_1671549618194_3072" custom="readingOrder {index:0;}">
-          <Coords points="864,1153 932,1154 933,1192 865,1192"/>
+          <Coords points="932,1159 915,1159 864,1159 865,1192 933,1192"/>
           <TextEquiv conf="0.9138309">
             <Unicode>fen.</Unicode>
           </TextEquiv>
@@ -728,10 +736,10 @@ Mops. Es geht ihm alles gluͤklich an/
 Da komt ſein liebſtes Kind/ die Rahel mit den Schaa⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="TextRegion_1671549618155_3062" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1671549618155_3062" custom="readingOrder {index:6;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="209,1192 973,1192 973,1246 209,1246"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
-        <Coords points="563,1183 550,1191 497,1190 488,1186 477,1186 473,1189 431,1186 381,1188 376,1184 353,1187 345,1181 337,1181 332,1185 311,1183 280,1187 257,1182 210,1180 209,1238 312,1239 317,1243 332,1243 341,1238 403,1234 541,1236 568,1236 589,1246 652,1246 673,1241 702,1239 822,1245 972,1246 972,1206 922,1205 914,1201 897,1204 892,1200 881,1199 870,1204 863,1200 845,1201 836,1197 811,1199 810,1192 803,1189 783,1191 773,1195 766,1189 752,1189 748,1186 739,1186 731,1191 703,1186 693,1192 679,1193 643,1184"/>
+        <Coords points="209,1238 312,1239 317,1243 332,1243 341,1238 403,1234 541,1236 568,1236 589,1246 652,1246 673,1241 702,1239 822,1245 972,1246 972,1206 922,1205 914,1201 897,1204 892,1200 881,1199 870,1204 863,1200 845,1201 836,1197 811,1199 810,1192 780,1192 773,1195 769,1192 693,1192 679,1193 675,1192 209,1192"/>
         <Baseline points="209,1229 398,1224 972,1239"/>
         <Word id="word_1671549618192_3065" custom="readingOrder {index:0;}">
           <Coords points="214,1192 282,1192 282,1232 214,1231"/>
@@ -783,7 +791,7 @@ Da komt ſein liebſtes Kind/ die Rahel mit den Schaa⸗</Unicode>
         <Unicode>Die Hirten treten ab: Jacob bleibet alleine:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:7;}">
+    <TextRegion id="region0004" custom="readingOrder {index:7;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="162,1240 1062,1240 1062,1428 162,1428"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="632,1241 626,1245 598,1241 592,1245 574,1247 529,1240 471,1243 462,1240 446,1241 435,1248 421,1247 413,1241 402,1241 394,1247 390,1241 372,1240 370,1249 340,1252 297,1250 287,1244 275,1244 270,1247 258,1243 163,1241 162,1296 240,1297 247,1304 259,1306 268,1297 285,1301 301,1297 319,1304 355,1303 392,1297 398,1303 418,1303 429,1296 452,1300 461,1295 469,1295 478,1299 504,1300 512,1297 586,1301 597,1298 627,1305 637,1298 642,1298 653,1303 664,1299 700,1306 741,1307 747,1312 759,1313 766,1310 767,1306 837,1307 849,1302 856,1303 864,1309 877,1309 884,1306 943,1307 957,1302 1004,1307 1016,1303 1025,1306 1030,1303 1061,1302 1062,1255 976,1253 968,1257 928,1260 919,1253 908,1252 898,1259 827,1248 815,1254 774,1255 769,1246 761,1244 752,1244 744,1252 738,1252 732,1245 718,1245 712,1250 707,1246 682,1249 665,1246 658,1241"/>
@@ -825,7 +833,7 @@ Da komt ſein liebſtes Kind/ die Rahel mit den Schaa⸗</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671549878277_3209" custom="readingOrder {index:6;}">
-          <Coords points="818,1260 1036,1254 1054,1254 1054,1302 1025,1306 995,1306 817,1303"/>
+          <Coords points="818,1260 817,1303 845,1303 849,1302 856,1303 857,1304 948,1305 957,1302 995,1306 995,1306 1007,1306 1016,1303 1025,1306 1030,1303 1052,1302 1054,1302 1054,1255 1028,1254 970,1256 968,1257 928,1260 924,1257 900,1258 898,1259 891,1258"/>
           <TextEquiv>
             <Unicode>Gnadenblik/</Unicode>
           </TextEquiv>
@@ -899,7 +907,7 @@ Da komt ſein liebſtes Kind/ die Rahel mit den Schaa⸗</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671551026811_3460" custom="readingOrder {index:1;}">
-          <Coords points="262,1361 390,1358 401,1358 401,1411 349,1412 338,1412 261,1403"/>
+          <Coords points="401,1358 390,1358 262,1361 261,1403 262,1403 332,1406 338,1412 349,1412 357,1407 401,1407"/>
           <TextEquiv>
             <Unicode>Rahel/</Unicode>
           </TextEquiv>
@@ -926,7 +934,7 @@ Jch ſeh auf dieſer Welt kein angenehmer Gluͤk/
 Als Rahel/ Labans Kind.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="TextRegion_1671549641199_3084" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1671549641199_3084" custom="readingOrder {index:8;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="160,1433 1155,1433 1155,1540 160,1540"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="409,1434 410,1443 370,1441 366,1438 348,1439 337,1434 326,1434 322,1437 317,1434 160,1433 160,1484 262,1486 319,1482 361,1485 388,1481 394,1485 412,1484 422,1490 432,1487 442,1491 450,1489 452,1484 461,1483 473,1485 477,1492 482,1493 506,1490 551,1493 558,1489 585,1489 592,1495 638,1497 649,1495 660,1498 691,1496 700,1492 712,1496 758,1493 773,1489 790,1494 827,1494 834,1498 867,1493 939,1498 950,1505 958,1505 964,1499 1122,1507 1127,1513 1155,1508 1155,1460 1146,1453 1127,1455 1122,1459 1079,1458 1028,1454 1021,1448 1012,1448 1006,1453 968,1451 959,1450 953,1443 945,1442 935,1445 932,1449 913,1450 852,1450 845,1444 821,1443 815,1449 782,1444 772,1451 698,1451 693,1446 674,1445 660,1452 612,1452 600,1451 595,1447 585,1446 579,1450 501,1447 492,1440 466,1439 461,1443 456,1439 442,1438 435,1444 426,1444 428,1434"/>
@@ -944,7 +952,7 @@ Als Rahel/ Labans Kind.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671549907928_3230" custom="readingOrder {index:2;}">
-          <Coords points="411,1438 446,1438 492,1440 544,1448 544,1492 442,1491 422,1490 410,1484"/>
+          <Coords points="411,1438 410,1484 410,1484 412,1484 422,1490 432,1487 442,1491 450,1489 452,1484 461,1483 473,1485 477,1491 494,1492 506,1490 535,1492 544,1492 544,1449 501,1447 492,1440 466,1439 461,1443 456,1439 442,1438 435,1444 426,1444 427,1438"/>
           <TextEquiv>
             <Unicode>pfeifen/</Unicode>
           </TextEquiv>
@@ -990,7 +998,7 @@ Als Rahel/ Labans Kind.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0002" custom="readingOrder {index:1;}">
-        <Coords points="380,1482 361,1487 331,1486 319,1483 238,1489 233,1494 232,1527 239,1533 307,1533 314,1538 343,1531 366,1531 372,1537 381,1537 388,1530 471,1528 509,1532 529,1530 537,1536 567,1540 728,1538 754,1538 759,1542 770,1543 779,1537 902,1538 907,1533 908,1506 905,1502 862,1495 834,1499 821,1494 790,1495 772,1490 747,1495 712,1497 700,1493 683,1498 659,1499 645,1495 633,1498 592,1496 585,1490 558,1490 551,1494 506,1491 482,1494 477,1493 473,1486 461,1484 452,1485 450,1490 442,1492 432,1488 422,1491 412,1485 400,1487"/>
+        <Coords points="361,1487 331,1486 319,1483 238,1489 233,1494 232,1527 239,1533 307,1533 314,1538 343,1531 366,1531 372,1537 381,1537 388,1530 471,1528 509,1532 529,1530 537,1536 567,1540 728,1538 754,1538 756,1540 774,1540 779,1537 902,1538 907,1533 908,1506 905,1502 862,1495 834,1499 821,1494 790,1495 772,1490 747,1495 712,1497 700,1493 683,1498 659,1499 645,1495 633,1498 592,1496 585,1490 558,1490 551,1494 506,1491 482,1494 477,1493 473,1486 461,1484 452,1485 450,1490 442,1492 432,1488 422,1491 412,1485 400,1487 380,1482"/>
         <Baseline points="233,1522 908,1527"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="399,1491 300,1490 299,1533 307,1533 308,1534 329,1534 343,1531 366,1531 369,1534 383,1534 388,1530 398,1529"/>
@@ -1037,10 +1045,10 @@ Als Rahel/ Labans Kind.</Unicode>
 Hauſe treiben. Jacob redet ſie an:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" readingDirection="left-to-right" id="TextRegion_1671549651030_3094" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1671549651030_3094" custom="readingOrder {index:9;}" orientation="-0.95877063" readingDirection="left-to-right">
       <Coords points="160,1540 1155,1540 1155,1810 1123,1864 158,1864 158,1802"/>
       <TextLine id="region0005_line0003" custom="readingOrder {index:0;}">
-        <Coords points="471,1529 463,1533 407,1536 379,1546 313,1548 307,1542 297,1542 286,1547 163,1547 160,1549 161,1582 222,1589 256,1587 318,1591 379,1588 395,1595 445,1600 469,1599 477,1591 487,1595 500,1593 506,1596 545,1595 621,1599 634,1596 643,1600 665,1601 673,1597 685,1597 695,1605 706,1606 714,1602 739,1602 747,1596 784,1598 792,1601 890,1602 919,1595 935,1595 940,1590 941,1557 936,1552 860,1550 837,1553 831,1542 820,1540 814,1544 811,1552 799,1552 795,1549 767,1552 742,1546 734,1552 716,1552 710,1546 696,1544 686,1552 639,1551 616,1540 605,1540 595,1546 582,1541 537,1537 532,1532 521,1530 516,1538 502,1539 488,1535 483,1530"/>
+        <Coords points="379,1546 313,1548 307,1542 297,1542 286,1547 163,1547 160,1549 161,1582 222,1589 256,1587 318,1591 379,1588 395,1595 445,1600 469,1599 477,1591 487,1595 500,1593 506,1596 545,1595 621,1599 634,1596 643,1600 665,1601 673,1597 685,1597 695,1605 706,1606 714,1602 739,1602 747,1596 784,1598 792,1601 890,1602 919,1595 935,1595 940,1590 941,1557 936,1552 860,1550 837,1553 831,1542 820,1540 814,1544 811,1552 799,1552 795,1549 767,1552 742,1546 734,1552 716,1552 710,1546 696,1544 686,1552 639,1551 616,1540 605,1540 595,1546 582,1541 570,1540 395,1540"/>
         <Baseline points="160,1575 455,1586 941,1587"/>
         <Word id="region0005_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="214,1547 260,1548 260,1576 214,1575"/>
@@ -1079,7 +1087,7 @@ Hauſe treiben. Jacob redet ſie an:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671551108121_3508" custom="readingOrder {index:6;}">
-          <Coords points="820,1540 831,1542 870,1550 870,1601 799,1601 799,1552"/>
+          <Coords points="820,1540 814,1544 811,1552 799,1552 799,1601 870,1601 870,1550 860,1550 837,1553 831,1542"/>
           <TextEquiv>
             <Unicode>ein/</Unicode>
           </TextEquiv>
@@ -1128,7 +1136,7 @@ Hauſe treiben. Jacob redet ſie an:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671549893645_3218" custom="readingOrder {index:6;}">
-          <Coords points="740,1605 871,1607 991,1609 1025,1610 1025,1664 1000,1665 882,1663 752,1655 739,1653"/>
+          <Coords points="740,1605 739,1652 752,1655 779,1652 786,1657 890,1663 891,1663 984,1664 1012,1664 1025,1664 1025,1610 991,1610 990,1608 874,1607 861,1608 821,1606"/>
           <TextEquiv>
             <Unicode>Sonnenſchein/</Unicode>
           </TextEquiv>
@@ -1165,7 +1173,7 @@ Hauſe treiben. Jacob redet ſie an:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671549896822_3222" custom="readingOrder {index:4;}">
-          <Coords points="655,1658 794,1660 828,1662 828,1710 771,1713 759,1712 654,1701"/>
+          <Coords points="655,1658 654,1701 659,1701 675,1701 694,1704 712,1701 718,1706 752,1708 758,1712 759,1712 771,1713 771,1713 776,1710 828,1710 828,1662 787,1660 787,1660"/>
           <TextEquiv>
             <Unicode>beſtrafen/</Unicode>
           </TextEquiv>
@@ -1237,7 +1245,7 @@ Hauſe treiben. Jacob redet ſie an:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:5;}">
-        <Coords points="639,1802 633,1808 568,1802 530,1803 504,1807 499,1803 472,1803 469,1808 453,1808 400,1805 398,1802 332,1806 288,1805 286,1802 262,1805 158,1802 158,1857 203,1861 207,1864 226,1861 306,1862 318,1863 324,1870 335,1870 351,1864 404,1859 455,1862 466,1868 499,1869 507,1865 523,1864 553,1865 559,1870 574,1870 580,1865 630,1865 636,1872 649,1873 655,1865 879,1871 884,1866 884,1840 880,1835 866,1834 866,1818 861,1813 800,1813 796,1810 785,1810 781,1813 763,1812 757,1804 731,1805 725,1810 717,1806 705,1805 701,1808 696,1804 661,1808 657,1803"/>
+        <Coords points="633,1808 568,1802 530,1803 504,1807 499,1803 472,1803 469,1808 453,1808 400,1805 398,1802 332,1806 288,1805 286,1802 262,1805 158,1802 158,1857 203,1861 207,1864 226,1861 306,1862 318,1863 318,1864 351,1864 404,1859 455,1862 458,1864 523,1864 884,1864 884,1840 880,1835 866,1834 866,1818 861,1813 800,1813 796,1810 785,1810 781,1813 763,1812 757,1804 731,1805 725,1810 717,1806 705,1805 701,1808 696,1804 661,1808 657,1803 639,1802"/>
         <Baseline points="158,1850 884,1862"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="251,1814 164,1812 163,1857 201,1860 223,1861 226,1861 250,1861"/>
@@ -1282,10 +1290,10 @@ Wenn ihr mit euren Schaafen
 So fruͤh eintreibet/</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.95877063" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671549651030_3093" custom="readingOrder {index:10;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671549651030_3093" custom="readingOrder {index:10;} structure {type:catch-word;}" orientation="-0.95877063" type="catch-word" readingDirection="left-to-right">
       <Coords points="158,1864 1123,1864 1095,1912 158,1912"/>
       <TextLine id="region0006_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1056,1860 1051,1864 1043,1861 923,1861 918,1866 917,1902 920,1911 1094,1912 1095,1876 1086,1875 1079,1863"/>
+        <Coords points="918,1866 917,1902 920,1911 1094,1912 1095,1876 1086,1875 1079,1864 1051,1864 920,1864"/>
         <Baseline points="920,1906 1094,1906"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="989,1872 988,1911 1016,1911 1090,1911 1090,1875 1086,1875 1085,1873"/>
@@ -1301,5 +1309,11 @@ So fruͤh eintreibet/</Unicode>
         <Unicode>Meli-</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1671549569850_3052" custom="readingOrder {index:0;}">
+      <Coords points="729,213 790,213 790,272 729,272"/>
+    </GraphicRegion>
+    <GraphicRegion id="Graphic_1671549567843_3049" custom="readingOrder {index:1;}">
+      <Coords points="536,205 617,205 617,267 536,267"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

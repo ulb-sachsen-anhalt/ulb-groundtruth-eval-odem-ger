@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-592">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:05Z</Created>
     <LastChange>2024-01-19T13:09:05Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6f7835a4-be4b-478b-94cb-fcf433d15140/00000097.jpg" imageWidth="1577" imageHeight="2541" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.34372392" type="header" readingDirection="left-to-right" id="TextRegion_1673342407211_727" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1673342407211_727" custom="readingOrder {index:0;} structure {type:header;}" orientation="0.34372392" type="header" readingDirection="left-to-right">
       <Coords points="469,394 954,394 954,468 469,468"/>
       <TextLine id="line_1673342407251_730" custom="readingOrder {index:0;}">
         <Coords points="469,395 546,395 549,399 554,398 591,394 631,394 678,401 714,400 718,395 732,394 736,399 775,400 954,397 954,435 923,435 909,437 909,450 904,455 709,460 657,464 652,468 635,468 633,465 469,464"/>
@@ -43,7 +57,7 @@
         <Unicode>Die Spartaner.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.34372392" type="page-number" readingDirection="left-to-right" id="TextRegion_1673342407211_726" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673342407211_726" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.34372392" type="page-number" readingDirection="left-to-right">
       <Coords points="954,394 1118,394 1118,468 954,468"/>
       <TextLine id="line_1673342407251_729" custom="readingOrder {index:0;}">
         <Coords points="954,397 1117,396 1117,459 1071,466 1002,468 997,463 996,443 975,443 969,435 954,435"/>
@@ -62,7 +76,7 @@
         <Unicode>91</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.34372392" readingDirection="left-to-right" id="TextRegion_1673342436817_738" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673342436817_738" custom="readingOrder {index:2;}" orientation="0.34372392" readingDirection="left-to-right">
       <Coords points="195,486 1137,486 1137,2000 195,2000"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="222,490 217,494 215,501 204,500 195,504 195,554 213,551 218,555 262,557 269,565 281,564 289,556 318,556 322,563 333,564 340,554 383,554 390,561 399,561 406,554 453,552 457,549 470,548 641,549 645,557 660,557 667,554 669,548 696,548 701,555 709,557 721,555 735,546 813,543 819,552 830,553 836,543 870,541 876,541 883,550 894,549 899,541 970,541 977,549 986,549 993,542 1037,543 1043,544 1055,553 1067,552 1078,544 1136,543 1136,495 1051,496 1021,491 1016,487 859,487 854,492 836,495 684,502 666,502 660,492 632,492 626,496 624,502 604,504 429,501 425,504 371,507 360,495 350,495 345,499 339,495 329,495 317,506 289,507 240,505 234,491"/>
@@ -569,7 +583,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673342541983_797" custom="readingOrder {index:2;}">
-          <Coords points="377,1038 508,1037 523,1038 533,1039 533,1087 520,1088 377,1086"/>
+          <Coords points="377,1038 377,1086 383,1086 385,1086 387,1086 465,1087 490,1086 495,1088 520,1088 533,1087 533,1039 507,1037 445,1037 444,1038 425,1041 417,1040 416,1038"/>
           <TextEquiv>
             <Unicode>dienlich/</Unicode>
           </TextEquiv>
@@ -1343,7 +1357,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0025" custom="readingOrder {index:24;}">
-        <Coords points="244,1941 195,1943 196,2006 211,2006 219,2014 229,2015 240,2001 252,2001 257,2011 269,2012 277,2000 303,1998 327,2000 329,2007 334,2011 359,2012 364,2015 421,2009 508,2010 551,2006 670,2005 697,2010 707,2015 721,2015 726,2010 757,2007 765,2015 777,2016 786,2015 793,2004 803,2003 928,2002 935,2015 945,2016 950,2011 952,2001 1023,2001 1034,2006 1044,2001 1094,1995 1137,1994 1136,1945 1117,1939 1112,1940 1099,1948 1029,1952 1021,1952 1017,1948 1004,1948 1000,1952 976,1953 962,1952 951,1945 939,1946 931,1950 906,1944 839,1944 812,1954 800,1954 790,1945 779,1946 768,1947 759,1955 736,1957 682,1957 670,1954 664,1948 653,1948 646,1957 545,1960 512,1957 481,1948 473,1948 459,1954 448,1952 370,1948 312,1951 275,1942"/>
+        <Coords points="195,1943 195,2000 277,2000 303,1998 327,2000 1052,2000 1094,1995 1137,1994 1136,1945 1117,1939 1112,1940 1099,1948 1029,1952 1021,1952 1017,1948 1004,1948 1000,1952 976,1953 962,1952 951,1945 939,1946 931,1950 906,1944 839,1944 812,1954 800,1954 790,1945 779,1946 768,1947 759,1955 736,1957 682,1957 670,1954 664,1948 653,1948 646,1957 545,1960 512,1957 481,1948 473,1948 459,1954 448,1952 370,1948 312,1951 275,1942 244,1941"/>
         <Baseline points="196,1994 326,1988 374,2000"/>
         <Word id="word_1673342436862_741" custom="readingOrder {index:0;}">
           <Coords points="213,1955 326,1954 326,1999 303,1998 277,2000 213,2000"/>
@@ -1425,7 +1439,7 @@ ne immerwaͤhrende Ordnung und Sicherheit zu
 ſtiften ¹). Er war mit groſſem Verſtand, mit</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.34372392" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673342436817_737" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673342436817_737" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="0.34372392" type="catch-word" readingDirection="left-to-right">
       <Coords points="195,2000 1137,2000 1137,2060 195,2060"/>
       <TextLine id="region0001_line0026" custom="readingOrder {index:0;}">
         <Coords points="1067,2000 1062,2003 1044,2002 1034,2007 1024,2003 1007,2003 968,2009 961,2021 962,2056 966,2059 1019,2059 1089,2055 1095,2060 1117,2059 1124,2053 1137,2052 1137,2007 1107,2008"/>
@@ -1444,7 +1458,7 @@ ne immerwaͤhrende Ordnung und Sicherheit zu
         <Unicode>Klug⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.34372392" type="footnote" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="region0002" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="0.34372392" type="footnote" readingDirection="left-to-right">
       <Coords points="249,2074 1136,2074 1136,2176 249,2176"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1081,2074 1053,2078 1025,2075 1020,2079 993,2084 950,2087 917,2087 912,2083 898,2083 886,2088 872,2089 818,2086 776,2087 727,2093 683,2091 676,2087 656,2092 643,2086 631,2089 617,2086 571,2088 552,2093 509,2091 504,2087 494,2088 489,2092 466,2092 392,2088 384,2080 372,2081 362,2087 319,2083 278,2084 249,2091 250,2136 300,2134 314,2130 327,2132 338,2126 349,2126 355,2130 406,2130 410,2127 420,2127 490,2133 509,2129 578,2132 595,2129 623,2133 678,2133 706,2138 756,2133 912,2133 916,2130 1121,2119 1136,2116 1135,2077"/>

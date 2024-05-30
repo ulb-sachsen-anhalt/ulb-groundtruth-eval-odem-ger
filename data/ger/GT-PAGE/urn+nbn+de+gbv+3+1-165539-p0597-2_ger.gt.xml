@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-135">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:31Z</Created>
     <LastChange>2024-01-19T13:07:31Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/c4b481d3-acc8-4f30-950a-854985040acf/00000597.jpg" imageWidth="1597" imageHeight="2358" type="content" primaryLanguage="German">
     <Border>
@@ -20,10 +34,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1674028739351_748"/>
       </OrderedGroup>
     </ReadingOrder>
-    <NoiseRegion id="Noise_1674028791083_768" custom="readingOrder {index:0;}">
-      <Coords points="1002,762 1114,762 1114,889 1002,889"/>
-    </NoiseRegion>
-    <TextRegion orientation="-0.519361" type="header" readingDirection="left-to-right" id="TextRegion_1674028667642_703" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1674028667642_703" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.519361" type="header" readingDirection="left-to-right">
       <Coords points="203,304 853,304 853,378 203,378"/>
       <TextLine id="line_1674028667681_706" custom="readingOrder {index:0;}">
         <Coords points="213,305 223,307 233,317 249,317 283,313 349,313 413,308 419,305 484,310 503,314 540,309 590,308 693,314 700,313 709,305 726,305 734,311 765,308 770,304 850,308 853,308 853,368 815,364 783,364 773,373 764,372 758,365 750,372 740,372 734,366 724,375 713,375 706,366 700,366 693,373 684,373 676,366 538,365 492,368 488,371 457,370 452,378 437,377 432,370 426,371 423,377 412,378 388,378 385,372 310,372 306,375 297,375 293,372 203,368 204,316"/>
@@ -54,7 +65,7 @@
         <Unicode>der Wolffiſchen Metaphyſick. 383</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.519361" type="page-number" readingDirection="left-to-right" id="TextRegion_1674028667642_702" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1674028667642_702" custom="readingOrder {index:2;} structure {type:page-number;}" orientation="-0.519361" type="page-number" readingDirection="left-to-right">
       <Coords points="853,304 937,304 937,378 853,378"/>
       <TextLine id="line_1674028667681_705" custom="readingOrder {index:0;}">
         <Coords points="853,308 896,317 937,319 936,370 865,370 853,368"/>
@@ -73,7 +84,7 @@
         <Unicode>583</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.519361" readingDirection="left-to-right" id="TextRegion_1674028702349_716" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1674028702349_716" custom="readingOrder {index:3;}" orientation="-0.519361" readingDirection="left-to-right">
       <Coords points="152,397 946,397 946,1291 414,1348 156,1348 152,1291"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="783,398 758,400 736,398 726,403 699,405 639,403 627,402 623,397 606,397 596,402 524,405 518,405 514,397 493,397 486,406 410,408 383,405 378,409 344,409 329,398 315,398 304,407 294,408 287,408 285,401 280,397 253,398 244,408 225,405 220,400 206,402 176,398 171,401 153,401 152,455 173,451 186,452 190,456 227,454 240,456 246,463 258,464 263,462 266,456 300,456 307,462 316,462 330,456 355,454 387,457 458,454 472,449 483,450 490,458 498,459 507,456 511,451 522,448 540,452 576,451 603,459 614,459 620,455 639,454 648,450 699,453 709,450 719,451 728,459 740,463 753,457 799,451 822,451 833,447 883,452 889,457 898,458 907,454 946,452 946,411 869,403 862,398 852,398 847,402 829,401 827,398"/>
@@ -318,7 +329,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1674028837861_784" custom="readingOrder {index:3;}">
-          <Coords points="635,662 674,659 691,659 806,660 819,666 818,708 660,714 641,714 634,708"/>
+          <Coords points="635,662 634,708 635,709 639,709 641,714 660,714 662,714 666,708 738,707 743,704 769,706 785,706 790,703 803,703 811,708 818,708 819,666 808,666 806,660 788,660 782,665 771,666 697,666 691,659 674,659 672,659 668,664 663,664 662,660"/>
           <TextEquiv>
             <Unicode>ſyſtematis</Unicode>
           </TextEquiv>
@@ -840,10 +851,10 @@ mortalitate animæ in ſyſtemate influxus
 phyſici ſalva.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.519361" readingDirection="left-to-right" id="TextRegion_1674028751296_757" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1674028751296_757" custom="readingOrder {index:4;}" orientation="-0.519361" readingDirection="left-to-right">
       <Coords points="260,1379 952,1383 952,2016 154,2016 154,1591 155,1436"/>
       <TextLine id="line_1674028734346_738" custom="readingOrder {index:0;}">
-        <Coords points="261,1383 322,1384 339,1394 360,1396 421,1394 434,1392 455,1384 504,1382 544,1383 591,1392 613,1392 619,1384 630,1383 640,1392 662,1392 695,1385 712,1385 717,1381 732,1381 739,1385 776,1390 798,1389 802,1392 819,1392 832,1379 853,1379 864,1392 903,1393 911,1384 924,1386 936,1383 952,1382 952,1438 938,1440 841,1440 834,1450 822,1449 818,1440 754,1443 487,1442 480,1447 472,1447 466,1442 429,1440 376,1445 368,1450 348,1447 297,1452 260,1452"/>
+        <Coords points="712,1385 695,1385 662,1392 640,1392 630,1383 619,1384 613,1392 591,1392 544,1383 504,1382 455,1384 434,1392 421,1394 360,1396 339,1394 322,1384 261,1383 260,1452 297,1452 348,1447 368,1450 376,1445 429,1440 466,1442 472,1447 480,1447 487,1442 754,1443 818,1440 822,1449 834,1450 841,1440 938,1440 952,1438 952,1383 937,1382 936,1383 924,1386 911,1384 903,1393 864,1392 855,1382 828,1382 819,1392 802,1392 798,1389 776,1390 739,1385 733,1381 716,1381"/>
         <Baseline points="260,1438 952,1424"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="265,1440 301,1440 301,1383 265,1383"/>
@@ -1310,7 +1321,7 @@ phyſici ſalva.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0008" custom="readingOrder {index:11;}">
-        <Coords points="918,1956 908,1966 889,1965 882,1956 874,1956 870,1961 856,1958 849,1964 803,1964 797,1958 772,1960 758,1956 749,1964 738,1959 729,1959 721,1963 693,1962 675,1966 643,1966 632,1970 616,1969 609,1972 588,1968 513,1965 419,1971 406,1963 380,1962 306,1968 286,1968 274,1963 261,1968 229,1972 214,1965 155,1964 154,2014 201,2016 220,2019 229,2025 245,2025 251,2021 305,2021 309,2018 377,2021 387,2024 457,2020 469,2021 475,2027 494,2028 508,2020 543,2021 553,2026 563,2027 572,2022 607,2020 706,2023 760,2015 772,2015 777,2023 787,2025 800,2016 852,2011 923,2012 945,2009 946,1967 933,1967 931,1959"/>
+        <Coords points="908,1966 889,1965 882,1956 874,1956 870,1961 856,1958 849,1964 803,1964 797,1958 772,1960 758,1956 749,1964 738,1959 729,1959 721,1963 693,1962 675,1966 643,1966 632,1970 616,1969 609,1972 588,1968 513,1965 419,1971 406,1963 380,1962 306,1968 286,1968 274,1963 261,1968 229,1972 214,1965 155,1964 154,2014 201,2016 753,2016 760,2015 772,2015 772,2016 800,2016 852,2011 923,2012 945,2009 946,1967 933,1967 931,1959 918,1956"/>
         <Baseline points="154,2004 663,2011 945,1999"/>
         <Word id="region0011_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="161,2012 251,2013 251,1969 229,1972 214,1965 161,1964"/>
@@ -1367,7 +1378,7 @@ hergeleitet wiſſen; wohl aber die Rich⸗
 tung derer Bewegungen. Gleich wie ei⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.519361" type="catch-word" readingDirection="left-to-right" id="TextRegion_1674028751295_756" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1674028751295_756" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="-0.519361" type="catch-word" readingDirection="left-to-right">
       <Coords points="154,2016 952,2016 952,2039 946,2062 154,2062"/>
       <TextLine id="line_1674028751334_759" custom="readingOrder {index:0;}">
         <Coords points="816,2019 838,2016 945,2016 945,2062 814,2062 811,2057 811,2024"/>
@@ -1386,7 +1397,7 @@ tung derer Bewegungen. Gleich wie ei⸗</Unicode>
         <Unicode>ner</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.519361" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674028739351_748" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674028739351_748" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="-0.519361" type="marginalia" readingDirection="left-to-right">
       <Coords points="952,1383 1104,1385 1115,1548 1065,1607 1062,1615 952,1615"/>
       <TextLine id="line_1674028734346_737" custom="readingOrder {index:0;}">
         <Coords points="952,1382 980,1382 1054,1390 1054,1432 987,1433 952,1438"/>
@@ -1418,7 +1429,7 @@ tung derer Bewegungen. Gleich wie ei⸗</Unicode>
         <Coords points="952,1485 985,1480 1103,1472 1104,1509 954,1515"/>
         <Baseline points="952,1548 960,1551 1002,1552"/>
         <Word id="word_1674029100134_887" custom="readingOrder {index:0;}">
-          <Coords points="964,1483 1105,1483 1105,1513 964,1513"/>
+          <Coords points="965,1483 964,1483 964,1513 1004,1513 1104,1509 1103,1483"/>
           <TextEquiv>
             <Unicode>aniſchen</Unicode>
           </TextEquiv>
@@ -1431,7 +1442,7 @@ tung derer Bewegungen. Gleich wie ei⸗</Unicode>
         <Coords points="964,1520 969,1557 973,1561 979,1564 993,1564 999,1570 1059,1572 1091,1562 1080,1518"/>
         <Baseline points="969,1552 1059,1552"/>
         <Word id="region0010_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="967,1516 969,1562 1069,1560 1067,1520"/>
+          <Coords points="968,1554 969,1557 973,1561 974,1561 1069,1560 1067,1520 1035,1518 967,1519"/>
           <TextEquiv>
             <Unicode>Syſte⸗</Unicode>
           </TextEquiv>
@@ -1461,5 +1472,8 @@ aa) Deren IJnnhalt 9. 763. Carteſius mate.
 Syſte⸗</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1674028791083_768" custom="readingOrder {index:0;}">
+      <Coords points="1002,762 1114,762 1114,889 1002,889"/>
+    </NoiseRegion>
   </Page>
 </PcGts>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-688">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:22Z</Created>
     <LastChange>2024-01-19T13:09:22Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9dcbd4e2-19a3-417c-b35f-81d9440a6c12/00000030.jpg" imageWidth="1655" imageHeight="2359" type="content" primaryLanguage="German">
     <Border>
@@ -16,10 +30,10 @@
         <RegionRefIndexed index="1" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.091069154" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:0;}">
+    <TextRegion id="region0004" custom="readingOrder {index:0;}" orientation="0.091069154" readingDirection="left-to-right">
       <Coords points="923,440 1068,441 1068,502 923,501"/>
       <TextLine id="region0004_line" custom="readingOrder {index:0;}">
-        <Coords points="923,440 1087,440 1087,501 923,501"/>
+        <Coords points="1068,501 1068,441 923,440 923,501"/>
         <Word id="region0004_line_word0000" custom="readingOrder {index:0;}">
           <Coords points="962,501 962,453 929,453 929,501"/>
           <TextEquiv>
@@ -40,7 +54,7 @@
         <Unicode>§. 12.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.091069154" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:1;}">
+    <TextRegion id="region0005" custom="readingOrder {index:1;}" orientation="0.091069154" readingDirection="left-to-right">
       <Coords points="537,506 1476,510 1472,1356 533,1352"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="562,507 553,513 553,534 558,539 570,539 571,569 590,574 636,575 682,567 756,568 762,565 781,568 784,572 795,572 801,566 822,567 831,562 865,561 876,566 907,560 953,563 954,569 959,572 973,570 975,564 1039,564 1074,567 1075,571 1082,575 1090,575 1097,568 1103,568 1104,573 1109,576 1119,576 1128,568 1139,566 1229,567 1289,564 1297,571 1310,573 1322,563 1340,565 1344,568 1379,569 1386,577 1396,576 1403,570 1415,570 1426,579 1431,578 1438,568 1475,568 1475,528 1444,526 1438,516 1426,516 1419,524 1407,524 1399,512 1384,513 1373,522 1371,515 1365,510 1355,511 1348,521 1337,521 1318,519 1312,509 1299,509 1292,516 1283,518 1199,519 1171,520 1166,511 1154,510 1146,521 1131,522 1125,521 1121,512 1106,509 990,510 984,518 980,508 959,508 953,517 949,517 943,508 927,508 923,513 915,510 872,508 852,514 846,508 788,507 781,507 713,508 702,511 695,520 673,521 672,512 667,507"/>

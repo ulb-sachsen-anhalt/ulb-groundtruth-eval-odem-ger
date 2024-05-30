@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-411">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:34Z</Created>
     <LastChange>2024-01-19T13:08:34Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/84cf2ea2-8b2b-4186-830a-f97c9a3f3a83/00000167.jpg" imageWidth="1610" imageHeight="2285" type="content" primaryLanguage="German">
     <Border>
@@ -18,7 +32,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1661433250847_3030"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.85640216" readingDirection="left-to-right" id="TextRegion_1661433243301_3017" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1661433243301_3017" custom="readingOrder {index:0;}" orientation="0.85640216" readingDirection="left-to-right">
       <Coords points="195,412 1100,412 1108,989 1113,1360 1117,1767 1117,1938 199,1938 186,1791 169,1369 169,1306"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="598,413 589,416 584,423 560,427 553,427 546,417 533,418 527,427 517,427 511,418 501,418 493,423 487,418 478,418 473,422 460,420 453,429 443,429 436,419 424,420 419,425 406,425 401,428 397,420 383,419 371,429 350,431 292,431 288,428 274,431 244,431 233,421 224,422 219,426 213,423 199,423 195,424 196,474 377,475 386,479 399,477 408,482 418,482 424,474 430,473 441,480 490,476 492,479 505,481 517,478 519,473 538,473 543,478 559,479 573,471 597,468 606,464 635,466 719,462 734,467 794,465 799,470 813,470 819,464 831,461 874,460 875,466 881,470 899,471 916,470 921,467 934,471 961,465 1018,465 1030,470 1036,465 1100,464 1099,420 1058,420 1054,413 1039,413 1032,418 1030,413 1007,413 1003,419 969,420 968,412 864,413 857,417 841,417 816,413 749,413 745,417 722,417 707,416 704,412 686,413 683,420 677,420 647,412"/>
@@ -1441,7 +1455,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0003" custom="readingOrder {index:28;}">
-        <Coords points="795,1873 787,1882 758,1876 722,1876 683,1881 669,1889 656,1889 648,1883 630,1886 620,1883 610,1887 603,1883 592,1883 585,1885 580,1892 525,1895 499,1894 497,1888 492,1886 487,1886 476,1893 460,1885 423,1893 413,1892 409,1886 397,1886 390,1893 295,1894 290,1887 263,1888 258,1894 224,1890 215,1893 215,1943 261,1943 268,1952 277,1952 292,1942 326,1938 417,1940 623,1936 631,1946 642,1945 646,1935 717,1932 763,1928 783,1929 790,1937 800,1937 806,1929 810,1929 818,1936 827,1936 833,1929 990,1930 1006,1933 1116,1930 1115,1881 1100,1884 1091,1879 1062,1878 1047,1885 1037,1879 1029,1879 1022,1884 974,1886 970,1883 935,1885 929,1879 922,1879 915,1886 907,1886 834,1883 830,1875"/>
+        <Coords points="787,1882 758,1876 722,1876 683,1881 669,1889 656,1889 648,1883 630,1886 620,1883 610,1887 603,1883 592,1883 585,1885 580,1892 525,1895 499,1894 497,1888 492,1886 487,1886 476,1893 460,1885 423,1893 413,1892 409,1886 397,1886 390,1893 295,1894 290,1887 263,1888 258,1894 224,1890 215,1893 215,1938 326,1938 520,1938 623,1936 624,1938 644,1938 646,1935 717,1932 763,1928 783,1929 790,1937 800,1937 806,1929 810,1929 818,1936 827,1936 833,1929 990,1930 1006,1933 1116,1930 1115,1881 1100,1884 1091,1879 1062,1878 1047,1885 1037,1879 1029,1879 1022,1884 974,1886 970,1883 935,1885 929,1879 922,1879 915,1886 907,1886 834,1883 830,1875 795,1873"/>
         <Baseline points="215,1933 733,1919 1116,1919"/>
         <Word id="word_1661433243354_3020" custom="readingOrder {index:0;}">
           <Coords points="224,1893 246,1892 258,1894 259,1892 287,1892 287,1938 224,1938"/>
@@ -1527,7 +1541,7 @@ te mit ſich ſelbſt ſprechen, und ſich wohl vorſehen,
 daß er mit keinem boͤſen Menſchen redete. Als</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.85640216" type="catch-word" readingDirection="left-to-right" id="TextRegion_1661433247229_3024" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1661433247229_3024" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="0.85640216" type="catch-word" readingDirection="left-to-right">
       <Coords points="199,1938 1117,1938 1117,1994 203,1994"/>
       <TextLine id="region0008_line0004" custom="readingOrder {index:0;}">
         <Coords points="1077,1937 1015,1941 1012,1945 1013,1978 1024,1982 1071,1981 1079,1995 1091,1993 1095,1981 1116,1981 1117,1937"/>
@@ -1546,10 +1560,10 @@ daß er mit keinem boͤſen Menſchen redete. Als</Unicode>
         <Unicode>er</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.85640216" type="footnote" readingDirection="left-to-right" id="TextRegion_1661433250847_3031" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1661433250847_3031" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="0.85640216" type="footnote" readingDirection="left-to-right">
       <Coords points="203,1994 714,1994 714,2107 214,2107"/>
       <TextLine id="region0008_line0005" custom="readingOrder {index:0;}">
-        <Coords points="327,1987 296,1993 274,1991 215,1995 214,2046 219,2049 279,2050 288,2046 287,2032 296,2031 293,2046 302,2050 316,2046 411,2040 523,2038 538,2040 552,2046 579,2047 604,2043 606,2026 647,2025 652,2019 651,1997 646,1993 520,1996 464,1996 459,1992 451,1992 446,1997 437,1997 413,1995 395,1986"/>
+        <Coords points="215,1995 214,2046 219,2049 279,2050 288,2046 287,2032 296,2031 293,2046 302,2050 316,2046 411,2040 523,2038 538,2040 552,2046 579,2047 604,2043 606,2026 647,2025 652,2019 651,1997 647,1994 604,1994 520,1996 464,1996 461,1994 449,1994 446,1997 437,1997 413,1995 411,1994 229,1994"/>
         <Baseline points="214,2035 287,2034 295,2034 605,2030"/>
         <Word id="region0008_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="319,2045 318,2002 263,2003 264,2046 287,2045 287,2032 296,2031 293,2045"/>
@@ -1627,7 +1641,7 @@ daß er mit keinem boͤſen Menſchen redete. Als</Unicode>
 N. G. Europa XVII Th.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.85640216" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1661433250847_3030" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1661433250847_3030" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="0.85640216" type="signature-mark" readingDirection="left-to-right">
       <Coords points="714,1994 1117,1994 1117,2107 714,2107"/>
       <TextLine id="line_1661433250878_3033" custom="readingOrder {index:0;}">
         <Coords points="714,2042 742,2048 744,2039 748,2036 815,2032 883,2033 886,2037 886,2068 884,2088 880,2091 752,2092 731,2097 714,2098"/>

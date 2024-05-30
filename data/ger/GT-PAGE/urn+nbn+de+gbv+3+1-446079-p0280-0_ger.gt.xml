@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-391">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:28Z</Created>
     <LastChange>2024-01-19T13:08:28Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/54b8f86f-174e-473a-8a45-0c0dff1329d7/00000280.jpg" imageWidth="1621" imageHeight="2424" type="content" primaryLanguage="German">
     <Border>
@@ -29,7 +43,7 @@
         <RegionRefIndexed index="14" regionRef="TextRegion_1671552228110_4029"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.7631546" type="page-number" readingDirection="left-to-right" id="TextRegion_1671552265311_4144" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671552265311_4144" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="0.7631546" type="page-number" readingDirection="left-to-right">
       <Coords points="498,303 606,303 606,395 498,395"/>
       <TextLine id="line_1671552265376_4147" custom="readingOrder {index:0;}">
         <Coords points="498,319 536,317 542,314 561,317 602,309 606,308 606,370 566,367 499,368"/>
@@ -48,7 +62,7 @@
         <Unicode>262 (C. i16.) Evangelium St. Johannis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="header" readingDirection="left-to-right" id="TextRegion_1671552265311_4143" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671552265311_4143" custom="readingOrder {index:1;} structure {type:header;}" orientation="0.7631546" type="header" readingDirection="left-to-right">
       <Coords points="606,303 1379,303 1379,395 606,395"/>
       <TextLine id="line_1671552265376_4146" custom="readingOrder {index:0;}">
         <Coords points="606,308 632,306 713,305 728,308 733,304 744,304 750,310 841,304 913,311 972,310 980,304 1005,303 1011,310 1037,309 1058,304 1232,303 1292,307 1322,307 1324,304 1378,304 1379,355 1265,357 1255,358 1248,367 1238,367 1233,362 1185,368 1079,365 1043,361 962,363 952,370 938,370 928,363 774,368 728,366 632,373 606,370"/>
@@ -91,25 +105,25 @@
         <Unicode>(C. 18.) Evangelium St. Johannis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="heading" readingDirection="left-to-right" id="TextRegion_1671552262321_4139" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1671552262321_4139" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.7631546" type="heading" readingDirection="left-to-right">
       <Coords points="691,394 1255,392 1255,459 691,461"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
-        <Coords points="697,408 698,444 754,457 810,453 824,454 826,462 842,461 845,453 895,453 901,459 915,459 925,452 960,454 964,451 1044,447 1089,451 1136,452 1142,457 1153,457 1158,452 1174,450 1243,444 1242,408 1223,394 1214,399 1191,401 1182,393 1172,393 1165,403 1153,403 1119,398 1109,391 1100,391 1088,397 1046,401 1035,401 1031,395 1021,394 1010,401 977,404 963,404 959,396 949,395 940,398 934,405 908,406 876,405 870,397 856,397 848,405 795,407 749,398"/>
+        <Coords points="698,444 754,457 810,453 824,454 825,460 842,460 845,453 895,453 901,459 915,459 925,452 960,454 964,451 1044,447 1089,451 1136,452 1142,457 1153,457 1158,452 1174,450 1243,444 1242,408 1223,394 1214,399 1191,401 1182,393 1172,393 1165,403 1153,403 1119,398 1111,392 1096,392 1088,397 1046,401 1035,401 1031,395 1021,394 1010,401 977,404 963,404 959,396 949,395 940,398 934,405 908,406 876,405 870,397 856,397 848,405 795,407 749,398 697,408"/>
         <Baseline points="635,449 1313,436"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="710,399 710,457 754,457 810,454 810,402 750,398"/>
+          <Coords points="710,447 754,457 810,453 810,406 795,407 749,398 749,398 710,406"/>
           <TextEquiv conf="0.9162792">
             <Unicode>Das</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="810,403 810,452 824,454 824,456 843,456 845,453 895,453 897,455 919,455 925,452 960,454 964,451 1044,447 1060,448 1060,402 990,402 977,404 963,404 962,403 935,403 934,405 908,406 876,405 875,403 848,404 848,405 795,407 784,404"/>
+          <Coords points="810,403 810,452 824,456 1060,448 1060,402"/>
           <TextEquiv conf="0.91831267">
             <Unicode>achtzehende</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1083,400 1084,450 1232,448 1244,447 1244,398 1215,398 1214,399 1191,401 1188,398 1167,398 1165,403 1153,403 1128,399"/>
+          <Coords points="1084,450 1190,448 1243,444 1242,408 1228,398 1215,398 1214,399 1191,401 1187,398 1168,398 1165,403 1153,403 1126,399 1083,400"/>
           <TextEquiv conf="0.9132693">
             <Unicode>Capitel.</Unicode>
           </TextEquiv>
@@ -122,7 +136,7 @@
         <Unicode>Das achtzehende Capitel.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671552245569_4108" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671552245569_4108" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="0.7631546" type="marginalia" readingDirection="left-to-right">
       <Coords points="503,468 556,468 556,588 503,588"/>
       <TextLine id="line_1671552245633_4111" custom="readingOrder {index:0;}">
         <Coords points="504,483 527,482 538,475 556,473 556,519 546,522 504,522"/>
@@ -141,7 +155,7 @@
         <Unicode>1.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" readingDirection="left-to-right" id="TextRegion_1671552245569_4107" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1671552245569_4107" custom="readingOrder {index:4;}" orientation="0.7631546" readingDirection="left-to-right">
       <Coords points="556,468 1454,468 1454,588 556,588"/>
       <TextLine id="line_1671552245633_4110" custom="readingOrder {index:0;}">
         <Coords points="556,473 573,473 623,473 632,478 653,479 680,477 684,480 689,480 694,473 704,473 719,478 742,478 751,472 780,471 789,478 813,471 840,474 844,469 862,471 869,477 950,475 968,469 1048,469 1076,473 1154,474 1220,471 1222,468 1267,472 1275,472 1276,469 1351,472 1418,469 1454,470 1454,507 1186,509 1154,512 1120,506 1111,511 1081,513 1071,510 1015,510 1010,505 1003,505 992,510 985,507 963,507 949,512 866,512 848,515 825,511 819,516 778,514 750,521 741,518 694,516 589,523 564,523 558,519 556,519"/>
@@ -290,7 +304,7 @@ gegen ihn ausgeſandten Schaar gefangen genommen. v.
 1— 11.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671552244319_4099" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671552244319_4099" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="0.7631546" type="marginalia" readingDirection="left-to-right">
       <Coords points="504,585 556,585 556,680 504,680"/>
       <TextLine id="line_1671552244391_4102" custom="readingOrder {index:0;}">
         <Coords points="504,605 530,606 544,597 556,596 556,641 505,644"/>
@@ -309,7 +323,7 @@ gegen ihn ausgeſandten Schaar gefangen genommen. v.
         <Unicode>2. Man fuͤhret ihn zu dem Hohenprieſter, in deſſen Pallaſt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" readingDirection="left-to-right" id="TextRegion_1671552244319_4098" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1671552244319_4098" custom="readingOrder {index:6;}" orientation="0.7631546" readingDirection="left-to-right">
       <Coords points="556,585 1457,585 1457,680 556,680"/>
       <TextLine id="line_1671552244391_4101" custom="readingOrder {index:0;}">
         <Coords points="556,596 583,596 650,602 660,600 665,595 677,595 687,591 698,590 719,600 744,599 748,596 771,598 780,590 800,594 806,599 879,595 886,590 896,590 901,595 941,594 977,588 1003,592 1013,586 1024,586 1030,594 1084,592 1092,586 1100,586 1106,592 1111,592 1118,586 1130,586 1139,592 1187,592 1206,591 1209,586 1229,585 1231,590 1249,590 1253,586 1283,590 1286,586 1310,585 1317,586 1319,592 1354,587 1452,585 1456,586 1456,629 1417,630 1411,625 1403,625 1396,630 1380,627 1363,633 1345,629 1297,630 1295,626 1288,629 1286,625 1267,629 1228,627 1224,624 1168,631 1157,627 1132,629 1124,626 1120,630 1115,630 1083,626 1065,632 1027,631 1021,634 994,629 980,637 974,637 968,632 899,632 853,635 845,638 818,631 813,634 804,633 796,639 789,636 756,637 709,640 698,634 690,635 680,642 662,637 556,641"/>
@@ -438,7 +452,7 @@ gegen ihn ausgeſandten Schaar gefangen genommen. v.
 Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:7;}">
+    <TextRegion id="region0007" custom="readingOrder {index:7;}" orientation="0.7631546" readingDirection="left-to-right">
       <Coords points="576,676 763,676 763,710 576,710"/>
       <TextLine id="region0007_line" custom="readingOrder {index:0;}">
         <Coords points="576,676 763,676 763,710 576,710"/>
@@ -468,7 +482,7 @@ Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
         <Unicode>v. 12 40.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671552237963_4035" custom="readingOrder {index:8;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671552237963_4035" custom="readingOrder {index:8;} structure {type:marginalia;}" orientation="0.7631546" type="marginalia" readingDirection="left-to-right">
       <Coords points="463,730 515,730 515,1780 463,1780"/>
       <TextLine id="line_1671552238018_4038" custom="readingOrder {index:0;}">
         <Coords points="463,751 479,751 481,741 487,737 515,734 515,795 507,794 464,795"/>
@@ -540,7 +554,7 @@ Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
         <Baseline points="463,1268 515,1266"/>
         <Word id="region0008_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="488,1244 507,1243 507,1270 488,1271"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>6</Unicode>
           </TextEquiv>
         </Word>
@@ -627,7 +641,7 @@ Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
 11 Malchus. * Da ſprach Jems au Petro: ſtecke dein</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1671552393919_4239" custom="readingOrder {index:9;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1671552393919_4239" custom="readingOrder {index:9;} structure {type:drop-capital;}" orientation="0.7631546" type="drop-capital" readingDirection="left-to-right">
       <Coords points="515,730 590,730 592,820 515,822"/>
       <TextLine id="line_1671552407470_4251" custom="readingOrder {index:0;}">
         <Coords points="515,734 540,733 590,735 592,820 515,822 515,796"/>
@@ -646,7 +660,7 @@ Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
         <Unicode>D</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" readingDirection="left-to-right" id="TextRegion_1671552393919_4238" custom="readingOrder {index:10;}">
+    <TextRegion id="TextRegion_1671552393919_4238" custom="readingOrder {index:10;}" orientation="0.7631546" readingDirection="left-to-right">
       <Coords points="590,730 1474,730 1474,1780 515,1780 515,822 592,820"/>
       <TextLine id="line_1671552393982_4242" custom="readingOrder {index:0;}">
         <Coords points="590,735 607,741 672,739 676,736 685,736 692,738 696,743 704,743 711,737 721,737 728,741 735,741 742,735 752,735 761,740 771,734 780,734 785,739 802,736 807,740 828,740 836,733 844,733 853,740 870,740 923,736 928,733 974,734 981,730 999,730 1002,735 1046,731 1050,734 1096,738 1124,736 1128,730 1144,730 1148,736 1156,737 1258,733 1262,730 1301,730 1304,735 1319,736 1360,733 1362,730 1383,730 1386,733 1420,733 1426,730 1473,730 1474,775 1457,775 1448,771 1423,771 1416,775 1355,777 1294,777 1283,774 1273,781 1263,777 1201,778 1182,781 1168,776 1153,777 1130,773 1124,779 1115,781 1106,779 1100,774 1070,780 1064,775 1026,774 986,782 980,778 965,776 914,780 908,776 886,775 875,786 838,782 799,787 779,784 771,778 764,778 758,782 750,781 745,785 737,779 732,779 646,792 636,792 632,787 621,786 614,791 599,789 591,795"/>
@@ -1409,7 +1423,7 @@ Petrus ihn verlaͤugnet, und zu Pilato, der ihn verhoͤrt.</Unicode>
         </Word>
         <Word id="region0008_line0013_word0004" custom="readingOrder {index:3;}">
           <Coords points="918,1233 822,1234 822,1258 855,1266 867,1266 875,1261 885,1260 891,1264 913,1261 918,1264"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>*Als</Unicode>
           </TextEquiv>
         </Word>
@@ -2261,7 +2275,7 @@ Schwerdt in die Scheide. Soll ich den Kelch nicht trin⸗
 ken, den mir mein Vater gegeben hat? a)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671552250629_4121" custom="readingOrder {index:11;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671552250629_4121" custom="readingOrder {index:11;} structure {type:marginalia;}" orientation="0.7631546" type="marginalia" readingDirection="left-to-right">
       <Coords points="467,1794 525,1794 525,2060 467,2060"/>
       <TextLine id="line_1671552250703_4124" custom="readingOrder {index:0;}">
         <Coords points="468,1815 525,1815 525,1850 516,1852 512,1856 468,1860"/>
@@ -2308,7 +2322,7 @@ ken, den mir mein Vater gegeben hat? a)</Unicode>
 14</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" readingDirection="left-to-right" id="TextRegion_1671552354163_4217" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1671552354163_4217" custom="readingOrder {index:12;}" orientation="0.7631546" readingDirection="left-to-right">
       <Coords points="525,1794 1478,1794 1478,2012 525,2012"/>
       <TextLine id="line_1671552250703_4123" custom="readingOrder {index:0;}">
         <Coords points="525,1815 532,1816 545,1812 595,1807 652,1807 669,1810 712,1806 751,1806 756,1811 765,1813 831,1812 837,1806 854,1804 860,1812 875,1812 932,1809 938,1805 949,1805 954,1809 984,1804 989,1808 1009,1808 1031,1801 1074,1799 1117,1805 1129,1798 1139,1798 1150,1807 1205,1805 1210,1801 1220,1801 1225,1805 1307,1803 1386,1805 1394,1800 1403,1800 1408,1803 1434,1800 1439,1803 1444,1799 1455,1799 1457,1794 1474,1794 1477,1799 1477,1848 1467,1845 1430,1847 1424,1843 1346,1847 1328,1844 1321,1850 1315,1850 1306,1845 1265,1842 1257,1845 1232,1844 1198,1847 1193,1851 1184,1851 1180,1849 1139,1849 1130,1852 1122,1848 1099,1848 1090,1844 1062,1847 1036,1844 1029,1848 995,1850 884,1853 791,1855 768,1850 761,1855 740,1858 665,1854 652,1858 603,1857 558,1846 525,1850"/>
@@ -2424,7 +2438,7 @@ ken, den mir mein Vater gegeben hat? a)</Unicode>
         <Coords points="525,1892 526,1892 612,1897 651,1896 663,1892 668,1895 680,1894 685,1898 739,1902 792,1898 800,1894 810,1893 815,1897 847,1899 853,1896 887,1894 896,1889 922,1891 928,1896 934,1896 940,1893 967,1891 974,1887 985,1887 1010,1894 1043,1895 1074,1891 1088,1886 1103,1890 1147,1889 1155,1893 1164,1889 1189,1888 1195,1885 1235,1888 1267,1884 1279,1887 1349,1889 1399,1889 1412,1885 1430,1891 1456,1887 1463,1891 1477,1892 1477,1929 1459,1926 1451,1930 1424,1928 1416,1931 1411,1927 1392,1927 1387,1930 1349,1930 1338,1925 1311,1929 1305,1925 1291,1928 1236,1928 1222,1927 1217,1922 1194,1927 1162,1925 1149,1928 1128,1925 1124,1928 1103,1929 1088,1937 1083,1937 1076,1928 1061,1926 1039,1926 1027,1934 1021,1934 1016,1929 975,1933 967,1930 916,1933 903,1930 896,1935 875,1932 869,1936 815,1938 807,1941 800,1939 752,1938 747,1934 738,1935 733,1932 723,1933 715,1938 686,1937 677,1940 671,1934 636,1936 632,1932 623,1932 609,1935 564,1936 556,1931 543,1931 525,1935"/>
         <Baseline points="525,1925 545,1923 777,1929 1170,1917 1477,1920"/>
         <Word id="word_1671552930143_4483" custom="readingOrder {index:0;}">
-          <Coords points="525,1895 536,1895 616,1902 616,1933 613,1934 525,1935"/>
+          <Coords points="613,1934 616,1933 616,1902 536,1895 525,1895 525,1935 543,1931 556,1931 561,1934"/>
           <TextEquiv>
             <Unicode>*Und</Unicode>
           </TextEquiv>
@@ -2537,7 +2551,7 @@ ken, den mir mein Vater gegeben hat? a)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1671552250708_4133" custom="readingOrder {index:4;}">
-        <Coords points="541,1975 554,1978 570,1972 603,1973 619,1978 667,1979 675,1982 726,1975 741,1983 748,1983 756,1979 789,1976 789,1983 792,1986 802,1985 808,1979 848,1979 859,1974 868,1975 873,1979 899,1977 907,1980 952,1974 1029,1973 1032,1976 1056,1977 1078,1972 1087,1974 1098,1968 1117,1968 1121,1965 1134,1965 1167,1975 1198,1970 1209,1973 1231,1970 1261,1972 1273,1968 1277,1971 1317,1975 1322,1978 1330,1978 1336,1973 1355,1973 1362,1969 1377,1973 1410,1974 1422,1969 1433,1969 1447,1973 1477,1973 1477,2013 1461,2014 1446,2011 1420,2014 1411,2007 1393,2016 1385,2009 1377,2009 1369,2015 1302,2017 1296,2021 1288,2021 1283,2017 1264,2020 1258,2015 1250,2015 1187,2013 1180,2025 1166,2027 1161,2022 1159,2013 1108,2021 1074,2021 1043,2015 983,2016 935,2020 928,2026 919,2026 913,2020 880,2021 868,2027 857,2027 852,2022 836,2026 825,2021 634,2018 570,2019 550,2023 525,2023 525,1980 528,1981"/>
+        <Coords points="1477,1973 1447,1973 1433,1969 1422,1969 1410,1974 1377,1973 1362,1969 1355,1973 1336,1973 1330,1978 1322,1978 1317,1975 1277,1971 1273,1968 1261,1972 1231,1970 1209,1973 1198,1970 1167,1975 1134,1965 1121,1965 1117,1968 1098,1968 1087,1974 1078,1972 1056,1977 1032,1976 1029,1973 952,1974 907,1980 899,1977 873,1979 868,1975 859,1974 848,1979 808,1979 802,1985 792,1986 789,1983 789,1976 756,1979 748,1983 741,1983 726,1975 675,1982 667,1979 619,1978 603,1973 570,1972 554,1978 541,1975 528,1981 525,1980 525,2012 1373,2012 1377,2009 1385,2009 1388,2012 1401,2012 1411,2007 1417,2012 1437,2012 1446,2011 1451,2012 1477,2012"/>
         <Baseline points="525,2013 620,2012"/>
         <Word id="word_1671552956542_4494" custom="readingOrder {index:0;}">
           <Coords points="525,1984 557,1980 605,1979 605,2012 546,2012 525,2012"/>
@@ -2611,10 +2625,10 @@ phas Schwaͤher, welcher des Jahrs Hoherprieſter war.
 *Es 141 Es war war aber aber Caiphas, Caiphas, der den Juͤden Juͤden rieth, rieth, es waͤre</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671552354163_4216" custom="readingOrder {index:13;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671552354163_4216" custom="readingOrder {index:13;} structure {type:catch-word;}" orientation="0.7631546" type="catch-word" readingDirection="left-to-right">
       <Coords points="1368,2013 1478,2012 1478,2060 1368,2061"/>
       <TextLine id="region0009_line0006" custom="readingOrder {index:0;}">
-        <Coords points="1411,2008 1400,2016 1394,2017 1385,2010 1377,2010 1369,2017 1340,2020 1337,2024 1338,2056 1342,2059 1401,2060 1478,2057 1477,2015 1461,2015 1455,2012 1420,2015"/>
+        <Coords points="1400,2016 1394,2017 1388,2012 1373,2012 1369,2017 1368,2017 1368,2059 1401,2060 1478,2057 1477,2015 1461,2015 1455,2012 1452,2012 1420,2015 1416,2012 1404,2012"/>
         <Baseline points="1338,2050 1478,2047"/>
         <Word id="region0009_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="1378,2011 1379,2056 1473,2055 1472,2015 1461,2015 1455,2012 1420,2015 1414,2010 1407,2010 1400,2016 1394,2017 1386,2010"/>
@@ -2630,7 +2644,7 @@ phas Schwaͤher, welcher des Jahrs Hoherprieſter war.
         <Unicode>gut,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7631546" type="footnote" readingDirection="left-to-right" id="TextRegion_1671552228110_4029" custom="readingOrder {index:14;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1671552228110_4029" custom="readingOrder {index:14;} structure {type:footnote;}" orientation="0.7631546" type="footnote" readingDirection="left-to-right">
       <Coords points="522,2061 1308,2061 1476,2075 1476,2127 1308,2168 522,2168"/>
       <TextLine id="line_1671553006874_4543" custom="readingOrder {index:0;}">
         <Coords points="560,2091 616,2083 1051,2061 1176,2061 1249,2063 1471,2075 1475,2087 1476,2126 1308,2130 921,2137 911,2137 775,2135 620,2128 560,2120 557,2117 557,2096"/>

@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-33">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:06Z</Created>
     <LastChange>2024-01-19T13:07:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9c72fcb9-1e05-4e34-9028-65d0f0af0988/00000145.jpg" imageWidth="1712" imageHeight="2438" type="content" primaryLanguage="German">
     <Border>
@@ -22,10 +36,7 @@
         <RegionRefIndexed index="8" regionRef="region_1676365054245_1834"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1676967973652_474" custom="readingOrder {index:0;}">
-      <Coords points="506,616 769,616 769,656 506,656"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1676365032742_1822" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676365032742_1822" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1062,255 1062,316 1164,316 1164,255"/>
       <TextLine id="line_1676365032834_1825" custom="readingOrder {index:0;}">
         <Coords points="1062,255 1062,316 1164,316 1164,255"/>
@@ -43,12 +54,12 @@
         <Unicode>131</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="heading" id="TextRegion_1676365018701_1813" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1676365018701_1813" custom="readingOrder {index:2;} structure {type:heading;}" type="heading">
       <Coords points="302,494 563,383 738,383 1002,494 1002,570 302,570"/>
       <TextLine id="line_1676365007273_1802" custom="readingOrder {index:0;}">
         <Coords points="563,383 738,383 738,456 563,456"/>
         <Word id="word_1676365024474_1816" custom="readingOrder {index:0;}">
-          <Coords points="585,380 716,380 716,437 585,437"/>
+          <Coords points="585,437 716,437 716,383 585,383"/>
           <TextEquiv>
             <Unicode>IX.</Unicode>
           </TextEquiv>
@@ -60,7 +71,7 @@
       <TextLine id="line_1676365014058_1808" custom="readingOrder {index:1;}">
         <Coords points="302,494 1002,494 1002,570 302,570"/>
         <Word id="word_1676365026900_1819" custom="readingOrder {index:0;} textStyle {offset:0; length:13;fontSize:0.0; kerning:0; letterSpaced:true;}">
-          <Coords points="315,491 999,491 999,548 315,548"/>
+          <Coords points="315,548 999,548 999,494 315,494"/>
           <TextEquiv>
             <Unicode>Landeshoheit.</Unicode>
           </TextEquiv>
@@ -74,14 +85,14 @@
 Landeshoheit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.10956962" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.10956962" type="heading" readingDirection="left-to-right">
       <Coords points="581,732 712,732 712,788 581,788"/>
       <TextLine id="region0005_line" custom="readingOrder {index:0;}">
         <Coords points="581,732 712,732 712,788 581,788"/>
         <Word id="region0005_line_word0000" custom="readingOrder {index:0;}">
           <Coords points="617,788 617,747 586,747 586,788"/>
           <TextEquiv>
-            <Unicode>&#xA7;.</Unicode>
+            <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line_word0001" custom="readingOrder {index:1;}">
@@ -91,17 +102,17 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#xA7;. 1.</Unicode>
+          <Unicode>§. 1.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>&#xA7;. 1.</Unicode>
+        <Unicode>§. 1.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.10956962" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1644832824269_829" custom="readingOrder {index:4;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1644832824269_829" custom="readingOrder {index:4;} structure {type:drop-capital;}" orientation="0.10956962" type="drop-capital" readingDirection="left-to-right">
       <Coords points="42,782 234,782 234,881 41,881"/>
       <TextLine id="line_1644832824316_832" custom="readingOrder {index:0;}">
-        <Coords points="75,840 141,789 174,785 195,779 198,790 236,782 234,880 215,880 208,870 201,880 149,873 75,873 70,868 70,845"/>
+        <Coords points="174,785 141,789 75,840 70,845 70,868 75,873 149,873 201,880 208,870 215,880 234,880 234,782 198,790 195,782 184,782"/>
         <Word id="word_1644832888160_850" custom="readingOrder {index:0;}">
           <Coords points="142,791 185,785 234,816 200,852 209,846 221,849 228,844 235,844 235,868 142,869 142,841 144,842 157,844 161,849"/>
           <TextEquiv>
@@ -116,10 +127,10 @@ Landeshoheit.</Unicode>
         <Unicode>W</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.10956962" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644832824269_828" custom="readingOrder {index:5;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644832824269_828" custom="readingOrder {index:5;} structure {type:paragraph;}" orientation="0.10956962" type="paragraph" readingDirection="left-to-right">
       <Coords points="234,782 1175,784 1174,881 234,881"/>
       <TextLine id="line_1644832824316_831" custom="readingOrder {index:0;}">
-        <Coords points="241,835 280,832 291,835 296,828 303,826 312,827 317,834 326,826 343,825 349,835 401,837 444,835 452,828 464,828 471,835 529,834 540,832 552,824 577,821 609,823 632,829 654,820 671,822 677,828 682,828 692,821 703,821 711,830 787,831 791,828 801,828 806,832 869,830 874,823 882,819 896,819 903,829 927,829 937,822 948,822 955,829 998,830 1006,823 1017,822 1025,830 1063,831 1075,823 1085,823 1092,831 1108,831 1121,824 1133,824 1141,833 1174,834 1174,880 1093,880 1087,884 1076,884 1053,876 1035,880 987,879 960,875 905,876 898,873 881,879 877,875 843,876 831,883 819,882 814,876 804,875 783,882 772,881 765,884 748,878 722,879 707,875 697,883 683,878 660,878 656,883 648,885 636,879 552,874 544,877 526,877 518,882 430,882 423,878 412,881 406,878 379,882 347,882 340,887 331,887 322,879 306,882 234,880 234,844 235,844"/>
+        <Coords points="1093,880 1174,880 1174,834 1141,833 1133,824 1121,824 1108,831 1092,831 1085,823 1075,823 1063,831 1025,830 1017,822 1006,823 998,830 955,829 948,822 937,822 927,829 903,829 896,819 882,819 874,823 869,830 806,832 801,828 791,828 787,831 711,830 703,821 692,821 682,828 677,828 671,822 654,820 632,829 609,823 577,821 552,824 540,832 529,834 471,835 464,828 452,828 444,835 401,837 349,835 343,825 326,826 317,834 312,827 303,826 296,828 291,835 280,832 241,835 235,844 234,844 234,880 270,881 311,881 322,879 324,881 385,881 406,878 412,881 423,878 428,881 519,881 526,877 544,877 552,874 636,879 640,881 657,881 660,878 683,878 691,881 699,881 707,875 722,879 748,878 756,881 772,881 786,881 804,875 814,876 818,881 834,881 843,876 877,875 881,879 898,873 905,876 960,875 987,879 1035,880 1053,876 1067,881 1091,881"/>
         <Word id="word_1644832911848_859" custom="readingOrder {index:0;}">
           <Coords points="243,841 282,841 282,877 243,877"/>
           <TextEquiv>
@@ -147,7 +158,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0002_word0004" custom="readingOrder {index:4;}">
           <Coords points="628,828 568,828 568,875 633,879 659,879 660,878 683,878 685,879 702,879 707,875 720,879 734,879 748,878 749,878 794,878 804,875 814,876 816,878 839,878 843,876 877,875 880,878 884,878 898,873 905,876 918,876 918,829 903,829 902,827 871,827 869,830 806,832 801,828 791,828 787,831 711,830 709,828 682,828 682,828 677,828 677,828 635,828 632,829"/>
           <TextEquiv conf="0.92425185">
-            <Unicode>Ent&#x17F;tehungsepoche</Unicode>
+            <Unicode>Entſtehungsepoche</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0002_word0005" custom="readingOrder {index:5;}">
@@ -163,17 +174,17 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>as ich von deren Ent&#x17F;tehungsepoche denke, habe</Unicode>
+          <Unicode>as ich von deren Entſtehungsepoche denke, habe</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ich von deren Ent&#x17F;tehungsepoche denke, habe as</Unicode>
+        <Unicode>ich von deren Entſtehungsepoche denke, habe as</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.10956962" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644832818504_824" custom="readingOrder {index:6;} structure {type:paragraph;}">
-      <Coords points="41,881 1174,881 1169,2139 41,2137 39,1576"/>
+    <TextRegion id="TextRegion_1644832818504_824" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="0.10956962" type="paragraph" readingDirection="left-to-right">
+      <Coords points="1169,2139 1174,881 41,881 39,1484 42,2137"/>
       <TextLine id="region0006_line0003" custom="readingOrder {index:0;}">
-        <Coords points="143,874 138,876 135,882 71,884 68,888 69,923 80,927 169,931 179,935 186,934 192,938 207,932 246,930 265,933 370,933 393,929 455,932 496,926 532,926 565,930 620,928 633,933 644,932 659,925 710,926 722,932 737,922 814,927 882,923 888,926 945,929 1013,929 1020,934 1039,936 1081,935 1101,930 1121,930 1131,937 1138,936 1141,932 1174,932 1174,896 1154,894 1150,889 1134,883 1076,885 1053,877 1037,881 1010,882 960,876 940,880 907,881 906,877 898,874 877,882 836,880 831,884 825,884 819,883 814,877 804,876 793,882 772,882 765,885 756,882 720,883 718,878 707,876 697,884 663,879 648,886 637,881 619,882 600,878 552,875 544,878 526,878 518,883 460,881 451,884 430,883 423,879 412,882 406,879 331,888 322,880 312,880 303,886 248,887 190,883 181,877 169,877 162,881 155,875"/>
+        <Coords points="135,882 71,884 68,888 69,923 80,927 169,931 179,935 186,934 192,938 207,932 246,930 265,933 370,933 393,929 455,932 496,926 532,926 565,930 620,928 633,933 644,932 659,925 710,926 722,932 737,922 814,927 882,923 888,926 945,929 1013,929 1020,934 1039,936 1081,935 1101,930 1121,930 1131,937 1138,936 1141,932 1173,932 1173,895 1154,894 1150,889 1134,883 1076,885 1064,881 1037,881 1010,882 1001,881 907,881 879,881 877,882 856,881 834,881 831,884 825,884 819,883 817,881 794,881 793,882 772,882 765,885 756,882 720,883 719,881 700,881 697,884 676,881 658,881 648,886 637,881 619,882 614,881 521,881 518,883 460,881 451,884 430,883 426,881 415,881 412,882 410,881 389,881 331,888 323,881 310,881 303,886 248,887 190,883 187,881 162,881 135,881"/>
         <Word id="region0006_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="190,883 143,883 143,929 169,931 176,934 186,934 199,934 199,883"/>
           <TextEquiv conf="0.888462">
@@ -213,7 +224,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1038,883 1067,883 1067,928 1038,928"/>
           <TextEquiv>
-            <Unicode>&#xA7;.</Unicode>
+            <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0003_word0007" custom="readingOrder {index:7;}">
@@ -223,7 +234,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>ich unter'm Artikel Vogtei, wiewol allda &#xA7;. 14.</Unicode>
+          <Unicode>ich unter'm Artikel Vogtei, wiewol allda §. 14.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0004" custom="readingOrder {index:1;}">
@@ -261,7 +272,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0004_word0005" custom="readingOrder {index:5;}">
           <Coords points="721,933 658,933 658,976 690,976 698,975 712,976 811,975 811,932 723,933 722,933"/>
           <TextEquiv conf="0.90196335">
-            <Unicode>bema&#x364;rkt.</Unicode>
+            <Unicode>bemaͤrkt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0004_word0006" custom="readingOrder {index:6;}">
@@ -289,7 +300,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>nur mit ein Par Worten bema&#x364;rkt. Jch habe es in</Unicode>
+          <Unicode>nur mit ein Par Worten bemaͤrkt. Jch habe es in</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0005" custom="readingOrder {index:2;}">
@@ -297,7 +308,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="249,1031 249,987 139,988 139,1029 169,1030 183,1028 188,1029 190,1034 207,1034 210,1032"/>
           <TextEquiv conf="0.9643593">
-            <Unicode>die&#x17F;en</Unicode>
+            <Unicode>dieſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0005_word0001" custom="readingOrder {index:1;}">
@@ -315,7 +326,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0005_word0003" custom="readingOrder {index:3;}">
           <Coords points="744,983 695,984 695,1032 708,1031 710,1031 716,1031 739,1031 742,1030 757,1028 772,1031 789,1028 789,985 761,985"/>
           <TextEquiv conf="0.931709">
-            <Unicode>&#x17F;chon</Unicode>
+            <Unicode>ſchon</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0005_word0004" custom="readingOrder {index:4;}">
@@ -327,11 +338,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0005_word0005" custom="readingOrder {index:5;}">
           <Coords points="1016,987 998,987 998,1031 1024,1031 1072,1031 1080,1030 1084,1031 1157,1031 1157,987 1126,987 1090,987 1068,987"/>
           <TextEquiv>
-            <Unicode>bema&#x364;rkt,</Unicode>
+            <Unicode>bemaͤrkt,</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>die&#x17F;en kleinen Abhandlungen &#x17F;chon einigemal bema&#x364;rkt,</Unicode>
+          <Unicode>dieſen kleinen Abhandlungen ſchon einigemal bemaͤrkt,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0006" custom="readingOrder {index:3;}">
@@ -351,7 +362,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0006_word0002" custom="readingOrder {index:2;}">
           <Coords points="473,1035 439,1035 436,1038 394,1038 394,1083 405,1084 418,1078 429,1083 438,1079 451,1079 454,1084 467,1084 476,1079 476,1035"/>
           <TextEquiv conf="0.9240707">
-            <Unicode>wei&#xDF;</Unicode>
+            <Unicode>weiß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0006_word0003" custom="readingOrder {index:3;}">
@@ -387,7 +398,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0006_word0008" custom="readingOrder {index:8;}">
           <Coords points="1037,1035 1023,1035 1023,1082 1076,1082 1082,1080 1086,1080 1086,1035 1063,1035 1062,1036 1039,1036"/>
           <TextEquiv conf="0.9248136">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0006_word0009" custom="readingOrder {index:9;}">
@@ -397,7 +408,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9203979">
-          <Unicode>wiewol ich's wei&#xDF; und wie gern ich's zugebe, da&#xDF; die</Unicode>
+          <Unicode>wiewol ich's weiß und wie gern ich's zugebe, daß die</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0007" custom="readingOrder {index:4;}">
@@ -417,7 +428,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0007_word0002" custom="readingOrder {index:2;}">
           <Coords points="426,1084 408,1084 405,1086 397,1086 397,1128 418,1128 426,1124 443,1127 459,1124 470,1128 483,1128 489,1124 496,1128 537,1128 542,1124 550,1124 554,1127 618,1125 618,1084 552,1084 525,1084 492,1084 489,1085 487,1084 469,1084 461,1089 456,1088 453,1084 430,1084 428,1085"/>
           <TextEquiv>
-            <Unicode>ma&#x364;chtigeren</Unicode>
+            <Unicode>maͤchtigeren</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0007_word0003" custom="readingOrder {index:3;}">
@@ -447,11 +458,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0007_word0007" custom="readingOrder {index:7;}">
           <Coords points="1094,1083 1074,1083 1069,1086 1061,1086 1061,1127 1157,1127 1157,1090 1103,1087"/>
           <TextEquiv conf="0.7998751">
-            <Unicode>Erz&#x2E17;</Unicode>
+            <Unicode>Erz⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Gewalt der ma&#x364;chtigeren Herzoge, z. B. der Erz&#x2E17;</Unicode>
+          <Unicode>Gewalt der maͤchtigeren Herzoge, z. B. der Erz⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0008" custom="readingOrder {index:5;}">
@@ -465,13 +476,13 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="395,1172 394,1135 235,1135 236,1174 236,1174 257,1179 272,1175 290,1175 296,1182 303,1181 312,1173 320,1173 326,1181 336,1180 342,1176 358,1176 370,1181"/>
           <TextEquiv>
-            <Unicode>Bi&#x17F;cho&#x364;fe</Unicode>
+            <Unicode>Biſchoͤfe</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0002" custom="readingOrder {index:2;}">
           <Coords points="515,1169 515,1135 418,1135 418,1179 427,1180 437,1170 449,1170 457,1178 469,1172 500,1174 512,1169"/>
           <TextEquiv conf="0.8106625">
-            <Unicode>&#x17F;chon</Unicode>
+            <Unicode>ſchon</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0003" custom="readingOrder {index:3;}">
@@ -495,7 +506,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0008_word0006" custom="readingOrder {index:6;}">
           <Coords points="1059,1178 1065,1178 1064,1133 1040,1133 1038,1134 996,1134 983,1133 984,1178 1018,1178 1036,1178 1050,1178 1054,1176"/>
           <TextEquiv conf="0.9667437">
-            <Unicode>gro&#xDF;</Unicode>
+            <Unicode>groß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0007" custom="readingOrder {index:7;}">
@@ -505,7 +516,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>und Bi&#x17F;cho&#x364;fe &#x17F;chon im 10ten Jarhundert gro&#xDF; und</Unicode>
+          <Unicode>und Biſchoͤfe ſchon im 10ten Jarhundert groß und</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0009" custom="readingOrder {index:6;}">
@@ -513,19 +524,19 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="248,1179 187,1179 185,1181 138,1183 138,1225 275,1224 287,1224 290,1224 329,1224 329,1181 326,1182 323,1179 304,1179 299,1183 294,1179 259,1179 257,1180"/>
           <TextEquiv conf="0.9527558">
-            <Unicode>an&#x17F;ehnlich</Unicode>
+            <Unicode>anſehnlich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0001" custom="readingOrder {index:1;}">
           <Coords points="409,1177 383,1177 370,1182 360,1179 345,1180 345,1226 369,1226 375,1224 412,1222 426,1223 433,1226 440,1226 446,1220 459,1219 467,1223 487,1222 487,1177 463,1177 457,1179 455,1177 431,1177 427,1181 411,1178"/>
           <TextEquiv conf="0.95513254">
-            <Unicode>gewe&#x17F;en</Unicode>
+            <Unicode>geweſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0002" custom="readingOrder {index:2;}">
           <Coords points="555,1226 561,1226 561,1178 504,1178 504,1226 515,1226 519,1222 539,1222"/>
           <TextEquiv conf="0.8683445">
-            <Unicode>&#x17F;ei.</Unicode>
+            <Unicode>ſei.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0003" custom="readingOrder {index:3;}">
@@ -553,7 +564,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>an&#x17F;ehnlich gewe&#x17F;en &#x17F;ei. Jhnen aber eine Landeshoheit</Unicode>
+          <Unicode>anſehnlich geweſen ſei. Jhnen aber eine Landeshoheit</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0010" custom="readingOrder {index:7;}">
@@ -585,7 +596,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0010_word0004" custom="readingOrder {index:4;}">
           <Coords points="766,1228 673,1228 673,1280 707,1277 711,1280 721,1280 742,1277 747,1280 763,1280 765,1278 786,1276 830,1279 831,1279 857,1279 860,1277 883,1279 890,1276 899,1276 901,1279 917,1279 917,1232 903,1232 855,1230 853,1227 781,1228 780,1228"/>
           <TextEquiv conf="0.9136383">
-            <Unicode>zuzuge&#x17F;tehen,</Unicode>
+            <Unicode>zuzugeſtehen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0010_word0005" custom="readingOrder {index:5;}">
@@ -597,11 +608,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0010_word0006" custom="readingOrder {index:6;}">
           <Coords points="1090,1229 1080,1229 1076,1230 1074,1235 1045,1234 1045,1273 1158,1273 1158,1235 1134,1235 1128,1230 1117,1230 1100,1237"/>
           <TextEquiv>
-            <Unicode>wu&#x364;rde</Unicode>
+            <Unicode>wuͤrde</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>vor dem 15ten Jarhundert zuzuge&#x17F;tehen, dazu wu&#x364;rde</Unicode>
+          <Unicode>vor dem 15ten Jarhundert zuzugeſtehen, dazu wuͤrde</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0011" custom="readingOrder {index:8;}">
@@ -621,7 +632,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0011_word0002" custom="readingOrder {index:2;}">
           <Coords points="347,1284 318,1284 318,1331 346,1331 364,1332 369,1334 383,1334 385,1333 400,1333 401,1334 427,1334 450,1334 457,1330 457,1285 447,1286 443,1284 421,1284"/>
           <TextEquiv>
-            <Unicode>unfa&#x364;hig</Unicode>
+            <Unicode>unfaͤhig</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0011_word0003" custom="readingOrder {index:3;}">
@@ -661,7 +672,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>ich mich unfa&#x364;hig finden, wenn ich nicht gegen mein</Unicode>
+          <Unicode>ich mich unfaͤhig finden, wenn ich nicht gegen mein</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0012" custom="readingOrder {index:9;}">
@@ -669,7 +680,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="283,1335 144,1336 144,1373 158,1374 171,1378 186,1377 194,1382 229,1380 242,1382 246,1387 247,1387 272,1387 276,1384 284,1383 316,1383 316,1337 286,1337"/>
           <TextEquiv conf="0.9301177">
-            <Unicode>Gewi&#x17F;&#x17F;en</Unicode>
+            <Unicode>Gewiſſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0012_word0001" custom="readingOrder {index:1;}">
@@ -681,7 +692,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0012_word0002" custom="readingOrder {index:2;}">
           <Coords points="474,1335 450,1335 447,1336 447,1385 461,1385 463,1383 549,1384 549,1335 540,1335 539,1336 524,1335 479,1335 475,1336"/>
           <TextEquiv conf="0.92597806">
-            <Unicode>&#x17F;ollte.</Unicode>
+            <Unicode>ſollte.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0012_word0003" custom="readingOrder {index:3;}">
@@ -693,7 +704,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0012_word0004" custom="readingOrder {index:4;}">
           <Coords points="810,1382 810,1337 740,1337 740,1382 741,1383 748,1383 754,1378 760,1377 794,1382"/>
           <TextEquiv conf="0.9304256">
-            <Unicode>&#x17F;ind</Unicode>
+            <Unicode>ſind</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0012_word0005" custom="readingOrder {index:5;}">
@@ -711,11 +722,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0012_word0007" custom="readingOrder {index:7;}">
           <Coords points="1086,1336 1016,1336 1016,1381 1163,1381 1163,1341 1114,1339 1110,1336 1092,1336 1088,1338"/>
           <TextEquiv conf="0.92545676">
-            <Unicode>Reichs&#x2E17;</Unicode>
+            <Unicode>Reichs⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9267916">
-          <Unicode>Gewi&#x17F;&#x17F;en reden &#x17F;ollte. Dermal &#x17F;ind damit alle Reichs&#x2E17;</Unicode>
+          <Unicode>Gewiſſen reden ſollte. Dermal ſind damit alle Reichs⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0013" custom="readingOrder {index:10;}">
@@ -723,7 +734,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="197,1381 142,1382 142,1432 164,1431 176,1429 198,1431 215,1427 222,1431 224,1431 256,1431 256,1390 255,1391 229,1381 225,1381 203,1383"/>
           <TextEquiv conf="0.9174867">
-            <Unicode>&#x17F;ta&#x364;nde</Unicode>
+            <Unicode>ſtaͤnde</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0013_word0001" custom="readingOrder {index:1;}">
@@ -747,7 +758,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0013_word0004" custom="readingOrder {index:4;}">
           <Coords points="739,1382 732,1382 728,1386 682,1386 682,1433 770,1432 790,1431 792,1432 837,1432 837,1387 780,1387 779,1382 750,1382 748,1386"/>
           <TextEquiv conf="0.9192371">
-            <Unicode>mei&#x17F;tens</Unicode>
+            <Unicode>meiſtens</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0013_word0005" custom="readingOrder {index:5;}">
@@ -769,7 +780,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9194039">
-          <Unicode>&#x17F;ta&#x364;nde one Ausnam, auch mei&#x17F;tens (wo nicht alle)</Unicode>
+          <Unicode>ſtaͤnde one Ausnam, auch meiſtens (wo nicht alle)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0014" custom="readingOrder {index:11;}">
@@ -789,7 +800,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0014_word0002" custom="readingOrder {index:2;}">
           <Coords points="730,1436 721,1436 719,1437 715,1440 665,1440 665,1484 713,1485 755,1485 757,1484 768,1484 769,1485 781,1485 790,1481 796,1481 798,1485 913,1485 922,1484 922,1439 901,1439 896,1436 884,1436 880,1440 869,1436 860,1436 854,1440 838,1440 815,1439 811,1436 768,1436 767,1439 756,1441 734,1439"/>
           <TextEquiv>
-            <Unicode>ausge&#x17F;chmu&#x364;kt.</Unicode>
+            <Unicode>ausgeſchmuͤkt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0014_word0003" custom="readingOrder {index:3;}">
@@ -805,7 +816,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>reichsunmittelbare damit ausge&#x17F;chmu&#x364;kt. Sie hat</Unicode>
+          <Unicode>reichsunmittelbare damit ausgeſchmuͤkt. Sie hat</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0015" custom="readingOrder {index:12;}">
@@ -849,17 +860,17 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0015_word0006" custom="readingOrder {index:6;}">
           <Coords points="843,1491 843,1533 939,1533 939,1485 906,1485 895,1491"/>
           <TextEquiv conf="0.9222889">
-            <Unicode>gro&#xDF;e</Unicode>
+            <Unicode>große</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0015_word0007" custom="readingOrder {index:7;}">
           <Coords points="996,1484 948,1484 948,1531 1157,1531 1157,1497 1137,1495 1107,1497 1097,1493 1084,1493 1074,1486 1044,1490 1033,1486 1008,1488"/>
           <TextEquiv conf="0.9082033">
-            <Unicode>Ab&#x17F;tufung,</Unicode>
+            <Unicode>Abſtufung,</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9201997">
-          <Unicode>freilich noch immer auch dermal ihre gro&#xDF;e Ab&#x17F;tufung,</Unicode>
+          <Unicode>freilich noch immer auch dermal ihre große Abſtufung,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0016" custom="readingOrder {index:13;}">
@@ -879,7 +890,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0016_word0002" custom="readingOrder {index:2;}">
           <Coords points="380,1535 368,1535 363,1542 346,1543 337,1542 337,1586 399,1586 401,1585 414,1586 433,1586 441,1586 441,1535 429,1535 421,1537 406,1536 401,1542 389,1542"/>
           <TextEquiv conf="0.9318084">
-            <Unicode>gewi&#xDF;</Unicode>
+            <Unicode>gewiß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0016_word0003" custom="readingOrder {index:3;}">
@@ -913,7 +924,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92077655">
-          <Unicode>aber doch gewi&#xDF; one allen Vergleich mit denjenigen,</Unicode>
+          <Unicode>aber doch gewiß one allen Vergleich mit denjenigen,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0017" custom="readingOrder {index:14;}">
@@ -945,7 +956,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0017_word0004" custom="readingOrder {index:4;}">
           <Coords points="821,1590 694,1591 694,1633 707,1631 712,1635 737,1631 742,1634 758,1634 765,1638 794,1637 798,1635 813,1634 856,1636 863,1635 863,1590 830,1590 827,1592 822,1591"/>
           <TextEquiv conf="0.9601039">
-            <Unicode>Bei&#x17F;piele</Unicode>
+            <Unicode>Beiſpiele</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0017_word0005" custom="readingOrder {index:5;}">
@@ -961,7 +972,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>wovon uns die Vorzeiten Bei&#x17F;piele liefern. Jch</Unicode>
+          <Unicode>wovon uns die Vorzeiten Beiſpiele liefern. Jch</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0018" custom="readingOrder {index:15;}">
@@ -975,19 +986,19 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0018_word0001" custom="readingOrder {index:1;}">
           <Coords points="259,1639 243,1639 244,1685 254,1685 259,1683 283,1684 285,1685 311,1685 352,1685 351,1640 322,1641 320,1639 294,1639 291,1641 282,1641 280,1639"/>
           <TextEquiv conf="0.92051816">
-            <Unicode>die&#x17F;en</Unicode>
+            <Unicode>dieſen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0018_word0002" custom="readingOrder {index:2;}">
           <Coords points="462,1637 429,1637 426,1640 375,1640 376,1685 397,1685 399,1684 402,1685 453,1685 499,1685 498,1637 464,1639"/>
           <TextEquiv conf="0.9277044">
-            <Unicode>gro&#xDF;en</Unicode>
+            <Unicode>großen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0018_word0003" custom="readingOrder {index:3;}">
           <Coords points="567,1635 525,1636 526,1685 571,1684 618,1680 639,1682 643,1684 662,1684 668,1682 675,1682 679,1684 693,1684 700,1680 709,1680 714,1683 745,1681 745,1636 743,1636 741,1635 717,1635 712,1636 710,1635 630,1635 598,1637 569,1637"/>
           <TextEquiv conf="0.927926">
-            <Unicode>Unter&#x17F;chied</Unicode>
+            <Unicode>Unterſchied</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0018_word0004" custom="readingOrder {index:4;}">
@@ -1011,11 +1022,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0018_word0007" custom="readingOrder {index:7;}">
           <Coords points="1091,1645 1091,1676 1159,1676 1159,1645 1123,1645 1118,1641 1109,1641 1103,1645"/>
           <TextEquiv conf="0.920503">
-            <Unicode>ein&#x2E17;</Unicode>
+            <Unicode>ein⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92219883">
-          <Unicode>will die&#x17F;en gro&#xDF;en Unter&#x17F;chied mit einem nur ein&#x2E17;</Unicode>
+          <Unicode>will dieſen großen Unterſchied mit einem nur ein⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0019" custom="readingOrder {index:16;}">
@@ -1029,7 +1040,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0019_word0001" custom="readingOrder {index:1;}">
           <Coords points="289,1688 250,1688 250,1737 353,1737 356,1735 420,1735 420,1692 412,1692 411,1688 394,1688 385,1694 380,1694 373,1688 358,1688 354,1692 350,1692 346,1688 309,1688 307,1692 299,1692"/>
           <TextEquiv conf="0.9593873">
-            <Unicode>Bei&#x17F;piele</Unicode>
+            <Unicode>Beiſpiele</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0019_word0002" custom="readingOrder {index:2;}">
@@ -1047,13 +1058,13 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0019_word0004" custom="readingOrder {index:4;}">
           <Coords points="647,1688 595,1688 595,1735 635,1735 689,1729 728,1732 751,1730 758,1734 778,1733 780,1734 799,1734 800,1733 818,1733 819,1734 839,1734 841,1733 855,1732 855,1687 723,1688 716,1688 716,1688 689,1688 688,1689 685,1688 656,1688 651,1690"/>
           <TextEquiv conf="0.9583838">
-            <Unicode>Nachbar&#x17F;chaft</Unicode>
+            <Unicode>Nachbarſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0019_word0005" custom="readingOrder {index:5;}">
           <Coords points="945,1686 889,1686 880,1687 871,1687 871,1730 889,1729 894,1731 1060,1731 1060,1693 1046,1691 947,1687"/>
           <TextEquiv>
-            <Unicode>erla&#x364;utern,</Unicode>
+            <Unicode>erlaͤutern,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0019_word0006" custom="readingOrder {index:6;}">
@@ -1063,11 +1074,11 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>zigen Bei&#x17F;piele aus der Nachbar&#x17F;chaft erla&#x364;utern, und</Unicode>
+          <Unicode>zigen Beiſpiele aus der Nachbarſchaft erlaͤutern, und</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0020" custom="readingOrder {index:17;}">
-        <Coords points="149,1731 76,1734 73,1738 74,1773 83,1778 154,1779 161,1775 173,1775 212,1784 341,1791 351,1797 366,1789 379,1787 415,1790 418,1795 427,1797 436,1794 438,1790 559,1788 585,1785 613,1787 639,1784 650,1784 655,1787 689,1787 704,1783 713,1786 737,1785 744,1791 753,1791 760,1784 804,1785 807,1789 815,1791 829,1790 836,1785 848,1785 855,1790 864,1790 872,1784 899,1781 958,1790 964,1786 993,1786 1000,1779 1008,1780 1015,1787 1031,1786 1061,1791 1068,1798 1082,1797 1085,1792 1115,1790 1172,1794 1172,1747 1122,1746 1109,1740 1099,1741 1096,1745 1087,1739 1075,1739 1069,1744 1044,1744 1036,1737 1027,1737 1020,1742 987,1742 944,1737 895,1737 889,1730 874,1731 868,1737 865,1733 853,1732 831,1740 784,1739 769,1738 768,1734 758,1735 751,1731 746,1731 738,1737 725,1732 689,1730 642,1734 618,1740 555,1740 548,1734 538,1734 529,1740 498,1735 452,1739 444,1735 425,1735 417,1742 382,1742 368,1741 362,1736 356,1736 344,1744 329,1745 320,1742 285,1744 208,1736 184,1739 169,1733"/>
+        <Coords points="76,1734 73,1738 74,1773 83,1778 154,1779 161,1775 173,1775 212,1784 341,1791 351,1797 366,1789 379,1787 415,1790 418,1795 427,1797 436,1794 438,1790 559,1788 585,1785 613,1787 639,1784 650,1784 655,1787 689,1787 704,1783 713,1786 737,1785 744,1791 753,1791 760,1784 804,1785 807,1789 815,1791 829,1790 836,1785 848,1785 855,1790 864,1790 872,1784 899,1781 958,1790 964,1786 993,1786 1000,1779 1008,1780 1015,1787 1031,1786 1061,1791 1068,1798 1082,1797 1085,1792 1115,1790 1170,1793 1170,1746 1122,1746 1109,1740 1099,1741 1096,1745 1087,1739 1075,1739 1069,1744 1044,1744 1036,1737 1027,1737 1020,1742 987,1742 944,1737 895,1737 889,1730 874,1731 868,1737 865,1733 853,1732 831,1740 784,1739 769,1738 768,1734 758,1735 751,1731 746,1731 738,1737 725,1732 689,1730 642,1734 618,1740 555,1740 548,1734 538,1734 529,1740 498,1735 452,1739 444,1735 425,1735 417,1742 382,1742 368,1741 362,1736 356,1736 344,1744 329,1745 320,1742 285,1744 208,1736 184,1739 169,1733 149,1731"/>
         <Word id="region0006_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="188,1778 230,1778 230,1742 145,1743 145,1778 149,1778 154,1778 161,1775 173,1775"/>
           <TextEquiv>
@@ -1083,7 +1094,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0020_word0002" custom="readingOrder {index:2;}">
           <Coords points="366,1740 350,1740 344,1744 340,1744 340,1789 366,1789 379,1787 403,1789 451,1789 451,1740 419,1740 417,1742 382,1742 368,1741"/>
           <TextEquiv>
-            <Unicode>Hau&#x17F;e</Unicode>
+            <Unicode>Hauſe</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0020_word0003" custom="readingOrder {index:3;}">
@@ -1095,13 +1106,13 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0020_word0004" custom="readingOrder {index:4;}">
           <Coords points="771,1738 668,1739 668,1787 689,1787 704,1783 713,1786 737,1785 740,1788 755,1788 760,1784 793,1784 793,1739 784,1739"/>
           <TextEquiv conf="0.93180794">
-            <Unicode>Die&#x17F;es</Unicode>
+            <Unicode>Dieſes</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0020_word0005" custom="readingOrder {index:5;}">
           <Coords points="868,1737 839,1737 831,1740 812,1739 812,1787 833,1787 836,1785 848,1785 850,1787 868,1787 872,1784 899,1781 938,1787 962,1787 964,1786 964,1739 944,1737 895,1737"/>
           <TextEquiv conf="0.9033989">
-            <Unicode>geho&#x364;ret,</Unicode>
+            <Unicode>gehoͤret,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0020_word0006" custom="readingOrder {index:6;}">
@@ -1117,11 +1128,11 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>zwar vom Hau&#x17F;e Solms. Die&#x17F;es geho&#x364;ret, wie jeder</Unicode>
+          <Unicode>zwar vom Hauſe Solms. Dieſes gehoͤret, wie jeder</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0021" custom="readingOrder {index:18;}">
-        <Coords points="161,1776 154,1780 83,1779 80,1783 80,1815 83,1826 139,1829 162,1826 177,1832 198,1830 204,1833 243,1836 264,1833 273,1837 299,1835 324,1840 344,1837 365,1842 366,1845 375,1848 389,1843 404,1847 439,1837 500,1841 542,1840 556,1836 646,1839 669,1835 760,1837 770,1834 792,1836 803,1833 946,1834 951,1837 1023,1841 1027,1846 1033,1847 1044,1842 1063,1843 1074,1850 1089,1849 1095,1844 1125,1843 1134,1852 1144,1850 1147,1844 1172,1842 1172,1802 1158,1801 1154,1793 1130,1794 1115,1791 1109,1793 1105,1799 1068,1799 1064,1796 1042,1794 1039,1789 1031,1787 1022,1788 1014,1793 1014,1787 1006,1780 1000,1780 991,1792 915,1788 907,1782 864,1791 757,1789 753,1792 744,1792 715,1790 714,1787 704,1784 694,1785 687,1791 657,1791 650,1785 639,1785 628,1791 600,1792 598,1788 585,1786 577,1791 572,1787 560,1788 554,1793 459,1794 427,1798 403,1797 394,1789 379,1788 366,1790 351,1798 343,1795 222,1788 179,1777"/>
+        <Coords points="154,1780 83,1779 80,1783 80,1815 83,1826 139,1829 162,1826 177,1832 198,1830 204,1833 243,1836 264,1833 273,1837 299,1835 324,1840 344,1837 365,1842 366,1845 375,1848 389,1843 404,1847 439,1837 500,1841 542,1840 556,1836 646,1839 669,1835 760,1837 770,1834 792,1836 803,1833 946,1834 951,1837 1023,1841 1027,1846 1033,1847 1044,1842 1063,1843 1074,1850 1089,1849 1095,1844 1125,1843 1134,1852 1144,1850 1147,1844 1170,1842 1170,1801 1158,1801 1154,1793 1130,1794 1115,1791 1109,1793 1105,1799 1068,1799 1064,1796 1042,1794 1039,1789 1031,1787 1022,1788 1014,1793 1014,1787 1006,1780 1000,1780 991,1792 915,1788 907,1782 864,1791 757,1789 753,1792 744,1792 715,1790 714,1787 704,1784 694,1785 687,1791 657,1791 650,1785 639,1785 628,1791 600,1792 598,1788 585,1786 577,1791 572,1787 560,1788 554,1793 459,1794 427,1798 403,1797 394,1789 379,1788 366,1790 351,1798 343,1795 222,1788 179,1777 161,1776"/>
         <Word id="region0006_line0021_word0000" custom="readingOrder {index:0;}">
           <Coords points="193,1780 146,1781 146,1826 288,1825 288,1791 222,1788"/>
           <TextEquiv conf="0.8847854">
@@ -1131,7 +1142,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0021_word0001" custom="readingOrder {index:1;}">
           <Coords points="310,1793 310,1833 414,1833 414,1797 403,1797 394,1789 379,1788 366,1790 351,1798 343,1795"/>
           <TextEquiv conf="0.6808049">
-            <Unicode>wei&#xDF;,</Unicode>
+            <Unicode>weiß,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0021_word0002" custom="readingOrder {index:2;}">
@@ -1149,7 +1160,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0021_word0004" custom="readingOrder {index:4;}">
           <Coords points="635,1787 635,1825 804,1824 804,1789 757,1789 753,1792 744,1792 715,1790 714,1787 704,1784 694,1785 687,1791 657,1791 650,1785 639,1785"/>
           <TextEquiv>
-            <Unicode>beru&#x364;mten</Unicode>
+            <Unicode>beruͤmten</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0021_word0005" custom="readingOrder {index:5;}">
@@ -1161,11 +1172,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0021_word0006" custom="readingOrder {index:6;}">
           <Coords points="963,1790 963,1833 1158,1833 1158,1801 1154,1793 1130,1794 1115,1791 1109,1793 1105,1799 1068,1799 1064,1796 1042,1794 1039,1789 1031,1787 1022,1788 1014,1793 1014,1787 1006,1780 1000,1780 991,1792"/>
           <TextEquiv conf="0.89829385">
-            <Unicode>reichsgra&#x364;f&#x2E17;</Unicode>
+            <Unicode>reichsgraͤf⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Kenner wei&#xDF;, unter die beru&#x364;mten uralte reichsgra&#x364;f&#x2E17;</Unicode>
+          <Unicode>Kenner weiß, unter die beruͤmten uralte reichsgraͤf⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0022" custom="readingOrder {index:19;}">
@@ -1179,19 +1190,19 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0022_word0001" custom="readingOrder {index:1;}">
           <Coords points="302,1838 243,1838 243,1884 286,1884 392,1884 392,1846 386,1846 375,1849 354,1845 352,1841 344,1838 332,1838 323,1843 305,1840"/>
           <TextEquiv conf="0.91802573">
-            <Unicode>Ha&#x364;u&#x17F;er,</Unicode>
+            <Unicode>Haͤuſer,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0022_word0002" custom="readingOrder {index:2;}">
           <Coords points="426,1841 426,1886 520,1886 520,1843 515,1844 512,1841 501,1841 495,1845 460,1845 455,1839 439,1838"/>
           <TextEquiv conf="0.92117494">
-            <Unicode>&#x17F;tand</Unicode>
+            <Unicode>ſtand</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0022_word0003" custom="readingOrder {index:3;}">
           <Coords points="583,1837 556,1837 543,1840 543,1884 720,1884 720,1841 718,1841 712,1837 699,1837 690,1841 687,1837 666,1837 656,1842 630,1844 589,1843"/>
           <TextEquiv conf="0.92132896">
-            <Unicode>&#x17F;chwerlich</Unicode>
+            <Unicode>ſchwerlich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0022_word0004" custom="readingOrder {index:4;}">
@@ -1215,11 +1226,11 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0022_word0007" custom="readingOrder {index:7;}">
           <Coords points="1096,1845 1096,1876 1161,1876 1161,1852 1134,1853 1125,1844 1116,1845 1112,1850 1106,1845"/>
           <TextEquiv conf="0.8905286">
-            <Unicode>die&#x2E17;</Unicode>
+            <Unicode>die⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91326535">
-          <Unicode>liche Ha&#x364;u&#x17F;er, &#x17F;tand &#x17F;chwerlich vielen nach, und die&#x2E17;</Unicode>
+          <Unicode>liche Haͤuſer, ſtand ſchwerlich vielen nach, und die⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0023" custom="readingOrder {index:20;}">
@@ -1227,7 +1238,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0023_word0000" custom="readingOrder {index:0;}">
           <Coords points="170,1880 145,1880 145,1926 147,1928 154,1928 165,1922 200,1927 200,1885 188,1886 175,1884"/>
           <TextEquiv conf="0.93651336">
-            <Unicode>&#x17F;es</Unicode>
+            <Unicode>ſes</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0023_word0001" custom="readingOrder {index:1;}">
@@ -1239,7 +1250,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0023_word0002" custom="readingOrder {index:2;}">
           <Coords points="386,1892 386,1933 446,1933 446,1894 442,1892 432,1896 408,1890 390,1890"/>
           <TextEquiv conf="0.9223394">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0023_word0003" custom="readingOrder {index:3;}">
@@ -1279,7 +1290,7 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9266575">
-          <Unicode>&#x17F;es befand &#x17F;ich gleichwol noch zu Ende des 14ten</Unicode>
+          <Unicode>ſes befand ſich gleichwol noch zu Ende des 14ten</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0024" custom="readingOrder {index:21;}">
@@ -1305,13 +1316,13 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0024_word0003" custom="readingOrder {index:3;}">
           <Coords points="583,1944 583,1982 617,1982 617,1947 611,1947 610,1942 606,1940 591,1940"/>
           <TextEquiv conf="0.9606678">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0024_word0004" custom="readingOrder {index:4;}">
           <Coords points="642,1944 642,1977 848,1976 848,1944 803,1944 778,1938 771,1938 767,1942 739,1943 730,1942 729,1938 723,1936 714,1936 703,1942 696,1938 666,1938 657,1943"/>
           <TextEquiv>
-            <Unicode>abha&#x364;ngigen</Unicode>
+            <Unicode>abhaͤngigen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0024_word0005" custom="readingOrder {index:5;}">
@@ -1323,21 +1334,21 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0024_word0006" custom="readingOrder {index:6;}">
           <Coords points="1012,1948 1012,1981 1074,1981 1074,1945 1070,1944 1053,1945 1050,1949"/>
           <TextEquiv conf="0.9635287">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0024_word0007" custom="readingOrder {index:7;}">
           <Coords points="1101,1945 1097,1994 1157,1994 1161,1948 1160,1948 1151,1944 1131,1947 1117,1944"/>
           <TextEquiv conf="0.96010244">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Jarhunderts in einer &#x17F;o abha&#x364;ngigen Lage, da&#xDF; &#x17F;ich</Unicode>
+          <Unicode>Jarhunderts in einer ſo abhaͤngigen Lage, daß ſich</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0025" custom="readingOrder {index:22;}">
-        <Coords points="212,1978 202,1984 175,1986 77,1985 76,2020 81,2025 132,2026 139,2031 146,2030 150,2025 168,2024 181,2030 211,2032 232,2027 237,2030 253,2029 260,2032 284,2030 297,2034 317,2033 344,2039 356,2037 384,2041 400,2038 409,2043 429,2040 447,2050 461,2042 491,2046 510,2045 519,2048 623,2043 632,2039 644,2042 674,2039 679,2046 688,2046 695,2040 769,2036 806,2041 866,2041 873,2044 881,2042 902,2046 953,2048 1100,2043 1171,2046 1171,1999 1104,2002 1088,2000 1082,1995 1071,1995 1055,2002 1010,2002 1004,1996 991,1997 988,2002 921,2002 880,1997 872,1990 858,1992 854,1996 846,1990 836,1990 830,1996 797,1997 784,1994 758,1996 743,1993 636,1997 633,1992 620,1991 612,1998 588,2002 528,2000 525,1996 498,1999 491,1995 477,1996 452,1990 426,1992 394,1988 374,1989 366,1986 302,1988 277,1986 267,1982 233,1986 228,1985 223,1978"/>
+        <Coords points="202,1984 175,1986 77,1985 76,2020 81,2025 132,2026 139,2031 146,2030 150,2025 168,2024 181,2030 211,2032 232,2027 237,2030 253,2029 260,2032 284,2030 297,2034 317,2033 344,2039 356,2037 384,2041 400,2038 409,2043 429,2040 447,2050 461,2042 491,2046 510,2045 519,2048 623,2043 632,2039 644,2042 674,2039 679,2046 688,2046 695,2040 769,2036 806,2041 866,2041 873,2044 881,2042 902,2046 953,2048 1100,2043 1169,2045 1169,1999 1104,2002 1088,2000 1082,1995 1071,1995 1055,2002 1010,2002 1004,1996 991,1997 988,2002 921,2002 880,1997 872,1990 858,1992 854,1996 846,1990 836,1990 830,1996 797,1997 784,1994 758,1996 743,1993 636,1997 633,1992 620,1991 612,1998 588,2002 528,2000 525,1996 498,1999 491,1995 477,1996 452,1990 426,1992 394,1988 374,1989 366,1986 302,1988 277,1986 267,1982 233,1986 228,1985 223,1978 212,1978"/>
         <Word id="region0006_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="232,2027 232,1987 139,1988 139,2031 146,2030 150,2025 168,2024 181,2030 211,2032"/>
           <TextEquiv conf="0.89833266">
@@ -1385,17 +1396,17 @@ Landeshoheit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0026" custom="readingOrder {index:23;}">
-        <Coords points="156,2025 150,2026 144,2032 136,2031 132,2027 79,2026 74,2031 74,2064 84,2070 87,2079 93,2080 144,2079 153,2082 167,2079 239,2084 314,2080 390,2089 432,2086 439,2090 472,2090 480,2095 510,2097 554,2098 560,2095 580,2096 587,2093 614,2095 655,2088 713,2089 737,2085 746,2081 748,2096 759,2100 791,2098 810,2092 838,2092 846,2098 868,2105 896,2104 916,2098 968,2094 1008,2096 1017,2092 1033,2097 1039,2093 1070,2092 1138,2097 1171,2096 1170,2050 1116,2049 1106,2044 1092,2048 1005,2048 921,2052 881,2043 819,2045 783,2037 769,2037 728,2039 688,2047 679,2047 674,2040 665,2040 651,2046 632,2040 616,2049 565,2051 518,2050 510,2046 495,2049 482,2044 461,2043 447,2051 429,2041 407,2044 400,2039 391,2039 381,2043 356,2038 328,2038 317,2034 296,2035 284,2031 258,2035 253,2030 237,2031 232,2028 210,2034 193,2034 178,2032 168,2025"/>
+        <Coords points="150,2026 144,2032 136,2031 132,2027 79,2026 74,2031 74,2064 84,2070 87,2079 93,2080 144,2079 153,2082 167,2079 239,2084 314,2080 390,2089 432,2086 439,2090 472,2090 480,2095 510,2097 554,2098 560,2095 580,2096 587,2093 614,2095 655,2088 713,2089 737,2085 746,2081 748,2096 759,2100 791,2098 810,2092 838,2092 846,2098 868,2105 896,2104 916,2098 968,2094 1008,2096 1017,2092 1033,2097 1039,2093 1070,2092 1138,2097 1169,2096 1169,2049 1116,2049 1106,2044 1092,2048 1005,2048 921,2052 881,2043 819,2045 783,2037 769,2037 728,2039 688,2047 679,2047 674,2040 665,2040 651,2046 632,2040 616,2049 565,2051 518,2050 510,2046 495,2049 482,2044 461,2043 447,2051 429,2041 407,2044 400,2039 391,2039 381,2043 356,2038 328,2038 317,2034 296,2035 284,2031 258,2035 253,2030 237,2031 232,2028 210,2034 193,2034 178,2032 168,2025 156,2025"/>
         <Word id="region0006_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="193,2034 147,2034 147,2080 162,2080 167,2079 181,2080 197,2080 197,2034"/>
           <TextEquiv>
-            <Unicode>&#x17F;er</Unicode>
+            <Unicode>ſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0026_word0001" custom="readingOrder {index:1;}">
           <Coords points="214,2035 288,2035 288,2077 214,2077"/>
           <TextEquiv>
-            <Unicode>u&#x364;bel</Unicode>
+            <Unicode>uͤbel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0026_word0002" custom="readingOrder {index:2;}">
@@ -1413,7 +1424,7 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0026_word0004" custom="readingOrder {index:4;}">
           <Coords points="591,2049 591,2075 713,2075 713,2042 688,2047 679,2047 674,2040 665,2040 651,2046 632,2040 616,2049"/>
           <TextEquiv>
-            <Unicode>wu&#x364;rde.</Unicode>
+            <Unicode>wuͤrde.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0026_word0005" custom="readingOrder {index:5;}">
@@ -1441,11 +1452,11 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;er u&#x364;bel dabei befinden wu&#x364;rde. Jm Jare 1372. den</Unicode>
+          <Unicode>ſer uͤbel dabei befinden wuͤrde. Jm Jare 1372. den</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0027" custom="readingOrder {index:24;}">
-        <Coords points="87,2080 81,2090 81,2123 84,2127 140,2129 172,2138 200,2137 289,2144 352,2142 366,2143 374,2150 383,2150 390,2144 423,2144 431,2145 437,2151 452,2153 460,2153 465,2148 521,2152 559,2150 563,2153 572,2153 576,2150 625,2148 634,2143 660,2143 668,2139 710,2142 722,2147 779,2150 956,2150 991,2158 1078,2155 1094,2149 1109,2148 1171,2148 1171,2102 1093,2100 1086,2099 1080,2093 1064,2096 1039,2094 1034,2098 1018,2093 1008,2097 968,2095 958,2101 868,2106 846,2099 838,2093 810,2093 791,2099 759,2101 744,2096 737,2086 721,2088 713,2095 655,2089 607,2100 600,2100 598,2096 587,2094 577,2098 560,2096 552,2101 527,2101 479,2097 472,2091 459,2093 454,2090 439,2091 432,2087 419,2088 413,2093 408,2093 314,2081 228,2086 167,2080 153,2083 144,2080"/>
+        <Coords points="81,2090 81,2123 84,2127 140,2129 169,2137 192,2137 200,2137 203,2137 1169,2139 1169,2101 1093,2100 1086,2099 1080,2093 1064,2096 1039,2094 1034,2098 1018,2093 1008,2097 968,2095 958,2101 868,2106 846,2099 838,2093 810,2093 791,2099 759,2101 744,2096 737,2086 721,2088 713,2095 655,2089 607,2100 600,2100 598,2096 587,2094 577,2098 560,2096 552,2101 527,2101 479,2097 472,2091 459,2093 454,2090 439,2091 432,2087 419,2088 413,2093 408,2093 314,2081 228,2086 167,2080 153,2083 144,2080 87,2080"/>
         <Word id="region0006_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="205,2137 255,2137 255,2095 148,2096 148,2131 171,2137 180,2137 200,2137"/>
           <TextEquiv>
@@ -1455,13 +1466,13 @@ Landeshoheit.</Unicode>
         <Word id="region0006_line0027_word0001" custom="readingOrder {index:1;}">
           <Coords points="384,2090 284,2090 284,2143 289,2144 352,2142 366,2143 367,2144 387,2144 387,2090"/>
           <TextEquiv>
-            <Unicode>Ma&#x364;rz</Unicode>
+            <Unicode>Maͤrz</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0027_word0002" custom="readingOrder {index:2;}">
           <Coords points="457,2092 418,2092 418,2143 534,2143 534,2101 527,2101 479,2097 473,2092 465,2092 459,2093"/>
           <TextEquiv>
-            <Unicode>o&#x364;ffnen</Unicode>
+            <Unicode>oͤffnen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0027_word0003" custom="readingOrder {index:3;}">
@@ -1495,49 +1506,49 @@ Landeshoheit.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>25ten Ma&#x364;rz o&#x364;ffnen die Grafen Otto und Johann</Unicode>
+          <Unicode>25ten Maͤrz oͤffnen die Grafen Otto und Johann</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ich unter'm Artikel Vogtei, wiewol allda &#xA7;. 14.
-nur mit ein Par Worten bema&#x364;rkt. Jch habe es in
-die&#x17F;en kleinen Abhandlungen &#x17F;chon einigemal bema&#x364;rkt,
-wiewol ich's wei&#xDF; und wie gern ich's zugebe, da&#xDF; die
-Gewalt der ma&#x364;chtigeren Herzoge, z. B. der Erz&#x2E17;
-und Bi&#x17F;cho&#x364;fe &#x17F;chon im 10ten Jarhundert gro&#xDF; und
-an&#x17F;ehnlich gewe&#x17F;en &#x17F;ei. Jhnen aber eine Landeshoheit
-vor dem 15ten Jarhundert zuzuge&#x17F;tehen, dazu wu&#x364;rde
-ich mich unfa&#x364;hig finden, wenn ich nicht gegen mein
-Gewi&#x17F;&#x17F;en reden &#x17F;ollte. Dermal &#x17F;ind damit alle Reichs&#x2E17;
-&#x17F;ta&#x364;nde one Ausnam, auch mei&#x17F;tens (wo nicht alle)
-reichsunmittelbare damit ausge&#x17F;chmu&#x364;kt. Sie hat
-freilich noch immer auch dermal ihre gro&#xDF;e Ab&#x17F;tufung,
-aber doch gewi&#xDF; one allen Vergleich mit denjenigen,
-wovon uns die Vorzeiten Bei&#x17F;piele liefern. Jch
-will die&#x17F;en gro&#xDF;en Unter&#x17F;chied mit einem nur ein&#x2E17;
-zigen Bei&#x17F;piele aus der Nachbar&#x17F;chaft erla&#x364;utern, und
-zwar vom Hau&#x17F;e Solms. Die&#x17F;es geho&#x364;ret, wie jeder
-Kenner wei&#xDF;, unter die beru&#x364;mten uralte reichsgra&#x364;f&#x2E17;
-liche Ha&#x364;u&#x17F;er, &#x17F;tand &#x17F;chwerlich vielen nach, und die&#x2E17;
-&#x17F;es befand &#x17F;ich gleichwol noch zu Ende des 14ten
-Jarhunderts in einer &#x17F;o abha&#x364;ngigen Lage, da&#xDF; &#x17F;ich
+        <Unicode>ich unter'm Artikel Vogtei, wiewol allda §. 14.
+nur mit ein Par Worten bemaͤrkt. Jch habe es in
+dieſen kleinen Abhandlungen ſchon einigemal bemaͤrkt,
+wiewol ich's weiß und wie gern ich's zugebe, daß die
+Gewalt der maͤchtigeren Herzoge, z. B. der Erz⸗
+und Biſchoͤfe ſchon im 10ten Jarhundert groß und
+anſehnlich geweſen ſei. Jhnen aber eine Landeshoheit
+vor dem 15ten Jarhundert zuzugeſtehen, dazu wuͤrde
+ich mich unfaͤhig finden, wenn ich nicht gegen mein
+Gewiſſen reden ſollte. Dermal ſind damit alle Reichs⸗
+ſtaͤnde one Ausnam, auch meiſtens (wo nicht alle)
+reichsunmittelbare damit ausgeſchmuͤkt. Sie hat
+freilich noch immer auch dermal ihre große Abſtufung,
+aber doch gewiß one allen Vergleich mit denjenigen,
+wovon uns die Vorzeiten Beiſpiele liefern. Jch
+will dieſen großen Unterſchied mit einem nur ein⸗
+zigen Beiſpiele aus der Nachbarſchaft erlaͤutern, und
+zwar vom Hauſe Solms. Dieſes gehoͤret, wie jeder
+Kenner weiß, unter die beruͤmten uralte reichsgraͤf⸗
+liche Haͤuſer, ſtand ſchwerlich vielen nach, und die⸗
+ſes befand ſich gleichwol noch zu Ende des 14ten
+Jarhunderts in einer ſo abhaͤngigen Lage, daß ſich
 nach dem W. Frieden ein purer reichsunmittelbarer
-&#x17F;er u&#x364;bel dabei befinden wu&#x364;rde. Jm Jare 1372. den
-25ten Ma&#x364;rz o&#x364;ffnen die Grafen Otto und Johann</Unicode>
+ſer uͤbel dabei befinden wuͤrde. Jm Jare 1372. den
+25ten Maͤrz oͤffnen die Grafen Otto und Johann</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676365064208_1846" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676365064208_1846" custom="readingOrder {index:7;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="645,2210 758,2210 758,2136 645,2136"/>
       <TextLine id="line_1676365070081_1849" custom="readingOrder {index:0;}">
         <Coords points="652,2210 754,2210 754,2139 652,2139"/>
         <Word id="word_1676967986486_479" custom="readingOrder {index:0;}">
-          <Coords points="648,2141 703,2141 703,2212 648,2212"/>
+          <Coords points="703,2141 652,2141 652,2210 703,2210"/>
           <TextEquiv>
             <Unicode>J</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676967986485_478" custom="readingOrder {index:1;}">
-          <Coords points="703,2141 756,2141 756,2212 703,2212"/>
+          <Coords points="703,2141 703,2210 754,2210 754,2141"/>
           <TextEquiv>
             <Unicode>2</Unicode>
           </TextEquiv>
@@ -1550,7 +1561,7 @@ nach dem W. Frieden ein purer reichsunmittelbarer
         <Unicode>J 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676365054245_1834" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="region_1676365054245_1834" custom="readingOrder {index:8;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1093,2152 1093,2206 1162,2206 1162,2152"/>
       <TextLine id="line_1676365054379_1837" custom="readingOrder {index:0;}">
         <Coords points="1093,2152 1093,2206 1162,2206 1162,2152"/>
@@ -1571,5 +1582,8 @@ nach dem W. Frieden ein purer reichsunmittelbarer
     <GraphicRegion id="Graphic_1676365038792_1831" custom="readingOrder {index:9;}">
       <Coords points="515,255 782,255 782,329 515,329"/>
     </GraphicRegion>
+    <SeparatorRegion id="Separator_1676967973652_474" custom="readingOrder {index:0;}">
+      <Coords points="506,616 769,616 769,656 506,656"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

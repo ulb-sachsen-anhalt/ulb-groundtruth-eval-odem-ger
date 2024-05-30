@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-121">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:24Z</Created>
     <LastChange>2024-01-19T13:07:24Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/587bdd17-83e6-4978-b71f-b86218b992df/00000059.jpg" imageWidth="1568" imageHeight="2396" type="content" primaryLanguage="German">
     <Border>
@@ -18,10 +32,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1670831114770_463"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1670831147146_481" custom="readingOrder {index:0;}">
-      <Coords points="570,223 713,223 713,281 570,281"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1670831135282_470" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1670831135282_470" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1048,242 1048,295 1104,295 1104,242"/>
       <TextLine id="line_1670831135382_473" custom="readingOrder {index:0;}">
         <Coords points="1048,242 1048,295 1104,295 1104,242"/>
@@ -39,7 +50,7 @@
         <Unicode>57</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.28117344" readingDirection="left-to-right" id="TextRegion_1670831110223_447" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1670831110223_447" custom="readingOrder {index:2;}" orientation="0.28117344" readingDirection="left-to-right">
       <Coords points="207,327 1148,327 1148,1977 207,1977"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="232,328 232,357 236,360 279,361 280,382 283,385 426,380 435,390 440,390 446,382 547,381 595,383 601,386 649,382 658,390 665,390 673,382 677,382 681,389 693,391 702,389 708,381 738,380 758,388 770,380 828,381 830,387 841,389 849,387 851,381 882,379 928,380 935,388 947,387 950,381 956,380 978,384 988,381 1087,382 1095,391 1103,390 1112,383 1147,382 1147,339 1077,339 1075,332 1069,328 1058,329 1047,338 1018,338 1006,335 992,336 988,328 959,327 837,328 829,336 821,328 803,328 801,331 787,329 781,334 716,337 705,336 701,328 686,328 681,331 676,328 660,328 649,336 637,328 567,327 552,331 548,327 534,327 530,332 526,329 515,329 507,336 457,338 450,328 432,328 422,338 417,328 402,328 397,337 389,337 363,334 347,327"/>
@@ -1572,7 +1583,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0031" custom="readingOrder {index:30;}">
-        <Coords points="1074,1919 1064,1928 1042,1928 1039,1922 1024,1922 1018,1926 997,1930 976,1923 933,1921 857,1932 819,1930 815,1924 799,1922 778,1923 770,1929 716,1932 675,1932 640,1924 607,1923 558,1933 533,1933 526,1924 511,1926 504,1930 499,1926 486,1926 481,1933 476,1926 465,1925 452,1933 435,1933 403,1931 397,1925 386,1925 379,1931 322,1931 285,1930 281,1927 263,1931 249,1929 243,1924 229,1924 207,1926 208,1989 241,1992 258,1981 278,1982 285,1988 293,1988 299,1984 326,1983 333,1987 343,1987 350,1982 390,1977 431,1981 442,1989 456,1989 466,1982 498,1981 510,1981 516,1989 527,1988 535,1980 650,1980 657,1987 670,1988 676,1986 684,1976 711,1973 727,1972 743,1978 767,1977 777,1983 786,1983 792,1978 798,1978 870,1982 910,1980 920,1981 927,1985 938,1985 944,1981 961,1985 971,1981 1027,1975 1081,1973 1090,1976 1110,1976 1148,1972 1148,1933 1095,1930 1090,1928 1089,1921"/>
+        <Coords points="1064,1928 1042,1928 1039,1922 1024,1922 1018,1926 997,1930 976,1923 933,1921 857,1932 819,1930 815,1924 799,1922 778,1923 770,1929 716,1932 675,1932 640,1924 607,1923 558,1933 533,1933 526,1924 511,1926 504,1930 499,1926 486,1926 481,1933 476,1926 465,1925 452,1933 435,1933 403,1931 397,1925 386,1925 379,1931 322,1931 285,1930 281,1927 263,1931 249,1929 243,1924 229,1924 207,1926 207,1977 390,1977 683,1977 684,1976 711,1973 727,1972 740,1977 767,1977 1008,1977 1027,1975 1081,1973 1090,1976 1110,1976 1148,1972 1148,1933 1095,1930 1090,1928 1089,1921 1074,1919"/>
         <Baseline points="208,1975 709,1965 965,1971 1148,1964"/>
         <Word id="word_1670831110280_450" custom="readingOrder {index:0;}">
           <Coords points="223,1932 299,1932 299,1977 223,1977"/>
@@ -1599,7 +1610,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1670831400583_573" custom="readingOrder {index:4;}">
-          <Coords points="737,1930 893,1930 893,1970 737,1970"/>
+          <Coords points="752,1930 737,1930 737,1970 893,1970 893,1930 870,1930 857,1932 819,1930"/>
           <TextEquiv>
             <Unicode>geſtimmt</Unicode>
           </TextEquiv>
@@ -1660,10 +1671,10 @@ Blut, oder durch das Unrecht, das man gelitten
 geſtimmt hat, zu dergleichen Klagen geſtimmt iſt, die La⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.28117344" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1670831114770_464" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1670831114770_464" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="0.28117344" type="signature-mark" readingDirection="left-to-right">
       <Coords points="207,1977 803,1977 803,2036 207,2036"/>
       <TextLine id="line_1670831114816_467" custom="readingOrder {index:0;}">
-        <Coords points="682,1978 711,1974 727,1973 743,1979 764,1978 777,1984 803,1984 803,2035 637,2033 632,2029 631,2004 634,2000 677,1999 678,1984"/>
+        <Coords points="682,1978 678,1984 677,1999 634,2000 631,2004 632,2029 637,2033 803,2035 803,1984 777,1984 764,1978 743,1979 737,1977 689,1977"/>
         <Baseline points="632,2023 803,2022"/>
         <Word id="region0002_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="789,1991 696,1992 696,2033 789,2035"/>
@@ -1679,10 +1690,10 @@ geſtimmt hat, zu dergleichen Klagen geſtimmt iſt, die La⸗</Unicode>
         <Unicode>D5 ſter</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.28117344" type="catch-word" readingDirection="left-to-right" id="TextRegion_1670831114770_463" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1670831114770_463" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.28117344" type="catch-word" readingDirection="left-to-right">
       <Coords points="803,1977 1148,1977 1148,2036 803,2036"/>
       <TextLine id="line_1670831114816_466" custom="readingOrder {index:0;}">
-        <Coords points="803,1984 961,1986 997,1984 1015,1979 1058,1979 1065,1974 1081,1974 1100,1982 1148,1982 1148,2031 1080,2032 1078,2036 1058,2036 1056,2032 1007,2033 999,2023 851,2024 847,2036 803,2035"/>
+        <Coords points="1058,1979 1015,1979 997,1984 961,1986 803,1984 803,2035 847,2036 851,2024 999,2023 1007,2033 1056,2032 1058,2036 1078,2036 1080,2032 1148,2031 1148,1982 1100,1982 1088,1977 1060,1977"/>
         <Baseline points="803,2022 1148,2021"/>
         <Word id="region0002_line0032_word0001" custom="readingOrder {index:0;}">
           <Coords points="1122,1990 1061,1990 1061,2036 1078,2036 1080,2032 1122,2031"/>
@@ -1698,5 +1709,8 @@ geſtimmt hat, zu dergleichen Klagen geſtimmt iſt, die La⸗</Unicode>
         <Unicode>D5 ſter</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1670831147146_481" custom="readingOrder {index:0;}">
+      <Coords points="570,223 713,223 713,281 570,281"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

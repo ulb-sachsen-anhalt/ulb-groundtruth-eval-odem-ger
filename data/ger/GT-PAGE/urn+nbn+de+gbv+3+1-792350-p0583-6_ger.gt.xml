@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-897">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:18Z</Created>
     <LastChange>2024-01-19T13:10:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4557329c-d452-451a-830d-a83879c49cd4/00000583.jpg" imageWidth="1656" imageHeight="2345" type="content" primaryLanguage="German">
     <Border>
@@ -16,14 +30,14 @@
         <RegionRefIndexed index="14" regionRef="region0022"/>
       </OrderedGroup>
     </ReadingOrder>
-    <ImageRegion orientation="0.9762324" id="region0001" custom="readingOrder {index:0;}">
+    <ImageRegion id="region0001" custom="readingOrder {index:0;}" orientation="0.9762324">
       <Coords points="233,472 765,472 765,929 233,929"/>
     </ImageRegion>
-    <ImageRegion orientation="0.9762324" id="region0022" custom="readingOrder {index:1;}">
+    <ImageRegion id="region0022" custom="readingOrder {index:1;}" orientation="0.9762324">
       <Coords points="249,1171 834,1171 834,1731 249,1731"/>
     </ImageRegion>
     <GraphicRegion id="Graphic_1658132735120_3557" custom="readingOrder {index:2;}">
-      <Coords points="220,283 922,283 922,384 220,384"/>
+      <Coords points="836,384 836,300 230,300 230,384"/>
     </GraphicRegion>
   </Page>
 </PcGts>

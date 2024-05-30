@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-730">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:30Z</Created>
     <LastChange>2024-01-19T13:09:30Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/14f8607d-f67b-41f2-8776-f6c8298b3b45/00000099.jpg" imageWidth="1755" imageHeight="2621" type="content" primaryLanguage="German">
     <Border>
@@ -19,10 +33,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1675669579941_1400"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1683701751497_155" custom="readingOrder {index:0;}">
-      <Coords points="582,308 821,308 821,346 582,346"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.8334719" type="page-number" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.8334719" type="page-number" readingDirection="left-to-right">
       <Coords points="1180,297 1235,297 1235,347 1180,347"/>
       <TextLine id="region0001_line" custom="readingOrder {index:0;}">
         <Coords points="1180,297 1235,297 1235,347 1180,347"/>
@@ -40,7 +51,7 @@
         <Unicode>87</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8334719" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="0.8334719" readingDirection="left-to-right">
       <Coords points="149,388 1261,388 1261,1912 149,1912"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="273,391 260,396 238,396 232,400 225,393 217,393 208,396 200,405 149,406 150,449 294,448 300,454 310,455 317,448 362,448 369,453 384,453 399,446 450,445 455,446 461,452 471,452 480,445 488,445 499,452 510,452 520,445 628,442 718,443 754,451 806,449 837,442 924,441 949,442 956,450 967,449 971,442 978,442 984,448 993,448 1000,442 1024,440 1031,448 1053,446 1059,440 1107,442 1121,447 1186,439 1261,438 1260,395 1222,393 1220,388 1181,388 1177,391 1135,392 1125,396 1106,396 1090,394 1083,388 996,391 959,388 951,393 924,397 819,399 815,388 747,388 736,396 725,395 719,389 711,389 705,393 692,392 687,388 673,388 667,391 636,394 619,391 610,397 567,399 534,397 530,394 503,396 493,388 468,388 464,391 461,388 445,389 439,399 433,400 334,401 317,400 310,391 302,391 293,396 283,391"/>
@@ -277,7 +288,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1675669657093_1429" custom="readingOrder {index:8;}">
-          <Coords points="1112,569 1128,571 1145,568 1153,569 1156,573 1161,573 1161,620 1143,621 1139,625 1112,625"/>
+          <Coords points="1114,569 1112,570 1112,621 1120,621 1122,625 1139,625 1143,621 1161,620 1161,573 1156,573 1153,569 1145,568 1128,571"/>
           <TextEquiv conf="0.90453917">
             <Unicode>iſt.</Unicode>
           </TextEquiv>
@@ -436,7 +447,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0007_word0002" custom="readingOrder {index:2;}">
-          <Coords points="329,763 330,812 380,815 408,811 419,812 421,814 447,814 449,812 510,812 513,813 548,812 560,812 596,811 598,810 711,807 710,760 634,766 575,765 565,763 559,763 556,765 504,767 492,766 491,764"/>
+          <Coords points="330,812 380,815 408,811 419,812 421,814 447,814 449,812 510,812 514,813 548,812 560,812 596,811 598,810 711,807 710,762 699,761 634,766 575,765 565,763 559,763 556,765 504,767 492,766 490,764 446,764 445,764 445,764 390,763 389,764 388,763 329,763"/>
           <TextEquiv conf="0.81094325">
             <Unicode>Fruͤhlingspunct</Unicode>
           </TextEquiv>
@@ -717,7 +728,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0012_word0003" custom="readingOrder {index:3;}">
-          <Coords points="478,1060 459,1060 442,1067 417,1067 417,1112 435,1112 478,1119"/>
+          <Coords points="418,1067 417,1067 417,1112 435,1112 447,1114 457,1114 478,1117 478,1063 464,1069 437,1069 434,1067"/>
           <TextEquiv conf="0.914131">
             <Unicode>der</Unicode>
           </TextEquiv>
@@ -845,7 +856,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0014_word0002" custom="readingOrder {index:2;}">
-          <Coords points="490,1184 451,1184 441,1190 418,1189 418,1235 439,1235 465,1238 490,1237"/>
+          <Coords points="441,1190 418,1189 418,1235 439,1235 442,1235 479,1235 490,1236 490,1185 481,1190 446,1189 444,1188"/>
           <TextEquiv conf="0.9197867">
             <Unicode>der</Unicode>
           </TextEquiv>
@@ -1595,7 +1606,7 @@ nach dem Sommerſolſtitium, ihre mittlere Hoͤhe wieder
 erreicht, und ſo geht der Herbſt an.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8334719" type="footnote" readingDirection="left-to-right" id="TextRegion_1675669574700_1384" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1675669574700_1384" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="0.8334719" type="footnote" readingDirection="left-to-right">
       <Coords points="249,1959 1269,1959 1269,2220 249,2220"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="362,1959 358,1963 250,1964 250,1998 261,1999 261,2010 265,2013 313,2009 328,2011 352,2007 431,2009 475,2007 485,2012 500,2008 564,2009 584,2006 649,2008 659,2012 672,2008 727,2007 732,2012 742,2012 748,2007 793,2006 818,2008 824,2011 845,2008 875,2012 916,2007 922,2007 927,2011 939,2011 946,2007 957,2007 971,2007 979,2011 1031,2011 1054,2006 1268,2003 1268,1963 1232,1964 1201,1959 1102,1965 1098,1960 1082,1960 1078,1965 987,1966 933,1965 888,1960 831,1965 828,1960 810,1960 802,1965 800,1960 792,1959 779,1959 775,1965 749,1965 744,1960 727,1960 722,1965 714,1965 704,1964 697,1959 689,1960 682,1965 671,1965 666,1961 650,1963 643,1959 581,1960 576,1966 566,1967 497,1966 490,1961 477,1962 473,1966 446,1962 440,1966 390,1968 380,1967 371,1959"/>
@@ -1897,7 +1908,7 @@ erreicht, und ſo geht der Herbſt an.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0006" custom="readingOrder {index:5;}">
-        <Coords points="311,2182 250,2186 249,2223 259,2228 310,2228 316,2233 326,2233 331,2228 416,2228 426,2235 436,2235 443,2227 478,2228 485,2235 495,2234 502,2227 506,2227 518,2228 524,2236 549,2236 563,2228 614,2231 676,2228 682,2232 711,2227 716,2231 725,2231 731,2226 743,2225 748,2230 755,2230 766,2223 828,2220 855,2221 879,2231 885,2230 889,2225 905,2223 909,2226 919,2226 927,2223 955,2226 1020,2225 1048,2230 1055,2226 1090,2226 1114,2219 1116,2216 1116,2188 1112,2183 1057,2181 1052,2178 1031,2182 1001,2177 867,2180 853,2177 845,2181 804,2187 739,2178 686,2186 637,2178 586,2184 546,2181 540,2186 528,2182 517,2183 513,2180 483,2181 476,2184 418,2182 408,2188 400,2185 357,2186 334,2182"/>
+        <Coords points="250,2186 249,2220 828,2220 1110,2220 1114,2219 1116,2216 1116,2188 1112,2183 1057,2181 1052,2178 1031,2182 1001,2177 867,2180 853,2177 845,2181 804,2187 739,2178 686,2186 637,2178 586,2184 546,2181 540,2186 528,2182 517,2183 513,2180 483,2181 476,2184 418,2182 408,2188 400,2185 357,2186 334,2182 311,2182"/>
         <Baseline points="249,2217 1116,2215"/>
         <Word id="word_1675669574733_1387" custom="readingOrder {index:0;}">
           <Coords points="305,2194 400,2193 400,2220 305,2220"/>
@@ -1948,14 +1959,14 @@ Warum iſt es nicht gerade zu der Zeit am waͤrmſten, wann die
 Sonne ihre hoͤchſte Mittagshoͤhe erreicht? Endlich</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8334719" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1675669581542_1406" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1675669581542_1406" custom="readingOrder {index:4;} structure {type:signature-mark;}" orientation="0.8334719" type="signature-mark" readingDirection="left-to-right">
       <Coords points="750,2220 1045,2220 1045,2273 750,2273"/>
       <TextLine id="line_1675669579976_1404" custom="readingOrder {index:0;}">
         <Coords points="766,2224 800,2221 855,2222 879,2232 1045,2231 1045,2259 935,2261 928,2269 878,2270 874,2273 753,2273 755,2231"/>
         <Baseline points="753,2268 934,2263 1045,2259"/>
         <Word id="region0003_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="804,2230 830,2230 831,2272 805,2272"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>F</Unicode>
           </TextEquiv>
         </Word>
@@ -1973,7 +1984,7 @@ Sonne ihre hoͤchſte Mittagshoͤhe erreicht? Endlich</Unicode>
         <Unicode>F 4 Warum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8334719" type="catch-word" readingDirection="left-to-right" id="TextRegion_1675669579941_1400" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1675669579941_1400" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0.8334719" type="catch-word" readingDirection="left-to-right">
       <Coords points="1045,2220 1269,2220 1269,2273 1045,2273"/>
       <TextLine id="line_1675669579976_1403" custom="readingOrder {index:0;}">
         <Coords points="1045,2231 1048,2231 1088,2229 1093,2225 1112,2220 1187,2220 1219,2224 1260,2222 1268,2223 1269,2263 1103,2269 1094,2259 1045,2259"/>
@@ -1992,5 +2003,8 @@ Sonne ihre hoͤchſte Mittagshoͤhe erreicht? Endlich</Unicode>
         <Unicode>F 4 Warum</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683701751497_155" custom="readingOrder {index:0;}">
+      <Coords points="582,308 821,308 821,346 582,346"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

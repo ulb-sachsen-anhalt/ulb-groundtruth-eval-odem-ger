@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-37">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:07Z</Created>
     <LastChange>2024-01-19T13:07:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/289de6c4-94dc-4541-96f6-b245b18efc3e/00000251.jpg" imageWidth="1391" imageHeight="2075" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676366372601_2546"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676366267592_2441" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676366267592_2441" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="308,326 308,360 804,360 804,326"/>
       <TextLine id="line_1676366267660_2444" custom="readingOrder {index:0;}">
         <Coords points="308,326 804,326 804,360 308,360"/>
@@ -42,7 +56,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1676366279507_2456" custom="readingOrder {index:3;}">
-          <Coords points="571,323 620,323 620,356 571,356"/>
+          <Coords points="571,356 620,356 620,326 571,326"/>
           <TextEquiv>
             <Unicode>den</Unicode>
           </TextEquiv>
@@ -50,18 +64,18 @@
         <Word id="word_1676366282559_2459" custom="readingOrder {index:4;}">
           <Coords points="630,329 800,329 800,360 630,360"/>
           <TextEquiv>
-            <Unicode>Unza&#x364;hligen.</Unicode>
+            <Unicode>Unzaͤhligen.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Der Einzige unter den Unza&#x364;hligen.</Unicode>
+          <Unicode>Der Einzige unter den Unzaͤhligen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Der Einzige unter den Unza&#x364;hligen.</Unicode>
+        <Unicode>Der Einzige unter den Unzaͤhligen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676366288024_2462" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676366288024_2462" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="867,331 867,364 912,364 912,331"/>
       <TextLine id="line_1676366288085_2465" custom="readingOrder {index:0;}">
         <Coords points="867,331 867,364 912,364 912,331"/>
@@ -79,7 +93,7 @@
         <Unicode>37</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.047604576" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644841955799_125" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644841955799_125" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="0.047604576" type="paragraph" readingDirection="left-to-right">
       <Coords points="184,403 915,403 917,1237 186,1237"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="184,404 184,457 278,456 322,461 331,466 344,466 353,461 371,459 410,460 416,466 428,466 434,460 446,459 502,459 508,460 516,469 526,469 537,460 566,459 572,466 581,466 588,458 622,456 914,453 914,414 882,411 879,403 854,403 849,410 845,403 826,403 823,410 813,406 805,406 800,410 780,411 771,409 768,404 712,404 704,412 694,413 659,413 653,404 637,404 632,414 599,412 592,405 576,405 567,412 523,414 491,413 485,408 464,409 459,413 452,413 446,412 436,404 302,404 295,412 281,413 250,413 241,404"/>
@@ -110,7 +124,7 @@
         <Word id="region0002_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="602,457 602,417 571,417 571,460 586,460 588,458"/>
           <TextEquiv conf="0.93062556">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0005" custom="readingOrder {index:5;}">
@@ -122,11 +136,11 @@
         <Word id="region0002_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="903,413 726,414 726,454 911,453 911,413"/>
           <TextEquiv conf="0.91451627">
-            <Unicode>u&#x364;bertriebe&#x2E17;</Unicode>
+            <Unicode>uͤbertriebe⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9257328">
-          <Unicode>keinen Fall hatte zu &#x17F;o einer u&#x364;bertriebe&#x2E17;</Unicode>
+          <Unicode>keinen Fall hatte zu ſo einer uͤbertriebe⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0002" custom="readingOrder {index:1;}">
@@ -140,13 +154,13 @@
         <Word id="region0002_line0002_word0001" custom="readingOrder {index:1;}">
           <Coords points="348,476 277,476 277,521 312,522 313,524 334,524 335,523 360,523 360,524 381,524 382,523 416,524 432,524 449,524 449,477 436,477 435,476 407,476 406,477 393,478 390,476 363,476 362,477 356,477"/>
           <TextEquiv conf="0.9240295">
-            <Unicode>Eifer&#x17F;ucht</Unicode>
+            <Unicode>Eiferſucht</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0002" custom="readingOrder {index:2;}">
           <Coords points="539,477 510,477 508,479 467,477 467,524 506,524 506,525 528,525 530,523 558,523 558,477 541,477 540,478"/>
           <TextEquiv conf="0.9194396">
-            <Unicode>un&#x17F;er</Unicode>
+            <Unicode>unſer</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0003" custom="readingOrder {index:3;}">
@@ -164,11 +178,11 @@
         <Word id="region0002_line0002_word0005" custom="readingOrder {index:5;}">
           <Coords points="849,476 910,476 910,513 849,513"/>
           <TextEquiv conf="0.9197879">
-            <Unicode>Ur&#x2E17;</Unicode>
+            <Unicode>Ur⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9218686">
-          <Unicode>nen Eifer&#x17F;ucht un&#x17F;er Churburg eine Ur&#x2E17;</Unicode>
+          <Unicode>nen Eiferſucht unſer Churburg eine Ur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0003" custom="readingOrder {index:2;}">
@@ -176,7 +190,7 @@
         <Word id="region0002_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="216,537 193,537 193,585 296,585 296,542 261,542 259,537 233,537 230,542 222,542"/>
           <TextEquiv conf="0.9162255">
-            <Unicode>&#x17F;ache;</Unicode>
+            <Unicode>ſache;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0001" custom="readingOrder {index:1;}">
@@ -206,11 +220,11 @@
         <Word id="region0002_line0003_word0005" custom="readingOrder {index:5;}">
           <Coords points="899,538 841,538 841,577 909,577 909,540"/>
           <TextEquiv conf="0.93108004">
-            <Unicode>Be&#x2E17;</Unicode>
+            <Unicode>Be⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91853195">
-          <Unicode>&#x17F;ache; weil Luzie keine weiteren Be&#x2E17;</Unicode>
+          <Unicode>ſache; weil Luzie keine weiteren Be⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0004" custom="readingOrder {index:3;}">
@@ -218,7 +232,7 @@
         <Word id="region0002_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="245,603 194,603 194,650 248,652 248,653 271,653 296,653 368,653 368,610 361,609 357,603 286,603 284,607 280,607 277,603 252,603 247,607"/>
           <TextEquiv>
-            <Unicode>du&#x364;rfni&#x17F;&#x17F;e,</Unicode>
+            <Unicode>duͤrfniſſe,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0002" custom="readingOrder {index:1;}">
@@ -230,7 +244,7 @@
         <Word id="region0002_line0004_word0003" custom="readingOrder {index:2;}">
           <Coords points="478,624 527,624 527,634 478,634"/>
           <TextEquiv conf="0.793938">
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0004" custom="readingOrder {index:3;}">
@@ -254,11 +268,11 @@
         <Word id="region0002_line0004_word0007" custom="readingOrder {index:6;}">
           <Coords points="904,605 842,605 842,641 909,641 909,605"/>
           <TextEquiv>
-            <Unicode>Un&#x2E17;</Unicode>
+            <Unicode>Un⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>du&#x364;rfni&#x17F;&#x17F;e, als &#x2014; in Treue und Un&#x2E17;</Unicode>
+          <Unicode>duͤrfniſſe, als — in Treue und Un⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0005" custom="readingOrder {index:4;}">
@@ -266,7 +280,7 @@
         <Word id="region0002_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="237,666 191,666 191,712 293,712 293,666 290,666 253,666 241,670"/>
           <TextEquiv conf="0.92106193">
-            <Unicode>&#x17F;chuld</Unicode>
+            <Unicode>ſchuld</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0001" custom="readingOrder {index:1;}">
@@ -284,7 +298,7 @@
         <Word id="region0002_line0005_word0003" custom="readingOrder {index:3;}">
           <Coords points="501,709 501,672 482,672 482,708 492,708"/>
           <TextEquiv conf="0.89426756">
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0004" custom="readingOrder {index:4;}">
@@ -302,17 +316,17 @@
         <Word id="region0002_line0005_word0006" custom="readingOrder {index:6;}">
           <Coords points="801,709 801,668 771,669 771,714 787,713 791,710"/>
           <TextEquiv conf="0.9284095">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0007" custom="readingOrder {index:7;}">
           <Coords points="821,667 908,667 908,702 821,702"/>
           <TextEquiv conf="0.9275592">
-            <Unicode>woll&#x2E17;</Unicode>
+            <Unicode>woll⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91801524">
-          <Unicode>&#x17F;chuld zu leben &#x2014; kannte. Aber &#x17F;o woll&#x2E17;</Unicode>
+          <Unicode>ſchuld zu leben — kannte. Aber ſo woll⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0006" custom="readingOrder {index:5;}">
@@ -362,7 +376,7 @@
         <Word id="region0002_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="202,789 192,789 192,837 256,837 256,789 255,789 238,789 232,794 227,794"/>
           <TextEquiv conf="0.9595592">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0007_word0001" custom="readingOrder {index:1;}">
@@ -398,11 +412,11 @@
         <Word id="region0002_line0007_word0006" custom="readingOrder {index:6;}">
           <Coords points="781,791 781,835 908,834 908,803 894,803 893,794 889,789 871,790 865,785 850,787 844,799 808,789"/>
           <TextEquiv conf="0.8926602">
-            <Unicode>Unza&#x364;h&#x2E17;</Unicode>
+            <Unicode>Unzaͤh⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9494925">
-          <Unicode>da&#xDF; er der Einzige unter den Unza&#x364;h&#x2E17;</Unicode>
+          <Unicode>daß er der Einzige unter den Unzaͤh⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0008" custom="readingOrder {index:7;}">
@@ -416,7 +430,7 @@
         <Word id="region0002_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="319,859 298,859 298,906 359,906 359,866 323,865 321,860"/>
           <TextEquiv conf="0.9084958">
-            <Unicode>&#x17F;ey.</Unicode>
+            <Unicode>ſey.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0002" custom="readingOrder {index:2;}">
@@ -446,11 +460,11 @@
         <Word id="region0002_line0008_word0006" custom="readingOrder {index:6;}">
           <Coords points="878,905 908,905 908,860 844,860 844,905 851,905 864,904"/>
           <TextEquiv conf="0.91128767">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9202088">
-          <Unicode>ligen &#x17F;ey. Daher kam es auch, da&#xDF;</Unicode>
+          <Unicode>ligen ſey. Daher kam es auch, daß</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0009" custom="readingOrder {index:8;}">
@@ -488,7 +502,7 @@
         <Word id="region0002_line0009_word0005" custom="readingOrder {index:5;}">
           <Coords points="671,921 594,921 594,968 601,968 617,969 642,969 684,967 722,966 722,922 673,924"/>
           <TextEquiv>
-            <Unicode>Thu&#x364;ren</Unicode>
+            <Unicode>Thuͤren</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0009_word0006" custom="readingOrder {index:6;}">
@@ -500,15 +514,15 @@
         <Word id="region0002_line0009_word0007" custom="readingOrder {index:7;}">
           <Coords points="907,966 907,923 812,923 812,966 860,966 862,968 881,968 883,966"/>
           <TextEquiv conf="0.92243665">
-            <Unicode>Ve&#x17F;te</Unicode>
+            <Unicode>Veſte</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>er bei der Nacht alle Thu&#x364;ren der Ve&#x17F;te</Unicode>
+          <Unicode>er bei der Nacht alle Thuͤren der Veſte</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0010" custom="readingOrder {index:9;}">
-        <Coords points="799,974 763,976 753,979 749,984 742,977 733,977 727,982 719,977 711,977 704,982 683,982 669,989 652,988 648,985 639,985 635,988 633,982 627,978 612,979 605,988 593,989 492,986 485,977 474,977 465,986 459,987 432,985 426,979 416,976 406,976 395,984 314,988 299,988 293,979 282,978 275,983 273,989 254,989 242,986 236,980 224,980 214,990 184,990 184,1033 270,1032 284,1033 295,1040 305,1040 317,1033 353,1031 398,1035 405,1041 417,1041 423,1035 458,1033 462,1036 471,1036 475,1033 484,1033 499,1034 508,1044 520,1044 529,1034 609,1035 617,1042 626,1042 634,1035 662,1036 668,1042 677,1042 683,1036 733,1032 818,1034 825,1041 833,1041 842,1034 873,1034 881,1042 890,1042 897,1033 914,1032 914,975 837,977"/>
+        <Coords points="763,976 753,979 749,984 742,977 733,977 727,982 719,977 711,977 704,982 683,982 669,989 652,988 648,985 639,985 635,988 633,982 627,978 612,979 605,988 593,989 492,986 485,977 474,977 465,986 459,987 432,985 426,979 416,976 406,976 395,984 314,988 299,988 293,979 282,978 275,983 273,989 254,989 242,986 236,980 224,980 214,990 185,990 185,1032 270,1032 284,1033 295,1040 305,1040 317,1033 353,1031 398,1035 405,1041 417,1041 423,1035 458,1033 462,1036 471,1036 475,1033 484,1033 499,1034 508,1044 520,1044 529,1034 609,1035 617,1042 626,1042 634,1035 662,1036 668,1042 677,1042 683,1036 733,1032 818,1034 825,1041 833,1041 842,1034 873,1034 881,1042 890,1042 897,1033 914,1032 914,975 837,977 799,974"/>
         <Word id="region0002_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="191,990 191,1025 249,1025 249,989 215,989 214,990"/>
           <TextEquiv conf="0.92476714">
@@ -542,19 +556,19 @@
         <Word id="region0002_line0010_word0005" custom="readingOrder {index:5;}">
           <Coords points="907,1032 907,985 770,986 770,1032 818,1034 820,1036 838,1036 842,1034 873,1034 875,1036 894,1036 897,1033"/>
           <TextEquiv conf="0.91664344">
-            <Unicode>Schlu&#x364;&#x17F;&#x2E17;</Unicode>
+            <Unicode>Schluͤſ⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92314506">
-          <Unicode>mit eigener Hand zumachte, die Schlu&#x364;&#x17F;&#x2E17;</Unicode>
+          <Unicode>mit eigener Hand zumachte, die Schluͤſ⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0011" custom="readingOrder {index:10;}">
-        <Coords points="311,1040 283,1043 263,1051 254,1042 243,1042 238,1046 234,1043 184,1044 184,1099 191,1106 201,1106 208,1099 214,1098 358,1095 395,1097 402,1105 410,1105 418,1097 439,1097 496,1099 503,1106 512,1106 519,1099 572,1097 763,1097 807,1100 813,1105 827,1105 833,1100 914,1096 914,1049 901,1049 895,1043 883,1043 875,1051 865,1053 841,1052 834,1046 814,1044 805,1051 749,1056 746,1056 737,1045 726,1045 719,1055 709,1055 695,1054 676,1045 665,1045 658,1054 644,1054 609,1052 601,1044 591,1044 579,1053 528,1056 476,1050 467,1041 451,1043 445,1051 439,1051 419,1042 408,1042 400,1048 373,1049 346,1042"/>
+        <Coords points="283,1043 263,1051 254,1042 243,1042 238,1046 234,1043 185,1043 185,1100 191,1106 201,1106 208,1099 214,1098 358,1095 395,1097 402,1105 410,1105 418,1097 439,1097 496,1099 503,1106 512,1106 519,1099 572,1097 763,1097 807,1100 813,1105 827,1105 833,1100 914,1096 914,1049 901,1049 895,1043 883,1043 875,1051 865,1053 841,1052 834,1046 814,1044 805,1051 749,1056 746,1056 737,1045 726,1045 719,1055 709,1055 695,1054 676,1045 665,1045 658,1054 644,1054 609,1052 601,1044 591,1044 579,1053 528,1056 476,1050 467,1041 451,1043 445,1051 439,1051 419,1042 408,1042 400,1048 373,1049 346,1042 311,1040"/>
         <Word id="region0002_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="232,1097 232,1053 190,1053 190,1099 208,1099 214,1098"/>
           <TextEquiv conf="0.93101823">
-            <Unicode>&#x17F;el</Unicode>
+            <Unicode>ſel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0011_word0001" custom="readingOrder {index:1;}">
@@ -572,7 +586,7 @@
         <Word id="region0002_line0011_word0003" custom="readingOrder {index:3;}">
           <Coords points="434,1049 402,1049 402,1098 417,1098 418,1097 439,1097 467,1098 520,1098 520,1055 476,1050 475,1049 446,1049 445,1051 439,1051"/>
           <TextEquiv conf="0.91902">
-            <Unicode>&#x17F;teckte,</Unicode>
+            <Unicode>ſteckte,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0011_word0004" custom="readingOrder {index:4;}">
@@ -600,11 +614,11 @@
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9257863">
-          <Unicode>&#x17F;el ins Bett &#x17F;teckte, und mit einer Hand</Unicode>
+          <Unicode>ſel ins Bett ſteckte, und mit einer Hand</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0012" custom="readingOrder {index:11;}">
-        <Coords points="726,1104 718,1114 702,1115 639,1114 619,1112 613,1106 601,1106 594,1112 565,1113 558,1107 549,1107 537,1118 483,1119 415,1117 407,1106 390,1109 384,1116 381,1116 375,1107 261,1108 230,1116 190,1109 184,1111 184,1165 198,1166 203,1174 217,1176 222,1172 224,1165 389,1162 394,1167 404,1167 412,1162 431,1162 457,1164 460,1168 467,1169 477,1164 623,1158 914,1157 914,1114 875,1114 869,1104 855,1105 844,1115 746,1114 739,1105"/>
+        <Coords points="718,1114 702,1115 639,1114 619,1112 613,1106 601,1106 594,1112 565,1113 558,1107 549,1107 537,1118 483,1119 415,1117 407,1106 390,1109 384,1116 381,1116 375,1107 261,1108 230,1116 190,1109 185,1110 185,1165 198,1166 203,1174 217,1176 222,1172 224,1165 389,1162 394,1167 404,1167 412,1162 431,1162 457,1164 460,1168 467,1169 477,1164 623,1158 914,1157 914,1114 875,1114 869,1104 855,1105 844,1115 746,1114 739,1105 726,1104"/>
         <Word id="region0002_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="224,1115 190,1115 190,1165 224,1165 251,1164 251,1115 233,1115 230,1116"/>
           <TextEquiv conf="0.9204715">
@@ -646,7 +660,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0013" custom="readingOrder {index:12;}">
-        <Coords points="468,1169 410,1172 351,1170 315,1175 259,1174 245,1176 235,1185 230,1185 223,1177 211,1177 207,1180 202,1177 189,1177 184,1181 185,1230 291,1230 310,1231 315,1236 325,1236 332,1231 360,1230 367,1238 388,1238 395,1229 408,1228 430,1228 436,1235 445,1235 455,1227 572,1227 595,1220 698,1220 703,1215 702,1193 697,1188 580,1187 554,1182 525,1181 520,1177 497,1181 492,1177 482,1178 477,1170"/>
+        <Coords points="410,1172 351,1170 315,1175 259,1174 245,1176 235,1185 230,1185 223,1177 211,1177 207,1180 202,1177 189,1177 185,1179 185,1230 291,1230 310,1231 315,1236 325,1236 332,1231 360,1230 366,1237 388,1237 395,1229 408,1228 430,1228 436,1235 445,1235 455,1227 572,1227 595,1220 698,1220 703,1215 702,1193 697,1188 580,1187 554,1182 525,1181 520,1177 497,1181 492,1177 482,1178 477,1170 468,1169"/>
         <Word id="region0002_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="191,1185 239,1185 240,1223 192,1223"/>
           <TextEquiv conf="0.95786786">
@@ -656,45 +670,45 @@
         <Word id="region0002_line0013_word0001" custom="readingOrder {index:1;}">
           <Coords points="417,1228 417,1180 260,1180 260,1230 291,1230 310,1231 332,1231 360,1230 360,1231 393,1231 395,1229 408,1228"/>
           <TextEquiv>
-            <Unicode>Schlu&#x364;&#x17F;&#x17F;el</Unicode>
+            <Unicode>Schluͤſſel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0013_word0002" custom="readingOrder {index:2;}">
           <Coords points="494,1179 436,1179 437,1228 453,1228 455,1227 550,1227 550,1181 525,1181 522,1179 508,1179 497,1181"/>
           <TextEquiv>
-            <Unicode>hu&#x364;tete.</Unicode>
+            <Unicode>huͤtete.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0013_word0003" custom="readingOrder {index:3;}">
           <Coords points="568,1200 634,1200 635,1211 569,1211"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
+          <Unicode>die Schluͤſſel huͤtete. —</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>keinen Fall hatte zu &#x17F;o einer u&#x364;bertriebe&#x2E17;
-nen Eifer&#x17F;ucht un&#x17F;er Churburg eine Ur&#x2E17;
-&#x17F;ache; weil Luzie keine weiteren Be&#x2E17;
-du&#x364;rfni&#x17F;&#x17F;e, als &#x2014; in Treue und Un&#x2E17;
-&#x17F;chuld zu leben &#x2014; kannte. Aber &#x17F;o woll&#x2E17;
+        <Unicode>keinen Fall hatte zu ſo einer uͤbertriebe⸗
+nen Eiferſucht unſer Churburg eine Ur⸗
+ſache; weil Luzie keine weiteren Be⸗
+duͤrfniſſe, als — in Treue und Un⸗
+ſchuld zu leben — kannte. Aber ſo woll⸗
 te Churburg auch hier abermals zeigen,
-da&#xDF; er der Einzige unter den Unza&#x364;h&#x2E17;
-ligen &#x17F;ey. Daher kam es auch, da&#xDF;
-er bei der Nacht alle Thu&#x364;ren der Ve&#x17F;te
-mit eigener Hand zumachte, die Schlu&#x364;&#x17F;&#x2E17;
-&#x17F;el ins Bett &#x17F;teckte, und mit einer Hand
+daß er der Einzige unter den Unzaͤh⸗
+ligen ſey. Daher kam es auch, daß
+er bei der Nacht alle Thuͤren der Veſte
+mit eigener Hand zumachte, die Schluͤſ⸗
+ſel ins Bett ſteckte, und mit einer Hand
 das Weibchen, mit der andern aber
-die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
+die Schluͤſſel huͤtete. —</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.047604576" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644841955799_124" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644841955799_124" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="0.047604576" type="paragraph" readingDirection="left-to-right">
       <Coords points="186,1237 917,1237 919,1750 188,1750"/>
       <TextLine id="region0002_line0014" custom="readingOrder {index:0;}">
-        <Coords points="721,1234 711,1244 674,1244 670,1236 658,1235 645,1242 638,1238 627,1238 600,1246 580,1248 560,1247 553,1237 470,1235 456,1238 453,1247 448,1249 396,1248 360,1251 307,1248 292,1239 280,1237 185,1237 185,1292 290,1291 309,1293 314,1300 324,1301 345,1290 352,1301 385,1303 398,1296 422,1295 434,1304 445,1304 451,1299 506,1300 533,1297 538,1301 548,1301 557,1294 597,1292 865,1290 884,1292 890,1298 915,1293 915,1247 852,1245 846,1244 841,1237 828,1233 776,1235 762,1244 759,1244 751,1234 742,1234 736,1239 730,1234"/>
+        <Coords points="711,1244 674,1244 670,1237 654,1237 645,1242 638,1238 627,1238 600,1246 580,1248 560,1247 553,1237 460,1237 456,1238 453,1247 448,1249 396,1248 360,1251 307,1248 292,1239 280,1237 186,1237 186,1291 290,1291 309,1293 314,1300 324,1301 345,1290 352,1301 385,1303 398,1296 422,1295 434,1304 445,1304 451,1299 506,1300 533,1297 538,1301 548,1301 557,1294 597,1292 865,1290 884,1292 890,1298 915,1293 915,1247 852,1245 846,1244 841,1237 772,1237 762,1244 759,1244 753,1237 738,1237 736,1239 733,1237 718,1237"/>
         <Word id="region0002_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="305,1247 243,1247 243,1291 290,1291 299,1292 337,1292 337,1249 307,1248"/>
           <TextEquiv conf="0.9243206">
@@ -758,7 +772,7 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0015_word0003" custom="readingOrder {index:3;}">
           <Coords points="731,1310 565,1310 565,1358 611,1358 635,1358 672,1357 673,1358 695,1358 696,1357 704,1356 735,1357 741,1358 763,1358 763,1314 759,1315 734,1313"/>
           <TextEquiv conf="0.91635865">
-            <Unicode>Schick&#x17F;ale,</Unicode>
+            <Unicode>Schickſale,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0015_word0004" custom="readingOrder {index:4;}">
@@ -774,11 +788,11 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.943466">
-          <Unicode>zufrieden mit ihrem Schick&#x17F;ale, an der</Unicode>
+          <Unicode>zufrieden mit ihrem Schickſale, an der</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0016" custom="readingOrder {index:2;}">
-        <Coords points="562,1362 556,1366 554,1378 552,1372 545,1367 535,1367 529,1374 524,1375 517,1367 489,1369 483,1364 473,1364 435,1374 429,1366 411,1367 405,1364 394,1365 388,1373 363,1372 357,1367 345,1367 339,1372 318,1372 310,1363 298,1365 291,1373 276,1375 264,1372 257,1366 248,1366 243,1370 229,1366 185,1368 185,1423 290,1423 297,1419 310,1418 380,1417 400,1418 405,1425 412,1428 420,1427 425,1420 440,1420 449,1421 455,1427 465,1427 471,1421 498,1422 504,1427 515,1427 520,1423 540,1423 548,1431 564,1431 573,1423 695,1418 762,1418 774,1419 779,1424 787,1423 793,1418 835,1417 840,1424 851,1425 861,1416 915,1416 915,1374 864,1372 858,1362 840,1364 833,1372 775,1373 769,1368 756,1368 749,1374 735,1375 702,1375 693,1373 685,1367 667,1364 606,1364 593,1367 589,1378 577,1379 577,1365 573,1362"/>
+        <Coords points="556,1366 554,1378 552,1372 545,1367 535,1367 529,1374 524,1375 517,1367 489,1369 483,1364 473,1364 435,1374 429,1366 411,1367 405,1364 394,1365 388,1373 363,1372 357,1367 345,1367 339,1372 318,1372 310,1363 298,1365 291,1373 276,1375 264,1372 257,1366 248,1366 243,1370 229,1366 186,1367 186,1423 290,1423 297,1419 310,1418 380,1417 400,1418 405,1425 412,1428 420,1427 425,1420 440,1420 449,1421 455,1427 465,1427 471,1421 498,1422 504,1427 515,1427 520,1423 540,1423 548,1431 564,1431 573,1423 695,1418 762,1418 774,1419 779,1424 787,1423 793,1418 835,1417 840,1424 851,1425 861,1416 915,1416 915,1374 864,1372 858,1362 840,1364 833,1372 775,1373 769,1368 756,1368 749,1374 735,1375 702,1375 693,1373 685,1367 667,1364 606,1364 593,1367 589,1378 577,1379 577,1365 573,1362 562,1362"/>
         <Word id="region0002_line0016_word0000" custom="readingOrder {index:0;}">
           <Coords points="191,1375 288,1375 288,1417 191,1417"/>
           <TextEquiv conf="0.96077067">
@@ -794,7 +808,7 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0016_word0002" custom="readingOrder {index:2;}">
           <Coords points="432,1370 390,1370 388,1373 381,1372 381,1417 400,1418 402,1422 423,1422 425,1420 440,1420 449,1421 450,1422 470,1422 471,1421 498,1422 597,1422 606,1421 606,1370 591,1370 589,1378 577,1379 577,1370 555,1370 554,1378 552,1372 549,1370 532,1370 529,1374 524,1375 519,1370 450,1370 435,1374"/>
           <TextEquiv>
-            <Unicode>eifer&#x17F;u&#x364;chtigen</Unicode>
+            <Unicode>eiferſuͤchtigen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0016_word0003" custom="readingOrder {index:3;}">
@@ -810,11 +824,11 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Seite des eifer&#x17F;u&#x364;chtigen Mannes, ohne</Unicode>
+          <Unicode>Seite des eiferſuͤchtigen Mannes, ohne</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0017" custom="readingOrder {index:3;}">
-        <Coords points="399,1426 386,1429 382,1438 342,1435 334,1427 320,1430 255,1429 244,1432 240,1442 225,1441 199,1432 191,1432 185,1436 185,1485 385,1482 456,1486 463,1494 476,1494 484,1486 499,1486 513,1487 519,1493 529,1493 536,1488 549,1488 555,1493 565,1495 574,1494 582,1488 621,1488 627,1493 635,1493 641,1488 660,1488 689,1482 713,1483 717,1490 729,1493 744,1484 778,1481 854,1481 861,1482 867,1489 879,1489 885,1484 915,1484 915,1428 875,1426 862,1433 845,1436 800,1435 794,1431 782,1432 777,1436 757,1438 750,1438 746,1432 737,1429 727,1429 718,1436 690,1428 642,1429 637,1434 636,1444 548,1443 541,1442 539,1434 534,1430 517,1432 510,1441 417,1438 413,1429"/>
+        <Coords points="386,1429 382,1438 342,1435 334,1427 320,1430 255,1429 244,1432 240,1442 225,1441 199,1432 191,1432 186,1434 186,1484 385,1482 456,1486 463,1494 476,1494 484,1486 499,1486 513,1487 519,1493 529,1493 536,1488 549,1488 555,1493 565,1495 574,1494 582,1488 621,1488 627,1493 635,1493 641,1488 660,1488 689,1482 713,1483 717,1490 729,1493 744,1484 778,1481 854,1481 861,1482 867,1489 879,1489 885,1484 915,1484 915,1428 875,1426 862,1433 845,1436 800,1435 794,1431 782,1432 777,1436 757,1438 750,1438 746,1432 737,1429 727,1429 718,1436 690,1428 642,1429 637,1434 636,1444 548,1443 541,1442 539,1434 534,1430 517,1432 510,1441 417,1438 413,1429 399,1426"/>
         <Word id="region0002_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="225,1441 191,1441 191,1478 250,1478 250,1441 240,1441 240,1442"/>
           <TextEquiv conf="0.9298068">
@@ -842,7 +856,7 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0017_word0004" custom="readingOrder {index:4;}">
           <Coords points="714,1435 678,1435 678,1484 689,1482 713,1483 714,1485 742,1485 742,1435 719,1435 718,1436"/>
           <TextEquiv conf="0.9287789">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0017_word0005" custom="readingOrder {index:5;}">
@@ -858,21 +872,21 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.92584324">
-          <Unicode>den Gedanken zu hegen, da&#xDF; es wohl</Unicode>
+          <Unicode>den Gedanken zu hegen, daß es wohl</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0018" custom="readingOrder {index:4;}">
-        <Coords points="347,1490 339,1495 337,1501 315,1501 299,1497 286,1503 253,1505 249,1496 236,1495 222,1505 214,1496 188,1499 185,1501 185,1551 245,1552 362,1546 404,1549 413,1557 430,1557 440,1550 599,1551 741,1544 796,1545 802,1552 812,1552 822,1545 915,1548 915,1503 881,1502 875,1493 859,1494 852,1501 831,1501 808,1500 803,1496 793,1496 789,1499 732,1499 730,1494 716,1491 708,1499 682,1502 677,1494 665,1492 659,1496 656,1503 585,1507 583,1500 577,1496 554,1493 484,1495 466,1504 428,1505 419,1504 412,1494 400,1494 396,1497 390,1492 379,1492 371,1501 366,1501 360,1491"/>
+        <Coords points="339,1495 337,1501 315,1501 299,1497 286,1503 253,1505 249,1496 236,1495 222,1505 214,1496 188,1499 187,1499 187,1551 245,1552 362,1546 404,1549 413,1557 430,1557 440,1550 599,1551 741,1544 796,1545 802,1552 812,1552 822,1545 915,1548 915,1503 881,1502 875,1493 859,1494 852,1501 831,1501 808,1500 803,1496 793,1496 789,1499 732,1499 730,1494 716,1491 708,1499 682,1502 677,1494 665,1492 659,1496 656,1503 585,1507 583,1500 577,1496 554,1493 484,1495 466,1504 428,1505 419,1504 412,1494 400,1494 396,1497 390,1492 379,1492 371,1501 366,1501 360,1491 347,1490"/>
         <Word id="region0002_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="214,1497 205,1497 190,1498 190,1547 342,1547 362,1546 376,1547 483,1547 483,1497 480,1497 466,1504 428,1505 419,1504 414,1497 396,1497 374,1497 371,1501 366,1501 363,1497 338,1497 337,1501 315,1501 299,1497 286,1503 253,1505 249,1497 233,1497 222,1505"/>
           <TextEquiv conf="0.8909279">
-            <Unicode>liebenswu&#x364;rdigere</Unicode>
+            <Unicode>liebenswuͤrdigere</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0018_word0001" custom="readingOrder {index:1;}">
           <Coords points="581,1499 498,1499 498,1540 645,1540 645,1503 585,1507 583,1500"/>
           <TextEquiv conf="0.92270845">
-            <Unicode>Ma&#x364;nner</Unicode>
+            <Unicode>Maͤnner</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0018_word0002" custom="readingOrder {index:2;}">
@@ -894,11 +908,11 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.91343534">
-          <Unicode>liebenswu&#x364;rdigere Ma&#x364;nner in der tyroler</Unicode>
+          <Unicode>liebenswuͤrdigere Maͤnner in der tyroler</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0019" custom="readingOrder {index:5;}">
-        <Coords points="721,1556 712,1559 707,1566 678,1565 671,1557 661,1557 656,1561 646,1561 641,1565 616,1571 606,1571 600,1562 588,1561 580,1572 551,1571 544,1565 530,1560 448,1560 441,1561 427,1570 405,1570 397,1559 382,1560 375,1569 358,1569 324,1567 320,1559 307,1558 296,1568 254,1573 246,1573 242,1566 224,1561 185,1563 185,1617 201,1617 208,1622 220,1622 225,1617 239,1617 248,1626 259,1626 271,1623 275,1617 313,1615 327,1611 338,1614 348,1622 361,1622 372,1614 380,1613 447,1618 556,1616 575,1618 584,1625 593,1625 602,1619 609,1619 617,1625 628,1625 636,1617 672,1612 712,1613 718,1619 729,1619 736,1613 790,1613 797,1620 805,1620 812,1613 862,1614 868,1620 881,1620 890,1613 915,1609 915,1571 892,1570 891,1563 886,1558 855,1559 848,1569 832,1569 827,1568 815,1555 798,1556 790,1566 755,1566 750,1562 738,1564 730,1556"/>
+        <Coords points="712,1559 707,1566 678,1565 671,1557 661,1557 656,1561 646,1561 641,1565 616,1571 606,1571 600,1562 588,1561 580,1572 551,1571 544,1565 530,1560 448,1560 441,1561 427,1570 405,1570 397,1559 382,1560 375,1569 358,1569 324,1567 320,1559 307,1558 296,1568 254,1573 246,1573 242,1566 224,1561 187,1562 187,1617 201,1617 208,1622 220,1622 225,1617 239,1617 248,1626 259,1626 271,1623 275,1617 313,1615 327,1611 338,1614 348,1622 361,1622 372,1614 380,1613 447,1618 556,1616 575,1618 584,1625 593,1625 602,1619 609,1619 617,1625 628,1625 636,1617 672,1612 712,1613 718,1619 729,1619 736,1613 790,1613 797,1620 805,1620 812,1613 862,1614 868,1620 881,1620 890,1613 915,1609 915,1571 892,1570 891,1563 886,1558 855,1559 848,1569 832,1569 827,1568 815,1555 798,1556 790,1566 755,1566 750,1562 738,1564 730,1556 721,1556"/>
         <Word id="region0002_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="242,1566 192,1566 192,1617 201,1617 202,1618 224,1618 225,1617 239,1617 240,1618 274,1618 275,1617 313,1615 327,1611 327,1567 324,1567 323,1566 298,1566 296,1568 254,1573 246,1573"/>
           <TextEquiv conf="0.931306">
@@ -932,21 +946,21 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0019_word0005" custom="readingOrder {index:5;}">
           <Coords points="825,1566 795,1566 795,1615 810,1615 812,1613 835,1613 835,1569 832,1569 827,1568"/>
           <TextEquiv conf="0.9285746">
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0019_word0006" custom="readingOrder {index:6;}">
           <Coords points="891,1569 857,1569 857,1613 862,1614 888,1614 890,1613 907,1610 907,1570 892,1570"/>
           <TextEquiv conf="0.92319053">
-            <Unicode>ih&#x2E17;</Unicode>
+            <Unicode>ih⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.9250244">
-          <Unicode>Gegend gebe. Aber jezt dachte &#x17F;ie ih&#x2E17;</Unicode>
+          <Unicode>Gegend gebe. Aber jezt dachte ſie ih⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0020" custom="readingOrder {index:6;}">
-        <Coords points="320,1612 314,1615 314,1625 247,1626 223,1636 185,1637 185,1681 272,1682 278,1686 286,1686 297,1681 312,1680 329,1682 341,1679 347,1685 356,1685 363,1679 413,1678 460,1686 465,1682 516,1682 520,1679 554,1681 580,1673 613,1672 627,1674 630,1682 636,1686 649,1686 658,1676 799,1679 915,1675 915,1629 894,1629 877,1623 865,1623 858,1632 847,1633 817,1633 813,1624 800,1623 791,1627 787,1633 652,1631 601,1638 578,1638 563,1636 554,1629 543,1629 536,1634 524,1633 507,1625 494,1628 430,1627 424,1631 392,1632 386,1631 380,1622 350,1622 338,1626 336,1615"/>
+        <Coords points="314,1615 314,1625 247,1626 223,1636 187,1636 187,1681 272,1682 278,1686 286,1686 297,1681 312,1680 329,1682 341,1679 347,1685 356,1685 363,1679 413,1678 460,1686 465,1682 516,1682 520,1679 554,1681 580,1673 613,1672 627,1674 630,1682 636,1686 649,1686 658,1676 799,1679 915,1675 915,1629 894,1629 877,1623 865,1623 858,1632 847,1633 817,1633 813,1624 800,1623 791,1627 787,1633 652,1631 601,1638 578,1638 563,1636 554,1629 543,1629 536,1634 524,1633 507,1625 494,1628 430,1627 424,1631 392,1632 386,1631 380,1622 350,1622 338,1626 336,1615 320,1612"/>
         <Word id="region0002_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="192,1636 192,1662 245,1662 245,1628 242,1628 223,1636"/>
           <TextEquiv conf="0.92542326">
@@ -968,7 +982,7 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0020_word0003" custom="readingOrder {index:3;}">
           <Coords points="587,1638 612,1638 612,1652 587,1652"/>
           <TextEquiv conf="0.9157292">
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0020_word0004" custom="readingOrder {index:4;}">
@@ -980,15 +994,15 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0020_word0005" custom="readingOrder {index:5;}">
           <Coords points="749,1632 749,1661 905,1660 905,1629 894,1629 877,1623 865,1623 858,1632 847,1633 817,1633 813,1624 800,1623 791,1627 787,1633"/>
           <TextEquiv conf="0.9155206">
-            <Unicode>unbemit&#x2E17;</Unicode>
+            <Unicode>unbemit⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>res Nachbars, des &#x2014; zwar unbemit&#x2E17;</Unicode>
+          <Unicode>res Nachbars, des — zwar unbemit⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0021" custom="readingOrder {index:7;}">
-        <Coords points="806,1683 776,1686 771,1690 769,1700 731,1700 729,1693 724,1689 714,1689 708,1693 706,1699 696,1699 689,1698 685,1690 676,1687 665,1687 654,1698 608,1699 591,1698 586,1694 563,1697 527,1687 429,1696 425,1693 414,1694 386,1686 337,1686 332,1691 331,1704 252,1701 243,1699 237,1693 227,1693 216,1700 185,1700 185,1746 220,1746 234,1749 246,1746 284,1747 319,1738 351,1744 565,1744 572,1753 585,1752 591,1744 639,1744 651,1745 655,1752 666,1753 673,1745 751,1745 764,1748 768,1745 814,1741 915,1740 915,1689 873,1683"/>
+        <Coords points="776,1686 771,1690 769,1700 731,1700 729,1693 724,1689 714,1689 708,1693 706,1699 696,1699 689,1698 685,1690 676,1687 665,1687 654,1698 608,1699 591,1698 586,1694 563,1697 527,1687 429,1696 425,1693 414,1694 386,1686 337,1686 332,1691 331,1704 252,1701 243,1699 237,1693 227,1693 216,1700 187,1700 187,1746 220,1746 234,1749 246,1746 284,1747 319,1738 351,1744 565,1744 569,1750 586,1750 591,1744 639,1744 651,1745 653,1750 668,1750 673,1745 751,1745 764,1748 768,1745 814,1741 915,1740 915,1689 873,1683 806,1683"/>
         <Word id="word_1642066483831_1730" custom="readingOrder {index:0;}">
           <Coords points="225,1694 238,1694 243,1699 252,1701 285,1702 285,1737 193,1737 193,1700 216,1700"/>
           <TextEquiv conf="0.8709292">
@@ -996,9 +1010,9 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0021_word0001" custom="readingOrder {index:1;}">
-          <Coords points="343,1742 343,1690 333,1690 332,1691 331,1704 293,1709 293,1744"/>
+          <Coords points="343,1690 333,1690 332,1691 331,1704 293,1709 293,1744 296,1743 319,1738 340,1742 343,1742"/>
           <TextEquiv conf="0.8933173">
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0021_word0002" custom="readingOrder {index:2;}">
@@ -1010,7 +1024,7 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
         <Word id="region0002_line0021_word0003" custom="readingOrder {index:3;}">
           <Coords points="552,1694 495,1691 495,1740 765,1743 765,1700 731,1700 729,1694 707,1694 706,1699 696,1699 689,1698 687,1694 658,1694 654,1698 608,1699 591,1698 586,1694 563,1697"/>
           <TextEquiv conf="0.6597562">
-            <Unicode>Katzen&#x17F;tein.</Unicode>
+            <Unicode>Katzenſtein.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0021_word0004" custom="readingOrder {index:4;}">
@@ -1020,21 +1034,21 @@ die Schlu&#x364;&#x17F;&#x17F;el hu&#x364;tete. &#x2014;</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv conf="0.8611882">
-          <Unicode>telten &#x2014; Ritters Katzen&#x17F;tein. Mit</Unicode>
+          <Unicode>telten — Ritters Katzenſtein. Mit</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
         <Unicode>Drey ganze Jahre lebte die Arme,
-zufrieden mit ihrem Schick&#x17F;ale, an der
-Seite des eifer&#x17F;u&#x364;chtigen Mannes, , ohne
-den Gedanken zu hegen, da&#xDF; es wohl
-liebenswu&#x364;rdigere Ma&#x364;nner in der tyroler
-Gegend gebe. Aber jezt dachte &#x17F;ie ih&#x2E17;
-res Nachbars, des &#x2014; zwar unbemit&#x2E17;
-telten &#x2014; Ritters Katzen&#x17F;tein. Mit</Unicode>
+zufrieden mit ihrem Schickſale, an der
+Seite des eiferſuͤchtigen Mannes, , ohne
+den Gedanken zu hegen, daß es wohl
+liebenswuͤrdigere Maͤnner in der tyroler
+Gegend gebe. Aber jezt dachte ſie ih⸗
+res Nachbars, des — zwar unbemit⸗
+telten — Ritters Katzenſtein. Mit</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676366372601_2546" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676366372601_2546" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="783,1757 783,1809 856,1809 856,1757"/>
       <TextLine id="line_1676366372729_2549" custom="readingOrder {index:0;}">
         <Coords points="783,1757 783,1809 856,1809 856,1757"/>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-742">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:32Z</Created>
     <LastChange>2024-01-19T13:09:32Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/42feb7a5-42cf-468c-b8e9-cde20ca0658c/00000010.jpg" imageWidth="2136" imageHeight="2712" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.4751626" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="0.4751626" readingDirection="left-to-right">
       <Coords points="439,310 1936,310 1936,1001 439,1001"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="610,312 524,315 519,320 520,355 528,361 528,367 534,373 790,371 801,380 809,379 815,371 850,370 970,373 1040,370 1049,374 1069,371 1078,378 1089,378 1096,371 1335,369 1398,372 1408,380 1425,380 1436,371 1445,370 1519,367 1590,368 1600,376 1609,376 1617,369 1670,366 1817,369 1834,369 1847,374 1853,374 1860,369 1936,369 1935,319 1864,318 1857,310 1841,310 1830,317 1761,316 1754,311 1740,311 1734,316 1695,318 1691,311 1686,310 1672,310 1668,318 1600,314 1594,310 1581,311 1574,316 1546,317 1542,314 1529,314 1523,318 1483,319 1423,311 1386,312 1353,320 1279,319 1264,315 1227,317 1221,314 1207,314 1201,319 1160,321 1156,312 1142,311 1135,321 1121,321 1104,318 1095,311 1047,310 1041,316 1027,318 1009,310 919,310 892,319 863,314 800,313 760,321 679,322 644,314"/>
@@ -667,7 +681,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658481035808_4213" custom="readingOrder {index:5;}">
-          <Coords points="1390,874 1397,874 1416,874 1431,875 1522,884 1522,908 1431,919 1390,919"/>
+          <Coords points="1416,874 1397,874 1390,874 1390,919 1431,919 1522,908 1522,884 1502,882 1488,883 1417,874"/>
           <TextEquiv>
             <Unicode>8.⸗⸗</Unicode>
           </TextEquiv>
@@ -679,7 +693,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658481049317_4224" custom="readingOrder {index:7;}">
-          <Coords points="1748,878 1841,878 1929,885 1929,908 1841,912 1748,913"/>
+          <Coords points="1852,878 1748,878 1748,913 1841,912 1929,908 1929,885 1901,885 1874,880"/>
           <TextEquiv>
             <Unicode>10.⸗⸗</Unicode>
           </TextEquiv>
@@ -721,7 +735,7 @@ gen. Doch was hoͤre ich?⸗⸗ den Nachtwaͤchter?⸗⸗ I. ⸗⸗ 2. ⸗⸗
 II.⸗⸗ 12.⸗⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4751626" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;}" orientation="0.4751626" readingDirection="left-to-right">
       <Coords points="449,1053 1936,1053 1936,1314 449,1314"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="844,1054 832,1061 769,1055 684,1056 665,1063 615,1058 527,1058 522,1063 522,1101 527,1106 549,1106 550,1116 556,1122 591,1122 607,1127 617,1127 629,1122 690,1117 712,1117 719,1124 728,1124 734,1117 780,1116 786,1124 796,1123 806,1116 836,1116 842,1123 852,1123 858,1116 865,1116 867,1122 875,1123 885,1121 895,1114 964,1114 995,1110 1001,1115 1012,1115 1017,1112 1126,1115 1131,1122 1137,1123 1153,1114 1216,1112 1263,1114 1351,1110 1445,1111 1448,1117 1458,1118 1474,1109 1530,1108 1619,1111 1705,1109 1754,1112 1852,1111 1895,1115 1920,1122 1935,1118 1935,1063 1885,1060 1880,1055 1869,1055 1860,1059 1829,1054 1744,1053 1671,1061 1666,1053 1650,1053 1643,1060 1625,1060 1583,1059 1577,1054 1562,1053 1555,1059 1497,1060 1475,1059 1472,1054 1448,1054 1441,1060 1415,1061 1383,1060 1378,1056 1356,1060 1316,1053 1245,1053 1224,1061 1217,1054 1207,1054 1198,1064 1192,1064 1153,1061 1146,1053 1127,1057 1068,1053 953,1054 944,1058 906,1063 896,1061 891,1053 872,1053 868,1057 862,1054"/>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-868">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:12Z</Created>
     <LastChange>2024-01-19T13:10:12Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/5aa89b8a-74e3-47c1-9cdd-c595e4e626a5/00000196.jpg" imageWidth="1754" imageHeight="2557" type="content" primaryLanguage="German">
     <Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1655445814841_66"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.5521649" readingDirection="left-to-right" id="TextRegion_1655445814841_66" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1655445814841_66" custom="readingOrder {index:1;}" orientation="-1.5521649" readingDirection="left-to-right">
       <Coords points="638,435 1565,435 1565,1999 1523,2063 634,2063"/>
       <TextLine id="line_1655445814888_69" custom="readingOrder {index:0;}">
         <Coords points="638,436 704,436 727,439 734,435 747,438 763,435 836,435 871,436 907,443 940,441 949,444 979,445 1001,445 1006,439 1016,436 1030,437 1037,446 1052,447 1083,447 1089,442 1101,442 1107,448 1161,449 1253,449 1265,436 1287,438 1293,445 1304,445 1309,441 1326,445 1338,437 1358,439 1364,445 1383,436 1395,438 1400,448 1465,443 1506,445 1539,454 1565,456 1565,504 1483,504 1474,507 1465,506 1459,501 1396,500 1385,508 1374,507 1370,500 1322,498 1276,500 1262,509 1256,508 1252,502 1248,501 1242,507 1231,507 1225,501 1156,498 1150,502 1140,502 1136,497 1076,497 1069,503 1056,504 1043,495 1011,494 1001,486 994,486 987,495 858,497 772,495 762,482 752,490 725,488 685,493 638,490"/>
@@ -641,7 +655,7 @@
         </Word>
         <Word id="region0003_line0014_word0001" custom="readingOrder {index:1;}">
           <Coords points="805,1238 858,1239 859,1189 825,1190 807,1190 806,1189"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>zu</Unicode>
           </TextEquiv>
         </Word>
@@ -1038,7 +1052,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655446041096_228" custom="readingOrder {index:4;}">
-          <Coords points="1179,1639 1515,1640 1533,1650 1532,1704 1531,1705 1525,1706 1515,1706 1462,1705 1178,1697"/>
+          <Coords points="1532,1704 1533,1651 1530,1651 1515,1640 1507,1649 1496,1647 1486,1652 1464,1654 1457,1654 1449,1647 1438,1652 1426,1652 1424,1646 1418,1644 1405,1649 1355,1644 1290,1652 1262,1651 1258,1646 1245,1646 1237,1651 1230,1650 1210,1648 1208,1644 1179,1640 1178,1697 1283,1700 1299,1699 1315,1701 1353,1702 1358,1696 1363,1696 1369,1702 1430,1704 1440,1701 1453,1701 1458,1705 1462,1705 1463,1705 1469,1703 1477,1705 1482,1702 1506,1702 1514,1706 1515,1706 1525,1706 1531,1705"/>
           <TextEquiv>
             <Unicode>Gnaden·Standes</Unicode>
           </TextEquiv>
@@ -1287,7 +1301,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1655445814956_133" custom="readingOrder {index:27;}">
-        <Coords points="649,1983 663,1981 673,1981 678,1991 723,1993 750,1989 758,1981 791,1981 794,1985 802,1982 813,1983 818,1986 834,1984 840,1990 850,1992 861,1991 869,1983 879,1983 884,1989 898,1982 961,1982 1011,1992 1032,1993 1039,1981 1056,1981 1062,1992 1084,1985 1115,1986 1122,1995 1196,1997 1234,1994 1414,1999 1421,1998 1429,1989 1439,1990 1446,1998 1527,1998 1527,2044 1520,2040 1515,2041 1508,2049 1483,2048 1478,2051 1451,2048 1366,2049 1360,2053 1341,2053 1336,2056 1331,2054 1328,2047 1321,2049 1314,2047 1308,2051 1305,2060 1294,2060 1279,2053 1252,2052 1248,2052 1236,2066 1219,2064 1209,2057 1198,2059 1171,2051 1163,2062 1151,2064 1142,2060 1140,2052 1125,2056 1120,2061 1108,2062 1102,2053 1091,2057 1081,2057 1072,2051 1027,2050 1013,2047 995,2051 987,2059 973,2058 963,2052 958,2055 943,2052 936,2063 925,2062 920,2052 916,2051 909,2059 901,2059 888,2050 861,2053 851,2047 817,2046 807,2058 796,2056 788,2046 771,2046 765,2055 753,2055 745,2046 732,2045 728,2048 682,2047 675,2048 667,2054 638,2048 638,1990 643,1990"/>
+        <Coords points="1248,2052 1252,2052 1279,2053 1294,2060 1305,2060 1308,2051 1314,2047 1321,2049 1328,2047 1331,2054 1336,2056 1341,2053 1360,2053 1366,2049 1451,2048 1478,2051 1483,2048 1508,2049 1515,2041 1520,2040 1527,2044 1527,1998 1446,1998 1439,1990 1429,1989 1421,1998 1414,1999 1234,1994 1196,1997 1122,1995 1115,1986 1084,1985 1062,1992 1056,1981 1039,1981 1032,1993 1011,1992 961,1982 898,1982 884,1989 879,1983 869,1983 861,1991 850,1992 840,1990 834,1984 818,1986 813,1983 802,1982 794,1985 791,1981 758,1981 750,1989 723,1993 678,1991 673,1981 663,1981 649,1983 643,1990 638,1990 638,2048 667,2054 675,2048 682,2047 728,2048 732,2045 745,2046 753,2055 765,2055 771,2046 788,2046 796,2056 807,2058 817,2046 851,2047 861,2053 888,2050 901,2059 909,2059 916,2051 920,2052 925,2062 936,2063 943,2052 958,2055 963,2052 973,2058 987,2059 995,2051 1013,2047 1027,2050 1072,2051 1081,2057 1091,2057 1102,2053 1108,2062 1120,2061 1125,2056 1140,2052 1142,2060 1148,2063 1157,2063 1163,2062 1171,2051 1198,2059 1209,2057 1217,2063 1238,2063"/>
         <Baseline points="638,2037 1225,2044 1527,2038"/>
         <Word id="word_1655445814972_135" custom="readingOrder {index:0;}">
           <Coords points="648,1983 674,1984 678,1991 723,1993 733,1991 732,2042 638,2040 638,1990 643,1990"/>

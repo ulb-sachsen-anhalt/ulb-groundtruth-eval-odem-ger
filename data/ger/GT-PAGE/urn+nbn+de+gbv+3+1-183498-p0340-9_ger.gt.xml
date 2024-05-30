@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-160">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:37Z</Created>
     <LastChange>2024-01-19T13:07:37Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/671f935b-8681-43f6-8d00-a091af1a8310/00000340.jpg" imageWidth="1582" imageHeight="2437" type="content" primaryLanguage="German">
     <Border>
@@ -20,7 +34,7 @@
         <RegionRefIndexed index="5" regionRef="region0020"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682585696817_147" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682585696817_147" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="566,393 566,446 633,446 633,393"/>
       <TextLine id="line_1682585696919_150" custom="readingOrder {index:0;}">
         <Coords points="566,393 566,446 633,446 633,393"/>
@@ -38,7 +52,7 @@
         <Unicode>312</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682585701519_156" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682585701519_156" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="810,393 810,453 1210,453 1210,393"/>
       <TextLine id="line_1682585701609_159" custom="readingOrder {index:0;}">
         <Coords points="810,393 810,453 1210,453 1210,393"/>
@@ -68,7 +82,7 @@
         <Unicode>Die zehnte Predigt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.009035194" readingDirection="left-to-right" id="region0016" custom="readingOrder {index:2;}">
+    <TextRegion id="region0016" custom="readingOrder {index:2;}" orientation="-0.009035194" readingDirection="left-to-right">
       <Coords points="564,472 1453,472 1453,954 564,954"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="609,472 607,495 612,500 630,501 632,521 651,529 669,531 700,531 714,527 745,525 750,522 761,530 771,523 790,524 819,520 826,527 833,529 849,529 856,524 895,528 908,526 919,531 931,528 945,532 967,529 973,534 989,529 1010,533 1019,538 1026,538 1032,534 1051,538 1062,532 1073,532 1097,535 1106,540 1119,540 1130,533 1147,531 1158,540 1174,533 1202,535 1215,540 1228,533 1241,535 1257,532 1299,532 1308,535 1329,535 1335,540 1342,541 1350,539 1353,535 1399,534 1408,525 1414,529 1411,537 1429,538 1433,533 1452,533 1452,485 1445,483 1399,487 1383,484 1376,488 1348,486 1343,478 1332,477 1323,486 1309,486 1296,485 1290,476 1279,476 1272,484 1263,479 1254,479 1247,484 1193,487 1188,477 1176,476 1168,487 1088,487 1067,486 1065,477 1058,473 1044,474 1035,485 1031,485 1019,484 1017,476 1011,472 998,472 991,479 983,473 967,475 944,472 916,472 874,479 866,478 863,472 830,472 827,477 805,477 801,472 787,472 778,477 775,472 761,472 757,478 736,472"/>
@@ -182,7 +196,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1666251861451_975" custom="readingOrder {index:3;}">
-          <Coords points="888,585 911,579 919,579 1033,584 1055,585 1055,629 941,629 888,625"/>
+          <Coords points="911,579 905,584 888,585 888,625 941,629 1055,629 1055,585 1033,584 1014,583 1009,587 999,587 974,586 959,581 947,585 933,585 927,580 919,579"/>
           <TextEquiv>
             <Unicode> chluß:</Unicode>
           </TextEquiv>
@@ -534,7 +548,7 @@ gantze Erde, und uͤber alles Gewuͤrme,
 das auf Erden kreucht. 1B. Moſ. 1, 26.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.009035194" readingDirection="left-to-right" id="region0018" custom="readingOrder {index:3;}">
+    <TextRegion id="region0018" custom="readingOrder {index:3;}" orientation="-0.009035194" readingDirection="left-to-right">
       <Coords points="559,986 1462,986 1462,1681 559,1681"/>
       <TextLine id="region0018_line0001" custom="readingOrder {index:0;}">
         <Coords points="606,986 603,990 604,1025 608,1028 619,1028 632,1038 649,1041 713,1044 811,1043 821,1044 828,1050 836,1050 843,1044 882,1043 909,1048 929,1043 973,1040 994,1045 1005,1042 1031,1046 1050,1044 1063,1046 1072,1051 1083,1046 1098,1049 1178,1047 1225,1052 1260,1048 1267,1051 1280,1050 1295,1056 1329,1054 1334,1058 1345,1058 1373,1050 1384,1053 1393,1053 1399,1049 1412,1049 1416,1052 1426,1049 1461,1051 1461,1004 1391,1003 1385,996 1371,996 1366,1000 1336,996 1320,1000 1314,995 1300,995 1289,1001 1264,1004 1253,995 1243,995 1237,1002 1230,996 1219,996 1212,1002 1163,1003 1154,994 1138,996 1132,990 1118,990 1110,999 1105,999 1094,997 1085,990 1073,990 1064,997 1054,997 1042,996 1035,990 1017,993 1010,989 1000,989 990,996 962,997 933,993 926,988 910,988 902,992 854,996 849,988 836,986 824,996 816,996 809,987 798,987 789,993 783,989 769,991 745,986"/>
@@ -1171,7 +1185,7 @@ den, und allen Voͤgeln unter dem Himmel⸗
 und allem Gewuͤrme, das da lebet auf</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.009035194" type="catch-word" readingDirection="left-to-right" id="region0019" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region0019" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.009035194" type="catch-word" readingDirection="left-to-right">
       <Coords points="1064,1673 1453,1673 1453,1727 1064,1727"/>
       <TextLine id="region0019_line0001" custom="readingOrder {index:0;}">
         <Coords points="1368,1673 1292,1676 1287,1681 1287,1712 1295,1718 1297,1726 1452,1724 1452,1680 1402,1673"/>
@@ -1190,7 +1204,7 @@ und allem Gewuͤrme, das da lebet auf</Unicode>
         <Unicode>Er⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.009035194" type="footnote" readingDirection="left-to-right" id="region0020" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0020" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.009035194" type="footnote" readingDirection="left-to-right">
       <Coords points="603,1774 1483,1774 1483,2104 603,2104"/>
       <TextLine id="region0020_line0001" custom="readingOrder {index:0;}">
         <Coords points="603,1774 603,1833 643,1829 654,1822 661,1822 666,1825 707,1826 732,1830 740,1826 788,1826 796,1827 803,1832 817,1833 1010,1828 1078,1831 1143,1829 1149,1833 1167,1835 1229,1835 1256,1830 1272,1837 1282,1834 1303,1836 1310,1832 1340,1833 1349,1830 1367,1835 1372,1831 1383,1830 1387,1832 1388,1837 1394,1839 1399,1838 1403,1831 1420,1834 1428,1831 1441,1834 1482,1834 1481,1785 1471,1785 1465,1793 1415,1793 1410,1784 1395,1783 1385,1793 1331,1794 1312,1792 1302,1785 1287,1788 1274,1786 1258,1792 1241,1786 1191,1784 1150,1789 1099,1785 1095,1788 1033,1790 1016,1788 1003,1781 970,1780 937,1781 906,1787 899,1781 889,1781 879,1785 864,1785 859,1790 854,1790 832,1788 828,1785 817,1787 810,1779 792,1781 788,1784 777,1782 771,1786 761,1785 755,1784 748,1775 730,1777 725,1774"/>

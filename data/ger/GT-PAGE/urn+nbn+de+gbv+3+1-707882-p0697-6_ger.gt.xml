@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-691">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:22Z</Created>
     <LastChange>2024-01-19T13:09:22Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6ae7e9db-03e8-4365-954c-871d31dd91be/00000697.jpg" imageWidth="1680" imageHeight="2293" type="content" primaryLanguage="German">
     <Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="0" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.9910201" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="0.9910201" readingDirection="left-to-right">
       <Coords points="171,1073 189,2006 1106,1988 1074,382 171,399"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="179,399 177,402 171,402 172,457 191,452 202,459 206,457 259,459 268,455 281,455 331,465 338,457 349,456 356,464 363,465 373,459 394,461 453,451 464,451 487,457 496,449 507,449 514,454 527,456 548,449 617,451 633,445 648,444 661,447 689,448 701,454 713,445 731,447 850,438 866,438 874,442 890,438 909,440 914,437 929,441 961,436 983,436 991,440 1017,437 1035,448 1050,444 1075,443 1075,432 1074,393 1053,393 1043,386 1025,387 1022,390 1015,385 1007,385 998,393 985,394 926,395 876,395 870,390 857,392 851,388 840,388 835,392 820,391 794,395 756,395 752,392 722,395 712,390 700,390 691,398 681,399 662,398 657,394 647,394 642,399 603,396 590,402 545,403 488,403 483,400 474,400 466,404 460,394 448,394 439,401 437,407 397,408 392,403 361,403 353,410 294,413 243,410 237,401 227,401 220,408 213,408 208,407 203,398 185,398"/>
@@ -230,7 +244,7 @@
       <TextLine id="region0001_line0005" custom="readingOrder {index:4;}">
         <Coords points="881,592 870,600 861,597 831,598 825,602 773,603 765,598 756,598 748,602 729,598 716,605 679,606 658,604 652,607 646,603 639,603 630,612 620,607 587,608 579,604 564,607 557,603 524,613 515,610 462,613 460,608 441,605 422,608 416,613 411,613 407,609 374,610 362,616 348,614 331,619 266,617 255,612 209,613 204,607 197,606 190,611 171,608 171,661 205,658 232,665 256,662 263,665 268,662 279,662 283,665 301,667 332,664 361,667 429,661 439,664 444,660 453,660 474,667 486,660 539,659 545,655 572,657 582,661 592,654 599,653 643,655 648,658 655,658 662,652 686,654 702,650 720,649 735,653 784,652 818,651 835,645 854,644 864,648 888,650 934,648 940,652 950,651 963,646 989,646 993,643 1005,643 1012,646 1047,643 1054,647 1079,646 1078,599 1039,599 1028,591 1018,592 1011,597 991,597 978,601 959,592 932,592 920,596 906,592"/>
         <Word id="word_1651559595523_307" custom="readingOrder {index:0;}">
-          <Coords points="183,616 261,614 462,612 481,612 482,662 481,663 439,664 350,665 218,661 183,659"/>
+          <Coords points="183,616 183,659 189,659 205,658 216,661 218,661 255,662 256,662 256,662 267,662 268,662 279,662 280,663 328,664 332,664 338,665 350,665 389,665 429,661 439,664 444,660 453,660 463,663 481,663 481,663 482,662 481,612 480,612 462,613 462,612 417,612 416,613 411,613 411,613 368,613 362,616 348,614 331,619 266,617 259,614"/>
           <TextEquiv>
             <Unicode>Neben ⸗ Gleiße,</Unicode>
           </TextEquiv>
@@ -248,7 +262,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651559607179_315" custom="readingOrder {index:3;}">
-          <Coords points="715,609 871,603 1002,601 1002,643 989,646 950,651 940,652 730,651 715,649"/>
+          <Coords points="1002,601 871,603 715,609 715,649 716,649 720,649 725,650 730,651 805,651 818,651 835,645 854,644 864,648 888,650 934,648 940,652 950,651 963,646 989,646 993,643 1002,643"/>
           <TextEquiv>
             <Unicode>Lebens ⸗ Geiſter</Unicode>
           </TextEquiv>
@@ -614,7 +628,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651559728244_384" custom="readingOrder {index:1;}">
-          <Coords points="322,1032 523,1023 660,1025 712,1026 725,1027 726,1074 620,1076 547,1076 324,1075 322,1074"/>
+          <Coords points="322,1032 322,1074 324,1075 359,1073 364,1075 398,1075 422,1074 437,1068 454,1068 462,1072 483,1068 491,1072 531,1068 539,1075 547,1076 616,1074 620,1076 639,1076 641,1075 645,1076 649,1075 657,1070 671,1072 688,1069 698,1073 709,1073 711,1074 726,1074 725,1028 712,1026 637,1025 637,1025 526,1023 505,1027 477,1025"/>
           <TextEquiv>
             <Unicode>GOttes ⸗ Gelehrten,</Unicode>
           </TextEquiv>

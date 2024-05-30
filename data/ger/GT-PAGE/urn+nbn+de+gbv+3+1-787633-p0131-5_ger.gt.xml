@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-875">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:14Z</Created>
     <LastChange>2024-01-19T13:10:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a56faefa-0ee9-44df-ac33-73c7b4793206/00000131.jpg" imageWidth="1481" imageHeight="2208" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="5" regionRef="region_1682070165767_3732"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682070140708_3710" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682070140708_3710" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="947,314 947,358 1021,358 1021,314"/>
       <TextLine id="line_1682070140772_3713" custom="readingOrder {index:0;}">
         <Coords points="947,314 947,358 1021,358 1021,314"/>
@@ -37,10 +51,7 @@
         <Unicode>123</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1682070135894_3707" custom="readingOrder {index:1;}">
-      <Coords points="552,289 751,289 751,345 552,345"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.012541485" readingDirection="left-to-right" id="TextRegion_1682070158027_3729" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1682070158027_3729" custom="readingOrder {index:2;}" orientation="-0.012541485" readingDirection="left-to-right">
       <Coords points="250,382 1026,382 1041,446 1041,504 1040,758 1037,882 238,882 235,504 235,446"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="282,382 270,388 250,389 250,433 283,434 292,440 302,440 308,435 337,435 343,440 351,440 357,435 377,434 743,440 766,441 769,444 800,444 803,441 849,441 851,444 867,444 870,441 997,444 1025,440 1025,400 1014,399 876,396 869,388 843,389 836,396 791,394 785,389 773,389 766,395 749,397 660,394 641,382 629,383 622,390 611,386 583,384 550,391 520,389 512,383 488,387 477,382 466,382 452,384 446,390 423,391 385,388 372,382 324,382 319,385 310,382"/>
@@ -380,7 +391,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0002" custom="readingOrder {index:7;}">
-        <Coords points="257,821 241,823 241,873 264,874 287,882 360,877 452,878 487,881 495,886 508,886 517,881 556,880 566,881 574,887 584,887 592,881 617,880 673,884 777,881 790,873 790,844 785,839 689,836 683,829 671,830 664,836 630,836 624,830 606,831 601,835 577,835 570,828 554,830 548,835 508,836 487,835 480,828 464,831 446,825 389,832 371,829 365,824 289,829"/>
+        <Coords points="241,823 241,873 264,874 287,882 360,877 452,878 487,881 488,882 515,882 517,881 556,880 566,881 567,882 590,882 592,881 617,880 645,882 742,882 777,881 790,873 790,844 785,839 689,836 683,829 671,830 664,836 630,836 624,830 606,831 601,835 577,835 570,828 554,830 548,835 508,836 487,835 480,828 464,831 446,825 389,832 371,829 365,824 289,829 257,821"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="253,830 320,830 320,873 253,873"/>
           <TextEquiv conf="0.9315914">
@@ -420,7 +431,7 @@ men, vielleicht weil es nicht in ſeinem Plane
 lag, den Krieg abzubrechen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.012541485" readingDirection="left-to-right" id="TextRegion_1682070158027_3728" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1682070158027_3728" custom="readingOrder {index:3;}" orientation="-0.012541485" readingDirection="left-to-right">
       <Coords points="238,882 1037,882 1031,1253 248,1253 241,1136"/>
       <TextLine id="region0006_line0003" custom="readingOrder {index:0;}">
         <Coords points="305,887 272,888 264,894 264,923 267,927 275,929 275,936 280,941 500,941 541,944 546,949 558,949 564,944 577,943 634,944 666,947 671,950 729,945 775,946 780,951 790,951 795,946 1027,948 1027,904 851,901 846,900 839,892 827,894 821,890 811,890 806,894 789,891 776,901 686,901 620,897 614,890 602,890 590,897 583,897 577,892 564,894 558,889 548,889 537,896 495,898 489,890 479,890 469,897 408,897 381,888"/>
@@ -648,7 +659,7 @@ lag, den Krieg abzubrechen.</Unicode>
       <TextLine id="region0007_line0002" custom="readingOrder {index:5;}">
         <Coords points="259,1199 248,1201 248,1250 310,1252 360,1249 384,1244 557,1245 565,1244 570,1239 570,1219 565,1214 392,1213 327,1206 315,1200 274,1202"/>
         <Word id="region0007_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="254,1204 254,1245 379,1245 384,1244 378,1245 378,1214 392,1213 327,1206 323,1204"/>
+          <Coords points="254,1204 254,1245 379,1245 384,1244 378,1214 392,1213"/>
           <TextEquiv>
             <Unicode>laſſen.</Unicode>
           </TextEquiv>
@@ -678,7 +689,7 @@ alleinigen Gott der Erde wollte anerkennen
 laſſen. — —</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.012541485" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:4;}">
+    <TextRegion id="region0008" custom="readingOrder {index:4;}" orientation="-0.012541485" readingDirection="left-to-right">
       <Coords points="244,1261 1027,1261 1027,1775 244,1775"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="284,1261 273,1262 268,1267 268,1296 271,1300 279,1302 279,1310 284,1315 411,1314 427,1317 588,1314 705,1317 712,1321 720,1321 725,1317 756,1317 806,1319 812,1325 820,1325 828,1319 872,1320 880,1321 885,1326 895,1326 901,1321 1026,1323 1026,1278 973,1271 910,1277 900,1269 891,1269 882,1276 876,1276 870,1271 855,1274 850,1270 838,1270 833,1274 798,1273 791,1267 781,1267 770,1273 743,1273 739,1265 725,1263 699,1265 692,1273 688,1273 551,1269 544,1262 522,1266 493,1261 440,1264 432,1261"/>
@@ -1052,7 +1063,7 @@ ten, an keinem empfindlichern Orte angeta⸗
 ſtet werden konnten, als an dieſem.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682070165767_3732" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1682070165767_3732" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="932,1789 932,1837 1018,1837 1018,1789"/>
       <TextLine id="line_1682070165832_3735" custom="readingOrder {index:0;}">
         <Coords points="932,1789 932,1837 1018,1837 1018,1789"/>
@@ -1070,5 +1081,8 @@ ten, an keinem empfindlichern Orte angeta⸗
         <Unicode>Doch</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682070135894_3707" custom="readingOrder {index:1;}">
+      <Coords points="552,289 751,289 751,345 552,345"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

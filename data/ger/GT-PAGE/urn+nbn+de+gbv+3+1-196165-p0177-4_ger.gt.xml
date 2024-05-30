@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-169">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:39Z</Created>
     <LastChange>2024-01-19T13:07:39Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9372cd74-f113-4795-8fe6-2c119f27a23e/00000177.jpg" imageWidth="1537" imageHeight="2358" type="content" primaryLanguage="German">
     <Border>
@@ -21,7 +35,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1671461201093_1178"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.12994249" type="header" readingDirection="left-to-right" id="TextRegion_1671461152676_1120" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671461152676_1120" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.12994249" type="header" readingDirection="left-to-right">
       <Coords points="175,285 987,285 987,348 175,348"/>
       <TextLine id="line_1671461152717_1123" custom="readingOrder {index:0;}">
         <Coords points="175,285 344,285 381,288 384,285 409,285 412,290 469,294 517,291 521,286 538,286 541,291 549,291 569,286 625,285 684,292 710,291 717,285 729,285 737,291 763,291 769,285 781,285 787,293 800,293 839,285 961,286 967,289 987,289 987,343 952,344 949,348 906,345 903,348 888,348 885,345 802,341 702,342 682,343 675,347 550,342 450,343 410,344 407,347 175,345"/>
@@ -75,7 +89,7 @@
         <Unicode>V.d. Pflichten u. der Tugend eines Chriſt. 165</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" type="page-number" readingDirection="left-to-right" id="TextRegion_1671461152675_1119" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671461152675_1119" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.12994249" type="page-number" readingDirection="left-to-right">
       <Coords points="987,285 1075,285 1075,348 987,348"/>
       <TextLine id="line_1671461152717_1122" custom="readingOrder {index:0;}">
         <Coords points="987,289 1029,291 1035,286 1050,286 1056,292 1074,292 1074,343 1065,347 1052,347 1046,342 1014,338 987,343"/>
@@ -93,7 +107,7 @@
         <Unicode>V.d. Pflichten u. der Tugend eines Chriſt. 165</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" readingDirection="left-to-right" id="TextRegion_1671461195044_1142" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1671461195044_1142" custom="readingOrder {index:2;}" orientation="-0.12994249" readingDirection="left-to-right">
       <Coords points="123,386 1076,386 1076,1275 119,1275 119,735"/>
       <TextLine id="line_1671461271793_1214" custom="readingOrder {index:0;}">
         <Coords points="130,396 1077,396 1077,442 130,442"/>
@@ -104,13 +118,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671461277291_1220" custom="readingOrder {index:1;}">
-          <Coords points="256,388 394,388 394,441 256,441"/>
+          <Coords points="256,441 394,441 394,396 256,396"/>
           <TextEquiv>
             <Unicode>Suͤnde,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671461278773_1223" custom="readingOrder {index:2;}">
-          <Coords points="412,390 495,390 495,431 412,431"/>
+          <Coords points="412,431 495,431 495,396 412,396"/>
           <TextEquiv>
             <Unicode>weil</Unicode>
           </TextEquiv>
@@ -128,7 +142,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671461284013_1232" custom="readingOrder {index:5;}">
-          <Coords points="621,394 764,394 764,435 621,435"/>
+          <Coords points="621,435 764,435 764,396 621,396"/>
           <TextEquiv>
             <Unicode>Gemuͤth</Unicode>
           </TextEquiv>
@@ -995,7 +1009,7 @@ Wenn man ſeinen Schwur vorſetzlich nicht haͤlt. F. 85.
 Quellen aller Meineide:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" readingDirection="left-to-right" id="TextRegion_1671461180013_1132" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1671461180013_1132" custom="readingOrder {index:3;}" orientation="-0.12994249" readingDirection="left-to-right">
       <Coords points="117,1289 1136,1289 1136,2126 117,2126"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="652,1289 641,1297 622,1297 618,1290 594,1290 588,1295 577,1295 574,1290 558,1290 553,1295 538,1295 533,1290 525,1290 516,1296 492,1298 466,1297 448,1289 437,1289 429,1298 419,1298 414,1289 401,1289 391,1297 382,1299 373,1299 365,1289 322,1289 315,1298 307,1299 287,1298 276,1289 120,1290 118,1336 124,1339 159,1340 329,1340 335,1348 355,1347 361,1341 383,1341 392,1342 394,1347 403,1349 415,1347 424,1340 446,1338 551,1341 557,1338 572,1338 598,1343 612,1338 632,1338 644,1340 648,1346 661,1349 672,1345 674,1341 685,1341 689,1346 694,1345 703,1338 748,1343 908,1337 917,1334 917,1307 912,1301 901,1299 822,1297 818,1289 798,1289 790,1296 785,1289 768,1289 762,1296 733,1297 722,1297 712,1289 693,1289 685,1298 672,1298 667,1289"/>
@@ -1820,7 +1834,7 @@ D. Kaͤlte in der Religion, oder Verachtung der⸗
 ſelben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671461180012_1131" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671461180012_1131" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.12994249" type="catch-word" readingDirection="left-to-right">
       <Coords points="921,2127 1136,2126 1136,2179 921,2180"/>
       <TextLine id="line_1671461180055_1136" custom="readingOrder {index:0;}">
         <Coords points="937,2126 1052,2126 1073,2135 1135,2136 1135,2176 1129,2176 1127,2179 944,2179 942,2165 934,2159 934,2129"/>
@@ -1839,7 +1853,7 @@ D. Kaͤlte in der Religion, oder Verachtung der⸗
         <Unicode>Der</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671461204600_1187" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671461204600_1187" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="-0.12994249" type="marginalia" readingDirection="left-to-right">
       <Coords points="1076,386 1178,386 1178,552 1076,552"/>
       <TextLine id="line_1671461195085_1144" custom="readingOrder {index:0;}">
         <Coords points="1076,387 1108,387 1111,415 1178,424 1178,464 1109,466 1101,470 1101,485 1096,490 1076,489"/>
@@ -1878,7 +1892,7 @@ D. Kaͤlte in der Religion, oder Verachtung der⸗
 F. 83.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12994249" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671461201093_1178" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671461201093_1178" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="-0.12994249" type="marginalia" readingDirection="left-to-right">
       <Coords points="1076,1066 1178,1066 1178,1275 1076,1275"/>
       <TextLine id="line_1671461201142_1181" custom="readingOrder {index:0;}">
         <Coords points="1076,1066 1119,1066 1177,1070 1177,1114 1164,1114 1159,1118 1149,1118 1143,1114 1086,1117 1076,1115"/>

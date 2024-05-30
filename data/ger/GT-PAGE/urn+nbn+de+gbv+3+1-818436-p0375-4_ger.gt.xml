@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-957">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:43Z</Created>
     <LastChange>2024-01-19T13:10:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/84920975-ef96-4937-90c1-fe6ba643b5e5/00000375.jpg" imageWidth="1563" imageHeight="2422" type="content" primaryLanguage="German">
     <Border>
@@ -26,13 +40,7 @@
         <RegionRefIndexed index="13" regionRef="region_1682583720660_864"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1682583835644_942" custom="readingOrder {index:0;}">
-      <Coords points="1011,1837 137,1837 137,1813 1011,1813"/>
-    </SeparatorRegion>
-    <SeparatorRegion id="Separator_1682583804459_937" custom="readingOrder {index:1;}">
-      <Coords points="102,387 235,414 1008,420 1001,443 131,436"/>
-    </SeparatorRegion>
-    <TextRegion type="header" id="region_1682583676804_829" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1682583676804_829" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="390,346 390,400 716,400 716,346"/>
       <TextLine id="line_1682583676924_832" custom="readingOrder {index:0;}">
         <Coords points="390,346 390,400 716,400 716,346"/>
@@ -56,7 +64,7 @@
         <Unicode>Verliebte Arien.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682583680489_838" custom="readingOrder {index:3;} structure {type:page-number;}">
+    <TextRegion id="region_1682583680489_838" custom="readingOrder {index:3;} structure {type:page-number;}" type="page-number">
       <Coords points="923,356 923,402 998,402 998,356"/>
       <TextLine id="line_1682583680552_841" custom="readingOrder {index:0;}">
         <Coords points="923,356 923,402 998,402 998,356"/>
@@ -74,7 +82,7 @@
         <Unicode>325</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187166183_2218" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1666187166183_2218" custom="readingOrder {index:4;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="219,435 811,435 811,723 219,723"/>
       <TextLine id="line_1666187166230_2221" custom="readingOrder {index:0;}">
         <Coords points="260,449 341,449 382,454 441,455 459,454 467,447 480,447 485,450 491,446 499,446 508,454 536,450 561,442 652,448 663,441 671,441 679,448 702,450 728,449 741,444 796,445 801,450 802,461 811,461 811,500 759,501 730,495 681,493 670,487 644,488 630,493 594,491 567,496 554,490 543,494 529,492 524,495 477,497 468,501 459,495 434,497 430,494 407,494 401,498 374,494 366,498 333,498 282,493 274,488 261,488 255,482 255,454"/>
@@ -310,7 +318,7 @@ Daß die zarte jugend lerne
 Jn der liebe heimlich ſeyn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187191308_2247" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1666187191308_2247" custom="readingOrder {index:5;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="214,717 822,717 822,1090 214,1090"/>
       <TextLine id="line_1666187191350_2250" custom="readingOrder {index:0;}">
         <Coords points="243,720 324,720 347,722 374,731 448,731 474,729 481,720 513,722 519,729 544,729 557,728 566,722 579,725 584,721 592,721 598,727 610,719 620,719 627,727 667,727 676,726 681,718 697,718 701,726 741,724 778,718 822,718 822,772 796,774 736,769 664,770 657,766 649,766 642,771 630,773 565,767 552,772 438,774 423,778 413,770 405,774 351,774 344,770 322,771 316,774 283,773 274,768 262,767 260,761 243,761 238,756 238,725"/>
@@ -619,7 +627,7 @@ Jſt gleich die verſtellung ſchwer;
 Kommt dir groͤſte luſt offt her.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187198156_2265" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1666187198156_2265" custom="readingOrder {index:6;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="213,1080 835,1080 835,1437 213,1437"/>
       <TextLine id="line_1666187198200_2268" custom="readingOrder {index:0;}">
         <Coords points="251,1081 350,1081 368,1084 371,1081 390,1081 393,1086 421,1086 428,1081 452,1081 456,1087 467,1088 534,1087 538,1080 554,1080 557,1087 599,1084 603,1080 645,1080 647,1083 659,1084 705,1080 835,1080 835,1115 806,1116 799,1121 798,1127 794,1130 736,1128 725,1122 708,1131 663,1130 656,1126 644,1126 635,1133 624,1132 616,1125 603,1125 596,1129 588,1128 572,1133 567,1127 538,1132 530,1127 506,1128 499,1132 469,1137 459,1133 413,1132 407,1129 381,1133 358,1132 352,1128 344,1128 327,1136 318,1132 297,1132 271,1127 267,1120 251,1119 248,1115 248,1085"/>
@@ -916,7 +924,7 @@ Muſt erſt in Egypten dienen,
 Und durch meer und wuͤſten gehn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187226428_2308" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1666187226428_2308" custom="readingOrder {index:7;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="210,1409 839,1409 839,1841 210,1841"/>
       <TextLine id="line_1666187214719_2291" custom="readingOrder {index:0;}">
         <Coords points="233,1441 348,1440 360,1443 365,1440 382,1440 393,1445 399,1440 409,1439 415,1443 422,1439 434,1439 439,1444 486,1444 487,1440 475,1439 467,1433 466,1422 471,1417 481,1417 491,1424 492,1438 504,1437 510,1442 517,1438 537,1441 543,1436 555,1436 560,1441 579,1441 585,1436 600,1438 606,1434 617,1434 634,1435 645,1442 698,1442 709,1434 718,1434 722,1437 737,1437 742,1442 752,1442 783,1439 811,1432 839,1431 839,1487 821,1487 811,1492 792,1486 750,1491 740,1487 694,1487 684,1481 672,1481 664,1486 632,1486 626,1482 613,1487 604,1482 579,1486 531,1483 519,1487 507,1485 451,1491 442,1485 416,1489 411,1485 399,1486 394,1489 380,1487 368,1492 345,1488 339,1492 312,1493 309,1490 276,1489 256,1482 233,1482 228,1477 228,1446"/>
@@ -1082,7 +1090,7 @@ Und durch meer und wuͤſten gehn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1666187629891_2496" custom="readingOrder {index:4;}">
-          <Coords points="595,1623 644,1623 701,1630 701,1661 666,1663 603,1666 595,1664"/>
+          <Coords points="701,1661 701,1630 644,1623 595,1623 595,1664 603,1666 611,1662 641,1658 648,1663 666,1663"/>
           <TextEquiv>
             <Unicode>hertzen</Unicode>
           </TextEquiv>
@@ -1107,7 +1115,7 @@ Und durch meer und wuͤſten gehn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1666187656987_2510" custom="readingOrder {index:2;}">
-          <Coords points="564,1662 721,1660 743,1660 743,1702 652,1702 564,1697"/>
+          <Coords points="564,1662 564,1697 652,1702 694,1702 743,1702 743,1660 721,1660 719,1661 666,1664 648,1664 643,1660 624,1661 611,1663 603,1667 576,1661"/>
           <TextEquiv>
             <Unicode>denckſpruch</Unicode>
           </TextEquiv>
@@ -1189,7 +1197,7 @@ Feuers⸗glut und liebes⸗ſchmertzen
 Muͤſſen wohl bewahret ſeyn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" type="heading" readingDirection="left-to-right" id="TextRegion_1666187299399_2379" custom="readingOrder {index:8;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1666187299399_2379" custom="readingOrder {index:8;} structure {type:heading;}" orientation="0.09570852" type="heading" readingDirection="left-to-right">
       <Coords points="307,1835 866,1835 865,1906 307,1906"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="523,1845 413,1851 408,1856 408,1890 417,1899 484,1901 491,1904 558,1899 661,1900 666,1895 666,1861 663,1857 656,1856 650,1846"/>
@@ -1214,10 +1222,10 @@ Muͤſſen wohl bewahret ſeyn.</Unicode>
         <Unicode>H. M.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1666187276854_2366" custom="readingOrder {index:9;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1666187276854_2366" custom="readingOrder {index:9;} structure {type:drop-capital;}" orientation="0.09570852" type="drop-capital" readingDirection="left-to-right">
       <Coords points="221,1835 307,1835 307,1995 222,1995"/>
       <TextLine id="line_1666187712790_2533" custom="readingOrder {index:0;}">
-        <Coords points="221,1906 269,1903 307,1907 307,1947 307,1983 307,1996 288,1997 221,1997"/>
+        <Coords points="269,1903 221,1905 222,1995 307,1995 307,1983 307,1947 307,1907"/>
         <Baseline points="266,1952 307,1950 221,1988 289,1987 290,1987 307,1987 280,1975 307,1980"/>
         <Word id="word_1666187717058_2539" custom="readingOrder {index:0;}">
           <Coords points="224,1913 307,1913 307,1957 305,1996 288,1997 225,1997 224,1941"/>
@@ -1233,10 +1241,10 @@ Muͤſſen wohl bewahret ſeyn.</Unicode>
         <Unicode>M</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187299399_2378" custom="readingOrder {index:10;}">
+    <TextRegion id="TextRegion_1666187299399_2378" custom="readingOrder {index:10;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="307,1906 865,1906 865,1995 307,1995"/>
       <TextLine id="line_1666187276894_2370" custom="readingOrder {index:0;}">
-        <Coords points="322,1904 338,1906 377,1903 430,1909 475,1909 482,1908 485,1904 503,1905 508,1902 532,1905 539,1901 550,1901 574,1905 579,1901 590,1901 597,1907 620,1908 635,1907 642,1900 655,1901 659,1907 673,1907 715,1905 721,1900 734,1899 742,1899 748,1905 866,1907 866,1954 739,1952 733,1953 727,1960 716,1959 711,1952 690,1951 553,1954 547,1960 537,1960 528,1954 457,1954 453,1957 310,1957 307,1957 307,1907 317,1908"/>
+        <Coords points="482,1908 475,1909 430,1909 403,1906 338,1906 319,1906 317,1908 307,1907 307,1957 310,1957 453,1957 457,1954 528,1954 537,1960 547,1960 553,1954 690,1951 711,1952 716,1959 727,1960 733,1953 739,1952 865,1953 865,1906 807,1906 694,1906 673,1907 659,1907 658,1906 636,1906 635,1907 620,1908 597,1907 595,1906 483,1906"/>
         <Baseline points="307,1950 665,1941 866,1943"/>
         <Word id="word_1666187276895_2372" custom="readingOrder {index:0;}">
           <Coords points="307,1913 352,1913 352,1957 310,1957 307,1957"/>
@@ -1279,7 +1287,7 @@ Muͤſſen wohl bewahret ſeyn.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666187276895_2374" custom="readingOrder {index:1;}">
-        <Coords points="307,1947 378,1947 408,1950 412,1947 421,1947 430,1952 460,1947 466,1952 493,1952 497,1947 522,1946 526,1950 531,1946 546,1946 550,1950 566,1948 574,1951 606,1951 611,1947 620,1947 625,1951 668,1951 685,1946 699,1946 702,1950 725,1950 730,1946 772,1949 775,1946 797,1946 800,1950 807,1951 855,1952 855,1999 820,1998 809,2001 799,1997 780,1999 771,1995 734,1994 704,1994 695,1997 688,1990 644,1998 625,1991 605,1993 597,1990 543,1997 536,1992 519,1995 512,1993 469,1992 456,1996 439,1994 422,2000 414,2000 410,1995 403,1994 385,1994 378,1998 362,2000 352,1995 341,1998 317,1997 312,1992 311,1983 307,1983"/>
+        <Coords points="855,1952 807,1951 800,1950 797,1946 775,1946 772,1949 730,1946 725,1950 702,1950 699,1946 685,1946 668,1951 625,1951 620,1947 611,1947 606,1951 574,1951 566,1948 550,1950 546,1946 531,1946 526,1950 522,1946 497,1947 493,1952 466,1952 460,1947 430,1952 421,1947 412,1947 408,1950 378,1947 307,1947 307,1983 311,1983 312,1992 315,1995 352,1995 383,1995 385,1994 403,1994 410,1995 436,1995 439,1994 447,1995 459,1995 469,1992 512,1993 519,1995 536,1992 540,1995 558,1995 597,1990 605,1993 625,1991 635,1995 660,1995 688,1990 693,1995 701,1995 704,1994 734,1994 771,1995 855,1995"/>
         <Baseline points="307,1980 335,1986 855,1989"/>
         <Word id="region0010_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="426,1952 342,1952 342,1997 352,1995 362,2000 378,1998 385,1994 403,1994 410,1995 414,2000 422,2000 426,1998"/>
@@ -1320,10 +1328,10 @@ Muͤſſen wohl bewahret ſeyn.</Unicode>
 Nicht laulicht und getheilet ſeyn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.09570852" readingDirection="left-to-right" id="TextRegion_1666187273595_2359" custom="readingOrder {index:11;}">
+    <TextRegion id="TextRegion_1666187273595_2359" custom="readingOrder {index:11;}" orientation="0.09570852" readingDirection="left-to-right">
       <Coords points="222,1995 865,1995 865,2099 858,2092 518,2084 223,2092"/>
       <TextLine id="line_1666187243255_2347" custom="readingOrder {index:0;}">
-        <Coords points="221,1990 226,1990 296,1994 303,1998 341,1999 352,1996 361,2001 378,1999 385,1995 403,1995 410,1996 414,2001 422,2001 439,1995 456,1997 463,1993 512,1994 519,1996 536,1993 543,1998 576,1995 587,1991 605,1994 625,1992 642,1999 688,1991 695,1998 704,1995 734,1995 771,1996 780,2000 799,1998 809,2002 826,1999 855,2005 855,2041 808,2040 798,2043 784,2036 773,2036 768,2039 750,2035 737,2037 721,2034 710,2038 689,2038 681,2041 674,2035 665,2035 649,2042 612,2036 607,2039 596,2039 587,2045 579,2043 576,2037 563,2040 515,2041 511,2038 502,2038 495,2042 473,2041 467,2044 443,2041 384,2046 375,2043 302,2040 298,2044 275,2041 256,2046 247,2044 221,2046"/>
+        <Coords points="378,1999 361,2001 352,1996 341,1999 303,1998 297,1995 222,1995 222,2045 247,2044 256,2046 275,2041 298,2044 302,2040 375,2043 384,2046 443,2041 467,2044 473,2041 495,2042 502,2038 511,2038 515,2041 563,2040 576,2037 579,2043 587,2045 596,2039 607,2039 612,2036 649,2042 665,2035 674,2035 681,2041 689,2038 710,2038 721,2034 737,2037 750,2035 768,2039 773,2036 784,2036 798,2043 808,2040 855,2041 855,2005 826,1999 809,2002 799,1998 780,2000 771,1996 734,1995 704,1995 695,1998 692,1995 665,1995 642,1999 632,1995 576,1995 543,1998 538,1995 524,1995 519,1996 515,1995 459,1995 456,1997 439,1995 422,2001 414,2001 410,1996 403,1995 385,1995"/>
         <Word id="region0010_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="336,2003 225,2003 225,2046 228,2046 247,2044 256,2046 275,2041 298,2044 302,2040 336,2041"/>
           <TextEquiv conf="0.77611345">
@@ -1359,7 +1367,7 @@ Nicht laulicht und getheilet ſeyn.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666187243256_2349" custom="readingOrder {index:1;}">
-        <Coords points="233,2046 256,2047 275,2042 298,2045 306,2041 395,2047 408,2043 455,2042 467,2045 473,2042 495,2043 502,2039 511,2039 515,2042 563,2041 576,2038 579,2044 587,2046 596,2040 607,2040 612,2037 649,2043 665,2036 674,2036 681,2042 689,2039 710,2039 721,2035 737,2038 750,2036 768,2040 773,2037 784,2037 798,2044 808,2041 843,2042 847,2054 855,2054 855,2087 777,2086 760,2087 754,2092 742,2092 732,2087 726,2092 716,2092 711,2087 681,2086 674,2093 665,2093 657,2086 648,2085 601,2090 583,2085 514,2080 490,2083 479,2088 451,2090 443,2094 400,2089 358,2092 352,2096 336,2096 330,2092 304,2091 299,2095 290,2095 285,2091 221,2090 221,2049"/>
+        <Coords points="760,2087 777,2086 855,2087 855,2054 847,2054 843,2042 808,2041 798,2044 784,2037 773,2037 768,2040 750,2036 737,2038 721,2035 710,2039 689,2039 681,2042 674,2036 665,2036 649,2043 612,2037 607,2040 596,2040 587,2046 579,2044 576,2038 563,2041 515,2042 511,2039 502,2039 495,2043 473,2042 467,2045 455,2042 408,2043 395,2047 306,2041 298,2045 275,2042 256,2047 233,2046 222,2048 222,2090 269,2090 485,2084 490,2083 514,2080 583,2085 585,2085 632,2086 648,2085 657,2086 658,2087 679,2087 681,2086 711,2087 712,2088 729,2088 732,2087 736,2089 756,2089"/>
         <Word id="region0010_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="329,2091 329,2050 271,2050 271,2090 285,2091 304,2091"/>
           <TextEquiv conf="0.44179845">
@@ -1405,7 +1413,7 @@ Nicht laulicht und getheilet ſeyn.</Unicode>
 Als guter grund und gleicher ſchein.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682583717174_855" custom="readingOrder {index:12;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682583717174_855" custom="readingOrder {index:12;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="496,2089 496,2127 575,2127 575,2089"/>
       <TextLine id="line_1682583717244_858" custom="readingOrder {index:0;}">
         <Coords points="496,2089 496,2127 575,2127 575,2089"/>
@@ -1429,7 +1437,7 @@ Als guter grund und gleicher ſchein.</Unicode>
         <Unicode>X 3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682583720660_864" custom="readingOrder {index:13;} structure {type:catch-word;}">
+    <TextRegion id="region_1682583720660_864" custom="readingOrder {index:13;} structure {type:catch-word;}" type="catch-word">
       <Coords points="919,2084 919,2124 1010,2124 1010,2084"/>
       <TextLine id="line_1682583720731_867" custom="readingOrder {index:0;}">
         <Coords points="919,2084 919,2124 1010,2124 1010,2084"/>
@@ -1447,5 +1455,11 @@ Als guter grund und gleicher ſchein.</Unicode>
         <Unicode>Was</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="Separator_1682583835644_942" custom="readingOrder {index:0;}">
+      <Coords points="1011,1837 137,1837 137,1813 1011,1813"/>
+    </SeparatorRegion>
+    <SeparatorRegion id="Separator_1682583804459_937" custom="readingOrder {index:1;}">
+      <Coords points="102,387 235,414 1008,420 1001,443 131,436"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

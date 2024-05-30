@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-916">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:22Z</Created>
     <LastChange>2024-01-19T13:10:22Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/b3713a2e-941c-4a33-8acb-7f26c325d682/00000089.jpg" imageWidth="1488" imageHeight="2358" type="content" primaryLanguage="German">
     <Border>
@@ -22,10 +36,7 @@
         <RegionRefIndexed index="8" regionRef="TextRegion_1671792924966_4502"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1671792962228_4525" custom="readingOrder {index:0;}">
-      <Coords points="474,312 912,312 912,382 474,382"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.89469403" type="page-number" readingDirection="left-to-right" id="TextRegion_1671792943112_4515" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671792943112_4515" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.89469403" type="page-number" readingDirection="left-to-right">
       <Coords points="1070,306 1153,305 1153,382 1070,383"/>
       <TextLine id="line_1671792943151_4518" custom="readingOrder {index:0;}">
         <Coords points="1080,308 1152,305 1153,369 1137,375 1125,375 1120,370 1105,373 1097,369 1080,371"/>
@@ -44,7 +55,7 @@
         <Unicode>85</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="0.89469403" readingDirection="left-to-right">
       <Coords points="227,397 1160,397 1160,876 227,876"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="374,401 369,405 367,413 312,412 291,415 227,417 228,461 346,455 440,458 489,453 533,458 626,453 640,460 650,454 667,452 718,449 755,451 762,456 776,455 778,451 833,449 885,449 897,456 916,449 932,451 951,448 1030,449 1035,453 1045,453 1052,449 1159,449 1159,406 1135,406 1131,398 1115,398 1110,406 1087,407 1052,405 1050,398 1035,397 1003,398 1000,404 982,404 980,398 973,397 959,398 957,404 917,404 910,403 907,397 887,398 882,402 879,398 767,398 756,406 751,406 719,398 712,408 695,409 653,407 647,398 635,398 626,405 620,399 608,399 601,409 595,401 574,402 563,409 557,403 545,403 537,414 507,416 480,421 459,414 437,414 435,407 429,402 416,403 409,413 391,412 386,402"/>
@@ -595,7 +606,7 @@ ten Wirthinn wieder werde logiren koͤnnen, als die
 vermuthlich boͤſe ſeyn wird.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:3;}">
+    <TextRegion id="region0002" custom="readingOrder {index:3;}" orientation="0.89469403" readingDirection="left-to-right">
       <Coords points="242,879 1163,879 1163,1045 242,1045"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="281,888 243,890 243,929 251,929 253,939 293,944 353,944 380,941 385,945 452,943 464,937 480,935 486,941 595,942 609,946 679,937 792,935 808,941 821,939 829,943 836,939 851,939 854,935 1124,929 1143,931 1155,936 1162,933 1162,888 1106,887 1104,880 1097,879 1083,879 1076,887 1006,888 1002,879 972,880 966,890 890,891 868,888 860,881 790,881 780,884 775,895 740,895 735,884 722,884 714,896 649,897 647,889 641,885 580,885 572,887 568,897 532,898 530,892 525,888 515,888 507,897 493,897 487,892 477,892 469,897 455,898 414,890"/>
@@ -756,7 +767,7 @@ vermuthlich boͤſe ſeyn wird.</Unicode>
 deiner wichtigen Erbſchaft gratulirt dir von Herzen</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:4;}">
+    <TextRegion id="region0003" custom="readingOrder {index:4;}" orientation="0.89469403" readingDirection="left-to-right">
       <Coords points="305,1061 1166,1061 1166,1158 305,1158"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="411,1061 410,1094 419,1100 419,1109 424,1114 629,1110 637,1109 642,1104 642,1073 637,1068 559,1068 554,1061"/>
@@ -795,7 +806,7 @@ deiner wichtigen Erbſchaft gratulirt dir von Herzen</Unicode>
 treuer Bruder.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:5;} structure {type:heading;}" orientation="0.89469403" type="heading" readingDirection="left-to-right">
       <Coords points="522,1224 884,1224 884,1287 522,1287"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="529,1226 522,1227 523,1285 573,1284 611,1280 652,1281 656,1287 679,1287 686,1280 757,1275 784,1280 822,1279 830,1287 839,1287 846,1279 884,1277 883,1228 842,1228 822,1224 755,1224 711,1231 627,1233"/>
@@ -826,7 +837,7 @@ treuer Bruder.</Unicode>
         <Unicode>Den 13ten Sept.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:6;}">
+    <TextRegion id="region0005" custom="readingOrder {index:6;}" orientation="0.89469403" readingDirection="left-to-right">
       <Coords points="248,1303 1179,1303 1179,1933 248,1933"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="248,1304 250,1362 257,1368 271,1369 322,1370 342,1360 369,1360 375,1366 382,1366 392,1360 468,1357 481,1356 490,1363 501,1359 538,1361 553,1360 557,1357 569,1358 590,1369 598,1369 604,1363 640,1360 684,1360 701,1366 704,1361 728,1360 739,1363 743,1360 791,1358 844,1360 931,1356 957,1360 1110,1357 1121,1353 1149,1357 1179,1353 1178,1314 1162,1314 1156,1304 1135,1304 1132,1312 1025,1311 1018,1305 1008,1305 1000,1311 975,1313 971,1304 955,1304 948,1312 923,1312 898,1311 894,1304 879,1304 871,1310 864,1303 852,1304 847,1312 840,1307 830,1307 825,1312 806,1312 800,1303 786,1304 781,1311 776,1308 743,1311 738,1304 727,1304 716,1310 702,1305 692,1305 682,1314 674,1314 667,1309 657,1310 651,1304 641,1305 632,1314 621,1314 592,1312 570,1304 520,1307 492,1312 394,1315 387,1306 370,1308 362,1304 344,1306"/>
@@ -844,7 +855,7 @@ treuer Bruder.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0002" custom="readingOrder {index:2;}">
-          <Coords points="511,1314 472,1312 472,1356 481,1356 511,1364"/>
+          <Coords points="479,1312 472,1312 472,1356 481,1356 497,1360 501,1359 511,1359 511,1314"/>
           <TextEquiv conf="0.69160646">
             <Unicode>7</Unicode>
           </TextEquiv>
@@ -1509,7 +1520,7 @@ ein Schluͤcksgen geholt haben, wenn nicht die Bulle
 im Bette geſteckt haͤtte —</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1671792924967_4503" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1671792924967_4503" custom="readingOrder {index:7;} structure {type:signature-mark;}" orientation="0.89469403" type="signature-mark" readingDirection="left-to-right">
       <Coords points="587,1957 923,1960 923,2055 587,2052"/>
       <TextLine id="line_1671792925015_4506" custom="readingOrder {index:0;}">
         <Coords points="603,1966 751,1965 820,1976 869,1978 923,1977 923,2017 905,2018 905,2030 900,2035 759,2037 620,2035 615,2030 614,2023 604,2023 598,2019 598,1972"/>
@@ -1528,7 +1539,7 @@ im Bette geſteckt haͤtte —</Unicode>
         <Unicode>F3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.89469403" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671792924966_4502" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671792924966_4502" custom="readingOrder {index:8;} structure {type:catch-word;}" orientation="0.89469403" type="catch-word" readingDirection="left-to-right">
       <Coords points="923,1960 1182,1960 1182,2055 923,2055"/>
       <TextLine id="line_1671792925015_4505" custom="readingOrder {index:0;}">
         <Coords points="923,1977 998,1976 1002,1961 1177,1960 1181,1963 1182,2024 1097,2031 1020,2032 1015,2027 1014,2017 923,2017"/>
@@ -1547,5 +1558,8 @@ im Bette geſteckt haͤtte —</Unicode>
         <Unicode>53 Jch</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1671792962228_4525" custom="readingOrder {index:0;}">
+      <Coords points="474,312 912,312 912,382 474,382"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

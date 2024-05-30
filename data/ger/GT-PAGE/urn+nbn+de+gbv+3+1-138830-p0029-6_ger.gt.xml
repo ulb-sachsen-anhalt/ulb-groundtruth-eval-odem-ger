@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-89">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:18Z</Created>
     <LastChange>2024-01-19T13:07:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/fa03cdf0-da97-480b-be79-0be55d255b46/00000029.jpg" imageWidth="2253" imageHeight="2550" type="content" primaryLanguage="German">
     <Border>
@@ -23,25 +37,25 @@
         <RegionRefIndexed index="8" regionRef="region_1676460998065_6277"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676460984086_6259" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676460984086_6259" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="765,304 765,366 1195,366 1195,304"/>
       <TextLine id="line_1676460984184_6262" custom="readingOrder {index:0;}">
         <Coords points="765,304 765,366 1195,366 1195,304"/>
         <Word id="word_1676460984245_6265" custom="readingOrder {index:0;} sic {offset:0; length:15;}">
           <Coords points="765,304 1195,304 1195,366 765,366"/>
           <TextEquiv>
-            <Unicode>Landes&#x2E17;Ordnnng.</Unicode>
+            <Unicode>Landes⸗Ordnnng.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Landes&#x2E17;Ordnnng.</Unicode>
+          <Unicode>Landes⸗Ordnnng.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Landes&#x2E17;Ordnnng.</Unicode>
+        <Unicode>Landes⸗Ordnnng.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676460987672_6268" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676460987672_6268" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1661,340 1661,383 1712,383 1712,340"/>
       <TextLine id="line_1676460987756_6271" custom="readingOrder {index:0;}">
         <Coords points="1661,340 1661,383 1712,383 1712,340"/>
@@ -59,7 +73,7 @@
         <Unicode>25</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0735259" type="paragraph" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="-1.0735259" type="paragraph" readingDirection="left-to-right">
       <Coords points="269,354 1719,401 1713,570 264,523"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="269,357 268,409 296,409 300,406 301,423 305,428 338,432 342,439 353,442 369,442 387,431 413,432 436,444 444,444 462,435 480,435 561,435 597,440 669,439 681,442 720,441 745,445 760,442 771,453 783,454 790,448 858,451 861,458 866,461 879,459 882,451 895,453 900,450 973,454 987,451 998,454 1010,452 1040,454 1155,453 1177,457 1185,454 1214,454 1341,463 1348,467 1372,465 1376,471 1385,475 1393,474 1397,466 1580,473 1613,476 1622,485 1633,487 1647,485 1656,477 1716,476 1718,414 1568,410 1563,406 1553,406 1547,410 1453,408 1449,405 1427,407 1414,406 1409,396 1400,392 1388,393 1376,403 1372,403 1284,397 1277,389 1265,388 1253,395 1234,393 1210,384 1132,382 1100,382 1093,388 1040,394 933,394 900,391 895,381 884,377 874,377 864,388 860,388 826,374 785,370 771,370 741,372 718,381 703,383 657,381 653,378 642,378 638,381 516,376 510,370 498,370 492,376 445,376 439,374 439,369 434,364 420,364 385,359"/>
@@ -84,7 +98,7 @@
         <Word id="region0003_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="846,382 762,381 760,442 770,452 784,452 790,448 858,451 859,453 880,454 882,451 895,453 900,450 973,454 987,451 998,454 1000,453 1001,394 933,394 900,391 896,383 868,382 864,388 860,388"/>
           <TextEquiv conf="0.9273602">
-            <Unicode>Per&#x17F;onen</Unicode>
+            <Unicode>Perſonen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0004" custom="readingOrder {index:4;}">
@@ -102,7 +116,7 @@
         <Word id="region0003_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="1405,394 1386,394 1379,399 1378,461 1423,462 1424,406 1414,406 1409,396"/>
           <TextEquiv conf="0.93100667">
-            <Unicode>&#x17F;o</Unicode>
+            <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0007" custom="readingOrder {index:7;}">
@@ -118,7 +132,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Folget nun von Per&#x17F;onen und Graden, &#x17F;o von wegen</Unicode>
+          <Unicode>Folget nun von Perſonen und Graden, ſo von wegen</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
@@ -132,7 +146,7 @@
         <Word id="word_1643969103695_2849" custom="readingOrder {index:1;}">
           <Coords points="364,443 369,443 372,441 427,442 436,445 444,445 448,442 502,443 506,445 538,447 539,444 567,445 568,449 610,450 612,446 638,446 640,450 643,446 718,448 721,452 742,453 744,448 766,449 771,454 783,454 783,522 761,519 755,527 745,528 737,515 700,515 693,523 683,522 674,514 661,514 655,522 644,523 636,514 594,513 587,520 567,521 559,518 553,511 517,506 474,504 468,506 465,513 455,514 448,511 444,505 364,503"/>
           <TextEquiv>
-            <Unicode>Schwa&#x364;ger&#x17F;chaft</Unicode>
+            <Unicode>Schwaͤgerſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0002_word0002" custom="readingOrder {index:2;}">
@@ -154,28 +168,28 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
+          <Unicode>der Schwaͤgerſchaft zu ehelichen verboten.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Folget nun von Per&#x17F;onen und Graden, &#x17F;o von wegen
-der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
+        <Unicode>Folget nun von Perſonen und Graden, ſo von wegen
+der Schwaͤgerſchaft zu ehelichen verboten.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0735259" type="paragraph" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="-1.0735259" type="paragraph" readingDirection="left-to-right">
       <Coords points="264,515 1725,562 1698,1396 237,1348"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="332,518 324,529 308,524 302,530 299,588 304,596 331,598 335,603 344,605 356,604 369,599 407,595 412,595 423,605 431,604 434,596 488,597 523,599 527,602 566,600 569,606 578,607 585,606 589,601 610,598 640,600 653,608 659,607 663,602 690,606 696,615 703,617 723,616 729,607 832,611 839,608 848,616 857,615 860,619 869,618 877,612 919,614 926,615 932,620 941,620 948,613 957,614 1019,617 1027,626 1039,626 1054,617 1104,618 1115,616 1147,619 1245,620 1372,626 1416,626 1424,623 1437,624 1447,628 1468,624 1479,628 1493,625 1522,629 1546,628 1553,631 1639,634 1661,632 1672,635 1681,631 1723,628 1723,617 1724,577 1694,573 1688,569 1661,571 1654,564 1646,563 1638,568 1605,559 1492,555 1434,562 1430,553 1424,552 1394,554 1291,548 1271,547 1236,557 1217,556 1206,555 1200,549 1176,552 1117,544 1107,548 1066,551 1051,544 1037,544 1025,555 987,553 983,544 972,543 966,546 953,544 946,553 932,554 937,546 937,537 917,536 917,536 916,545 926,554 900,555 896,553 893,541 881,537 858,538 849,544 842,538 832,538 823,549 808,549 805,539 801,536 793,535 783,545 776,547 741,545 740,535 735,530 705,529 661,528 649,536 642,530 633,529 624,537 612,537 606,531 586,529 562,538 546,538 513,535 505,527 494,527 485,535 467,534 456,521 451,521 444,521 440,524 425,522 418,524 389,519 388,519"/>
         <Word id="word_1643969113961_2856" custom="readingOrder {index:0;}">
-          <Coords points="314,520 495,527 505,527 586,529 605,530 605,598 585,606 578,607 344,605 335,603 310,596"/>
+          <Coords points="330,520 324,529 313,525 310,596 312,596 331,598 335,603 344,605 356,604 369,599 407,595 412,595 423,605 431,604 434,596 488,597 523,599 527,602 566,600 569,606 578,607 585,606 589,601 602,599 605,598 605,530 586,529 562,538 546,538 513,535 505,527 495,527 494,527 485,535 467,534 459,525"/>
           <TextEquiv>
-            <Unicode>Zufo&#x364;rder&#x17F;t</Unicode>
+            <Unicode>Zufoͤrderſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0002" custom="readingOrder {index:1;}">
           <Coords points="648,535 627,535 626,599 640,600 653,608 659,607 663,602 686,605 687,536 650,535 649,536"/>
           <TextEquiv conf="0.8932506">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0003" custom="readingOrder {index:2;}">
@@ -187,13 +201,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="word_1643969126493_2861" custom="readingOrder {index:3;}">
           <Coords points="773,546 776,547 783,545 790,537 803,537 805,539 808,549 823,549 831,538 842,538 849,544 857,538 887,539 893,541 896,553 900,555 926,554 916,545 916,539 937,539 937,546 932,554 946,553 953,544 954,544 954,613 948,613 941,619 931,619 926,615 919,614 877,612 869,618 859,618 857,615 848,616 839,608 832,611 773,608"/>
           <TextEquiv conf="0.9264729">
-            <Unicode>wi&#x17F;&#x17F;en,</Unicode>
+            <Unicode>wiſſen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0005" custom="readingOrder {index:4;}">
           <Coords points="1054,617 1055,546 1051,544 1037,544 1025,555 987,553 983,544 979,544 978,615 1019,617 1027,626 1039,626 1054,617"/>
           <TextEquiv conf="0.9625691">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0006" custom="readingOrder {index:5;}">
@@ -217,11 +231,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0001_word0009" custom="readingOrder {index:8;}">
           <Coords points="1628,565 1516,563 1515,622 1710,626 1710,575 1694,573 1688,569 1661,571 1655,565 1641,565 1638,568"/>
           <TextEquiv>
-            <Unicode>Bluts&#x2E17;</Unicode>
+            <Unicode>Bluts⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Zufo&#x364;rder&#x17F;t i&#x17F;t zu wi&#x17F;&#x17F;en, da&#xDF; alle des Weibes Bluts&#x2E17;</Unicode>
+          <Unicode>Zufoͤrderſt iſt zu wiſſen, daß alle des Weibes Bluts⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:1;}">
@@ -233,13 +247,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="570,673 571,603 567,604 563,609 556,610 544,608 528,611 482,609 481,670 491,671 525,671 532,676 539,676 544,672 564,672"/>
+          <Coords points="571,607 566,606 565,606 563,609 556,610 550,609 541,609 528,611 482,609 481,667 513,669 547,669 551,672 564,672 566,670 570,670"/>
           <TextEquiv conf="0.85197777">
             <Unicode>dem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="615,600 589,600 587,673 623,674 682,670 687,673 757,672 758,618 678,617 646,605 637,604 628,608"/>
+          <Coords points="613,600 589,602 589,602 587,670 599,673 623,674 682,670 686,672 707,671 710,673 723,672 727,672 728,672 757,672 758,620 703,618 701,617 678,617 655,608 653,609 647,605 646,605 637,604 628,608 615,600"/>
           <TextEquiv conf="0.85197777">
             <Unicode>Mann</Unicode>
           </TextEquiv>
@@ -247,19 +261,19 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0002_word0003" custom="readingOrder {index:3;}">
           <Coords points="844,613 830,613 823,622 770,620 768,682 800,683 801,682 809,681 821,682 822,683 842,683 845,682 882,681 891,684 1021,687 1038,684 1083,686 1085,623 1082,620 1073,620 1064,627 966,627 961,616 958,616 947,615 940,626 931,626 911,625 907,622 883,623 879,614 877,614 869,619 860,620 857,616 848,617"/>
           <TextEquiv conf="0.9237059">
-            <Unicode>ge&#x17F;chwiegert</Unicode>
+            <Unicode>geſchwiegert</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0004" custom="readingOrder {index:4;}">
           <Coords points="1117,617 1113,617 1108,618 1103,623 1102,686 1203,687 1205,687 1216,687 1222,688 1257,689 1258,630 1235,630 1232,623 1220,620 1212,621 1206,629 1139,630 1136,619"/>
           <TextEquiv conf="0.9266264">
-            <Unicode>&#x17F;eynd,</Unicode>
+            <Unicode>ſeynd,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0005" custom="readingOrder {index:5;}">
           <Coords points="1516,697 1518,632 1516,629 1506,629 1502,632 1499,628 1487,625 1474,629 1470,634 1450,635 1449,630 1442,626 1424,624 1415,627 1408,636 1348,636 1293,631 1286,623 1276,623 1275,624 1273,692 1425,695 1425,695 1438,695 1442,695"/>
           <TextEquiv conf="0.96365875">
-            <Unicode>derge&#x17F;talt</Unicode>
+            <Unicode>dergeſtalt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0006" custom="readingOrder {index:6;}">
@@ -271,11 +285,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0002_word0007" custom="readingOrder {index:7;}">
           <Coords points="1693,633 1682,633 1668,636 1663,642 1617,642 1611,638 1603,638 1596,641 1596,689 1709,691 1710,641 1698,641"/>
           <TextEquiv>
-            <Unicode>wel&#x2E17;</Unicode>
+            <Unicode>wel⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>freunde dem Mann ge&#x17F;chwiegert &#x17F;eynd, derge&#x17F;talt in wel&#x2E17;</Unicode>
+          <Unicode>freunde dem Mann geſchwiegert ſeynd, dergeſtalt in wel⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0003" custom="readingOrder {index:2;}">
@@ -301,13 +315,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="765,682 683,680 681,743 701,744 732,742 752,747 764,746 768,749 851,750 852,752 868,753 872,748 904,753 1001,752 1024,754 1027,756 1043,756 1045,755 1058,757 1090,757 1090,757 1123,758 1123,758 1148,759 1148,758 1169,759 1170,696 1168,694 1149,694 1145,689 1137,689 1129,699 1108,699 1088,696 1087,689 1086,688 1033,687 1031,688 1028,694 1006,690 989,698 978,695 892,692 891,685 889,684 873,684 856,687 846,683 844,683 832,691 823,690 820,683 817,683 807,683 800,689 783,689 768,686"/>
           <TextEquiv conf="0.9176228">
-            <Unicode>Blutsfreund&#x17F;chaft</Unicode>
+            <Unicode>Blutsfreundſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="1220,689 1202,689 1195,692 1192,695 1192,759 1223,759 1225,759 1226,759 1241,759 1247,758 1250,758 1250,702 1235,702 1229,692"/>
           <TextEquiv conf="0.9217392">
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0005" custom="readingOrder {index:5;}">
@@ -325,11 +339,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0003_word0007" custom="readingOrder {index:7;}">
           <Coords points="1710,759 1711,711 1627,714 1609,711 1605,713 1604,758 1708,760 1708,759"/>
           <TextEquiv conf="0.9192271">
-            <Unicode>ver&#x2E17;</Unicode>
+            <Unicode>ver⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>chem Grad der Blutsfreund&#x17F;chaft &#x17F;ie dem Weibe ver&#x2E17;</Unicode>
+          <Unicode>chem Grad der Blutsfreundſchaft ſie dem Weibe ver⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0004" custom="readingOrder {index:3;}">
@@ -349,7 +363,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0004_word0002" custom="readingOrder {index:2;}">
           <Coords points="682,807 683,754 540,752 539,811 545,813 556,810 558,806 570,804 664,807 668,810 678,810 682,807"/>
           <TextEquiv conf="0.9552702">
-            <Unicode>&#x17F;elben</Unicode>
+            <Unicode>ſelben</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0003" custom="readingOrder {index:3;}">
@@ -361,13 +375,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="word_1643969155784_2871" custom="readingOrder {index:4;}">
           <Coords points="857,759 862,758 893,758 895,761 962,762 964,759 988,760 990,762 1007,762 1007,822 1006,819 995,817 933,818 920,815 908,819 898,813 890,813 886,816 876,815 872,820 857,820"/>
           <TextEquiv>
-            <Unicode>&#x17F;eynd</Unicode>
+            <Unicode>ſeynd</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643969155784_2870" custom="readingOrder {index:5;}">
           <Coords points="1007,762 1014,763 1016,760 1055,761 1057,764 1069,768 1071,767 1071,819 1047,820 1042,823 1007,822"/>
           <TextEquiv>
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0005" custom="readingOrder {index:6;}">
@@ -385,11 +399,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0004_word0007" custom="readingOrder {index:8;}">
           <Coords points="1451,767 1417,767 1411,772 1409,772 1409,829 1420,831 1454,831 1457,831 1473,830 1484,832 1517,833 1519,832 1547,833 1552,833 1710,837 1710,780 1615,784 1612,774 1598,772 1591,773 1585,782 1574,782 1517,776 1509,768 1502,768 1480,772 1476,768 1468,768 1458,770"/>
           <TextEquiv conf="0.8579919">
-            <Unicode>Schwa&#x364;ger&#x2E17;</Unicode>
+            <Unicode>Schwaͤger⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>wandt, in &#x17F;elben Grad &#x17F;eynd &#x17F;ie dem Mann Schwa&#x364;ger&#x2E17;</Unicode>
+          <Unicode>wandt, in ſelben Grad ſeynd ſie dem Mann Schwaͤger⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0005" custom="readingOrder {index:4;}">
@@ -397,7 +411,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="403,868 404,810 263,808 262,872 266,872 277,865 286,865 295,868 299,875 307,877 316,877 322,869 358,869 363,878 369,879 374,879 378,879 382,873 395,873"/>
           <TextEquiv conf="0.93449247">
-            <Unicode>&#x17F;chaft</Unicode>
+            <Unicode>ſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0001" custom="readingOrder {index:1;}">
@@ -407,15 +421,15 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0002" custom="readingOrder {index:2;}">
-          <Coords points="610,816 599,816 598,862 602,866 611,861 624,872 643,874 662,885 673,885 681,885 688,877 731,877 737,886 753,886 760,878 799,878 811,881 815,878 829,880 847,877 858,881 852,880 853,821 882,821 881,823 865,824 799,819 614,816 611,823"/>
+          <Coords points="610,816 599,816 598,862 602,866 611,861 624,872 643,874 662,885 681,885 688,877 731,877 737,886 753,886 760,878 858,881 852,880 853,821 882,821 614,816 611,823"/>
           <TextEquiv>
             <Unicode>zugethan,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0003" custom="readingOrder {index:3;}">
-          <Coords points="890,814 878,814 871,822 865,822 865,880 915,880 915,816 915,815 898,819"/>
+          <Coords points="865,880 915,880 915,818 908,820 903,817 898,819 890,814 881,823 865,824"/>
           <TextEquiv conf="0.895101">
-            <Unicode>u&#xF1;</Unicode>
+            <Unicode>uñ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0004" custom="readingOrder {index:4;}">
@@ -427,7 +441,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0005_word0005" custom="readingOrder {index:5;}">
           <Coords points="1335,831 1315,831 1314,894 1373,898 1373,899 1406,899 1409,899 1410,899 1411,833 1386,832 1379,837 1338,837"/>
           <TextEquiv conf="0.9519594">
-            <Unicode>da&#xDF;</Unicode>
+            <Unicode>daß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0006" custom="readingOrder {index:6;}">
@@ -439,11 +453,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0005_word0007" custom="readingOrder {index:7;}">
           <Coords points="1556,836 1552,836 1551,893 1706,896 1706,847 1687,847 1681,843 1668,843 1662,848 1655,848 1650,842 1642,840 1631,849 1619,850 1606,847 1593,837 1569,839"/>
           <TextEquiv conf="0.9207041">
-            <Unicode>Bluts&#x2E17;</Unicode>
+            <Unicode>Bluts⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;chaft halben zugethan, u&#xF1; hinwiederum, da&#xDF; alle Bluts&#x2E17;</Unicode>
+          <Unicode>ſchaft halben zugethan, uñ hinwiederum, daß alle Bluts⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0006" custom="readingOrder {index:5;}">
@@ -469,13 +483,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0006_word0003" custom="readingOrder {index:3;}">
           <Coords points="859,883 830,883 828,955 843,955 846,952 865,952 865,955 890,956 895,952 915,952 921,955 931,952 943,955 965,955 966,894 957,895 945,885 935,885 930,893 893,893 863,891"/>
           <TextEquiv conf="0.92199194">
-            <Unicode>&#x17F;eynd</Unicode>
+            <Unicode>ſeynd</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0004" custom="readingOrder {index:4;}">
           <Coords points="1031,888 1003,888 1000,890 999,956 1161,959 1162,894 1134,899 1066,900 1060,898 1060,889 1039,888 1034,898 1033,889"/>
           <TextEquiv conf="0.9311673">
-            <Unicode>&#x17F;einem</Unicode>
+            <Unicode>ſeinem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0005" custom="readingOrder {index:5;}">
@@ -487,11 +501,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0006_word0006" custom="readingOrder {index:6;}">
           <Coords points="1377,912 1376,965 1706,972 1707,919 1693,919 1686,912 1674,912 1667,919 1589,920 1586,908 1581,906 1563,908 1560,917 1554,918 1520,914 1516,911 1489,912 1484,902 1473,902 1466,906 1459,901 1446,900 1438,902 1431,910 1385,913"/>
           <TextEquiv conf="0.66560286">
-            <Unicode>ge&#x17F;chwa&#x364;gert,</Unicode>
+            <Unicode>geſchwaͤgert,</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>freunde des Mannes &#x17F;eynd &#x17F;einem Weibe ge&#x17F;chwa&#x364;gert,</Unicode>
+          <Unicode>freunde des Mannes ſeynd ſeinem Weibe geſchwaͤgert,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0007" custom="readingOrder {index:6;}">
@@ -499,7 +513,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="530,1013 531,958 260,953 259,1003 297,1007 330,1007 339,1017 356,1017 391,1007 401,1013 414,1006 425,1010 442,1008 453,1012 510,1012 515,1017 523,1017 529,1013"/>
           <TextEquiv conf="0.9018416">
-            <Unicode>derge&#x17F;talt,</Unicode>
+            <Unicode>dergeſtalt,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0001" custom="readingOrder {index:1;}">
@@ -529,17 +543,17 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0007_word0005" custom="readingOrder {index:5;}">
           <Coords points="1267,972 1166,971 1165,1033 1186,1035 1251,1034 1267,1037 1300,1038 1301,1042 1323,1042 1325,1040 1373,1040 1377,1043 1385,1043 1386,1043 1401,1039 1421,1041 1425,1044 1428,1044 1438,1043 1471,1044 1472,1045 1570,1047 1572,1046 1574,1047 1593,1047 1595,1046 1616,1048 1616,983 1616,983 1606,987 1582,984 1575,988 1537,986 1535,978 1533,977 1488,976 1476,984 1467,984 1460,976 1448,976 1439,984 1378,983 1372,980 1341,978 1339,974 1308,973 1307,975 1305,973 1287,973 1285,975 1278,975"/>
           <TextEquiv conf="0.9261682">
-            <Unicode>Blutfreund&#x17F;chaft</Unicode>
+            <Unicode>Blutfreundſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0006" custom="readingOrder {index:6;}">
           <Coords points="1643,986 1643,1049 1705,1051 1705,992 1688,991 1678,981 1666,979 1648,982"/>
           <TextEquiv conf="0.9183093">
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>derge&#x17F;talt, in welchem Grad der Blutfreund&#x17F;chaft &#x17F;ie</Unicode>
+          <Unicode>dergeſtalt, in welchem Grad der Blutfreundſchaft ſie</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0008" custom="readingOrder {index:7;}">
@@ -551,13 +565,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0001" custom="readingOrder {index:1;}">
-          <Coords points="493,1019 395,1018 394,1079 417,1080 421,1077 435,1078 447,1075 485,1078 489,1081 519,1078 523,1081 580,1083 580,1023 507,1022"/>
+          <Coords points="395,1018 394,1079 417,1080 421,1077 435,1078 447,1075 485,1078 489,1081 519,1078 523,1081 580,1083 580,1024 507,1022 487,1018"/>
           <TextEquiv conf="0.90297365">
             <Unicode>Manne</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0002" custom="readingOrder {index:2;}">
-          <Coords points="767,1026 727,1025 723,1029 644,1029 591,1026 591,1087 597,1088 600,1095 607,1098 613,1098 632,1087 657,1090 661,1096 669,1099 686,1099 695,1096 699,1090 712,1090 723,1086 741,1087 753,1094 770,1094 773,1091 816,1094 829,1091 843,1096 843,1037 772,1032"/>
+          <Coords points="727,1025 723,1029 644,1029 591,1026 591,1087 597,1088 600,1095 617,1085 642,1088 642,1088 657,1090 661,1096 664,1097 671,1097 680,1094 684,1088 697,1088 708,1084 726,1085 728,1086 741,1087 750,1092 755,1092 758,1089 801,1092 814,1089 823,1092 829,1091 839,1095 843,1092 843,1037 772,1032 771,1031 757,1030 753,1026"/>
           <TextEquiv conf="0.9137571">
             <Unicode>zugethan,</Unicode>
           </TextEquiv>
@@ -569,13 +583,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0004" custom="readingOrder {index:4;}">
-          <Coords points="932,1027 913,1027 912,1104 913,1104 920,1097 936,1099 944,1091 952,1092 959,1098 994,1101 1028,1100 1038,1098 1061,1101 1062,1030 1050,1037 1009,1039 981,1036 977,1028 962,1028 960,1029 956,1028 944,1028 936,1030"/>
+          <Coords points="927,1027 919,1036 912,1036 912,1096 917,1097 918,1098 920,1097 936,1099 944,1091 952,1092 958,1097 964,1092 972,1093 979,1099 1000,1100 1028,1100 1038,1098 1053,1099 1058,1099 1061,1099 1061,1038 1029,1040 1016,1038 1009,1039 981,1036 977,1029 972,1028 965,1028 956,1031 951,1028 944,1028 936,1030 932,1027"/>
           <TextEquiv conf="0.92358726">
-            <Unicode>&#x17F;elben</Unicode>
+            <Unicode>ſelben</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1130,1036 1077,1031 1076,1090 1205,1097 1206,1038 1187,1037 1184,1042 1166,1042 1135,1039"/>
+          <Coords points="1081,1031 1076,1034 1076,1090 1205,1097 1206,1038 1188,1037 1184,1042 1166,1042 1135,1039 1130,1036"/>
           <TextEquiv conf="0.92348653">
             <Unicode>Grad</Unicode>
           </TextEquiv>
@@ -583,29 +597,29 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0008_word0006" custom="readingOrder {index:6;}">
           <Coords points="1265,1039 1234,1039 1233,1040 1232,1107 1249,1107 1250,1106 1270,1107 1270,1108 1317,1108 1319,1107 1336,1107 1356,1109 1368,1109 1369,1049 1362,1049 1357,1042 1347,1041 1341,1041 1337,1042 1333,1049 1284,1050 1268,1047"/>
           <TextEquiv conf="0.92109495">
-            <Unicode>&#x17F;eynd</Unicode>
+            <Unicode>ſeynd</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0007" custom="readingOrder {index:7;}">
           <Coords points="1411,1042 1393,1042 1387,1047 1387,1109 1445,1110 1445,1052 1429,1051 1421,1042 1417,1042 1413,1043"/>
           <TextEquiv conf="0.9327524">
-            <Unicode>&#x17F;ie</Unicode>
+            <Unicode>ſie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1555,1113 1557,1047 1526,1051 1486,1056 1456,1054 1454,1115 1456,1115 1519,1116 1534,1113"/>
+          <Coords points="1556,1052 1521,1057 1493,1055 1486,1056 1456,1054 1454,1112 1485,1115 1519,1116 1534,1113 1555,1113"/>
           <TextEquiv conf="0.69672745">
             <Unicode>dem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1701,1116 1702,1065 1688,1064 1687,1055 1682,1053 1666,1055 1663,1060 1648,1061 1634,1051 1614,1047 1595,1047 1555,1049 1554,1116 1604,1119 1615,1119 1625,1115 1642,1115 1648,1120 1656,1117 1666,1119 1679,1116"/>
+          <Coords points="1701,1065 1688,1064 1687,1055 1682,1053 1666,1055 1663,1060 1648,1061 1634,1051 1614,1047 1595,1047 1589,1053 1582,1053 1573,1048 1569,1048 1561,1052 1554,1052 1554,1116 1557,1116 1569,1114 1582,1117 1604,1119 1615,1119 1625,1115 1642,1115 1648,1120 1656,1117 1666,1119 1679,1116 1701,1116"/>
           <TextEquiv conf="0.69672745">
-            <Unicode>Wei&#x2E17;</Unicode>
+            <Unicode>Wei⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>dem Manne zugethan, in &#x17F;elben Grad &#x17F;eynd &#x17F;ie dem Wei&#x2E17;</Unicode>
+          <Unicode>dem Manne zugethan, in ſelben Grad ſeynd ſie dem Wei⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0009" custom="readingOrder {index:8;}">
@@ -625,7 +639,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0009_word0002" custom="readingOrder {index:2;}">
           <Coords points="579,1093 423,1090 421,1150 422,1150 441,1150 450,1147 463,1150 497,1151 510,1148 522,1157 530,1151 610,1155 617,1163 619,1163 641,1164 651,1156 678,1155 694,1157 700,1165 703,1165 711,1164 716,1157 732,1157 738,1165 748,1166 759,1159 791,1160 792,1166 811,1167 815,1160 834,1161 836,1098 833,1097 797,1096 795,1099 755,1098 755,1096 698,1095 697,1096 679,1095 671,1098 624,1097 624,1093 605,1093 598,1097 592,1097 582,1093"/>
           <TextEquiv>
-            <Unicode>Schwa&#x364;ger&#x17F;chaft</Unicode>
+            <Unicode>Schwaͤgerſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0009_word0003" custom="readingOrder {index:3;}">
@@ -637,13 +651,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0009_word0004" custom="readingOrder {index:4;}">
           <Coords points="1153,1106 1140,1106 1138,1169 1186,1173 1186,1174 1210,1174 1211,1173 1236,1174 1238,1117 1237,1118 1228,1116 1225,1108 1168,1107 1165,1114 1158,1113"/>
           <TextEquiv conf="0.8590494">
-            <Unicode>al&#x17F;o</Unicode>
+            <Unicode>alſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0009_word0005" custom="readingOrder {index:5;}">
           <Coords points="1266,1107 1250,1107 1249,1108 1247,1174 1275,1176 1287,1176 1292,1173 1306,1176 1306,1176 1355,1177 1357,1120 1347,1120 1346,1112 1338,1109 1327,1108 1316,1109 1309,1117 1287,1118 1272,1117"/>
           <TextEquiv conf="0.8590494">
-            <Unicode>da&#xDF;,</Unicode>
+            <Unicode>daß,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0009_word0006" custom="readingOrder {index:6;}">
@@ -661,11 +675,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0009_word0008" custom="readingOrder {index:8;}">
           <Coords points="1613,1120 1611,1183 1699,1185 1701,1127 1689,1126 1683,1117 1664,1120 1658,1126 1653,1126 1641,1116 1625,1116 1613,1120"/>
           <TextEquiv conf="0.94718385">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>be mit Schwa&#x364;ger&#x17F;chaft verwandt, al&#x17F;o da&#xDF;, wie weit &#x17F;ich</Unicode>
+          <Unicode>be mit Schwaͤgerſchaft verwandt, alſo daß, wie weit ſich</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1645430436313_500" custom="readingOrder {index:9;}">
@@ -697,17 +711,17 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0010_word0004" custom="readingOrder {index:4;}">
           <Coords points="1061,1173 971,1171 970,1227 974,1231 988,1232 995,1236 1009,1236 1016,1239 1035,1236 1105,1241 1106,1244 1128,1245 1132,1240 1158,1244 1215,1246 1239,1243 1279,1245 1280,1247 1314,1248 1315,1248 1315,1248 1338,1248 1340,1247 1357,1249 1402,1250 1402,1249 1416,1248 1425,1249 1426,1186 1421,1181 1409,1179 1401,1179 1389,1180 1383,1189 1339,1187 1334,1179 1324,1181 1314,1187 1306,1177 1305,1177 1286,1177 1285,1177 1280,1185 1272,1185 1266,1176 1249,1176 1242,1184 1194,1185 1147,1180 1146,1174 1116,1174 1113,1176 1106,1173 1097,1173 1091,1177 1061,1173"/>
           <TextEquiv conf="0.9138604">
-            <Unicode>Blutfreund&#x17F;chaft</Unicode>
+            <Unicode>Blutfreundſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0010_word0005" custom="readingOrder {index:5;}">
           <Coords points="1533,1183 1517,1183 1511,1184 1503,1193 1454,1191 1454,1250 1698,1255 1698,1199 1683,1199 1667,1192 1661,1197 1641,1196 1637,1189 1631,1186 1626,1186 1617,1193 1604,1190 1602,1196 1544,1194 1541,1187"/>
           <TextEquiv conf="0.8953533">
-            <Unicode>er&#x17F;trecket,</Unicode>
+            <Unicode>erſtrecket,</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>die Prohibition wegen der Blutfreund&#x17F;chaft er&#x17F;trecket,</Unicode>
+          <Unicode>die Prohibition wegen der Blutfreundſchaft erſtrecket,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0011" custom="readingOrder {index:10;}">
@@ -715,13 +729,13 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="word_1643969242121_2892" custom="readingOrder {index:0;}">
           <Coords points="255,1226 413,1228 413,1283 352,1279 338,1282 329,1279 307,1280 278,1277 257,1280 254,1279"/>
           <TextEquiv conf="0.9305905">
-            <Unicode>&#x17F;oweit</Unicode>
+            <Unicode>ſoweit</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0011_word0001" custom="readingOrder {index:1;}">
           <Coords points="492,1286 492,1226 489,1226 485,1219 471,1216 456,1215 450,1220 445,1215 431,1215 426,1220 426,1284 441,1285 447,1293 459,1293 466,1285"/>
           <TextEquiv conf="0.92388064">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0011_word0002" custom="readingOrder {index:2;}">
@@ -751,7 +765,7 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0011_word0006" custom="readingOrder {index:6;}">
           <Coords points="968,1226 952,1226 947,1231 947,1303 1377,1312 1377,1257 1372,1256 1369,1252 1356,1248 1340,1248 1327,1258 1284,1257 1279,1246 1239,1244 1229,1247 1220,1254 1155,1254 1153,1245 1144,1241 1132,1241 1122,1253 1117,1253 1084,1248 1079,1244 1055,1245 1050,1239 1035,1237 1024,1241 1009,1237 995,1237 988,1233 974,1232"/>
           <TextEquiv>
-            <Unicode>Schwa&#x364;ger&#x17F;chaft</Unicode>
+            <Unicode>Schwaͤgerſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0011_word0007" custom="readingOrder {index:7;}">
@@ -763,11 +777,11 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         <Word id="region0004_line0011_word0008" custom="readingOrder {index:8;}">
           <Coords points="1592,1265 1592,1316 1697,1318 1697,1269"/>
           <TextEquiv>
-            <Unicode>ver&#x2E17;</Unicode>
+            <Unicode>ver⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;oweit i&#x17F;t auch die Ehe der Schwa&#x364;ger&#x17F;chaft halber ver&#x2E17;</Unicode>
+          <Unicode>ſoweit iſt auch die Ehe der Schwaͤgerſchaft halber ver⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0012" custom="readingOrder {index:11;}">
@@ -783,21 +797,21 @@ der Schwa&#x364;ger&#x17F;chaft zu ehelichen verboten.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Zufo&#x364;rder&#x17F;t i&#x17F;t zu wi&#x17F;&#x17F;en, da&#xDF; alle des Weibes Bluts&#x2E17;
-freunde dem Mann ge&#x17F;chwiegert &#x17F;eynd, derge&#x17F;talt in wel&#x2E17;
-chem Grad der Blutsfreund&#x17F;chaft &#x17F;ie dem Weibe ver&#x2E17;
-wandt, in &#x17F;elben Grad &#x17F;eynd &#x17F;ie dem Mann Schwa&#x364;ger&#x2E17;
-&#x17F;chaft halben zugethan, u&#xF1; hinwiederum, da&#xDF; alle Bluts&#x2E17;
-freunde des Mannes &#x17F;eynd &#x17F;einem Weibe ge&#x17F;chwa&#x364;gert,
-derge&#x17F;talt, in welchem Grad der Blutfreund&#x17F;chaft &#x17F;ie
-dem Manne zugethan, in &#x17F;elben Grad &#x17F;eynd &#x17F;ie dem Wei&#x2E17;
-be mit Schwa&#x364;ger&#x17F;chaft verwandt, al&#x17F;o da&#xDF;, wie weit &#x17F;ich
-die Prohibition wegen der Blutfreund&#x17F;chaft er&#x17F;trecket,
-&#x17F;oweit i&#x17F;t auch die Ehe der Schwa&#x364;ger&#x17F;chaft halber ver&#x2E17;
+        <Unicode>Zufoͤrderſt iſt zu wiſſen, daß alle des Weibes Bluts⸗
+freunde dem Mann geſchwiegert ſeynd, dergeſtalt in wel⸗
+chem Grad der Blutsfreundſchaft ſie dem Weibe ver⸗
+wandt, in ſelben Grad ſeynd ſie dem Mann Schwaͤger⸗
+ſchaft halben zugethan, uñ hinwiederum, daß alle Bluts⸗
+freunde des Mannes ſeynd ſeinem Weibe geſchwaͤgert,
+dergeſtalt, in welchem Grad der Blutfreundſchaft ſie
+dem Manne zugethan, in ſelben Grad ſeynd ſie dem Wei⸗
+be mit Schwaͤgerſchaft verwandt, alſo daß, wie weit ſich
+die Prohibition wegen der Blutfreundſchaft erſtrecket,
+ſoweit iſt auch die Ehe der Schwaͤgerſchaft halber ver⸗
 boten.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0735259" type="paragraph" readingDirection="left-to-right" id="TextRegion_1676461118818_6373" custom="readingOrder {index:4;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1676461118818_6373" custom="readingOrder {index:4;} structure {type:paragraph;}" orientation="-1.0735259" type="paragraph" readingDirection="left-to-right">
       <Coords points="249,1353 1706,1401 1690,1774 233,1726 235,1670"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="346,1358 248,1360 247,1408 247,1416 272,1419 294,1430 318,1435 416,1436 425,1439 458,1438 470,1443 490,1438 603,1443 633,1442 652,1444 655,1451 675,1450 680,1445 749,1446 765,1443 807,1447 810,1456 818,1459 827,1458 832,1448 851,1449 855,1460 867,1460 872,1459 881,1449 908,1451 921,1447 1016,1456 1096,1454 1107,1458 1169,1461 1177,1471 1191,1473 1203,1471 1214,1463 1265,1463 1478,1473 1484,1481 1494,1481 1505,1473 1542,1474 1585,1477 1591,1487 1607,1489 1612,1488 1627,1475 1661,1479 1703,1478 1703,1476 1704,1445 1705,1416 1600,1415 1598,1404 1587,1398 1575,1398 1568,1412 1514,1406 1497,1396 1487,1394 1380,1391 1356,1399 1332,1399 1315,1397 1309,1389 1293,1388 1285,1397 1214,1399 1125,1394 1119,1389 1111,1389 1104,1394 1008,1392 985,1387 943,1387 937,1376 921,1376 914,1386 848,1386 844,1375 831,1372 825,1372 820,1372 809,1385 781,1381 772,1381 768,1384 677,1381 675,1371 670,1367 650,1369 646,1372 644,1380 518,1377 485,1374 483,1366 478,1362 465,1362 456,1364 452,1369 447,1369 441,1361 418,1364"/>
@@ -816,7 +830,7 @@ boten.</Unicode>
         <Word id="region0005_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="847,1384 813,1383 812,1457 813,1457 827,1457 832,1448 851,1449 854,1458 873,1458 881,1449 908,1451 921,1447 949,1450 950,1387 943,1387 942,1386 915,1385 914,1386 848,1386"/>
           <TextEquiv conf="0.9259038">
-            <Unicode>&#x17F;eynd</Unicode>
+            <Unicode>ſeynd</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0003" custom="readingOrder {index:3;}">
@@ -840,11 +854,11 @@ boten.</Unicode>
         <Word id="region0005_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="1498,1397 1395,1395 1394,1469 1693,1475 1693,1415 1600,1415 1598,1404 1588,1398 1574,1398 1568,1412 1514,1406"/>
           <TextEquiv conf="0.9243226">
-            <Unicode>Schwa&#x364;ger&#x2E17;</Unicode>
+            <Unicode>Schwaͤger⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Solchemnach nun &#x17F;eynd von wegen der Schwa&#x364;ger&#x2E17;</Unicode>
+          <Unicode>Solchemnach nun ſeynd von wegen der Schwaͤger⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0002" custom="readingOrder {index:1;}">
@@ -852,7 +866,7 @@ boten.</Unicode>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="390,1507 391,1449 252,1447 251,1505 261,1509 269,1503 287,1503 293,1514 301,1514 313,1504 345,1506 347,1512 353,1516 365,1516 369,1507"/>
           <TextEquiv conf="0.92626905">
-            <Unicode>&#x17F;chaft</Unicode>
+            <Unicode>ſchaft</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0001" custom="readingOrder {index:1;}">
@@ -900,15 +914,15 @@ boten.</Unicode>
         <Word id="region0005_line0002_word0008" custom="readingOrder {index:8;}">
           <Coords points="1595,1489 1594,1537 1697,1539 1698,1492 1678,1491 1672,1488 1642,1491 1642,1480 1638,1477 1627,1476 1612,1489 1599,1490"/>
           <TextEquiv conf="0.9254123">
-            <Unicode>ehe&#x2E17;</Unicode>
+            <Unicode>ehe⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>&#x17F;chaft in der rechten Linien hinaufwarts gerechnet zu ehe&#x2E17;</Unicode>
+          <Unicode>ſchaft in der rechten Linien hinaufwarts gerechnet zu ehe⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0003" custom="readingOrder {index:2;}">
-        <Coords points="269,1504 261,1510 244,1506 242,1572 308,1576 314,1583 327,1583 333,1576 424,1579 463,1575 469,1578 492,1576 499,1579 524,1580 528,1583 644,1585 650,1595 658,1597 667,1593 669,1585 692,1585 711,1586 714,1594 724,1599 735,1599 754,1587 762,1590 866,1592 876,1593 882,1601 894,1604 901,1603 910,1594 971,1594 977,1596 979,1603 989,1605 997,1604 1001,1597 1099,1600 1104,1598 1115,1598 1124,1603 1134,1598 1174,1598 1182,1601 1215,1604 1333,1607 1344,1611 1373,1613 1378,1619 1390,1622 1397,1621 1402,1614 1474,1614 1605,1621 1698,1619 1699,1600 1700,1560 1680,1558 1674,1551 1662,1551 1656,1556 1631,1556 1619,1549 1608,1547 1564,1544 1553,1546 1539,1556 1524,1556 1515,1553 1486,1556 1466,1554 1462,1551 1399,1550 1396,1543 1390,1541 1375,1541 1370,1544 1368,1549 1363,1549 1361,1540 1346,1538 1335,1541 1331,1549 1292,1550 1283,1549 1275,1544 1243,1543 1234,1537 1226,1537 1213,1543 1211,1536 1206,1532 1187,1534 1182,1542 1141,1543 1026,1537 1019,1536 1015,1528 1005,1525 986,1525 980,1533 943,1527 929,1530 918,1519 886,1519 876,1524 841,1527 835,1527 831,1520 820,1520 813,1521 807,1527 728,1528 728,1519 723,1516 709,1518 700,1526 686,1526 686,1517 681,1514 661,1513 655,1516 649,1524 576,1522 570,1514 562,1513 553,1521 513,1519 511,1510 496,1508 487,1511 481,1519 409,1516 405,1518 353,1517 329,1516 328,1508 323,1505 313,1505 301,1515 293,1515 287,1504"/>
+        <Coords points="261,1510 244,1506 242,1572 308,1576 314,1583 327,1583 333,1576 424,1579 463,1575 469,1578 492,1576 499,1579 524,1580 528,1583 644,1585 650,1595 658,1597 667,1593 669,1585 692,1585 711,1586 714,1594 724,1599 735,1599 754,1587 762,1590 866,1592 876,1593 882,1601 894,1604 901,1603 910,1594 971,1594 977,1596 979,1603 989,1605 997,1604 1001,1597 1099,1600 1104,1598 1115,1598 1124,1603 1134,1598 1174,1598 1182,1601 1215,1604 1333,1607 1344,1611 1373,1613 1378,1619 1390,1622 1397,1621 1402,1614 1474,1614 1605,1621 1696,1619 1699,1559 1680,1558 1674,1551 1662,1551 1656,1556 1631,1556 1619,1549 1608,1547 1564,1544 1553,1546 1539,1556 1524,1556 1515,1553 1486,1556 1466,1554 1462,1551 1399,1550 1396,1543 1390,1541 1375,1541 1370,1544 1368,1549 1363,1549 1361,1540 1346,1538 1335,1541 1331,1549 1292,1550 1283,1549 1275,1544 1243,1543 1234,1537 1226,1537 1213,1543 1211,1536 1206,1532 1187,1534 1182,1542 1141,1543 1026,1537 1019,1536 1015,1528 1005,1525 986,1525 980,1533 943,1527 929,1530 918,1519 886,1519 876,1524 841,1527 835,1527 831,1520 820,1520 813,1521 807,1527 728,1528 728,1519 723,1516 709,1518 700,1526 686,1526 686,1517 681,1514 661,1513 655,1516 649,1524 576,1522 570,1514 562,1513 553,1521 513,1519 511,1510 496,1508 487,1511 481,1519 409,1516 405,1518 353,1517 329,1516 328,1508 323,1505 313,1505 301,1515 293,1515 287,1504 269,1504"/>
         <Word id="region0005_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="392,1577 393,1524 250,1522 249,1572 308,1576 314,1583 327,1583 333,1576"/>
           <TextEquiv conf="0.966122">
@@ -930,7 +944,7 @@ boten.</Unicode>
         <Word id="region0005_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="1018,1534 899,1532 898,1602 901,1602 910,1594 971,1594 977,1596 979,1603 980,1603 997,1603 1001,1597 1099,1600 1104,1598 1115,1598 1124,1603 1134,1598 1136,1598 1136,1542 1026,1537 1019,1536"/>
           <TextEquiv conf="0.9544226">
-            <Unicode>Per&#x17F;onen,</Unicode>
+            <Unicode>Perſonen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0004" custom="readingOrder {index:4;}">
@@ -948,11 +962,11 @@ boten.</Unicode>
         <Word id="region0005_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1609,1547 1552,1546 1539,1556 1524,1556 1515,1553 1486,1556 1466,1554 1462,1551 1450,1550 1450,1605 1691,1610 1691,1559 1680,1558 1674,1551 1662,1551 1656,1556 1631,1556 1619,1549"/>
           <TextEquiv>
-            <Unicode>vorMut&#x2E17;</Unicode>
+            <Unicode>vorMut⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>lichen verboten folgende Per&#x17F;onen, als welche vorMut&#x2E17;</Unicode>
+          <Unicode>lichen verboten folgende Perſonen, als welche vorMut⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0004" custom="readingOrder {index:3;}">
@@ -998,7 +1012,7 @@ boten.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:4;}">
-        <Coords points="240,1660 238,1729 501,1733 506,1740 517,1742 526,1733 533,1732 565,1732 572,1741 583,1740 589,1734 627,1735 711,1740 722,1750 733,1751 740,1743 768,1743 824,1746 831,1754 842,1755 850,1747 901,1749 905,1752 954,1751 966,1752 972,1759 984,1758 989,1752 1083,1754 1097,1755 1104,1764 1115,1764 1121,1756 1211,1759 1259,1763 1266,1773 1273,1776 1289,1774 1297,1765 1392,1769 1399,1777 1411,1777 1419,1769 1577,1772 1591,1762 1592,1723 1587,1718 1426,1713 1424,1706 1419,1701 1403,1701 1392,1706 1388,1712 1362,1711 1259,1704 1249,1698 1239,1698 1233,1703 1227,1699 1219,1699 1213,1703 1147,1701 1137,1700 1134,1693 1125,1688 1114,1688 1106,1692 1100,1699 1016,1698 1014,1692 1007,1687 999,1687 991,1691 986,1687 973,1687 959,1696 924,1695 860,1691 847,1682 830,1680 818,1681 812,1690 764,1687 760,1684 747,1686 745,1681 738,1676 724,1677 722,1674 721,1674 689,1675 680,1682 648,1672 577,1670 568,1675 544,1676 532,1675 530,1669 520,1668 405,1664 391,1668 357,1663"/>
+        <Coords points="238,1726 398,1731 501,1733 502,1735 523,1736 526,1733 533,1732 565,1732 569,1737 585,1738 589,1734 627,1735 711,1740 713,1742 749,1743 768,1743 798,1745 1083,1754 1083,1754 1083,1754 1579,1770 1591,1762 1592,1723 1587,1718 1426,1713 1424,1706 1419,1701 1403,1701 1392,1706 1388,1712 1362,1711 1259,1704 1249,1698 1239,1698 1233,1703 1227,1699 1219,1699 1213,1703 1147,1701 1137,1700 1134,1693 1125,1688 1114,1688 1106,1692 1100,1699 1016,1698 1014,1692 1007,1687 999,1687 991,1691 986,1687 973,1687 959,1696 924,1695 860,1691 847,1682 830,1680 818,1681 812,1690 764,1687 760,1684 747,1686 745,1681 738,1676 724,1677 722,1674 721,1674 689,1675 680,1682 648,1672 577,1670 568,1675 544,1676 532,1675 530,1669 520,1668 405,1664 391,1668 357,1663 240,1660"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="404,1731 405,1680 307,1679 306,1730"/>
           <TextEquiv conf="0.9263195">
@@ -1014,7 +1028,7 @@ boten.</Unicode>
         <Word id="region0006_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="642,1735 643,1684 551,1682 550,1732 565,1732 570,1738 584,1738 589,1734 627,1735"/>
           <TextEquiv conf="0.9138794">
-            <Unicode>&#x17F;oll</Unicode>
+            <Unicode>ſoll</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0001_word0003" custom="readingOrder {index:3;}">
@@ -1048,21 +1062,21 @@ boten.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Der Sohn &#x17F;oll nicht nehmen hinaufwerts zu rechnen:</Unicode>
+          <Unicode>Der Sohn ſoll nicht nehmen hinaufwerts zu rechnen:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Der Sohn &#x17F;oll nicht nehmen hinaufwerts zu rechnen:
-Solchemnach nun &#x17F;eynd von wegen der Schwa&#x364;ger&#x2E17;
-&#x17F;chaft in der rechten Linien hinaufwarts gerechnet zu ehe&#x2E17;
-lichen verboten folgende Per&#x17F;onen, als welche vorMut&#x2E17;
+        <Unicode>Der Sohn ſoll nicht nehmen hinaufwerts zu rechnen:
+Solchemnach nun ſeynd von wegen der Schwaͤger⸗
+ſchaft in der rechten Linien hinaufwarts gerechnet zu ehe⸗
+lichen verboten folgende Perſonen, als welche vorMut⸗
 ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0735259" type="heading" readingDirection="left-to-right" id="TextRegion_1644847164975_422" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1644847164975_422" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-1.0735259" type="heading" readingDirection="left-to-right">
       <Coords points="245,1739 1718,1788 1715,1838 242,1780"/>
       <TextLine id="line_1644847165047_425" custom="readingOrder {index:0;}">
-        <Coords points="885,1759 908,1758 1038,1762 1046,1768 1045,1803 1040,1808 993,1809 880,1805 878,1803 879,1765"/>
+        <Coords points="879,1765 878,1803 880,1805 993,1809 1040,1808 1045,1803 1046,1768 1042,1765 883,1760"/>
         <Word id="word_1644847165047_427" custom="readingOrder {index:0;}">
           <Coords points="958,1759 984,1759 983,1809 957,1808"/>
           <TextEquiv>
@@ -1077,10 +1091,10 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Unicode>I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0735259" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644847164975_421" custom="readingOrder {index:6;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644847164975_421" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="-1.0735259" type="paragraph" readingDirection="left-to-right">
       <Coords points="242,1780 1715,1838 1694,2275 660,2305 219,2291 221,2227"/>
       <TextLine id="region0006_line0003" custom="readingOrder {index:0;}">
-        <Coords points="649,1794 590,1795 583,1798 577,1806 568,1808 543,1808 534,1796 518,1799 490,1793 411,1794 388,1796 359,1806 306,1806 301,1811 300,1842 305,1847 393,1856 394,1862 403,1866 409,1867 421,1856 436,1858 442,1863 450,1859 458,1859 465,1864 494,1864 533,1860 634,1865 711,1862 713,1866 723,1868 733,1863 751,1863 761,1858 804,1861 812,1862 818,1867 858,1871 893,1870 905,1873 917,1868 929,1868 936,1874 941,1875 946,1871 965,1873 982,1869 987,1872 989,1879 1000,1880 1004,1876 1015,1879 1025,1877 1032,1883 1043,1883 1050,1879 1117,1883 1135,1879 1147,1884 1158,1885 1162,1882 1169,1885 1179,1881 1202,1885 1205,1882 1216,1882 1223,1886 1232,1886 1237,1891 1251,1883 1260,1887 1293,1888 1311,1888 1317,1885 1334,1888 1414,1887 1440,1893 1449,1889 1465,1888 1488,1893 1514,1893 1521,1890 1555,1893 1563,1889 1587,1890 1598,1894 1622,1896 1628,1892 1661,1896 1676,1890 1706,1890 1707,1878 1708,1846 1652,1843 1647,1838 1637,1838 1631,1841 1627,1838 1615,1839 1609,1834 1599,1834 1591,1841 1563,1840 1557,1834 1545,1834 1537,1840 1478,1839 1472,1831 1461,1831 1454,1838 1418,1838 1344,1834 1339,1827 1329,1826 1318,1834 1262,1834 1225,1830 1216,1822 1196,1820 1189,1829 1132,1829 1120,1828 1113,1818 1101,1818 1094,1825 1090,1825 1081,1816 1070,1817 1064,1825 1024,1823 1017,1814 1010,1812 1000,1812 988,1820 977,1820 969,1815 955,1815 950,1820 924,1819 858,1814 851,1811 833,1813 829,1809 749,1808 744,1800 736,1797 726,1797 715,1805 708,1805 698,1803 690,1796 674,1798"/>
+        <Coords points="590,1795 583,1798 577,1806 568,1808 543,1808 534,1796 518,1799 490,1793 411,1794 388,1796 359,1806 306,1806 301,1811 300,1842 305,1847 393,1856 394,1862 403,1866 409,1867 421,1856 436,1858 442,1863 450,1859 458,1859 465,1864 494,1864 533,1860 634,1865 711,1862 713,1866 723,1868 733,1863 751,1863 761,1858 804,1861 812,1862 818,1867 858,1871 893,1870 905,1873 917,1868 929,1868 936,1874 941,1875 946,1871 965,1873 982,1869 987,1872 989,1879 1000,1880 1004,1876 1015,1879 1025,1877 1032,1883 1043,1883 1050,1879 1117,1883 1135,1879 1147,1884 1158,1885 1162,1882 1169,1885 1179,1881 1202,1885 1205,1882 1216,1882 1223,1886 1232,1886 1237,1891 1251,1883 1260,1887 1293,1888 1311,1888 1317,1885 1334,1888 1414,1887 1440,1893 1449,1889 1465,1888 1488,1893 1514,1893 1521,1890 1555,1893 1563,1889 1587,1890 1598,1894 1622,1896 1628,1892 1661,1896 1676,1890 1706,1890 1707,1878 1708,1846 1652,1843 1647,1838 1637,1838 1631,1841 1627,1838 1615,1839 1609,1834 1599,1834 1591,1841 1563,1840 1557,1834 1545,1834 1537,1840 1478,1839 1472,1831 1461,1831 1454,1838 1418,1838 1344,1834 1339,1827 1329,1826 1318,1834 1262,1834 1225,1830 1216,1822 1196,1820 1189,1829 1132,1829 1120,1828 1113,1818 1101,1818 1094,1825 1090,1825 1081,1816 1070,1817 1064,1825 1024,1823 1017,1814 1010,1812 1000,1812 988,1820 977,1820 969,1815 955,1815 950,1820 924,1819 858,1814 851,1811 833,1813 829,1809 749,1808 744,1800 743,1800 723,1799 715,1805 708,1805 698,1803 692,1798 680,1797 674,1798 666,1797 613,1795"/>
         <Word id="region0006_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="426,1856 427,1807 373,1806 372,1853 393,1856 394,1862 394,1862 413,1862 421,1856"/>
           <TextEquiv conf="0.95667785">
@@ -1108,7 +1122,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="1018,1815 995,1815 990,1818 990,1871 1052,1873 1052,1824 1024,1823"/>
           <TextEquiv conf="0.9358839">
-            <Unicode>&#x17F;ey</Unicode>
+            <Unicode>ſey</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0003_word0005" custom="readingOrder {index:5;}">
@@ -1120,7 +1134,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1146,1829 1146,1873 1255,1875 1255,1833 1225,1830 1216,1822 1196,1820 1189,1829"/>
           <TextEquiv conf="0.95408297">
-            <Unicode>er&#x17F;te,</Unicode>
+            <Unicode>erſte,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0003_word0007" custom="readingOrder {index:7;}">
@@ -1142,11 +1156,11 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>1.) Seine Stiefmutter, es &#x17F;ey die er&#x17F;te, andere oder dritte,</Unicode>
+          <Unicode>1.) Seine Stiefmutter, es ſey die erſte, andere oder dritte,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0004" custom="readingOrder {index:1;}">
-        <Coords points="324,1851 310,1860 234,1860 232,1915 236,1915 243,1908 250,1909 257,1918 346,1918 348,1922 362,1923 367,1913 373,1912 382,1920 404,1919 406,1924 421,1927 428,1921 441,1920 539,1924 552,1918 561,1918 569,1926 576,1926 588,1918 603,1923 635,1925 643,1918 650,1918 657,1925 673,1928 682,1922 699,1925 764,1918 793,1919 803,1926 818,1921 845,1922 869,1932 895,1928 913,1929 919,1933 936,1929 984,1932 1003,1928 1010,1929 1017,1938 1025,1937 1030,1932 1049,1933 1058,1937 1070,1929 1080,1932 1096,1931 1121,1941 1144,1938 1231,1941 1243,1936 1254,1936 1259,1942 1279,1942 1285,1937 1300,1939 1311,1936 1329,1943 1364,1947 1475,1951 1496,1946 1516,1948 1575,1944 1608,1952 1622,1951 1626,1948 1645,1953 1657,1952 1659,1959 1668,1962 1677,1959 1680,1952 1704,1951 1705,1946 1705,1902 1700,1901 1698,1894 1694,1892 1676,1891 1668,1896 1662,1896 1659,1900 1646,1900 1644,1896 1635,1894 1616,1897 1587,1891 1563,1890 1555,1894 1521,1891 1491,1896 1467,1889 1449,1890 1440,1894 1414,1888 1334,1889 1324,1886 1317,1886 1307,1891 1268,1892 1251,1884 1237,1892 1216,1883 1205,1883 1202,1886 1179,1882 1167,1887 1146,1886 1135,1880 1122,1881 1116,1887 1064,1888 1047,1883 1032,1884 1026,1880 1007,1877 994,1882 989,1880 986,1872 982,1870 967,1872 961,1878 937,1876 929,1869 917,1869 897,1876 874,1875 838,1870 824,1870 818,1869 812,1863 785,1860 761,1859 748,1867 730,1867 723,1869 696,1866 650,1869 604,1868 601,1864 576,1867 533,1861 466,1867 458,1860 442,1864 436,1859 421,1857 409,1868 373,1861 371,1856 365,1853 348,1852 340,1858 332,1851"/>
+        <Coords points="310,1860 238,1860 236,1915 236,1915 243,1908 250,1909 257,1918 346,1918 348,1922 362,1923 367,1913 373,1912 382,1920 404,1919 406,1924 421,1927 428,1921 441,1920 539,1924 552,1918 561,1918 569,1926 576,1926 588,1918 603,1923 635,1925 643,1918 650,1918 657,1925 673,1928 682,1922 699,1925 764,1918 793,1919 803,1926 818,1921 845,1922 869,1932 895,1928 913,1929 919,1933 936,1929 984,1932 1003,1928 1010,1929 1017,1938 1025,1937 1030,1932 1049,1933 1058,1937 1070,1929 1080,1932 1096,1931 1121,1941 1144,1938 1231,1941 1243,1936 1254,1936 1259,1942 1279,1942 1285,1937 1300,1939 1311,1936 1329,1943 1364,1947 1475,1951 1496,1946 1516,1948 1575,1944 1608,1952 1622,1951 1626,1948 1645,1953 1657,1952 1659,1959 1668,1962 1677,1959 1680,1952 1704,1951 1705,1946 1705,1902 1700,1901 1698,1894 1694,1892 1676,1891 1668,1896 1662,1896 1659,1900 1646,1900 1644,1896 1635,1894 1616,1897 1587,1891 1563,1890 1555,1894 1521,1891 1491,1896 1467,1889 1449,1890 1440,1894 1414,1888 1334,1889 1324,1886 1317,1886 1307,1891 1268,1892 1251,1884 1237,1892 1216,1883 1205,1883 1202,1886 1179,1882 1167,1887 1146,1886 1135,1880 1122,1881 1116,1887 1064,1888 1047,1883 1032,1884 1026,1880 1007,1877 994,1882 989,1880 986,1872 982,1870 967,1872 961,1878 937,1876 929,1869 917,1869 897,1876 874,1875 838,1870 824,1870 818,1869 812,1863 785,1860 761,1859 748,1867 730,1867 723,1869 696,1866 650,1869 604,1868 601,1864 576,1867 533,1861 466,1867 458,1860 442,1864 436,1859 421,1857 409,1868 373,1861 371,1856 365,1853 348,1852 340,1858 332,1851 324,1851"/>
         <Word id="region0006_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="394,1865 245,1862 244,1908 250,1909 257,1918 346,1918 348,1921 363,1921 367,1913 373,1912 382,1920 393,1919 394,1865"/>
           <TextEquiv conf="0.94989616">
@@ -1156,7 +1170,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0004_word0001" custom="readingOrder {index:1;}">
           <Coords points="463,1864 413,1864 411,1865 411,1925 423,1925 428,1921 441,1920 492,1922 493,1865 488,1864 466,1867"/>
           <TextEquiv conf="0.93296695">
-            <Unicode>&#x17F;ein</Unicode>
+            <Unicode>ſein</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0004_word0002" custom="readingOrder {index:2;}">
@@ -1204,15 +1218,15 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0004_word0009" custom="readingOrder {index:9;}">
           <Coords points="1596,1893 1559,1892 1555,1894 1553,1894 1552,1946 1575,1944 1608,1952 1622,1951 1626,1948 1645,1953 1645,1953 1657,1952 1657,1953 1679,1954 1680,1952 1695,1951 1696,1895 1670,1894 1668,1896 1662,1896 1659,1900 1646,1900 1644,1896 1635,1894 1616,1897"/>
           <TextEquiv>
-            <Unicode>Stief&#x2E17;</Unicode>
+            <Unicode>Stief⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>welche &#x17F;ein Vater zur Ehe gehabt, 2.) Seines Weibes Stief&#x2E17;</Unicode>
+          <Unicode>welche ſein Vater zur Ehe gehabt, 2.) Seines Weibes Stief⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0005" custom="readingOrder {index:2;}">
-        <Coords points="243,1909 236,1916 239,1920 232,1921 230,1973 246,1976 252,1976 260,1968 264,1968 271,1973 306,1976 324,1973 336,1975 340,1971 350,1972 356,1979 385,1979 397,1976 414,1981 421,1987 434,1986 438,1981 512,1982 537,1977 573,1979 580,1986 589,1986 599,1977 610,1978 616,1972 624,1973 630,1979 667,1979 681,1990 693,1987 695,1982 705,1984 720,1978 730,1979 739,1983 760,1980 790,1987 794,1984 817,1983 822,1980 909,1979 940,1985 947,1980 960,1983 974,1980 980,1984 994,1985 996,1990 1004,1992 1011,1991 1019,1985 1038,1986 1052,1984 1078,1984 1090,1988 1104,1985 1111,1989 1182,1991 1188,1997 1200,1999 1211,1999 1219,1994 1263,1995 1277,1996 1279,2003 1284,2008 1304,2008 1310,2004 1312,1998 1353,1998 1367,2004 1377,1998 1436,1996 1441,2000 1456,2000 1471,2010 1491,2004 1503,2012 1507,2009 1557,2012 1569,2009 1579,2014 1592,2011 1636,2011 1659,2016 1702,2017 1703,1961 1683,1959 1668,1963 1647,1959 1646,1954 1631,1949 1624,1950 1620,1956 1575,1945 1517,1950 1496,1947 1487,1949 1483,1955 1422,1958 1379,1949 1325,1946 1323,1942 1311,1937 1300,1940 1285,1938 1277,1945 1259,1945 1254,1937 1243,1937 1229,1943 1200,1941 1185,1944 1149,1940 1121,1942 1116,1939 1102,1939 1096,1932 1080,1933 1070,1930 1058,1938 1030,1933 1025,1938 1017,1939 1010,1930 1003,1929 988,1934 932,1931 919,1934 880,1929 869,1933 845,1923 834,1926 816,1923 803,1927 793,1920 764,1919 727,1923 694,1930 690,1930 684,1923 671,1928 657,1926 650,1919 643,1919 635,1926 635,1930 604,1927 601,1922 588,1919 576,1927 569,1927 561,1919 552,1919 540,1925 493,1925 484,1922 476,1925 414,1928 408,1925 382,1924 380,1918 373,1913 368,1913 362,1924 348,1923 345,1919 331,1919 327,1923 257,1922 250,1910"/>
+        <Coords points="236,1916 239,1920 235,1920 232,1973 246,1976 252,1976 260,1968 264,1968 271,1973 306,1976 324,1973 336,1975 340,1971 350,1972 356,1979 385,1979 397,1976 414,1981 421,1987 434,1986 438,1981 512,1982 537,1977 573,1979 580,1986 589,1986 599,1977 610,1978 616,1972 624,1973 630,1979 667,1979 681,1990 693,1987 695,1982 705,1984 720,1978 730,1979 739,1983 760,1980 790,1987 794,1984 817,1983 822,1980 909,1979 940,1985 947,1980 960,1983 974,1980 980,1984 994,1985 996,1990 1004,1992 1011,1991 1019,1985 1038,1986 1052,1984 1078,1984 1090,1988 1104,1985 1111,1989 1182,1991 1188,1997 1200,1999 1211,1999 1219,1994 1263,1995 1277,1996 1279,2003 1284,2008 1304,2008 1310,2004 1312,1998 1353,1998 1367,2004 1377,1998 1436,1996 1441,2000 1456,2000 1471,2010 1491,2004 1503,2012 1507,2009 1557,2012 1569,2009 1579,2014 1592,2011 1636,2011 1659,2016 1702,2017 1703,1961 1683,1959 1668,1963 1647,1959 1646,1954 1631,1949 1624,1950 1620,1956 1575,1945 1517,1950 1496,1947 1487,1949 1483,1955 1422,1958 1379,1949 1325,1946 1323,1942 1311,1937 1300,1940 1285,1938 1277,1945 1259,1945 1254,1937 1243,1937 1229,1943 1200,1941 1185,1944 1149,1940 1121,1942 1116,1939 1102,1939 1096,1932 1080,1933 1070,1930 1058,1938 1030,1933 1025,1938 1017,1939 1010,1930 1003,1929 988,1934 932,1931 919,1934 880,1929 869,1933 845,1923 834,1926 816,1923 803,1927 793,1920 764,1919 727,1923 694,1930 690,1930 684,1923 671,1928 657,1926 650,1919 643,1919 635,1926 635,1930 604,1927 601,1922 588,1919 576,1927 569,1927 561,1919 552,1919 540,1925 493,1925 484,1922 476,1925 414,1928 408,1925 382,1924 380,1918 373,1913 368,1913 362,1924 348,1923 345,1919 331,1919 327,1923 257,1922 250,1910 243,1909"/>
         <Word id="region0006_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="252,1915 245,1915 244,1975 246,1976 252,1976 260,1968 264,1968 271,1973 306,1976 324,1973 336,1975 340,1971 350,1972 356,1979 385,1979 397,1976 414,1981 418,1984 434,1984 436,1983 436,1926 414,1928 408,1925 382,1924 380,1918 378,1917 365,1916 362,1924 348,1923 345,1919 331,1919 327,1923 257,1922"/>
           <TextEquiv>
@@ -1252,7 +1266,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0005_word0007" custom="readingOrder {index:6;}">
           <Coords points="1205,1941 1199,1941 1189,1943 1188,1997 1200,1999 1211,1999 1219,1994 1263,1995 1277,1996 1279,2002 1310,2003 1312,1998 1353,1998 1367,2004 1367,2004 1375,1999 1376,1949 1325,1946 1324,1944 1279,1943 1277,1945 1259,1945 1257,1942 1232,1942 1229,1943"/>
           <TextEquiv conf="0.9121194">
-            <Unicode>gela&#x17F;&#x17F;en,</Unicode>
+            <Unicode>gelaſſen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0005_word0008" custom="readingOrder {index:7;}">
@@ -1268,11 +1282,11 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>mutter, welche ihr Vater nach ihm gela&#x17F;&#x17F;en, 3.) Seine</Unicode>
+          <Unicode>mutter, welche ihr Vater nach ihm gelaſſen, 3.) Seine</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0006" custom="readingOrder {index:3;}">
-        <Coords points="616,1973 610,1979 599,1978 589,1987 575,1984 552,1984 544,1978 537,1978 525,1984 431,1988 409,1986 407,1981 397,1977 388,1978 382,1983 368,1983 356,1982 346,1972 340,1972 336,1976 324,1974 309,1978 303,1975 271,1974 260,1969 252,1977 230,1978 228,2042 246,2046 253,2040 263,2044 269,2037 282,2042 323,2042 331,2039 336,2032 347,2038 358,2036 371,2039 380,2034 406,2036 411,2043 421,2043 429,2047 453,2046 459,2042 491,2042 493,2045 502,2046 514,2042 523,2042 532,2035 541,2035 547,2039 564,2036 575,2045 584,2032 595,2037 601,2032 610,2032 619,2040 656,2042 661,2039 666,2042 672,2033 677,2031 692,2039 702,2039 704,2043 715,2047 726,2042 739,2041 870,2045 981,2043 994,2048 1000,2044 1010,2044 1015,2047 1044,2045 1053,2050 1083,2050 1101,2046 1118,2050 1133,2046 1148,2052 1156,2053 1201,2050 1211,2053 1224,2048 1229,2048 1233,2053 1243,2053 1249,2048 1258,2049 1267,2054 1293,2053 1315,2061 1335,2056 1352,2066 1364,2067 1372,2063 1501,2069 1535,2066 1545,2070 1569,2067 1583,2072 1658,2076 1700,2073 1701,2027 1675,2023 1636,2012 1592,2012 1579,2015 1563,2010 1547,2015 1503,2014 1491,2005 1471,2011 1456,2001 1416,1996 1377,1999 1367,2005 1349,1999 1344,2006 1323,2006 1312,2013 1281,2015 1276,2008 1260,2002 1220,1998 1200,2000 1188,1998 1182,1992 1167,1995 1164,1992 1138,1993 1111,1990 1104,1986 1091,1989 1078,1985 1019,1986 1011,1992 1004,1993 985,1990 974,1981 962,1984 947,1981 939,1987 909,1980 881,1979 845,1983 822,1981 815,1986 785,1990 767,1989 766,1984 760,1981 746,1982 740,1989 739,1984 734,1981 720,1979 711,1981 702,1988 680,1991 667,1980 630,1980 624,1974"/>
+        <Coords points="610,1979 599,1978 589,1987 575,1984 552,1984 544,1978 537,1978 525,1984 431,1988 409,1986 407,1981 397,1977 388,1978 382,1983 368,1983 356,1982 346,1972 340,1972 336,1976 324,1974 309,1978 303,1975 271,1974 260,1969 252,1977 232,1977 229,2042 246,2046 253,2040 263,2044 269,2037 282,2042 323,2042 331,2039 336,2032 347,2038 358,2036 371,2039 380,2034 406,2036 411,2043 421,2043 429,2047 453,2046 459,2042 491,2042 493,2045 502,2046 514,2042 523,2042 532,2035 541,2035 547,2039 564,2036 575,2045 584,2032 595,2037 601,2032 610,2032 619,2040 656,2042 661,2039 666,2042 672,2033 677,2031 692,2039 702,2039 704,2043 715,2047 726,2042 739,2041 870,2045 981,2043 994,2048 1000,2044 1010,2044 1015,2047 1044,2045 1053,2050 1083,2050 1101,2046 1118,2050 1133,2046 1148,2052 1156,2053 1201,2050 1211,2053 1224,2048 1229,2048 1233,2053 1243,2053 1249,2048 1258,2049 1267,2054 1293,2053 1315,2061 1335,2056 1352,2066 1364,2067 1372,2063 1501,2069 1535,2066 1545,2070 1569,2067 1583,2072 1658,2076 1700,2073 1701,2027 1675,2023 1636,2012 1592,2012 1579,2015 1563,2010 1547,2015 1503,2014 1491,2005 1471,2011 1456,2001 1416,1996 1377,1999 1367,2005 1349,1999 1344,2006 1323,2006 1312,2013 1281,2015 1276,2008 1260,2002 1220,1998 1200,2000 1188,1998 1182,1992 1167,1995 1164,1992 1138,1993 1111,1990 1104,1986 1091,1989 1078,1985 1019,1986 1011,1992 1004,1993 985,1990 974,1981 962,1984 947,1981 939,1987 909,1980 881,1979 845,1983 822,1981 815,1986 785,1990 767,1989 766,1984 760,1981 746,1982 740,1989 739,1984 734,1981 720,1979 711,1981 702,1988 680,1991 667,1980 630,1980 624,1974 616,1973"/>
         <Word id="region0006_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="306,1976 253,1975 252,1977 233,1977 233,2043 242,2045 246,2045 253,2040 263,2044 269,2037 282,2042 323,2042 331,2039 336,2032 347,2038 358,2036 371,2039 380,2034 406,2036 411,2043 421,2043 429,2047 453,2046 459,2042 491,2042 493,2045 502,2046 514,2042 516,2042 516,1984 431,1988 409,1986 407,1981 400,1978 387,1978 382,1983 368,1983 356,1982 351,1977 313,1976 309,1978"/>
           <TextEquiv conf="0.8884914">
@@ -1288,13 +1302,13 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0006_word0002" custom="readingOrder {index:2;}">
           <Coords points="629,1979 624,1979 622,2040 656,2042 661,2039 666,2042 672,2033 677,2031 692,2039 692,2039 694,1989 680,1991 667,1980 630,1980"/>
           <TextEquiv conf="0.9310676">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0006_word0003" custom="readingOrder {index:3;}">
           <Coords points="835,2043 836,1997 706,1994 705,2043 715,2047 726,2042 739,2041"/>
           <TextEquiv conf="0.92877316">
-            <Unicode>&#x17F;eines</Unicode>
+            <Unicode>ſeines</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0006_word0004" custom="readingOrder {index:4;}">
@@ -1324,15 +1338,15 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0006_word0008" custom="readingOrder {index:8;}">
           <Coords points="1643,2013 1593,2013 1592,2062 1694,2064 1694,2026 1675,2023"/>
           <TextEquiv conf="0.92688316">
-            <Unicode>Va&#x2E17;</Unicode>
+            <Unicode>Va⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>Schwieger, das i&#x17F;t &#x17F;eines Weibes Mutter, 4.) Seines Va&#x2E17;</Unicode>
+          <Unicode>Schwieger, das iſt ſeines Weibes Mutter, 4.) Seines Va⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0007" custom="readingOrder {index:4;}">
-        <Coords points="675,2032 666,2043 661,2040 656,2043 637,2040 629,2045 619,2045 619,2041 610,2033 601,2033 596,2038 584,2033 575,2046 564,2037 547,2040 541,2036 532,2036 523,2046 511,2044 502,2047 458,2046 429,2048 421,2044 411,2044 406,2037 380,2035 371,2040 359,2037 347,2039 336,2033 331,2040 323,2043 283,2044 269,2038 263,2045 253,2041 246,2047 228,2043 226,2094 300,2098 354,2095 359,2099 375,2098 390,2101 398,2098 440,2099 450,2094 461,2094 474,2099 619,2103 622,2106 632,2106 646,2094 656,2097 661,2102 672,2105 679,2103 689,2094 698,2099 699,2106 704,2107 713,2105 725,2097 735,2096 746,2100 762,2096 771,2100 796,2102 895,2100 903,2108 917,2103 933,2103 1033,2111 1048,2107 1069,2106 1083,2107 1091,2114 1117,2109 1230,2115 1241,2111 1253,2111 1258,2115 1342,2116 1346,2119 1360,2117 1386,2123 1400,2120 1411,2125 1436,2124 1450,2128 1511,2130 1513,2134 1521,2136 1528,2136 1535,2129 1618,2133 1632,2142 1646,2141 1655,2134 1665,2131 1698,2131 1699,2086 1675,2084 1671,2081 1654,2083 1595,2077 1589,2074 1579,2075 1578,2072 1569,2068 1555,2070 1552,2075 1547,2075 1546,2071 1535,2067 1523,2066 1514,2073 1432,2069 1427,2066 1352,2067 1342,2064 1335,2057 1306,2061 1293,2054 1273,2056 1258,2050 1249,2049 1243,2054 1233,2054 1229,2049 1224,2049 1211,2054 1173,2057 1143,2055 1141,2050 1133,2047 1121,2051 1108,2047 1094,2047 1084,2055 1053,2054 1052,2050 1044,2046 1028,2046 1018,2052 1010,2045 1000,2045 989,2050 944,2050 940,2047 926,2049 883,2048 871,2045 865,2048 852,2046 791,2048 760,2046 757,2042 743,2042 739,2046 715,2048 697,2044 694,2040"/>
+        <Coords points="666,2043 661,2040 656,2043 637,2040 629,2045 619,2045 619,2041 610,2033 601,2033 596,2038 584,2033 575,2046 564,2037 547,2040 541,2036 532,2036 523,2046 511,2044 502,2047 458,2046 429,2048 421,2044 411,2044 406,2037 380,2035 371,2040 359,2037 347,2039 336,2033 331,2040 323,2043 283,2044 269,2038 263,2045 253,2041 246,2047 229,2043 227,2094 300,2098 354,2095 359,2099 375,2098 390,2101 398,2098 440,2099 450,2094 461,2094 474,2099 619,2103 622,2106 632,2106 646,2094 656,2097 661,2102 672,2105 679,2103 689,2094 698,2099 699,2106 704,2107 713,2105 725,2097 735,2096 746,2100 762,2096 771,2100 796,2102 895,2100 903,2108 917,2103 933,2103 1033,2111 1048,2107 1069,2106 1083,2107 1091,2114 1117,2109 1230,2115 1241,2111 1253,2111 1258,2115 1342,2116 1346,2119 1360,2117 1386,2123 1400,2120 1411,2125 1436,2124 1450,2128 1511,2130 1513,2134 1521,2136 1528,2136 1535,2129 1618,2133 1632,2142 1646,2141 1655,2134 1665,2131 1698,2131 1699,2086 1675,2084 1671,2081 1654,2083 1595,2077 1589,2074 1579,2075 1578,2072 1569,2068 1555,2070 1552,2075 1547,2075 1546,2071 1535,2067 1523,2066 1514,2073 1432,2069 1427,2066 1352,2067 1342,2064 1335,2057 1306,2061 1293,2054 1273,2056 1258,2050 1249,2049 1243,2054 1233,2054 1229,2049 1224,2049 1211,2054 1173,2057 1143,2055 1141,2050 1133,2047 1121,2051 1108,2047 1094,2047 1084,2055 1053,2054 1052,2050 1044,2046 1028,2046 1018,2052 1010,2045 1000,2045 989,2050 944,2050 940,2047 926,2049 883,2048 871,2045 865,2048 852,2046 791,2048 760,2046 757,2042 743,2042 739,2046 715,2048 697,2044 694,2040 675,2032"/>
         <Word id="region0006_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="242,2046 242,2089 338,2091 339,2036 333,2035 331,2040 323,2043 283,2044 269,2038 263,2045 253,2041 246,2047"/>
           <TextEquiv conf="0.9310826">
@@ -1366,7 +1380,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0007_word0005" custom="readingOrder {index:5;}">
           <Coords points="1142,2054 1089,2053 1087,2110 1088,2112 1100,2112 1117,2109 1188,2112 1189,2055 1173,2057 1143,2055"/>
           <TextEquiv conf="0.9641685">
-            <Unicode>&#x17F;eine</Unicode>
+            <Unicode>ſeine</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0007_word0006" custom="readingOrder {index:6;}">
@@ -1378,17 +1392,17 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0007_word0007" custom="readingOrder {index:7;}">
           <Coords points="1518,2069 1518,2119 1610,2121 1610,2078 1595,2077 1589,2074 1579,2075 1578,2072 1569,2068 1555,2070 1552,2075 1547,2075 1546,2071 1535,2067 1523,2066"/>
           <TextEquiv conf="0.92368525">
-            <Unicode>&#x17F;olte</Unicode>
+            <Unicode>ſolte</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0007_word0008" custom="readingOrder {index:8;}">
           <Coords points="1625,2080 1625,2122 1693,2124 1693,2085 1675,2084 1671,2081 1654,2083"/>
           <TextEquiv conf="0.93009657">
-            <Unicode>ge&#x2E17;</Unicode>
+            <Unicode>ge⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>ters Braut oder Vertrauete, welche &#x17F;eine Stiefmutter &#x17F;olte ge&#x2E17;</Unicode>
+          <Unicode>ters Braut oder Vertrauete, welche ſeine Stiefmutter ſolte ge⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0008" custom="readingOrder {index:5;}">
@@ -1402,7 +1416,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="473,2102 441,2102 439,2154 453,2161 458,2159 479,2158 481,2162 498,2162 504,2158 532,2160 547,2155 561,2153 562,2105 474,2105"/>
           <TextEquiv>
-            <Unicode>&#x17F;eyn/</Unicode>
+            <Unicode>ſeyn/</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0003" custom="readingOrder {index:2;}">
@@ -1414,7 +1428,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0008_word0004" custom="readingOrder {index:3;}">
           <Coords points="840,2161 841,2111 717,2108 716,2166 719,2167 731,2164 732,2160 746,2158"/>
           <TextEquiv conf="0.91900444">
-            <Unicode>&#x17F;einer</Unicode>
+            <Unicode>ſeiner</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0005" custom="readingOrder {index:4;}">
@@ -1430,15 +1444,15 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0007" custom="readingOrder {index:6;}">
-          <Coords points="1324,2174 1325,2120 1261,2119 1253,2112 1241,2112 1233,2117 1232,2170 1280,2177"/>
+          <Coords points="1325,2121 1324,2122 1321,2120 1298,2120 1296,2121 1261,2119 1253,2112 1241,2112 1233,2118 1233,2118 1232,2170 1280,2177 1303,2173 1310,2175 1324,2174"/>
           <TextEquiv conf="0.93002963">
             <Unicode>das</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0008" custom="readingOrder {index:7;}">
-          <Coords points="1322,2121 1298,2120 1324,2120 1323,2174 1303,2173 1320,2178 1340,2176 1343,2180 1373,2181 1374,2122 1325,2121 1324,2122"/>
+          <Coords points="1322,2121 1303,2173 1373,2181 1374,2122"/>
           <TextEquiv conf="0.9259368">
-            <Unicode>i&#x17F;t</Unicode>
+            <Unicode>iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0009" custom="readingOrder {index:8;}">
@@ -1456,11 +1470,11 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0008_word0011" custom="readingOrder {index:10;}">
           <Coords points="1592,2136 1592,2176 1693,2178 1693,2143 1682,2142 1681,2134 1676,2131 1657,2134 1646,2142 1632,2143 1618,2137"/>
           <TextEquiv conf="0.92825717">
-            <Unicode>wel&#x2E17;</Unicode>
+            <Unicode>wel⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>worden &#x17F;eyn/ 5.) &#x17F;einer Braut Mutter, das i&#x17F;t die, mit wel&#x2E17;</Unicode>
+          <Unicode>worden ſeyn/ 5.) ſeiner Braut Mutter, das iſt die, mit wel⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0009" custom="readingOrder {index:6;}">
@@ -1472,7 +1486,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0001" custom="readingOrder {index:1;}">
-          <Coords points="518,2213 519,2163 346,2159 345,2209 427,2212 433,2217 442,2217 451,2212"/>
+          <Coords points="518,2163 496,2166 485,2166 477,2162 462,2161 458,2163 448,2161 346,2159 345,2209 427,2212 433,2217 442,2217 451,2212 518,2213"/>
           <TextEquiv conf="0.92056">
             <Unicode>Tochter</Unicode>
           </TextEquiv>
@@ -1486,11 +1500,11 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         <Word id="region0006_line0009_word0003" custom="readingOrder {index:3;}">
           <Coords points="681,2223 682,2170 611,2168 610,2224 620,2225 626,2220 654,2222 660,2229 673,2230 680,2223"/>
           <TextEquiv conf="0.9224661">
-            <Unicode>&#x17F;ich</Unicode>
+            <Unicode>ſich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0004" custom="readingOrder {index:4;}">
-          <Coords points="818,2221 819,2165 738,2163 721,2168 711,2165 689,2164 689,2233 711,2234 719,2226 744,2222 750,2223 754,2233 768,2234 777,2222 792,2221"/>
+          <Coords points="819,2165 741,2163 721,2168 711,2165 689,2166 689,2233 689,2233 711,2234 719,2226 744,2222 750,2223 754,2233 768,2234 777,2222 792,2221 818,2221"/>
           <TextEquiv conf="0.90546256">
             <Unicode>zuvor</Unicode>
           </TextEquiv>
@@ -1508,7 +1522,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0009_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1246,2232 1247,2175 1154,2174 1153,2226 1213,2230 1221,2238 1239,2238 1246,2232"/>
+          <Coords points="1246,2178 1244,2178 1241,2174 1220,2174 1216,2179 1207,2179 1201,2174 1154,2174 1153,2226 1213,2230 1221,2238 1239,2238 1246,2232"/>
           <TextEquiv conf="0.90231097">
             <Unicode>doch</Unicode>
           </TextEquiv>
@@ -1532,7 +1546,7 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>cher Tochter Er &#x17F;ich zuvor verlobet, und doch nicht Hochzeit mit</Unicode>
+          <Unicode>cher Tochter Er ſich zuvor verlobet, und doch nicht Hochzeit mit</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0001" custom="readingOrder {index:7;}">
@@ -1560,17 +1574,17 @@ ter und Vater gehalten werden. Nemlich: Nemlich:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1.) Seine Stiefmutter, es &#x17F;ey die er&#x17F;te, andere oder dritte, dritte,
-welche &#x17F;ein Vater zur Ehe gehabt, 2.) Seines Weibes Stief&#x2E17;
-mutter, welche ihr Vater nach ihm gela&#x17F;&#x17F;en, 3.) Seine
-Schwieger, das i&#x17F;t &#x17F;eines Weibes Mutter, 4.) Seines Va&#x2E17;
-ters Braut oder Vertrauete, welche &#x17F;eine Stiefmutter &#x17F;olte ge&#x2E17;
-worden &#x17F;eyn/ 5.) &#x17F;einer Braut Mutter, das i&#x17F;t die, mit wel&#x2E17;
-cher Tochter Er &#x17F;ich zuvor verlobet, und doch nicht Hochzeit mit
+        <Unicode>1.) Seine Stiefmutter, es ſey die erſte, andere oder dritte, dritte,
+welche ſein Vater zur Ehe gehabt, 2.) Seines Weibes Stief⸗
+mutter, welche ihr Vater nach ihm gelaſſen, 3.) Seine
+Schwieger, das iſt ſeines Weibes Mutter, 4.) Seines Va⸗
+ters Braut oder Vertrauete, welche ſeine Stiefmutter ſolte ge⸗
+worden ſeyn/ 5.) ſeiner Braut Mutter, das iſt die, mit wel⸗
+cher Tochter Er ſich zuvor verlobet, und doch nicht Hochzeit mit
 ihr gehalten hat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676461002101_6286" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676461002101_6286" custom="readingOrder {index:7;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="932,2304 932,2346 987,2346 987,2304"/>
       <TextLine id="line_1676461002194_6289" custom="readingOrder {index:0;}">
         <Coords points="932,2304 932,2346 987,2346 987,2304"/>
@@ -1588,22 +1602,22 @@ ihr gehalten hat.</Unicode>
         <Unicode>D</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676460998065_6277" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="region_1676460998065_6277" custom="readingOrder {index:8;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1504,2317 1504,2378 1692,2378 1692,2317"/>
       <TextLine id="line_1676460998156_6280" custom="readingOrder {index:0;}">
         <Coords points="1504,2317 1504,2378 1692,2378 1692,2317"/>
         <Word id="word_1676460998218_6283" custom="readingOrder {index:0;}">
           <Coords points="1504,2317 1692,2317 1692,2378 1504,2378"/>
           <TextEquiv>
-            <Unicode>1.)Sei&#x2E17;</Unicode>
+            <Unicode>1.)Sei⸗</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>1.)Sei&#x2E17;</Unicode>
+          <Unicode>1.)Sei⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1.)Sei&#x2E17;</Unicode>
+        <Unicode>1.)Sei⸗</Unicode>
       </TextEquiv>
     </TextRegion>
   </Page>

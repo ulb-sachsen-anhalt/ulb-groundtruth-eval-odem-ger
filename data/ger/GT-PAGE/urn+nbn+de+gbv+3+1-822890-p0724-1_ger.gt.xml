@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-972">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:47Z</Created>
     <LastChange>2024-01-19T13:10:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9f7c6590-6274-4d70-a7be-a06527fea49b/00000724.jpg" imageWidth="1559" imageHeight="2443" type="content" primaryLanguage="German">
     <Border>
@@ -17,10 +31,7 @@
         <RegionRefIndexed index="3" regionRef="region_1682583989958_1056"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682583981357_1053" custom="readingOrder {index:0;}">
-      <Coords points="825,421 1088,421 1088,467 825,467"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682583977106_1044" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682583977106_1044" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="512,413 512,463 587,463 587,413"/>
       <TextLine id="line_1682583977197_1047" custom="readingOrder {index:0;}">
         <Coords points="512,413 512,463 587,463 587,413"/>
@@ -38,7 +49,7 @@
         <Unicode>684</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45422262" readingDirection="left-to-right" id="TextRegion_1666188800087_2883" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1666188800087_2883" custom="readingOrder {index:2;}" orientation="-0.45422262" readingDirection="left-to-right">
       <Coords points="499,508 1436,508 1459,1062 1459,1082 1428,2081 481,2081 461,945 461,880"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="633,508 529,508 528,539 538,546 538,551 543,556 732,562 739,568 747,569 758,563 776,571 785,570 791,565 821,567 927,563 946,566 1039,565 1073,567 1087,571 1142,565 1200,568 1436,572 1436,529 1353,527 1311,521 1307,518 1256,522 1245,517 1229,520 1222,515 1214,515 1208,520 1176,522 1152,519 1147,514 1060,516 1040,513 1033,517 1019,518 987,511 930,511 899,518 865,510 861,513 825,513 791,517 785,510 775,510 764,517 758,511 747,509"/>
@@ -250,7 +261,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1666189037633_2964" custom="readingOrder {index:14;}">
-          <Coords points="1314,631 1328,633 1330,623 1368,626 1368,672 1327,669 1327,668 1323,669 1314,669"/>
+          <Coords points="1330,623 1328,633 1314,631 1314,669 1323,669 1327,668 1327,669 1352,670 1353,667 1364,667 1368,668 1368,631 1362,633 1352,633 1350,624"/>
           <TextEquiv>
             <Unicode>+</Unicode>
           </TextEquiv>
@@ -1111,14 +1122,14 @@
           </TextEquiv>
         </Word>
         <Word id="word_1666189379490_3151" custom="readingOrder {index:3;}">
-          <Coords points="781,1435 819,1435 819,1488 781,1488"/>
+          <Coords points="786,1435 785,1437 781,1437 781,1481 784,1482 786,1488 808,1488 811,1486 819,1487 819,1440 817,1441 815,1435"/>
           <TextEquiv>
             <Unicode>½</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0003" custom="readingOrder {index:4;}">
           <Coords points="900,1434 896,1440 826,1440 826,1482 903,1482 940,1480 958,1480 964,1482 971,1482 978,1481 978,1437 943,1440 928,1439 925,1434"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>gegeben,</Unicode>
           </TextEquiv>
         </Word>
@@ -1166,7 +1177,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1666189453146_3171" custom="readingOrder {index:1;}">
-          <Coords points="548,1485 585,1485 585,1538 548,1538"/>
+          <Coords points="585,1485 548,1485 548,1526 550,1526 565,1519 569,1523 578,1520 585,1525"/>
           <TextEquiv>
             <Unicode>3/2</Unicode>
           </TextEquiv>
@@ -1725,7 +1736,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0021" custom="readingOrder {index:28;}">
-        <Coords points="553,2009 546,2016 547,2022 525,2022 505,2016 482,2019 482,2073 488,2078 497,2078 504,2071 514,2070 660,2071 769,2075 775,2082 787,2082 794,2075 800,2074 934,2071 1044,2078 1053,2088 1066,2088 1075,2079 1117,2081 1126,2089 1138,2089 1146,2081 1158,2080 1170,2081 1177,2087 1197,2087 1203,2081 1310,2080 1368,2075 1427,2075 1427,2025 1386,2025 1363,2028 1354,2032 1290,2035 1265,2033 1264,2021 1259,2020 1249,2027 1178,2024 1175,2027 1163,2026 1157,2032 1144,2032 1142,2025 1138,2023 1123,2025 1115,2032 1074,2031 1066,2022 1051,2024 1011,2019 991,2022 984,2019 951,2017 925,2026 890,2027 873,2025 867,2019 856,2019 847,2024 807,2028 791,2028 787,2021 773,2020 764,2028 741,2029 712,2025 686,2016 602,2015 580,2017 565,2023 562,2011"/>
+        <Coords points="546,2016 547,2022 525,2022 505,2016 482,2019 482,2073 488,2078 497,2078 504,2071 514,2070 660,2071 769,2075 774,2081 788,2081 794,2075 800,2074 934,2071 1044,2078 1046,2081 1073,2081 1075,2079 1117,2081 1146,2081 1158,2080 1170,2081 1203,2081 1310,2080 1368,2075 1427,2075 1427,2025 1386,2025 1363,2028 1354,2032 1290,2035 1265,2033 1264,2021 1259,2020 1249,2027 1178,2024 1175,2027 1163,2026 1157,2032 1144,2032 1142,2025 1138,2023 1123,2025 1115,2032 1074,2031 1066,2022 1051,2024 1011,2019 991,2022 984,2019 951,2017 925,2026 890,2027 873,2025 867,2019 856,2019 847,2024 807,2028 791,2028 787,2021 773,2020 764,2028 741,2029 712,2025 686,2016 602,2015 580,2017 565,2023 562,2011 553,2009"/>
         <Baseline points="482,2060 946,2062 1232,2071 1427,2065"/>
         <Word id="region0012_line0021_word0000" custom="readingOrder {index:0;}">
           <Coords points="552,2010 546,2016 547,2022 525,2022 505,2016 487,2018 487,2069 563,2069 563,2015 562,2011 557,2010"/>
@@ -1805,7 +1816,7 @@ Bogen ND = ϑ nehmen, und die Bogen DG
 ſtatt NG brauchen kann. Daher heiſſt Bernoulli</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682583989958_1056" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="region_1682583989958_1056" custom="readingOrder {index:3;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1354,2086 1354,2139 1406,2139 1406,2086"/>
       <TextLine id="line_1682583990056_1059" custom="readingOrder {index:0;}">
         <Coords points="1354,2086 1354,2139 1406,2139 1406,2086"/>
@@ -1823,5 +1834,8 @@ Bogen ND = ϑ nehmen, und die Bogen DG
         <Unicode>ſie</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682583981357_1053" custom="readingOrder {index:0;}">
+      <Coords points="825,421 1088,421 1088,467 825,467"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

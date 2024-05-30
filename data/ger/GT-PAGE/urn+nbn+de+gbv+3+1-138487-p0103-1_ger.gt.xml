@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-83">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:17Z</Created>
     <LastChange>2024-01-19T13:07:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9bb63bff-693f-44f8-975f-98117bd63962/00000103.jpg" imageWidth="1537" imageHeight="2343" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676459780766_5517"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676459750051_5483" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676459750051_5483" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="508,278 508,339 665,339 665,278"/>
       <TextLine id="line_1676459750136_5486" custom="readingOrder {index:0;}">
         <Coords points="508,278 508,339 665,339 665,278"/>
@@ -37,7 +51,7 @@
         <Unicode>(87)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.0741025" type="paragraph" readingDirection="left-to-right" id="TextRegion_1645776420951_79" custom="readingOrder {index:1;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1645776420951_79" custom="readingOrder {index:1;} structure {type:paragraph;}" orientation="1.0741025" type="paragraph" readingDirection="left-to-right">
       <Coords points="164,350 1058,362 1058,585 160,585"/>
       <TextLine id="region0000_line0001" custom="readingOrder {index:0;}">
         <Coords points="167,352 164,353 164,420 273,418 278,423 288,423 296,417 331,414 349,416 358,421 373,421 381,415 421,413 454,417 461,423 470,423 477,416 483,416 488,423 493,423 509,416 553,414 563,417 640,416 643,422 649,424 661,423 668,417 727,415 762,417 775,425 781,424 786,420 814,422 822,426 833,426 849,420 888,420 908,422 914,429 925,429 932,423 1057,420 1057,365 1008,366 1004,363 995,363 985,369 942,372 931,372 929,365 924,361 908,364 904,360 887,360 882,370 878,369 877,362 873,360 858,361 852,369 785,365 784,360 780,358 775,358 760,359 756,366 754,359 750,358 736,358 733,366 667,367 666,359 657,357 640,357 635,367 633,358 626,356 624,356 617,357 611,365 590,362 582,356 571,356 565,363 561,363 552,356 543,356 531,363 514,363 506,363 501,355 478,354 470,354 462,355 456,364 445,365 321,366 307,365 305,356 296,353 280,355 255,351 245,351"/>
@@ -136,7 +150,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0004" custom="readingOrder {index:3;}">
-        <Coords points="503,523 497,526 458,527 443,532 444,573 449,577 492,576 506,580 581,578 626,583 642,579 654,582 662,590 675,588 680,583 726,584 732,588 738,588 748,582 760,585 774,582 782,583 786,589 797,591 813,582 824,585 910,584 946,580 955,576 957,560 957,532 945,527 892,526 889,527 887,536 870,536 851,535 849,527 832,527 826,529 823,535 816,537 803,534 750,533 745,526 724,528 721,534 715,526 703,526 697,533 676,533 675,528 671,527 654,528 649,531 587,525 546,529 538,523 519,526 513,523"/>
+        <Coords points="497,526 458,527 443,532 444,573 449,577 492,576 506,580 581,578 626,583 642,579 654,582 657,585 678,585 680,583 726,584 727,585 743,585 748,582 760,585 774,582 782,583 783,585 807,585 813,582 824,585 910,584 946,580 955,576 957,560 957,532 945,527 892,526 889,527 887,536 870,536 851,535 849,527 832,527 826,529 823,535 816,537 803,534 750,533 745,526 724,528 721,534 715,526 703,526 697,533 676,533 675,528 671,527 654,528 649,531 587,525 546,529 538,523 519,526 513,523 503,523"/>
         <Word id="region0000_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="557,579 556,537 504,538 505,580 506,580 509,580"/>
           <TextEquiv conf="0.925369">
@@ -166,10 +180,10 @@ Wird man, mein Wanderer, dir auch
 die Nachricht geben?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.0741025" type="paragraph" readingDirection="left-to-right" id="TextRegion_1645776420951_78" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1645776420951_78" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="1.0741025" type="paragraph" readingDirection="left-to-right">
       <Coords points="160,585 1058,585 1061,1545 1055,2027 173,2015 150,1437"/>
       <TextLine id="line_1645430113797_380" custom="readingOrder {index:0;}">
-        <Coords points="162,574 219,571 258,570 290,570 346,570 886,584 908,585 1054,592 1054,637 971,648 961,648 698,645 629,644 284,638 161,633"/>
+        <Coords points="161,633 284,638 629,644 698,645 961,648 971,648 1054,637 1054,592 908,585 161,585"/>
         <Word id="word_1645776421014_81" custom="readingOrder {index:0;}">
           <Coords points="166,585 365,585 366,630 309,627 298,630 296,632 274,633 273,630 167,633"/>
           <TextEquiv conf="0.9143224">
@@ -387,7 +401,7 @@ die Nachricht geben?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643888086908_6656" custom="readingOrder {index:1;}">
-          <Coords points="249,873 398,869 511,866 566,865 586,865 586,916 576,919 524,923 415,925 412,925 327,922 259,918 249,914"/>
+          <Coords points="398,869 249,873 249,914 250,914 253,914 259,918 293,916 297,919 323,919 327,922 327,922 339,922 342,919 385,919 400,916 412,925 412,925 415,925 421,925 427,924 430,920 474,919 485,916 499,923 524,923 525,923 526,920 576,919 586,916 586,866 580,865 567,865 563,870 517,869 510,866 505,866 479,867 479,867"/>
           <TextEquiv>
             <Unicode>Cron ⸗ Printzens</Unicode>
           </TextEquiv>
@@ -1209,7 +1223,7 @@ die Nachricht geben?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0003" custom="readingOrder {index:3;}">
-          <Coords points="738,1953 691,1956 692,2015 766,2012 768,2014 802,2013 801,1952 771,1953 769,1956 738,1954"/>
+          <Coords points="691,1956 691,2012 699,2013 766,2012 768,2013 802,2013 801,1952 771,1953 769,1956 738,1954 737,1953"/>
           <TextEquiv conf="0.9303298">
             <Unicode>Ernſt</Unicode>
           </TextEquiv>
@@ -1221,7 +1235,7 @@ die Nachricht geben?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1050,2010 1050,1959 954,1961 953,1956 947,1951 911,1953 911,2014"/>
+          <Coords points="1050,1959 954,1961 953,1956 947,1951 927,1954 924,1961 911,1960 911,2014 1050,2010"/>
           <TextEquiv conf="0.92334825">
             <Unicode>abwar⸗</Unicode>
           </TextEquiv>
@@ -1258,7 +1272,7 @@ Hornwerck zu ſtuͤrmen, ſo wolten die Bela⸗
 gerten dergleichen heiſſen Ernſt nicht abwar⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676459777352_5508" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676459777352_5508" custom="readingOrder {index:3;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="608,2024 608,2079 700,2079 700,2024"/>
       <TextLine id="line_1676459777458_5511" custom="readingOrder {index:0;}">
         <Coords points="608,2024 608,2079 700,2079 700,2024"/>
@@ -1276,7 +1290,7 @@ gerten dergleichen heiſſen Ernſt nicht abwar⸗</Unicode>
         <Unicode>F4</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676459780766_5517" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676459780766_5517" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="974,2027 974,2077 1056,2077 1056,2027"/>
       <TextLine id="line_1676459780872_5520" custom="readingOrder {index:0;}">
         <Coords points="974,2027 974,2077 1056,2077 1056,2027"/>

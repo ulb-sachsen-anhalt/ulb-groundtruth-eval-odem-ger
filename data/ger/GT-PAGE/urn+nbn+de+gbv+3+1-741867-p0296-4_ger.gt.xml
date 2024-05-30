@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-782">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:46Z</Created>
     <LastChange>2024-01-19T13:09:46Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a92bc133-c8f0-4ed1-9c01-f29d9b022d30/00000296.jpg" imageWidth="1857" imageHeight="2758" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.06428095" readingDirection="left-to-right" id="TextRegion_1657617437234_5221" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1657617437234_5221" custom="readingOrder {index:0;}" orientation="0.06428095" readingDirection="left-to-right">
       <Coords points="602,447 1646,447 1646,825 602,825"/>
       <TextLine id="line_1657617437246_5224" custom="readingOrder {index:0;}">
         <Coords points="602,456 662,456 688,460 696,455 708,455 714,463 765,462 772,456 781,456 788,463 802,464 822,463 836,453 848,454 852,462 866,462 877,454 906,454 914,462 942,463 978,461 983,457 992,457 997,461 1022,460 1027,450 1038,448 1096,448 1102,451 1126,449 1133,457 1164,458 1178,457 1189,448 1207,448 1211,458 1258,458 1269,448 1287,448 1291,458 1304,458 1344,453 1350,448 1365,448 1369,453 1385,453 1387,448 1421,448 1427,456 1481,459 1522,457 1527,452 1535,452 1543,457 1565,457 1572,456 1581,448 1590,448 1596,454 1603,448 1625,447 1627,453 1645,453 1645,502 1624,502 1618,508 1608,509 1598,502 1518,503 1478,505 1471,512 1460,512 1448,504 1378,502 1372,503 1370,509 1364,513 1352,513 1344,509 1342,503 1303,502 1256,504 1247,512 1232,513 1219,503 1187,502 1078,506 1068,513 1053,513 1044,507 1001,506 887,509 884,516 872,519 864,509 712,512 704,519 696,519 690,512 602,513"/>
@@ -333,7 +347,7 @@ koͤnnen eingefuͤhrt werden, ohne den Nothfall darge⸗
 than zu haben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06428095" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:1;}">
+    <TextRegion id="region0006" custom="readingOrder {index:1;}" orientation="0.06428095" readingDirection="left-to-right">
       <Coords points="834,934 1433,934 1433,999 834,999"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1237,935 1224,942 1212,944 1185,943 1178,938 1161,937 1150,944 1103,947 1072,947 1067,944 1052,947 1024,946 1014,945 1008,940 995,940 989,945 932,946 926,941 916,941 911,945 882,937 834,937 834,995 1121,992 1150,993 1153,999 1172,999 1175,992 1250,991 1300,993 1303,998 1325,998 1329,993 1432,988 1432,939 1399,938 1395,934 1382,934 1378,937 1359,934 1347,939 1326,934"/>

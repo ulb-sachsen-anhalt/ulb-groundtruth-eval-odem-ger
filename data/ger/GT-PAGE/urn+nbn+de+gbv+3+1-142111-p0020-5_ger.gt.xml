@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-99">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:19Z</Created>
     <LastChange>2024-01-19T13:07:19Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/dcf9bbf3-3459-4a04-8d48-73a187ac8159/00000020.jpg" imageWidth="2024" imageHeight="2463" type="content" primaryLanguage="German">
     <Border>
@@ -17,10 +31,7 @@
         <RegionRefIndexed index="3" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1676537107171_2535" custom="readingOrder {index:0;}">
-      <Coords points="787,175 1343,175 1343,241 787,241"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1676537098457_2526" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676537098457_2526" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="346,183 346,244 423,244 423,183"/>
       <TextLine id="line_1676537098492_2529" custom="readingOrder {index:0;}">
         <Coords points="346,183 346,244 423,244 423,183"/>
@@ -38,7 +49,7 @@
         <Unicode>16</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.17230466" readingDirection="left-to-right" id="TextRegion_1645432688835_1102" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1645432688835_1102" custom="readingOrder {index:2;}" orientation="0.17230466" readingDirection="left-to-right">
       <Coords points="325,261 1812,261 1821,498 1821,572 1822,689 348,691 325,518"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1187,261 1180,266 1135,276 1055,272 1048,265 1036,265 1030,269 1025,266 1010,266 1003,272 953,277 911,276 905,268 894,268 885,276 818,280 790,279 765,271 747,269 689,270 664,277 628,279 618,275 606,275 601,279 565,279 557,270 545,270 533,278 515,278 505,269 492,269 482,279 474,280 387,283 348,278 325,280 325,337 355,339 436,335 530,334 532,339 546,341 552,334 566,334 574,343 594,343 605,339 608,334 642,334 651,330 663,330 670,333 766,335 774,342 783,343 798,341 806,335 869,332 877,329 899,332 920,329 972,332 1008,328 1018,332 1030,328 1036,333 1047,334 1058,330 1092,330 1120,326 1125,334 1130,335 1139,332 1141,328 1166,328 1180,324 1227,327 1290,327 1305,324 1313,327 1322,326 1329,320 1337,321 1343,326 1453,326 1455,330 1465,334 1481,334 1492,320 1507,323 1552,321 1576,324 1623,321 1636,324 1643,321 1675,319 1686,324 1743,325 1753,322 1767,326 1811,323 1811,271 1799,270 1792,262 1769,264 1751,261 1745,269 1708,269 1663,261 1577,261 1549,265 1542,261 1523,261 1518,266 1452,270 1436,268 1420,261 1400,261 1389,267 1380,261 1365,261 1356,267 1298,262"/>
@@ -434,7 +445,7 @@ STIANSBURG in Unſerer Reſidenz-Stadt Copenhagen, den
 zeichen und vorgedruckten Jnſiegel.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.17230466" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;}" orientation="0.17230466" readingDirection="left-to-right">
       <Coords points="752,720 1692,720 1692,879 752,879"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1522,721 1518,726 1520,737 1508,739 1317,739 1040,747 858,744 850,743 848,737 837,729 800,733 754,732 752,862 755,863 755,874 759,879 832,879 835,863 847,864 855,873 897,873 902,870 931,868 1014,870 1039,868 1050,863 1062,863 1069,869 1201,863 1295,863 1307,869 1332,869 1351,863 1516,861 1523,862 1529,867 1544,868 1594,865 1600,859 1612,864 1652,864 1656,861 1676,864 1683,859 1691,859 1691,734 1637,734 1620,720"/>
@@ -458,6 +469,9 @@ zeichen und vorgedruckten Jnſiegel.</Unicode>
         <Unicode>FRIDERICH R.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1676537107171_2535" custom="readingOrder {index:0;}">
+      <Coords points="787,175 1343,175 1343,241 787,241"/>
+    </GraphicRegion>
     <GraphicRegion id="Graphic_1645432669211_1091" custom="readingOrder {index:4;}">
       <Coords points="638,916 1575,916 1575,1739 638,1739"/>
     </GraphicRegion>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-311">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:04Z</Created>
     <LastChange>2024-01-19T13:08:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/68b24040-d5a9-494a-b1e4-93066889184a/00000505.jpg" imageWidth="1491" imageHeight="2214" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1675243370777_2261"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.46243173" type="header" readingDirection="left-to-right" id="TextRegion_1675243347433_2247" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1675243347433_2247" custom="readingOrder {index:0;} structure {type:header;}" orientation="0.46243173" type="header" readingDirection="left-to-right">
       <Coords points="485,341 845,341 845,396 485,396"/>
       <TextLine id="line_1675243347463_2250" custom="readingOrder {index:0;}">
         <Coords points="485,343 527,342 562,348 568,348 573,344 585,344 595,348 619,342 704,341 709,344 717,341 799,341 801,349 845,348 845,377 790,379 789,392 786,396 485,396"/>
@@ -43,7 +57,7 @@
         <Unicode>Vierter Brief. gor</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.46243173" type="page-number" readingDirection="left-to-right" id="TextRegion_1675243347433_2246" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1675243347433_2246" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.46243173" type="page-number" readingDirection="left-to-right">
       <Coords points="845,341 1013,341 1013,396 845,396"/>
       <TextLine id="line_1675243347463_2249" custom="readingOrder {index:0;}">
         <Coords points="845,348 1012,348 1012,394 932,395 889,393 876,389 872,377 845,377"/>
@@ -62,7 +76,7 @@
         <Unicode>501</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.46243173" readingDirection="left-to-right" id="TextRegion_1675243365742_2255" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1675243365742_2255" custom="readingOrder {index:2;}" orientation="0.46243173" readingDirection="left-to-right">
       <Coords points="202,412 1035,412 1035,1831 202,1831"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="532,414 525,421 457,422 441,421 436,416 418,416 409,421 383,424 355,423 350,419 335,420 331,417 316,420 228,419 223,424 222,442 202,442 203,473 283,473 316,470 321,474 331,474 337,469 636,462 690,463 700,468 708,468 715,464 734,464 739,468 753,469 761,463 800,463 887,465 891,468 900,468 904,465 944,464 949,469 958,469 964,464 1035,461 1034,419 975,420 969,413 925,413 922,420 828,421 716,419 710,413 700,413 689,419 622,419 617,415 605,414 598,419 548,421 542,414"/>
@@ -1266,7 +1280,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0026" custom="readingOrder {index:25;}">
-        <Coords points="762,1773 756,1776 717,1775 652,1783 641,1784 634,1776 624,1776 617,1784 501,1783 495,1776 473,1778 464,1782 439,1782 434,1777 423,1776 416,1782 376,1785 305,1780 250,1786 219,1781 202,1783 203,1832 340,1831 347,1836 361,1836 367,1831 437,1827 480,1828 485,1833 495,1833 501,1828 607,1827 630,1828 637,1833 651,1832 658,1827 717,1826 732,1829 737,1826 784,1824 918,1825 1004,1829 1009,1833 1035,1828 1034,1783 1025,1783 1021,1777 1002,1779 997,1782 991,1776 970,1776 944,1781 911,1778 906,1773 872,1780 842,1779 834,1774 815,1779 798,1779 776,1777 770,1772"/>
+        <Coords points="756,1776 717,1775 652,1783 641,1784 634,1776 624,1776 617,1784 501,1783 495,1776 473,1778 464,1782 439,1782 434,1777 423,1776 416,1782 376,1785 305,1780 250,1786 219,1781 202,1783 202,1831 340,1831 367,1831 437,1827 480,1828 483,1831 497,1831 501,1828 607,1827 630,1828 634,1831 652,1831 658,1827 717,1826 732,1829 737,1826 784,1824 918,1825 1004,1829 1006,1831 1019,1831 1035,1828 1034,1783 1025,1783 1021,1777 1002,1779 997,1782 991,1776 970,1776 944,1781 911,1778 906,1773 872,1780 842,1779 834,1774 815,1779 798,1779 776,1777 770,1772 762,1773"/>
         <Baseline points="202,1822 775,1814 1034,1818"/>
         <Word id="region0001_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="220,1789 276,1788 276,1822 220,1823"/>
@@ -1337,7 +1351,7 @@ rinnen eingeſogen haben. Sie ſehen endlich
 den Ungrund ihrer vorigen Gedanken deutlich</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.46243173" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1675243372032_2267" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1675243372032_2267" custom="readingOrder {index:4;} structure {type:signature-mark;}" orientation="0.46243173" type="signature-mark" readingDirection="left-to-right">
       <Coords points="509,1831 792,1831 792,1886 509,1886"/>
       <TextLine id="line_1675243372057_2270" custom="readingOrder {index:0;}">
         <Coords points="514,1831 623,1831 639,1837 715,1837 720,1842 792,1841 792,1876 716,1877 708,1885 511,1886 512,1865 509,1862 509,1835"/>
@@ -1356,7 +1370,7 @@ den Ungrund ihrer vorigen Gedanken deutlich</Unicode>
         <Unicode>Ji3 genug</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.46243173" type="catch-word" readingDirection="left-to-right" id="TextRegion_1675243370777_2261" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1675243370777_2261" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0.46243173" type="catch-word" readingDirection="left-to-right">
       <Coords points="792,1831 1035,1831 1035,1886 792,1886"/>
       <TextLine id="line_1675243370807_2264" custom="readingOrder {index:0;}">
         <Coords points="792,1841 1035,1839 1035,1885 873,1886 871,1881 865,1881 860,1876 792,1876"/>

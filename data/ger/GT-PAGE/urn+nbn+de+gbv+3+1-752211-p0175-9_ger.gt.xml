@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-806">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:56Z</Created>
     <LastChange>2024-01-19T13:09:56Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/b0bc8a27-13b0-457d-b408-8577e404f3a1/00000175.jpg" imageWidth="1718" imageHeight="2438" type="content" primaryLanguage="German">
     <Border>
@@ -16,7 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0003"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.03086819" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;}" orientation="0.03086819" readingDirection="left-to-right">
       <Coords points="132,506 1045,506 1045,1435 132,1435"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="175,506 175,543 186,546 190,554 206,555 211,558 275,561 293,558 299,562 355,565 390,563 423,569 488,573 496,579 503,579 512,574 525,575 533,580 541,580 550,575 570,575 573,579 583,581 590,579 599,571 612,571 627,576 654,572 687,573 692,582 699,582 707,577 753,577 766,578 772,582 782,582 791,578 808,582 815,577 831,576 866,577 873,580 884,574 920,571 932,571 937,574 953,572 958,576 1045,577 1045,528 897,526 895,517 890,513 865,512 854,519 845,518 838,525 831,525 821,517 806,517 797,526 788,526 781,519 773,519 763,526 758,519 748,518 740,528 716,528 711,518 698,516 692,518 684,528 658,528 613,527 606,517 598,517 593,521 588,516 578,516 566,525 549,525 542,515 531,515 521,524 519,518 513,514 503,514 491,523 439,523 378,520 368,508 357,509 351,517 338,517 287,514 279,506"/>
@@ -95,7 +109,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900675107_3197" custom="readingOrder {index:4;}">
-          <Coords points="558,579 596,573 612,572 664,573 687,574 766,579 773,583 773,623 757,623 558,619"/>
+          <Coords points="596,573 590,580 583,582 571,578 558,579 558,619 757,623 773,623 773,583 772,583 766,579 705,580 692,583 687,574 664,573 650,574 643,579 620,579 612,572"/>
           <TextEquiv>
             <Unicode>erforſchen/</Unicode>
           </TextEquiv>
@@ -327,7 +341,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900719300_3222" custom="readingOrder {index:3;}">
-          <Coords points="604,783 611,780 660,779 671,780 741,789 741,824 728,824 604,820"/>
+          <Coords points="604,783 604,820 728,824 741,824 741,789 720,789 694,787 689,784 676,785 671,780 660,779 652,789 649,789 644,781 626,783 611,780"/>
           <TextEquiv>
             <Unicode>ſchaͤtzte/</Unicode>
           </TextEquiv>
@@ -364,7 +378,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900730058_3228" custom="readingOrder {index:1;}">
-          <Coords points="250,814 258,812 420,830 420,858 396,864 250,864"/>
+          <Coords points="250,864 396,864 420,858 420,830 382,830 295,820 273,819 264,822 258,812 250,814"/>
           <TextEquiv>
             <Unicode>bewegen/</Unicode>
           </TextEquiv>
@@ -468,7 +482,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900747662_3238" custom="readingOrder {index:3;}">
-          <Coords points="573,931 627,931 689,934 689,980 686,981 669,981 573,975"/>
+          <Coords points="573,975 669,981 686,981 689,980 689,939 656,942 647,933 634,934 627,931 605,935 586,934 580,931 573,931"/>
           <TextEquiv>
             <Unicode>dahin/</Unicode>
           </TextEquiv>
@@ -548,7 +562,7 @@
         <Coords points="133,1013 133,1063 151,1060 159,1071 169,1062 181,1066 218,1063 224,1072 235,1067 269,1068 282,1065 290,1069 334,1067 369,1069 384,1074 470,1079 505,1074 524,1081 560,1081 569,1087 578,1086 582,1082 612,1078 618,1083 651,1080 657,1088 671,1080 684,1080 691,1084 727,1081 739,1088 758,1091 798,1092 805,1087 814,1087 819,1091 839,1089 905,1093 921,1099 933,1095 947,1099 968,1099 992,1093 997,1097 1011,1097 1023,1103 1035,1097 1045,1097 1045,1047 1033,1042 1010,1045 986,1042 973,1048 951,1047 945,1050 931,1046 904,1045 895,1049 878,1048 868,1043 805,1036 712,1039 688,1035 684,1038 673,1038 659,1032 645,1035 630,1031 620,1034 594,1034 584,1028 577,1028 567,1036 558,1030 537,1029 534,1026 433,1028 428,1022 417,1021 410,1028 400,1030 382,1025 334,1023 328,1019 310,1022 303,1017 295,1017 290,1021 254,1021 230,1015 223,1021 211,1023 202,1017 181,1013 147,1017"/>
         <Baseline points="133,1050 1045,1086"/>
         <Word id="word_1660900766890_3248" custom="readingOrder {index:0;}">
-          <Coords points="138,1026 276,1022 292,1022 295,1024 295,1065 224,1072 159,1071 138,1062"/>
+          <Coords points="295,1065 295,1024 292,1022 276,1022 138,1026 138,1062 138,1062 151,1060 159,1071 169,1062 181,1066 218,1063 224,1072 235,1067 266,1068 272,1067 282,1065 284,1066"/>
           <TextEquiv>
             <Unicode>Perſon/</Unicode>
           </TextEquiv>
@@ -615,7 +629,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900779554_3255" custom="readingOrder {index:3;}">
-          <Coords points="309,1073 375,1073 505,1075 557,1082 557,1130 541,1130 366,1126 309,1120"/>
+          <Coords points="375,1073 309,1073 309,1120 310,1120 320,1120 366,1126 382,1122 391,1127 434,1128 453,1126 457,1128 468,1128 475,1127 478,1129 541,1130 543,1130 545,1129 548,1130 557,1130 557,1083 555,1082 519,1082 516,1078 505,1075 493,1076 487,1081 471,1081 410,1078 378,1074 376,1073"/>
           <TextEquiv>
             <Unicode>Mitternacht/</Unicode>
           </TextEquiv>
@@ -737,7 +751,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900795751_3261" custom="readingOrder {index:3;}">
-          <Coords points="552,1189 634,1187 694,1193 694,1235 677,1235 552,1227"/>
+          <Coords points="552,1227 677,1235 694,1235 694,1193 689,1193 666,1193 656,1197 647,1192 640,1192 634,1187 615,1195 595,1191 552,1189"/>
           <TextEquiv>
             <Unicode>machte/</Unicode>
           </TextEquiv>
@@ -786,7 +800,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900808879_3267" custom="readingOrder {index:3;}">
-          <Coords points="653,1243 663,1239 823,1248 823,1271 794,1277 653,1277"/>
+          <Coords points="653,1277 794,1277 823,1271 823,1248 802,1250 735,1250 720,1249 715,1243 674,1243 663,1239 653,1243"/>
           <TextEquiv>
             <Unicode>ſchienen/</Unicode>
           </TextEquiv>
@@ -823,7 +837,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660900818073_3273" custom="readingOrder {index:1;}">
-          <Coords points="254,1275 257,1275 268,1275 401,1287 418,1289 418,1329 398,1329 254,1320"/>
+          <Coords points="268,1275 257,1275 254,1275 254,1320 398,1329 418,1329 418,1290 374,1285 347,1285 330,1281 319,1284 282,1283 275,1282 274,1278 269,1275"/>
           <TextEquiv>
             <Unicode>beredet/</Unicode>
           </TextEquiv>
@@ -945,7 +959,7 @@ Jtaliaͤniſchen Frauenzimmers noch in friſchen An⸗
 dencken lag.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.03086819" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="0.03086819" readingDirection="left-to-right">
       <Coords points="128,1429 1044,1429 1044,2136 128,2136"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="221,1429 177,1433 174,1437 175,1471 230,1475 231,1482 236,1485 264,1489 325,1489 369,1493 412,1490 436,1493 452,1490 461,1495 473,1496 557,1495 563,1498 581,1498 592,1495 609,1500 646,1501 652,1498 673,1498 683,1503 722,1505 736,1505 744,1501 758,1505 802,1505 817,1501 831,1505 844,1502 851,1506 873,1504 887,1513 941,1505 998,1511 1043,1511 1043,1462 940,1462 933,1452 912,1450 880,1451 864,1458 859,1450 847,1449 840,1458 832,1459 766,1457 759,1448 748,1448 742,1456 712,1455 704,1454 702,1447 697,1443 686,1443 675,1453 555,1452 542,1440 529,1442 524,1450 468,1449 463,1438 453,1436 380,1435 351,1440 352,1429 315,1429 314,1436 296,1430"/>
@@ -1071,7 +1085,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900858060_3285" custom="readingOrder {index:2;}">
-          <Coords points="358,1539 385,1539 430,1541 474,1543 545,1548 545,1592 529,1592 358,1588"/>
+          <Coords points="358,1539 358,1588 529,1592 545,1592 545,1548 544,1548 491,1549 481,1548 474,1543 460,1543 451,1550 440,1542 430,1541 415,1548 406,1548 400,1542 385,1539 372,1542 361,1539"/>
           <TextEquiv>
             <Unicode>Geſichts/</Unicode>
           </TextEquiv>
@@ -1119,7 +1133,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900870308_3292" custom="readingOrder {index:2;}">
-          <Coords points="453,1596 457,1595 494,1594 564,1597 628,1606 628,1634 596,1641 453,1641"/>
+          <Coords points="453,1641 596,1641 628,1634 628,1606 592,1606 575,1605 564,1597 537,1596 522,1600 514,1596 500,1599 494,1594 467,1598 457,1595 453,1596"/>
           <TextEquiv>
             <Unicode>ſchloſſen/</Unicode>
           </TextEquiv>
@@ -1240,7 +1254,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900887143_3298" custom="readingOrder {index:2;}">
-          <Coords points="370,1748 450,1750 530,1755 631,1763 626,1809 592,1803 370,1787"/>
+          <Coords points="370,1787 592,1803 626,1809 630,1763 609,1766 594,1764 587,1760 573,1760 569,1764 546,1764 536,1762 530,1755 501,1754 488,1759 481,1753 450,1750 370,1748"/>
           <TextEquiv>
             <Unicode>Welſchland/</Unicode>
           </TextEquiv>
@@ -1252,7 +1266,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0007_word0005" custom="readingOrder {index:4;}">
-          <Coords points="800,1765 795,1765 795,1814 1036,1823 1036,1779 924,1767 832,1765"/>
+          <Coords points="795,1814 886,1817 892,1817 894,1817 988,1821 1036,1821 1036,1779 1008,1776 936,1776 934,1770 924,1767 915,1767 910,1770 909,1775 904,1775 850,1773 832,1765 800,1765 795,1765"/>
           <TextEquiv>
             <Unicode>Hermiontes</Unicode>
           </TextEquiv>
@@ -1270,7 +1284,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900912335_3313" custom="readingOrder {index:1;}">
-          <Coords points="237,1786 289,1786 386,1802 386,1847 368,1847 237,1833"/>
+          <Coords points="237,1786 237,1833 271,1836 279,1836 282,1837 368,1847 386,1847 386,1802 373,1803 312,1795 295,1787 289,1786"/>
           <TextEquiv>
             <Unicode>Worte/</Unicode>
           </TextEquiv>
@@ -1342,7 +1356,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900936309_3329" custom="readingOrder {index:4;}">
-          <Coords points="561,1871 606,1867 713,1873 720,1877 720,1903 698,1919 561,1904"/>
+          <Coords points="561,1904 698,1919 720,1903 720,1877 718,1877 713,1873 703,1873 699,1876 649,1875 640,1869 628,1869 620,1875 619,1870 606,1867 597,1877 583,1878 574,1877 563,1871 561,1871"/>
           <TextEquiv>
             <Unicode>wieder/</Unicode>
           </TextEquiv>
@@ -1481,7 +1495,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660900996792_3370" custom="readingOrder {index:1;}">
-          <Coords points="350,2011 390,2007 401,2007 426,2009 510,2021 510,2057 492,2057 350,2042"/>
+          <Coords points="390,2007 385,2013 373,2013 350,2011 350,2042 492,2057 510,2057 510,2021 442,2015 426,2009 410,2014 401,2007"/>
           <TextEquiv>
             <Unicode>wieder/</Unicode>
           </TextEquiv>
@@ -1499,7 +1513,7 @@ dencken lag.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660901010910_3378" custom="readingOrder {index:4;}">
-          <Coords points="848,2039 942,2035 1016,2033 1036,2033 1033,2069 958,2071 848,2071"/>
+          <Coords points="959,2035 955,2038 942,2035 848,2040 848,2071 958,2071 1033,2069 1036,2033 981,2034 981,2034"/>
           <TextEquiv>
             <Unicode>geraubet/</Unicode>
           </TextEquiv>
@@ -1509,7 +1523,7 @@ dencken lag.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0013" custom="readingOrder {index:12;}">
-        <Coords points="138,2038 128,2044 128,2098 136,2098 141,2103 154,2103 160,2098 218,2103 242,2108 249,2115 262,2114 267,2118 275,2118 281,2111 303,2111 323,2113 330,2123 342,2122 349,2115 460,2119 478,2122 491,2134 511,2134 530,2127 662,2134 669,2140 683,2140 689,2134 743,2133 760,2135 769,2143 787,2142 795,2137 806,2137 813,2143 823,2143 831,2136 908,2131 975,2130 987,2134 1043,2135 1043,2087 970,2087 964,2086 958,2079 945,2079 939,2085 920,2085 916,2081 902,2081 896,2085 858,2091 857,2078 849,2076 841,2081 818,2081 810,2087 746,2086 738,2080 724,2085 716,2082 693,2085 687,2080 675,2079 623,2083 597,2081 590,2076 570,2079 563,2073 551,2071 535,2071 529,2076 443,2070 404,2061 394,2061 389,2065 368,2065 365,2060 354,2057 336,2057 328,2064 302,2064 298,2062 296,2054 272,2049 244,2053 238,2049 225,2049 220,2057 211,2058 185,2051 161,2050 149,2040"/>
+        <Coords points="128,2044 128,2098 136,2098 141,2103 154,2103 160,2098 218,2103 242,2108 249,2115 262,2114 267,2118 275,2118 281,2111 303,2111 323,2113 330,2123 342,2122 349,2115 460,2119 478,2122 491,2134 511,2134 530,2127 662,2134 664,2136 687,2136 689,2134 743,2133 760,2135 761,2136 831,2136 908,2131 975,2130 987,2134 1043,2135 1043,2087 970,2087 964,2086 958,2079 945,2079 939,2085 920,2085 916,2081 902,2081 896,2085 858,2091 857,2078 849,2076 841,2081 818,2081 810,2087 746,2086 738,2080 724,2085 716,2082 693,2085 687,2080 675,2079 623,2083 597,2081 590,2076 570,2079 563,2073 551,2071 535,2071 529,2076 443,2070 404,2061 394,2061 389,2065 368,2065 365,2060 354,2057 336,2057 328,2064 302,2064 298,2062 296,2054 272,2049 244,2053 238,2049 225,2049 220,2057 211,2058 185,2051 161,2050 149,2040 138,2038"/>
         <Word id="region0003_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="136,2045 136,2093 177,2093 177,2050 161,2050 155,2045"/>
           <TextEquiv conf="0.80297065">

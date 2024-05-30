@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-298">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:02Z</Created>
     <LastChange>2024-01-19T13:08:02Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6dce1eb7-8166-43b9-886d-57fd7f16d96d/00000079.jpg" imageWidth="1548" imageHeight="2235" type="content" primaryLanguage="German">
     <Border>
@@ -23,18 +37,18 @@
         <RegionRefIndexed index="8" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205007076_8945" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1648205007076_8945" custom="readingOrder {index:0;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="213,418 1083,418 1083,738 213,738"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="223,418 221,474 1083,480 1061,429 242,418"/>
         <Word id="region0001_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="245,421 220,421 220,473 221,474 231,474 239,468 249,467 287,468 287,422 247,422"/>
+          <Coords points="222,421 221,474 231,474 239,468 249,467 287,468 287,422 247,422 245,421"/>
           <TextEquiv conf="0.919672">
             <Unicode>fern</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="329,421 303,421 301,423 300,422 300,469 314,470 349,479 356,478 361,473 430,472 430,428 377,428 371,423 361,423 356,427 350,421 339,421 332,425"/>
+          <Coords points="303,421 301,423 300,422 300,469 314,470 332,474 359,474 361,473 430,472 430,428 377,428 371,423 361,423 356,427 350,421 339,421 332,425 329,421"/>
           <TextEquiv conf="0.9171772">
             <Unicode>letztere</Unicode>
           </TextEquiv>
@@ -64,7 +78,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651222741022_1520" custom="readingOrder {index:6;}">
-          <Coords points="886,428 1026,428 1061,429 1078,436 1078,471 886,474"/>
+          <Coords points="886,428 886,474 1078,471 1078,468 1061,429 986,428"/>
           <TextEquiv>
             <Unicode>Grundlinie</Unicode>
           </TextEquiv>
@@ -82,13 +96,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="416,530 437,531 438,486 359,485 358,527 363,530 372,530 375,527 410,529"/>
+          <Coords points="438,486 359,485 358,522 437,523"/>
           <TextEquiv conf="0.91759413">
             <Unicode>ſind,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="472,477 455,477 454,530 530,530 530,486 483,485 478,484 476,479"/>
+          <Coords points="455,477 454,523 530,524 530,486 483,485 478,484 476,479 472,477"/>
           <TextEquiv conf="0.9163816">
             <Unicode>kurz,</Unicode>
           </TextEquiv>
@@ -100,13 +114,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0004" custom="readingOrder {index:4;}">
-          <Coords points="671,486 644,486 642,489 594,488 593,531 620,531 623,530 643,531 643,531 670,531 671,531 688,531 844,532 845,487 831,487 831,489 809,488 808,487 749,487 748,488 740,488 739,487 718,486 717,487 717,486 691,486 685,489 674,489"/>
+          <Coords points="644,486 642,489 594,488 593,526 844,529 845,487 831,487 831,489 809,488 808,487 749,487 748,488 740,488 739,487 718,486 717,487 717,486 691,486 685,489 674,489 671,486"/>
           <TextEquiv conf="0.92405784">
             <Unicode>perſpektiviſchen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="986,483 854,483 853,534 1036,534 1078,533 1078,487 997,486 988,485"/>
+          <Coords points="854,483 853,529 1078,532 1078,487 1072,486 997,486 988,485 986,483"/>
           <TextEquiv conf="0.91121763">
             <Unicode>Verkuͤrzun⸗</Unicode>
           </TextEquiv>
@@ -184,7 +198,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0004_word0002" custom="readingOrder {index:2;}">
-          <Coords points="573,628 623,629 623,585 590,585 578,580 558,582 551,575 542,575 542,585 534,588 493,587 488,583 471,584 460,580 430,581 430,628 552,628 558,628"/>
+          <Coords points="623,629 623,585 590,585 578,580 558,582 554,578 542,578 542,585 534,588 493,587 488,583 471,584 460,580 430,581 430,628 552,628 558,628 573,628"/>
           <TextEquiv conf="0.9184843">
             <Unicode>Endpunktes</Unicode>
           </TextEquiv>
@@ -220,7 +234,7 @@
       <TextLine id="region0001_line0005" custom="readingOrder {index:4;}">
         <Coords points="232,618 214,671 304,682 1083,682 1083,637 1035,630 246,619"/>
         <Word id="region0001_line0005_word0000" custom="readingOrder {index:0;}">
-          <Coords points="259,623 220,623 220,671 223,671 226,673 241,673 245,672 260,673 261,673 467,674 467,639 458,639 453,632 438,632 434,637 428,637 414,630 388,629 379,634 337,635 308,632 300,625 289,625 279,629"/>
+          <Coords points="230,623 220,653 220,671 223,671 225,672 230,673 241,673 245,672 260,673 261,673 467,674 467,639 458,639 453,632 438,632 434,637 428,637 414,630 388,629 379,634 337,635 308,632 300,625 289,625 279,629 259,623"/>
           <TextEquiv conf="0.9261858">
             <Unicode>Horizontallinie</Unicode>
           </TextEquiv>
@@ -304,7 +318,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0006_word0006" custom="readingOrder {index:6;}">
-          <Coords points="966,686 1002,687 1001,730 965,729"/>
+          <Coords points="1002,687 966,686 965,725 1001,725"/>
           <TextEquiv conf="0.9238283">
             <Unicode>iſt</Unicode>
           </TextEquiv>
@@ -322,10 +336,10 @@ Horizontallinie 20 Fuß gerechnet, und die Hoͤhe
 oder Breite damit ausgemeſſen wird. So iſt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205011134_8954" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1648205011134_8954" custom="readingOrder {index:1;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="213,738 1083,738 1083,864 213,864"/>
       <TextLine id="region0001_line0007" custom="readingOrder {index:0;}">
-        <Coords points="468,730 459,752 213,759 214,806 1083,814 1083,761 574,756 570,736 483,756 482,731"/>
+        <Coords points="459,752 213,759 214,806 1083,814 1083,761 574,756 570,738 561,738 483,756 482,738 464,738"/>
         <Word id="region0001_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="267,766 267,796 305,796 305,764 303,765 298,761 288,761 280,766"/>
           <TextEquiv conf="0.9116513">
@@ -339,7 +353,7 @@ oder Breite damit ausgemeſſen wird. So iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0007_word0002" custom="readingOrder {index:2;}">
-          <Coords points="483,758 463,758 464,759 460,761 450,758 404,758 404,792 492,792 492,764 484,765 477,763 484,753"/>
+          <Coords points="483,758 463,758 460,761 404,758 404,792 492,792 492,764 477,763"/>
           <TextEquiv>
             <Unicode>Hoͤhe</Unicode>
           </TextEquiv>
@@ -351,13 +365,13 @@ oder Breite damit ausgemeſſen wird. So iſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1648205007119_8949" custom="readingOrder {index:4;}">
-          <Coords points="587,765 614,766 613,750 616,747 629,747 636,752 634,765 644,759 658,759 663,763 670,763 680,758 697,758 707,765 737,767 769,759 769,797 587,796"/>
+          <Coords points="614,766 587,765 587,796 769,797 769,759 737,767 707,765 697,758 680,758 670,763 663,763 658,759 644,759 634,765 635,756 613,756"/>
           <TextEquiv conf="0.9112646">
             <Unicode>verfallenen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0007_word0005" custom="readingOrder {index:5;}">
-          <Coords points="790,749 790,783 927,783 927,752 900,758 867,759 835,751 807,749"/>
+          <Coords points="790,783 927,783 927,759 870,759 867,759 866,759 790,758"/>
           <TextEquiv conf="0.90343744">
             <Unicode>Thurms</Unicode>
           </TextEquiv>
@@ -401,7 +415,7 @@ oder Breite damit ausgemeſſen wird. So iſt</Unicode>
 Fuß.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205011133_8953" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1648205011133_8953" custom="readingOrder {index:2;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="213,864 1083,864 1083,932 213,932"/>
       <TextLine id="region0001_line0009" custom="readingOrder {index:0;}">
         <Coords points="383,866 214,883 213,931 870,926 868,898 791,874 393,867"/>
@@ -455,7 +469,7 @@ Fuß.</Unicode>
         <Unicode>2) Der Baum b 60 Fuß hoch.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205015428_8960" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1648205015428_8960" custom="readingOrder {index:3;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="217,951 1080,951 1080,1063 217,1063"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="922,951 277,951 218,959 218,1015 1080,1006 1064,953 930,951"/>
@@ -508,7 +522,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1012,963 1076,963 1076,1001 1012,1001"/>
+          <Coords points="1012,963 1012,1001 1076,1001 1076,992 1067,963"/>
           <TextEquiv conf="0.9643299">
             <Unicode>und</Unicode>
           </TextEquiv>
@@ -532,7 +546,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="550,1047 551,1009 465,1017 464,1056 483,1056 497,1055 505,1056 537,1057 541,1055 551,1058"/>
+          <Coords points="550,1011 530,1010 465,1017 464,1056 483,1056 497,1055 505,1056 508,1056 550,1054 550,1047"/>
           <TextEquiv conf="0.9145706">
             <Unicode>hoch.</Unicode>
           </TextEquiv>
@@ -546,10 +560,10 @@ Fuß.</Unicode>
 10 Fuß hoch.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205019594_8965" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1648205019594_8965" custom="readingOrder {index:4;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="217,1063 1080,1063 1080,1236 217,1236"/>
       <TextLine id="region0002_line0003" custom="readingOrder {index:0;}">
-        <Coords points="541,1056 556,1079 273,1078 217,1093 217,1132 1079,1128 1079,1086 1042,1079 592,1080 571,1057"/>
+        <Coords points="556,1079 273,1078 217,1093 217,1132 1079,1128 1079,1086 1042,1079 592,1080 576,1063 545,1063"/>
         <Word id="region0002_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="260,1093 260,1122 305,1122 305,1088 269,1090"/>
           <TextEquiv conf="0.96386284">
@@ -563,7 +577,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0002" custom="readingOrder {index:2;}">
-          <Coords points="415,1086 415,1118 513,1118 513,1076 499,1077 487,1089 447,1086 440,1080 425,1080 419,1086"/>
+          <Coords points="415,1118 513,1118 513,1078 497,1078 487,1089 447,1086 440,1080 425,1080 419,1086 415,1086"/>
           <TextEquiv conf="0.9657761">
             <Unicode>Haus</Unicode>
           </TextEquiv>
@@ -581,7 +595,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0005" custom="readingOrder {index:5;}">
-          <Coords points="686,1071 686,1110 869,1111 869,1080 864,1075 845,1076 839,1080 811,1078 798,1071 789,1071 779,1076 692,1070"/>
+          <Coords points="686,1110 869,1111 869,1080 868,1079 840,1079 839,1080 832,1079 686,1080"/>
           <TextEquiv conf="0.91561294">
             <Unicode>Satteldach</Unicode>
           </TextEquiv>
@@ -611,13 +625,13 @@ Fuß.</Unicode>
       <TextLine id="region0002_line0004" custom="readingOrder {index:1;}">
         <Coords points="737,1122 321,1127 252,1136 249,1169 1079,1179 1058,1130 789,1128"/>
         <Word id="region0002_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="314,1131 424,1132 424,1173 314,1172"/>
+          <Coords points="424,1132 314,1131 314,1169 424,1171"/>
           <TextEquiv conf="0.92509216">
             <Unicode>Giebel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0001" custom="readingOrder {index:1;}">
-          <Coords points="460,1131 436,1131 436,1175 505,1175 507,1177 523,1177 523,1131 484,1131 483,1132"/>
+          <Coords points="436,1131 436,1171 523,1172 523,1131 484,1131 483,1132 460,1131"/>
           <TextEquiv conf="0.9301332">
             <Unicode>breit,</Unicode>
           </TextEquiv>
@@ -647,7 +661,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0006" custom="readingOrder {index:6;}">
-          <Coords points="898,1175 898,1128 879,1128 857,1131 840,1130 840,1181 849,1182 854,1179"/>
+          <Coords points="898,1128 874,1128 857,1131 840,1130 840,1176 880,1176 898,1175"/>
           <TextEquiv conf="0.8838648">
             <Unicode>38,</Unicode>
           </TextEquiv>
@@ -665,7 +679,7 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1028,1127 1022,1127 1022,1171 1075,1171 1075,1136 1063,1136 1058,1130 1043,1130 1039,1134"/>
+          <Coords points="1022,1171 1075,1171 1075,1169 1058,1130 1043,1130 1039,1134 1032,1129 1022,1129"/>
           <TextEquiv conf="0.92428416">
             <Unicode>die</Unicode>
           </TextEquiv>
@@ -689,13 +703,13 @@ Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0002" custom="readingOrder {index:2;}">
-          <Coords points="573,1228 573,1183 491,1183 491,1230 518,1230 530,1227 542,1230 554,1230 559,1228"/>
+          <Coords points="573,1183 491,1183 491,1229 523,1228 530,1227 535,1228 573,1227"/>
           <TextEquiv conf="0.9608636">
             <Unicode>Fuß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0003" custom="readingOrder {index:3;}">
-          <Coords points="668,1224 668,1187 583,1186 583,1227 599,1227 606,1223 630,1223 635,1227 650,1227 656,1224"/>
+          <Coords points="668,1187 583,1186 583,1227 583,1227 600,1227 606,1223 630,1223 633,1226 654,1225 656,1224 668,1224"/>
           <TextEquiv conf="0.9082182">
             <Unicode>hoch.</Unicode>
           </TextEquiv>
@@ -710,10 +724,10 @@ Giebel breit, bis an das Dach 38, bis an die
 Foͤrſte 57 Fuß hoch.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648205019594_8964" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1648205019594_8964" custom="readingOrder {index:5;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="217,1236 1080,1236 1080,1410 217,1410"/>
       <TextLine id="region0002_line0006" custom="readingOrder {index:0;}">
-        <Coords points="529,1232 465,1261 220,1244 217,1316 1079,1305 1066,1250 545,1237"/>
+        <Coords points="465,1261 220,1244 217,1316 1079,1305 1066,1250 545,1237 541,1236 520,1236"/>
         <Word id="word_1648205153561_9003" custom="readingOrder {index:0;}">
           <Coords points="266,1264 302,1257 306,1257 306,1304 266,1304"/>
           <TextEquiv conf="0.6826947">
@@ -721,7 +735,7 @@ Foͤrſte 57 Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0006_word0001" custom="readingOrder {index:1;}">
-          <Coords points="330,1249 330,1292 479,1293 479,1259 465,1261 431,1261 430,1253 425,1248 414,1249 406,1256 404,1262 390,1259 380,1252 365,1249"/>
+          <Coords points="330,1292 479,1293 479,1259 465,1261 431,1261 430,1258 405,1256 404,1262 390,1259 384,1255 330,1251"/>
           <TextEquiv conf="0.96803886">
             <Unicode>Dagegen</Unicode>
           </TextEquiv>
@@ -757,7 +771,7 @@ Foͤrſte 57 Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0006_word0007" custom="readingOrder {index:7;}">
-          <Coords points="982,1247 982,1292 1072,1292 1072,1256 1066,1250 1054,1250 1043,1255 1022,1248 987,1247"/>
+          <Coords points="982,1292 1072,1292 1072,1275 1066,1250 1054,1250 1043,1255 1024,1248 982,1247"/>
           <TextEquiv conf="0.9623543">
             <Unicode>Dach</Unicode>
           </TextEquiv>
@@ -775,7 +789,7 @@ Foͤrſte 57 Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0007_word0001" custom="readingOrder {index:1;}">
-          <Coords points="390,1317 434,1318 434,1352 390,1351"/>
+          <Coords points="434,1318 390,1317 390,1349 434,1350"/>
           <TextEquiv conf="0.96395034">
             <Unicode>25</Unicode>
           </TextEquiv>
@@ -805,7 +819,7 @@ Foͤrſte 57 Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0007_word0006" custom="readingOrder {index:6;}">
-          <Coords points="974,1353 974,1310 839,1310 839,1357 852,1357 855,1354 864,1353 876,1353 880,1357 892,1357 902,1352 926,1351"/>
+          <Coords points="974,1310 839,1310 839,1352 900,1352 902,1352 926,1351 974,1353"/>
           <TextEquiv conf="0.920526">
             <Unicode>ſtoßende</Unicode>
           </TextEquiv>
@@ -841,13 +855,13 @@ Foͤrſte 57 Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0003" custom="readingOrder {index:3;}">
-          <Coords points="648,1371 672,1371 672,1406 648,1406"/>
+          <Coords points="672,1371 648,1371 648,1401 672,1401"/>
           <TextEquiv conf="0.9393228">
             <Unicode>7</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0004" custom="readingOrder {index:4;}">
-          <Coords points="685,1360 792,1361 792,1405 685,1404"/>
+          <Coords points="792,1361 685,1360 685,1401 792,1402"/>
           <TextEquiv conf="0.89780563">
             <Unicode>Fuß.</Unicode>
           </TextEquiv>
@@ -862,7 +876,7 @@ nur 25 Fuß hoch, die daran ſtoßende Gar⸗
 tenmauer nur etwa 7 Fuß.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:6;}">
+    <TextRegion id="region0003" custom="readingOrder {index:6;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="217,1419 1076,1419 1076,1594 217,1594"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="583,1419 219,1422 218,1478 1076,1484 1076,1437 602,1420"/>
@@ -903,7 +917,7 @@ tenmauer nur etwa 7 Fuß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0007" custom="readingOrder {index:6;}">
-          <Coords points="973,1428 930,1428 930,1473 1072,1474 1072,1436 991,1435 979,1433"/>
+          <Coords points="930,1473 1072,1474 1072,1436 1035,1435 991,1435 982,1433 930,1431"/>
           <TextEquiv conf="0.96281105">
             <Unicode>Eingang</Unicode>
           </TextEquiv>
@@ -1008,7 +1022,7 @@ iſt von der Gartenmauer des vorigen mit
 dem Satteldach an 98 Fuß entfernt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="TextRegion_1648204996865_8940" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1648204996865_8940" custom="readingOrder {index:7;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="214,1586 1074,1586 1074,1702 725,1754 306,1754 214,1702"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="454,1586 255,1606 214,1586 215,1639 248,1662 1074,1647 1074,1607 471,1587"/>
@@ -1019,7 +1033,7 @@ dem Satteldach an 98 Fuß entfernt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="324,1597 324,1633 393,1634 393,1600 381,1602 362,1597"/>
+          <Coords points="324,1633 393,1634 393,1600 381,1602 362,1597 344,1597 324,1599"/>
           <TextEquiv conf="0.9183432">
             <Unicode>Der</Unicode>
           </TextEquiv>
@@ -1049,13 +1063,13 @@ dem Satteldach an 98 Fuß entfernt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0006" custom="readingOrder {index:6;}">
-          <Coords points="881,1599 858,1599 858,1640 927,1640 927,1602 910,1602"/>
+          <Coords points="858,1640 927,1640 927,1602 923,1602 910,1602 903,1601 858,1599"/>
           <TextEquiv conf="0.95801926">
             <Unicode>Fuß</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0007" custom="readingOrder {index:7;}">
-          <Coords points="974,1600 955,1600 954,1600 954,1633 1006,1634 1006,1605 1004,1604 975,1601"/>
+          <Coords points="954,1633 1006,1634 1006,1605 1005,1605 954,1603"/>
           <TextEquiv conf="0.96326774">
             <Unicode>bis</Unicode>
           </TextEquiv>
@@ -1085,13 +1099,13 @@ dem Satteldach an 98 Fuß entfernt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="580,1697 593,1698 594,1657 538,1656 537,1697 543,1697 554,1695 579,1696"/>
+          <Coords points="594,1657 538,1656 537,1695 549,1695 554,1695 573,1695 593,1695"/>
           <TextEquiv conf="0.92381775">
             <Unicode>die</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="714,1693 715,1655 609,1655 608,1700 630,1700 637,1698 664,1696 668,1700 682,1700 687,1695"/>
+          <Coords points="715,1655 609,1655 608,1696 664,1696 664,1696 664,1696 686,1696 687,1695 714,1693"/>
           <TextEquiv conf="0.8833769">
             <Unicode>Foͤrſte</Unicode>
           </TextEquiv>
@@ -1109,7 +1123,7 @@ dem Satteldach an 98 Fuß entfernt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1069,1697 1070,1664 1020,1664 1019,1700 1039,1700"/>
+          <Coords points="1070,1664 1020,1664 1019,1696 1069,1696"/>
           <TextEquiv conf="0.923409">
             <Unicode>70</Unicode>
           </TextEquiv>
@@ -1127,7 +1141,7 @@ dem Satteldach an 98 Fuß entfernt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="478,1751 478,1712 395,1711 395,1753 411,1753 414,1750 462,1754 465,1751"/>
+          <Coords points="478,1712 395,1711 395,1752 412,1752 414,1750 436,1752 464,1752 465,1751 478,1751"/>
           <TextEquiv conf="0.9288213">
             <Unicode>hoch.</Unicode>
           </TextEquiv>
@@ -1142,7 +1156,7 @@ das Kreuz, die Foͤrſte des Kirchdachs 70
 Fuß hoch.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.29198578" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:8;}">
+    <TextRegion id="region0006" custom="readingOrder {index:8;}" orientation="-0.29198578" readingDirection="left-to-right">
       <Coords points="209,1770 1074,1770 1077,1929 212,1929"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="858,1770 223,1772 218,1806 284,1826 1074,1824 1074,1782 884,1770"/>
@@ -1231,7 +1245,7 @@ Fuß hoch.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0002_word0006" custom="readingOrder {index:6;}">
-          <Coords points="960,1872 961,1835 883,1835 882,1876 894,1876 897,1874"/>
+          <Coords points="961,1835 883,1835 882,1870 960,1871"/>
           <TextEquiv conf="0.9243001">
             <Unicode>jeder</Unicode>
           </TextEquiv>
@@ -1247,9 +1261,9 @@ Fuß hoch.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0003" custom="readingOrder {index:2;}">
-        <Coords points="221,1867 209,1913 398,1937 1073,1927 1073,1881 1015,1873 228,1867"/>
+        <Coords points="211,1903 211,1913 335,1929 938,1929 1073,1927 1073,1881 1015,1873 228,1867 221,1867"/>
         <Word id="region0006_line0003_word0000" custom="readingOrder {index:0;}">
-          <Coords points="267,1875 214,1875 214,1913 233,1915 287,1915 287,1877"/>
+          <Coords points="218,1875 214,1893 214,1913 233,1915 287,1915 287,1877 267,1875"/>
           <TextEquiv>
             <Unicode>tung</Unicode>
           </TextEquiv>

@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-926">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:31Z</Created>
     <LastChange>2024-01-19T13:10:31Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/22c1b7b4-8c37-4907-99e3-999da9ba86a6/00000678.jpg" imageWidth="1728" imageHeight="2264" type="content" primaryLanguage="German">
     <Border>
@@ -20,7 +34,7 @@
         <RegionRefIndexed index="5" regionRef="region_1683097697560_1675"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1683097614475_1565" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1683097614475_1565" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="644,242 644,294 726,294 726,242"/>
       <TextLine id="line_1683097614579_1568" custom="readingOrder {index:0;}">
         <Coords points="644,242 644,294 726,294 726,242"/>
@@ -38,7 +52,7 @@
         <Unicode>640</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1683097618850_1574" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1683097618850_1574" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="788,238 788,292 1415,292 1415,238"/>
       <TextLine id="line_1683097618941_1577" custom="readingOrder {index:0;}">
         <Coords points="788,238 788,292 1415,292 1415,238"/>
@@ -74,7 +88,7 @@
         <Unicode>Heitmann de auſtrægis ganerbiorum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11978195" readingDirection="left-to-right" id="TextRegion_1670232564009_1424" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1670232564009_1424" custom="readingOrder {index:2;}" orientation="0.11978195" readingDirection="left-to-right">
       <Coords points="647,310 1568,310 1568,467 647,467"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="719,311 710,321 705,322 691,322 686,314 673,313 666,323 647,324 647,369 706,368 709,372 722,366 790,367 796,363 806,363 810,366 819,364 835,367 842,372 854,371 857,367 901,364 910,373 927,372 932,366 1009,367 1015,364 1064,366 1123,362 1205,364 1310,361 1356,364 1357,370 1372,371 1381,368 1387,362 1483,359 1511,363 1567,363 1567,320 1531,320 1526,310 1508,310 1504,320 1487,321 1472,321 1470,314 1465,310 1451,310 1445,319 1442,318 1440,310 1414,310 1406,321 1381,321 1379,315 1371,310 1359,311 1353,315 1349,311 1320,311 1316,321 1257,321 1252,312 1237,311 1229,315 1224,322 1205,322 1198,312 1184,315 1161,311 1154,316 1152,322 1140,322 1128,321 1120,312 1055,313 1024,319 949,320 947,310 890,310 887,320 871,321 865,320 860,311 842,311 836,319 759,319 752,312 743,312 734,319 729,312"/>
@@ -187,7 +201,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0003" custom="readingOrder {index:2;}">
-        <Coords points="805,411 779,413 766,420 734,419 729,414 698,413 684,420 669,421 660,425 647,424 647,469 685,470 690,475 700,475 706,470 731,474 736,470 764,468 864,468 883,476 943,475 966,468 1031,463 1169,461 1189,462 1195,467 1206,468 1214,464 1325,465 1330,460 1330,437 1327,433 1292,431 1276,423 1173,422 1168,414 1150,415 1149,421 1145,422 1144,416 1139,413 1126,413 1121,416 1120,421 1079,419 1074,415 1041,420 1005,419 997,416 979,419 973,413 957,415 921,411 895,412 882,418 861,419 843,413"/>
+        <Coords points="779,413 766,420 734,419 729,414 698,413 684,420 669,421 660,425 647,424 647,467 979,467 1031,463 1169,461 1189,462 1195,467 1208,467 1214,464 1325,465 1330,460 1330,437 1327,433 1292,431 1276,423 1173,422 1168,414 1150,415 1149,421 1145,422 1144,416 1139,413 1126,413 1121,416 1120,421 1079,419 1074,415 1041,420 1005,419 997,416 979,419 973,413 957,415 921,411 895,412 882,418 861,419 843,413 805,411"/>
         <Baseline points="647,459 1330,456"/>
         <Word id="word_1670232564040_1427" custom="readingOrder {index:0;}">
           <Coords points="653,424 660,425 666,422 779,422 779,467 653,467"/>
@@ -217,10 +231,10 @@ prehenditur in confirmatione Caeſarea des Tan⸗
 niſchen Burg⸗Friedens, aliisque. aliisque.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11978195" type="heading" readingDirection="left-to-right" id="TextRegion_1670232564009_1423" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670232564009_1423" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.11978195" type="heading" readingDirection="left-to-right">
       <Coords points="647,467 1568,467 1568,512 647,512"/>
       <TextLine id="line_1670232561352_1417" custom="readingOrder {index:0;}">
-        <Coords points="968,474 973,469 1031,464 1146,462 1189,463 1198,469 1216,465 1220,471 1233,471 1238,476 1238,506 1233,511 1222,512 1024,512 1016,509 973,505 968,500"/>
+        <Coords points="973,469 968,474 968,500 973,505 1016,509 1024,512 1222,512 1233,511 1238,506 1238,476 1233,471 1220,471 1217,467 1207,467 1198,469 1195,467 996,467"/>
         <Baseline points="968,496 1062,504 1238,501"/>
         <Word id="word_1670232561352_1419" custom="readingOrder {index:0;}">
           <Coords points="1025,482 1056,482 1056,512 1025,512"/>
@@ -242,10 +256,10 @@ niſchen Burg⸗Friedens, aliisque. aliisque.</Unicode>
         <Unicode>§. XXII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11978195" readingDirection="left-to-right" id="TextRegion_1670232561298_1413" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1670232561298_1413" custom="readingOrder {index:4;}" orientation="0.11978195" readingDirection="left-to-right">
       <Coords points="647,512 1568,512 1568,1857 647,1857"/>
       <TextLine id="region0001_line0005" custom="readingOrder {index:0;}">
-        <Coords points="727,508 647,510 647,550 650,551 651,559 658,562 708,565 729,565 736,562 923,563 942,560 969,563 1075,563 1108,560 1118,562 1124,570 1140,569 1144,561 1275,562 1391,558 1407,561 1567,561 1567,518 1519,512 1510,508 1465,518 1386,516 1374,510 1337,517 1333,508 1319,507 1312,511 1310,519 1257,519 1252,510 1239,508 1232,513 1230,519 1219,519 1213,512 1178,512 1169,518 1155,519 1044,520 1012,510 1001,519 989,520 856,522 808,518 799,513 776,508"/>
+        <Coords points="647,550 650,551 651,559 658,562 708,565 729,565 736,562 923,563 942,560 969,563 1075,563 1108,560 1118,562 1124,570 1140,569 1144,561 1275,562 1391,558 1407,561 1567,561 1567,518 1519,512 1492,512 1465,518 1386,516 1378,512 1363,512 1337,517 1334,512 1311,512 1310,519 1257,519 1253,512 1233,512 1232,513 1230,519 1219,519 1213,512 1178,512 1169,518 1155,519 1044,520 1018,512 1009,512 1001,519 989,520 856,522 808,518 799,513 794,512 647,512"/>
         <Baseline points="650,553 1567,552"/>
         <Word id="region0001_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="704,516 704,554 847,554 847,521 808,518 804,516"/>
@@ -774,13 +788,13 @@ niſchen Burg⸗Friedens, aliisque. aliisque.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1208,1009 1208,1053 1239,1055 1239,1058 1267,1058 1268,1055 1286,1054 1384,1056 1384,1010 1344,1009 1341,1012 1335,1012 1330,1009 1305,1009 1301,1012 1280,1013 1249,1012 1243,1009"/>
+          <Coords points="1208,1053 1239,1055 1239,1058 1267,1058 1268,1055 1286,1054 1373,1055 1384,1055 1384,1013 1368,1012 1364,1009 1344,1009 1341,1012 1335,1012 1330,1009 1305,1009 1301,1012 1280,1013 1249,1012 1243,1009 1208,1009"/>
           <TextEquiv conf="0.930488">
             <Unicode>Equeſtri,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0015_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1390,1048 1447,1048 1447,1010 1428,1010 1426,1012 1393,1015 1390,1012"/>
+          <Coords points="1447,1048 1447,1010 1428,1010 1426,1012 1393,1015 1390,1014 1390,1048"/>
           <TextEquiv conf="0.92768663">
             <Unicode>vel</Unicode>
           </TextEquiv>
@@ -1519,7 +1533,7 @@ niſchen Burg⸗Friedens, aliisque. aliisque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0031" custom="readingOrder {index:26;}">
-        <Coords points="1478,1792 1451,1796 1422,1796 1414,1802 1409,1802 1403,1796 1392,1796 1384,1801 1365,1799 1350,1803 1337,1796 1317,1798 1310,1795 1296,1795 1287,1800 1242,1799 1203,1802 1170,1802 1162,1798 1129,1802 1122,1797 1107,1796 1098,1803 1089,1804 1055,1804 1052,1800 1026,1799 1019,1805 995,1806 976,1806 971,1800 960,1800 954,1805 946,1798 936,1799 927,1804 895,1804 890,1800 879,1801 869,1805 808,1796 788,1797 781,1804 731,1801 678,1803 668,1797 659,1797 648,1800 648,1850 693,1850 699,1855 711,1855 716,1851 755,1851 821,1855 828,1860 837,1860 849,1854 922,1853 931,1854 937,1860 949,1860 955,1854 1093,1853 1099,1859 1110,1859 1116,1853 1132,1852 1195,1859 1201,1856 1246,1851 1282,1851 1288,1857 1298,1857 1304,1852 1311,1852 1317,1858 1327,1858 1333,1852 1355,1851 1401,1851 1422,1855 1433,1850 1460,1847 1542,1851 1549,1851 1555,1846 1568,1848 1568,1799 1552,1795 1527,1799"/>
+        <Coords points="1451,1796 1422,1796 1414,1802 1409,1802 1403,1796 1392,1796 1384,1801 1365,1799 1350,1803 1337,1796 1317,1798 1310,1795 1296,1795 1287,1800 1242,1799 1203,1802 1170,1802 1162,1798 1129,1802 1122,1797 1107,1796 1098,1803 1089,1804 1055,1804 1052,1800 1026,1799 1019,1805 995,1806 976,1806 971,1800 960,1800 954,1805 946,1798 936,1799 927,1804 895,1804 890,1800 879,1801 869,1805 808,1796 788,1797 781,1804 731,1801 678,1803 668,1797 659,1797 648,1800 648,1850 693,1850 699,1855 711,1855 716,1851 755,1851 821,1855 823,1857 843,1857 849,1854 922,1853 931,1854 934,1857 952,1857 955,1854 1093,1853 1097,1857 1112,1857 1116,1853 1132,1852 1177,1857 1199,1857 1201,1856 1246,1851 1282,1851 1288,1857 1298,1857 1304,1852 1311,1852 1316,1857 1328,1857 1333,1852 1355,1851 1401,1851 1422,1855 1433,1850 1460,1847 1542,1851 1549,1851 1555,1846 1568,1848 1568,1799 1552,1795 1527,1799 1478,1792"/>
         <Baseline points="648,1840 1568,1838"/>
         <Word id="region0001_line0031_word0000" custom="readingOrder {index:0;}">
           <Coords points="780,1852 780,1807 655,1807 655,1850 693,1850 695,1852 714,1852 716,1851 755,1851 771,1852"/>
@@ -1603,7 +1617,7 @@ Tanniſche Erkohrne remittirt, und wird beneben
 beyden Theilen hiemit auferlegt, daß ſie dieſe Sach</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683097697560_1675" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1683097697560_1675" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1437,1862 1437,1898 1559,1898 1559,1862"/>
       <TextLine id="line_1683097697625_1678" custom="readingOrder {index:0;}">
         <Coords points="1437,1862 1437,1898 1559,1898 1559,1862"/>

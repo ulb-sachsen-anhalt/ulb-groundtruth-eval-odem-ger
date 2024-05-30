@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-714">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:27Z</Created>
     <LastChange>2024-01-19T13:09:27Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6e23bf33-a6db-477d-8e44-4bf360499d19/00000246.jpg" imageWidth="1651" imageHeight="2470" type="content" primaryLanguage="German">
     <Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676623778244_2967"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676623713326_2925" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676623713326_2925" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="639,445 639,499 727,499 727,445"/>
       <TextLine id="line_1676623713416_2928" custom="readingOrder {index:0;}">
         <Coords points="639,445 639,499 727,499 727,445"/>
@@ -37,7 +51,7 @@
         <Unicode>238</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676623726930_2940" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676623726930_2940" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="862,435 862,498 1313,498 1313,435"/>
       <TextLine id="line_1676623727026_2943" custom="readingOrder {index:0;}">
         <Coords points="862,435 862,498 1313,498 1313,435"/>
@@ -67,7 +81,7 @@
         <Unicode>Feldzug der Preuſſen</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.2321736" type="marginalia" readingDirection="left-to-right" id="TextRegion_1646642864675_182" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1646642864675_182" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="0.2321736" type="marginalia" readingDirection="left-to-right">
       <Coords points="482,692 632,692 636,1120 636,1168 618,1211 489,1211 483,1126"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="482,692 483,740 533,740 579,735 632,736 631,696 570,696 568,692"/>
@@ -246,7 +260,7 @@ rung der
 Ruſſen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.2321736" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:3;}">
+    <TextRegion id="region0008" custom="readingOrder {index:3;}" orientation="0.2321736" readingDirection="left-to-right">
       <Coords points="637,534 1547,532 1549,2118 641,2131"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="750,535 742,543 734,544 637,545 637,587 679,587 748,591 885,589 890,583 903,580 912,588 1059,584 1060,590 1066,592 1077,583 1092,583 1098,584 1103,592 1108,594 1116,593 1120,587 1152,587 1186,588 1188,593 1194,596 1208,596 1215,588 1269,588 1275,585 1314,582 1326,588 1335,583 1357,586 1397,584 1405,586 1407,593 1417,595 1433,586 1506,584 1518,587 1522,584 1546,582 1546,535 1483,537 1463,533 1403,533 1400,536 1398,533 1371,533 1364,538 1360,533 1305,533 1301,539 1269,540 1264,535 1256,535 1251,539 1239,537 1235,540 1215,540 1212,534 1193,534 1185,539 1123,542 1121,534 1098,534 1091,541 1087,533 1064,533 1059,540 1021,541 1017,538 1007,538 1003,541 913,545 909,536 896,535 882,545 834,545 825,544 822,534"/>
@@ -1611,7 +1625,7 @@ Ruſſen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0030" custom="readingOrder {index:29;}">
-        <Coords points="1516,2062 1459,2071 1451,2067 1440,2067 1430,2073 1415,2075 1409,2069 1397,2069 1390,2073 1385,2070 1350,2069 1334,2071 1327,2078 1242,2082 1227,2082 1220,2072 1213,2072 1202,2079 1152,2082 1145,2079 1125,2079 1123,2072 1118,2070 1107,2070 1101,2074 1096,2071 1078,2070 1031,2072 1022,2074 1014,2080 913,2080 905,2070 890,2072 885,2077 846,2078 830,2072 823,2077 816,2077 814,2070 810,2068 795,2071 792,2079 733,2080 727,2074 717,2074 709,2080 684,2082 667,2077 641,2081 641,2130 730,2129 795,2124 881,2123 886,2124 893,2135 907,2135 915,2129 923,2133 963,2135 981,2127 999,2126 1036,2129 1038,2138 1043,2142 1054,2140 1059,2128 1101,2125 1138,2128 1144,2135 1154,2135 1161,2129 1208,2126 1238,2128 1248,2134 1259,2134 1267,2138 1275,2138 1290,2132 1293,2128 1307,2125 1388,2126 1390,2130 1404,2132 1414,2129 1416,2123 1440,2121 1445,2118 1465,2119 1480,2113 1514,2116 1525,2112 1549,2111 1549,2062"/>
+        <Coords points="1459,2071 1451,2067 1440,2067 1430,2073 1415,2075 1409,2069 1397,2069 1390,2073 1385,2070 1350,2069 1334,2071 1327,2078 1242,2082 1227,2082 1220,2072 1213,2072 1202,2079 1152,2082 1145,2079 1125,2079 1123,2072 1118,2070 1107,2070 1101,2074 1096,2071 1078,2070 1031,2072 1022,2074 1014,2080 913,2080 905,2070 890,2072 885,2077 846,2078 830,2072 823,2077 816,2077 814,2070 810,2068 795,2071 792,2079 733,2080 727,2074 717,2074 709,2080 684,2082 667,2077 641,2081 641,2130 730,2129 795,2124 881,2123 886,2124 888,2127 1442,2119 1445,2118 1465,2119 1480,2113 1514,2116 1525,2112 1548,2111 1548,2062 1516,2062"/>
         <Word id="region0008_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="730,2077 713,2077 709,2080 684,2082 667,2077 655,2078 655,2119 753,2119 753,2079 733,2080"/>
           <TextEquiv>
@@ -1691,12 +1705,12 @@ geringſte zu thun oder vorzunehmen, was dem
 Lande vielmehr zum Ruin, als zur Erhaltung</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676623778244_2967" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676623778244_2967" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1368,2132 1368,2180 1544,2180 1544,2132"/>
       <TextLine id="line_1676623778319_2970" custom="readingOrder {index:0;}">
         <Coords points="1544,2180 1368,2180 1368,2132 1544,2132"/>
         <Word id="word_1676623765045_2963" custom="readingOrder {index:0;}">
-          <Coords points="1373,2178 1533,2178 1533,2126 1373,2126"/>
+          <Coords points="1533,2178 1533,2132 1373,2132 1373,2178"/>
           <TextEquiv>
             <Unicode>gereichen</Unicode>
           </TextEquiv>

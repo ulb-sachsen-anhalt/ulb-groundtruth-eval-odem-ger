@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-794">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:50Z</Created>
     <LastChange>2024-01-19T13:09:50Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ee356e2a-2f72-49eb-b412-ec75d5841343/00000243.jpg" imageWidth="1443" imageHeight="2287" type="content" primaryLanguage="German">
     <Border>
@@ -16,10 +30,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1646726012881_42"/>
       </OrderedGroup>
     </ReadingOrder>
-    <NoiseRegion id="Noise_1677223457032_133" custom="readingOrder {index:0;}">
-      <Coords points="780,463 978,463 978,1711 780,1711"/>
-    </NoiseRegion>
-    <TextRegion type="page-number" id="region_1676624192473_3305" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676624192473_3305" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="861,416 861,456 926,456 926,416"/>
       <TextLine id="line_1676624192515_3308" custom="readingOrder {index:0;}">
         <Coords points="861,416 861,456 926,456 926,416"/>
@@ -37,10 +48,10 @@
         <Unicode>233</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.53469026" readingDirection="left-to-right" id="TextRegion_1646726012881_42" custom="readingOrder {index:2;}">
-      <Coords points="159,479 780,473 792,1898 548,1897 348,1897 169,1895"/>
+    <TextRegion id="TextRegion_1646726012881_42" custom="readingOrder {index:2;}" orientation="0.53469026" readingDirection="left-to-right">
+      <Coords points="330,477 330,1896 348,1897 548,1897 787,1897 787,1304 780,473"/>
       <TextLine id="region0000_line0001" custom="readingOrder {index:0;}">
-        <Coords points="372,474 160,480 161,531 540,522 533,474 393,473"/>
+        <Coords points="160,480 161,531 540,522 533,475 214,478"/>
         <Word id="word_1646726196698_78" custom="readingOrder {index:0;}">
           <Coords points="163,486 212,486 212,520 163,520"/>
           <TextEquiv>
@@ -60,13 +71,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0001_word0001" custom="readingOrder {index:3;}">
-          <Coords points="454,484 485,484 486,525 455,525"/>
+          <Coords points="485,484 454,484 454,524 485,523"/>
           <TextEquiv conf="0.73660856">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>69. Noct. Plecta &#x17F;.</Unicode>
+          <Unicode>69. Noct. Plecta ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0002" custom="readingOrder {index:1;}">
@@ -80,7 +91,7 @@
         <Word id="word_1646726201062_87" custom="readingOrder {index:1;}">
           <Coords points="249,550 298,550 298,581 249,581"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0002_word0000" custom="readingOrder {index:2;}">
@@ -92,11 +103,11 @@
         <Word id="region0000_line0002_word0001" custom="readingOrder {index:3;}">
           <Coords points="491,546 510,545 510,584 491,585"/>
           <TextEquiv conf="0.8868095">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>70. &#x2014; Gothica &#x17F;.</Unicode>
+          <Unicode>70. — Gothica ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0003" custom="readingOrder {index:2;}">
@@ -110,23 +121,23 @@
         <Word id="word_1646726204032_93" custom="readingOrder {index:1;}">
           <Coords points="252,611 304,611 304,638 252,638"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0003_word0000" custom="readingOrder {index:2;}">
           <Coords points="443,605 343,606 343,640 486,639 486,606 481,609 457,609 446,607"/>
           <TextEquiv conf="0.7216521">
-            <Unicode>Ba&#x17F;ilinea</Unicode>
+            <Unicode>Baſilinea</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0003_word0001" custom="readingOrder {index:3;}">
           <Coords points="503,607 523,607 523,646 503,646"/>
           <TextEquiv>
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>71. &#x2014; Ba&#x17F;ilinea &#x17F;.</Unicode>
+          <Unicode>71. — Baſilinea ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0004" custom="readingOrder {index:3;}">
@@ -140,7 +151,7 @@
         <Word id="word_1646726207087_99" custom="readingOrder {index:1;}">
           <Coords points="252,674 305,674 305,705 252,705"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0004_word0000" custom="readingOrder {index:2;}">
@@ -150,19 +161,19 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0004_word0001" custom="readingOrder {index:3;}">
-          <Coords points="528,668 513,668 509,672 495,673 494,673 495,708 570,707 569,668 569,668 557,670 554,667 537,667 532,671"/>
+          <Coords points="513,668 509,672 495,673 494,673 495,708 570,707 569,670 558,670 557,670 557,670 535,669 532,671 529,668 519,668"/>
           <TextEquiv conf="0.9665825">
             <Unicode>nicht</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0004_word0002" custom="readingOrder {index:4;}">
-          <Coords points="584,673 585,710 709,709 708,679 682,679 676,671 665,671 658,677 604,676"/>
+          <Coords points="585,710 709,709 708,679 682,679 679,675 660,674 658,677 604,676 584,673"/>
           <TextEquiv conf="0.8737625">
             <Unicode>gemein.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>72. &#x2014; Occulta nicht gemein.</Unicode>
+          <Unicode>72. — Occulta nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0005" custom="readingOrder {index:4;}">
@@ -176,17 +187,17 @@
         <Word id="word_1646726211028_105" custom="readingOrder {index:1;}">
           <Coords points="255,743 302,743 302,769 255,769"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0005_word0000" custom="readingOrder {index:2;}">
-          <Coords points="392,716 380,716 373,722 346,721 346,759 444,758 444,735 434,735 424,726 416,726 407,733"/>
+          <Coords points="381,716 379,716 373,722 346,721 346,759 444,758 444,735 407,733 392,716"/>
           <TextEquiv>
             <Unicode>Exola</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0005_word0001" custom="readingOrder {index:3;}">
-          <Coords points="460,736 460,758 602,757 602,741 593,741 585,731 573,732 568,740 544,739 539,738 531,729 521,729 513,737"/>
+          <Coords points="460,758 602,757 602,741 593,741 587,734 571,734 568,740 544,739 539,738 536,735 514,735 513,737 460,736"/>
           <TextEquiv>
             <Unicode>mationis</Unicode>
           </TextEquiv>
@@ -200,11 +211,11 @@
         <Word id="region0000_line0005_word0003" custom="readingOrder {index:5;}">
           <Coords points="719,734 719,763 740,763 740,733 721,734"/>
           <TextEquiv conf="0.9040631">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>73. &#x2014; Exola mationis nicht &#x17F;.</Unicode>
+          <Unicode>73. — Exola mationis nicht ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0006" custom="readingOrder {index:5;}">
@@ -218,13 +229,13 @@
         <Word id="word_1646726214300_111" custom="readingOrder {index:1;}">
           <Coords points="256,803 304,803 304,832 256,832"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0006_word0000" custom="readingOrder {index:2;}">
           <Coords points="345,795 462,794 463,829 346,830"/>
           <TextEquiv>
-            <Unicode>Suffu&#x17F;a</Unicode>
+            <Unicode>Suffuſa</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0006_word0001" custom="readingOrder {index:3;}">
@@ -234,19 +245,19 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0006_word0002" custom="readingOrder {index:4;}">
-          <Coords points="565,800 566,837 688,836 687,802 662,802 656,795 648,795 640,801 579,802"/>
+          <Coords points="566,837 688,836 687,802 662,802 659,798 644,797 640,801 579,802 565,800"/>
           <TextEquiv conf="0.84367913">
             <Unicode>gemein.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>74. &#x2014; Suffu&#x17F;a nicht gemein.</Unicode>
+          <Unicode>74. — Suffuſa nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0007" custom="readingOrder {index:6;}">
         <Coords points="164,850 163,905 618,913 668,910 681,888 676,855 461,862 380,846"/>
         <Word id="word_1646726216367_114" custom="readingOrder {index:0;}">
-          <Coords points="160,866 221,866 221,899 160,899"/>
+          <Coords points="221,899 221,866 163,866 163,899"/>
           <TextEquiv>
             <Unicode>75.</Unicode>
           </TextEquiv>
@@ -254,7 +265,7 @@
         <Word id="word_1646726217739_117" custom="readingOrder {index:1;}">
           <Coords points="250,866 309,866 309,891 250,891"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0007_word0000" custom="readingOrder {index:2;}">
@@ -272,11 +283,11 @@
         <Word id="region0000_line0007_word0002" custom="readingOrder {index:4;}">
           <Coords points="610,860 628,860 628,898 610,898"/>
           <TextEquiv conf="0.9234501">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>75. &#x2014; Valligera nicht &#x17F;.</Unicode>
+          <Unicode>75. — Valligera nicht ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0008" custom="readingOrder {index:7;}">
@@ -290,13 +301,13 @@
         <Word id="word_1646726220924_123" custom="readingOrder {index:1;}">
           <Coords points="253,930 303,930 303,952 253,952"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0008_word0000" custom="readingOrder {index:2;}">
           <Coords points="435,922 348,923 348,956 485,955 485,925 479,925 474,924 472,922 448,922 446,924 436,923"/>
           <TextEquiv conf="0.9151121">
-            <Unicode>Cur&#x17F;oria</Unicode>
+            <Unicode>Curſoria</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0008_word0001" custom="readingOrder {index:3;}">
@@ -306,19 +317,19 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0008_word0002" custom="readingOrder {index:4;}">
-          <Coords points="698,915 685,915 683,921 669,920 663,926 644,926 589,924 590,963 710,962 709,926 706,926"/>
+          <Coords points="691,915 684,917 683,921 677,920 663,926 644,926 589,924 590,963 710,962 709,926 706,926 698,915"/>
           <TextEquiv conf="0.9259924">
             <Unicode>gemein.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>76. &#x2014; Cur&#x17F;oria nicht gemein.</Unicode>
+          <Unicode>76. — Curſoria nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0009" custom="readingOrder {index:8;}">
         <Coords points="166,975 165,1026 477,1023 491,1030 546,1025 562,1008 559,976 450,975 431,982 384,971"/>
         <Word id="word_1646726222465_126" custom="readingOrder {index:0;}">
-          <Coords points="163,982 216,982 216,1020 163,1020"/>
+          <Coords points="216,1020 216,982 165,982 165,1020"/>
           <TextEquiv>
             <Unicode>77.</Unicode>
           </TextEquiv>
@@ -326,29 +337,29 @@
         <Word id="word_1646726223762_129" custom="readingOrder {index:1;}">
           <Coords points="257,982 306,982 306,1010 257,1010"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1646726564017_387" custom="readingOrder {index:2;}">
           <Coords points="345,981 419,980 420,981 431,982 442,981 443,979 477,979 477,1019 345,1021"/>
           <TextEquiv>
-            <Unicode>Fu&#x17F;co&#x17F;a</Unicode>
+            <Unicode>Fuſcoſa</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1646726564016_386" custom="readingOrder {index:3;}">
           <Coords points="477,979 518,979 518,1019 477,1019"/>
           <TextEquiv>
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>77. &#x2014; Fu&#x17F;co&#x17F;a &#x17F;.</Unicode>
+          <Unicode>77. — Fuſcoſa ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0010" custom="readingOrder {index:9;}">
         <Coords points="167,1031 168,1085 408,1080 418,1090 430,1090 436,1081 478,1088 528,1086 533,1069 544,1063 539,1030 442,1031 411,1039 405,1027"/>
         <Word id="word_1646726237359_142" custom="readingOrder {index:0;}">
-          <Coords points="166,1042 214,1042 214,1077 166,1077"/>
+          <Coords points="214,1077 214,1042 167,1042 167,1077"/>
           <TextEquiv>
             <Unicode>78.</Unicode>
           </TextEquiv>
@@ -356,23 +367,23 @@
         <Word id="word_1646726238811_145" custom="readingOrder {index:1;}">
           <Coords points="253,1046 312,1046 312,1069 253,1069"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0010_word0000" custom="readingOrder {index:2;}">
-          <Coords points="459,1082 459,1042 346,1043 346,1081 408,1080 410,1086 411,1086 433,1086 436,1081"/>
+          <Coords points="459,1042 346,1043 346,1081 408,1080 414,1086 432,1086 436,1081 459,1082"/>
           <TextEquiv conf="0.65527695">
-            <Unicode>Thap&#x17F;i</Unicode>
+            <Unicode>Thapſi</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0010_word0001" custom="readingOrder {index:3;}">
           <Coords points="477,1045 496,1045 496,1083 477,1083"/>
           <TextEquiv conf="0.9290106">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>78. &#x2014; Thap&#x17F;i &#x17F;.</Unicode>
+          <Unicode>78. — Thapſi ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0011" custom="readingOrder {index:10;}">
@@ -386,29 +397,29 @@
         <Word id="word_1646726242539_152" custom="readingOrder {index:1;}">
           <Coords points="257,1111 301,1111 301,1136 257,1136"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0011_word0000" custom="readingOrder {index:2;}">
-          <Coords points="427,1101 347,1102 348,1136 479,1135 478,1103 430,1105"/>
+          <Coords points="347,1102 348,1136 479,1135 478,1104 430,1105 416,1101"/>
           <TextEquiv conf="0.9004622">
             <Unicode>Radicea</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0011_word0001" custom="readingOrder {index:3;}">
-          <Coords points="538,1099 522,1099 518,1103 503,1103 504,1140 579,1140 578,1099 577,1099 566,1101 564,1099 544,1099 541,1102"/>
+          <Coords points="504,1140 579,1140 578,1103 503,1104"/>
           <TextEquiv conf="0.93126416">
             <Unicode>nicht</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0011_word0002" custom="readingOrder {index:4;}">
-          <Coords points="687,1099 669,1099 666,1103 596,1103 593,1102 594,1142 713,1141 712,1102 691,1103"/>
+          <Coords points="666,1103 649,1103 593,1104 594,1142 713,1141 712,1102 701,1103 691,1103 691,1103 666,1103"/>
           <TextEquiv conf="0.921662">
             <Unicode>gemein.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>79. &#x2014; Radicea nicht gemein.</Unicode>
+          <Unicode>79. — Radicea nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0012" custom="readingOrder {index:11;}">
@@ -422,7 +433,7 @@
         <Word id="word_1646726245248_158" custom="readingOrder {index:1;}">
           <Coords points="258,1178 311,1178 311,1203 258,1203"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0012_word0000" custom="readingOrder {index:2;}">
@@ -434,11 +445,11 @@
         <Word id="region0000_line0012_word0001" custom="readingOrder {index:3;}">
           <Coords points="499,1171 520,1170 520,1209 499,1210"/>
           <TextEquiv conf="0.91643584">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>80. &#x2014; Sordida &#x17F;.</Unicode>
+          <Unicode>80. — Sordida ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0013" custom="readingOrder {index:12;}">
@@ -452,23 +463,23 @@
         <Word id="word_1646726248476_164" custom="readingOrder {index:1;}">
           <Coords points="262,1236 315,1236 315,1263 262,1263"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0013_word0000" custom="readingOrder {index:2;}">
-          <Coords points="432,1211 416,1212 413,1215 415,1227 410,1229 391,1229 387,1224 374,1220 350,1219 351,1260 503,1258 502,1226 495,1229 470,1230 474,1224 472,1212 453,1212 450,1224 437,1220 434,1212"/>
+          <Coords points="417,1211 413,1220 415,1227 410,1229 391,1229 390,1228 350,1226 351,1260 503,1258 502,1226 495,1229 470,1230 472,1212 453,1212 450,1224 437,1220 434,1212 425,1211"/>
           <TextEquiv>
-            <Unicode>Bras&#x17F;icae</Unicode>
+            <Unicode>Brasſicae</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0013_word0001" custom="readingOrder {index:3;}">
-          <Coords points="551,1219 540,1219 516,1222 514,1222 515,1262 624,1261 623,1230 620,1230 600,1228 595,1224 570,1225"/>
+          <Coords points="515,1262 624,1261 623,1230 620,1230 600,1228 595,1224 570,1225 551,1219 549,1219 514,1223"/>
           <TextEquiv>
-            <Unicode>ha&#x364;ufig.</Unicode>
+            <Unicode>haͤufig.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>81. &#x2014; Bras&#x17F;icae ha&#x364;ufig.</Unicode>
+          <Unicode>81. — Brasſicae haͤufig.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0014" custom="readingOrder {index:13;}">
@@ -482,23 +493,23 @@
         <Word id="word_1646726252313_173" custom="readingOrder {index:1;}">
           <Coords points="259,1296 315,1296 315,1324 259,1324"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0014_word0000" custom="readingOrder {index:2;}">
           <Coords points="351,1293 495,1292 495,1325 351,1326"/>
           <TextEquiv conf="0.89793813">
-            <Unicode>In&#x17F;tabilis</Unicode>
+            <Unicode>Inſtabilis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0014_word0001" custom="readingOrder {index:3;}">
           <Coords points="503,1288 542,1291 546,1326 512,1324"/>
           <TextEquiv conf="0.88482547">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>82. &#x2014; In&#x17F;tabilis &#x17F;.</Unicode>
+          <Unicode>82. — Inſtabilis ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0015" custom="readingOrder {index:14;}">
@@ -512,11 +523,11 @@
         <Word id="word_1646726254841_179" custom="readingOrder {index:1;}">
           <Coords points="263,1361 313,1361 313,1381 263,1381"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0015_word0000" custom="readingOrder {index:2;}">
-          <Coords points="385,1347 351,1348 352,1383 428,1382 427,1352 412,1352 408,1349 387,1353"/>
+          <Coords points="351,1348 352,1383 428,1382 427,1352 412,1352 410,1350 387,1353 383,1347"/>
           <TextEquiv conf="0.9027272">
             <Unicode>Lota</Unicode>
           </TextEquiv>
@@ -534,7 +545,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>83. &#x2014; Lota nicht gemein.</Unicode>
+          <Unicode>83. — Lota nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0016" custom="readingOrder {index:15;}">
@@ -548,11 +559,11 @@
         <Word id="word_1646726257715_185" custom="readingOrder {index:1;}">
           <Coords points="262,1424 318,1424 318,1446 262,1446"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0016_word0000" custom="readingOrder {index:2;}">
-          <Coords points="406,1414 353,1415 353,1450 543,1448 543,1418 535,1418 529,1413 508,1413 505,1417 445,1418 442,1414 421,1414 418,1418 408,1418"/>
+          <Coords points="353,1415 353,1450 543,1448 543,1418 535,1418 532,1416 506,1416 505,1417 445,1418 445,1417 418,1418 418,1418 408,1418 405,1414"/>
           <TextEquiv conf="0.9048498">
             <Unicode>Flavicornis</Unicode>
           </TextEquiv>
@@ -564,13 +575,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0016_word0002" custom="readingOrder {index:4;}">
-          <Coords points="696,1408 679,1408 676,1412 664,1409 658,1412 659,1456 765,1455 764,1419 743,1418 737,1412 719,1412 714,1418 701,1418"/>
+          <Coords points="659,1456 765,1455 764,1419 743,1418 737,1412 718,1412 714,1418 701,1418 698,1412 658,1413"/>
           <TextEquiv>
-            <Unicode>ha&#x364;ufig.</Unicode>
+            <Unicode>haͤufig.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>84. &#x2014; Flavicornis nicht ha&#x364;ufig.</Unicode>
+          <Unicode>84. — Flavicornis nicht haͤufig.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0017" custom="readingOrder {index:16;}">
@@ -584,23 +595,23 @@
         <Word id="word_1646726261585_194" custom="readingOrder {index:1;}">
           <Coords points="258,1480 312,1480 312,1511 258,1511"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0017_word0000" custom="readingOrder {index:2;}">
-          <Coords points="471,1515 524,1515 524,1477 498,1479 492,1478 484,1470 471,1472 467,1460 453,1460 449,1465 450,1478 409,1477 407,1468 399,1464 351,1464 351,1515 406,1515 407,1516 434,1516 435,1515 442,1515"/>
+          <Coords points="524,1515 524,1477 498,1479 492,1478 485,1471 483,1470 471,1472 467,1460 453,1460 450,1478 409,1477 409,1477 351,1474 351,1515 406,1515 407,1516 434,1516 435,1515 442,1515 471,1515"/>
           <TextEquiv conf="0.90202934">
             <Unicode>Trapezina</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0017_word0001" custom="readingOrder {index:3;}">
-          <Coords points="543,1470 543,1515 648,1514 648,1475 640,1474 635,1469 620,1472 608,1469 589,1469 582,1475 580,1462 566,1459 557,1472"/>
+          <Coords points="543,1515 648,1514 648,1475 582,1475 566,1459 557,1472 543,1473"/>
           <TextEquiv>
-            <Unicode>ha&#x364;ufig.</Unicode>
+            <Unicode>haͤufig.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>85. &#x2014; Trapezina ha&#x364;ufig.</Unicode>
+          <Unicode>85. — Trapezina haͤufig.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0018" custom="readingOrder {index:17;}">
@@ -614,11 +625,11 @@
         <Word id="word_1646726264525_200" custom="readingOrder {index:1;}">
           <Coords points="256,1543 316,1543 316,1562 256,1562"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0018_word0000" custom="readingOrder {index:2;}">
-          <Coords points="467,1531 352,1533 352,1573 403,1573 405,1576 431,1575 433,1574 506,1574 506,1531 478,1531 476,1534 470,1534"/>
+          <Coords points="352,1533 352,1573 403,1573 405,1575 430,1575 433,1574 506,1574 506,1531 479,1531 476,1534 470,1534 469,1533 454,1531"/>
           <TextEquiv conf="0.5648049">
             <Unicode>Delphinii</Unicode>
           </TextEquiv>
@@ -626,17 +637,17 @@
         <Word id="region0000_line0018_word0001" custom="readingOrder {index:3;}">
           <Coords points="523,1532 544,1532 545,1573 524,1573"/>
           <TextEquiv>
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0018_word0002" custom="readingOrder {index:4;}">
           <Coords points="560,1535 581,1535 582,1574 561,1574"/>
           <TextEquiv conf="0.90864533">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>86. &#x2014; Delphinii &#x17F;. &#x17F;.</Unicode>
+          <Unicode>86. — Delphinii ſ. ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0019" custom="readingOrder {index:18;}">
@@ -650,7 +661,7 @@
         <Word id="word_1646726267677_207" custom="readingOrder {index:1;}">
           <Coords points="266,1600 321,1600 321,1618 266,1618"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0019_word0000" custom="readingOrder {index:2;}">
@@ -660,7 +671,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0019_word0001" custom="readingOrder {index:3;}">
-          <Coords points="452,1589 439,1589 435,1593 419,1593 419,1628 494,1628 494,1593 482,1593 478,1589 461,1589 456,1592"/>
+          <Coords points="435,1593 419,1593 419,1628 494,1628 494,1593 482,1593 480,1591 456,1592 456,1592 456,1592 436,1592"/>
           <TextEquiv conf="0.9641372">
             <Unicode>nicht</Unicode>
           </TextEquiv>
@@ -672,7 +683,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>87. &#x2014; Oo nicht gemein.</Unicode>
+          <Unicode>87. — Oo nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0020" custom="readingOrder {index:19;}">
@@ -686,7 +697,7 @@
         <Word id="word_1646726271081_214" custom="readingOrder {index:1;}">
           <Coords points="262,1662 310,1662 310,1688 262,1688"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0020_word0000" custom="readingOrder {index:2;}">
@@ -696,7 +707,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0020_word0001" custom="readingOrder {index:3;}">
-          <Coords points="564,1661 565,1695 640,1694 639,1659 639,1659 627,1660 621,1654 609,1655 602,1660 596,1654 587,1654 579,1661 565,1661"/>
+          <Coords points="565,1695 640,1694 639,1659 627,1660 626,1659 603,1660 602,1660 602,1660 580,1660 579,1661 565,1661 564,1661"/>
           <TextEquiv conf="0.94144607">
             <Unicode>nicht</Unicode>
           </TextEquiv>
@@ -708,7 +719,7 @@
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>88. &#x2014; Sulphurago nicht gemein.</Unicode>
+          <Unicode>88. — Sulphurago nicht gemein.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0021" custom="readingOrder {index:20;}">
@@ -722,7 +733,7 @@
         <Word id="word_1646726273451_220" custom="readingOrder {index:1;}">
           <Coords points="258,1727 319,1727 319,1744 258,1744"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0021_word0000" custom="readingOrder {index:2;}">
@@ -734,11 +745,11 @@
         <Word id="region0000_line0021_word0001" custom="readingOrder {index:3;}">
           <Coords points="530,1719 550,1719 550,1759 530,1759"/>
           <TextEquiv conf="0.92823386">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>89. &#x2014; Croceago &#x17F;.</Unicode>
+          <Unicode>89. — Croceago ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0022" custom="readingOrder {index:21;}">
@@ -752,7 +763,7 @@
         <Word id="word_1646726277538_229" custom="readingOrder {index:1;}">
           <Coords points="266,1787 326,1787 326,1817 266,1817"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0022_word0000" custom="readingOrder {index:2;}">
@@ -764,11 +775,11 @@
         <Word id="region0000_line0022_word0001" custom="readingOrder {index:3;}">
           <Coords points="508,1782 528,1782 528,1823 508,1823"/>
           <TextEquiv conf="0.9128609">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>90. &#x2014; Gilvago &#x17F;.</Unicode>
+          <Unicode>90. — Gilvago ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0001" custom="readingOrder {index:22;}">
@@ -782,7 +793,7 @@
         <Word id="word_1646726280205_235" custom="readingOrder {index:1;}">
           <Coords points="260,1854 315,1854 315,1870 260,1870"/>
           <TextEquiv>
-            <Unicode>&#x2014;</Unicode>
+            <Unicode>—</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0001_word0000" custom="readingOrder {index:2;}">
@@ -794,44 +805,47 @@
         <Word id="region0001_line0001_word0001" custom="readingOrder {index:3;}">
           <Coords points="484,1852 503,1852 503,1893 484,1893"/>
           <TextEquiv conf="0.81982553">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0001_word0002" custom="readingOrder {index:4;}">
           <Coords points="544,1893 544,1851 521,1851 521,1895"/>
           <TextEquiv conf="0.81982553">
-            <Unicode>&#x17F;.</Unicode>
+            <Unicode>ſ.</Unicode>
           </TextEquiv>
         </Word>
         <TextEquiv>
-          <Unicode>91. &#x2014; Turca &#x17F;. &#x17F;.</Unicode>
+          <Unicode>91. — Turca ſ. ſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Plecta &#x17F;. 69. Noct.
-Gothica &#x17F;. 70. &#x2014;
-71. &#x2014; Ba&#x17F;ilinea &#x17F;.
-Occulta nicht gemein. 72. &#x2014;
-Exola mationis nicht &#x17F;. 73. &#x2014;
-Suffu&#x17F;a nicht gemein. 74. &#x2014;
-Valligera nicht &#x17F;. 75. &#x2014;
-Cur&#x17F;oria nicht gemein. 76. &#x2014;
-Fu&#x17F;co&#x17F;a &#x17F;. 77. &#x2014;
-Thap&#x17F;i &#x17F;. 78. &#x2014;
-Radicea nicht gemein. 79. &#x2014;
-Sordida &#x17F;. 80. &#x2014;
-Bras&#x17F;icae ha&#x364;ufig. 81. &#x2014;
-In&#x17F;tabilis &#x17F;. 82. &#x2014;
-Lota nicht gemein. 83. &#x2014;
-Flavicornis nicht ha&#x364;ufig. 84. &#x2014;
-Trapezina ha&#x364;ufig. 85. &#x2014;
-Delphinii &#x17F;. &#x17F;. 86. &#x2014;
-Oo nicht gemein. 87. &#x2014;
-Sulphurago nicht gemein. 88. &#x2014;
-Croceago &#x17F;. 89. &#x2014;
-Gilvago &#x17F;. 90. &#x2014;
-Turca &#x17F;. &#x17F;. 91. &#x2014;</Unicode>
+        <Unicode>Plecta ſ. 69. Noct.
+Gothica ſ. 70. —
+71. — Baſilinea ſ.
+Occulta nicht gemein. 72. —
+Exola mationis nicht ſ. 73. —
+Suffuſa nicht gemein. 74. —
+Valligera nicht ſ. 75. —
+Curſoria nicht gemein. 76. —
+Fuſcoſa ſ. 77. —
+Thapſi ſ. 78. —
+Radicea nicht gemein. 79. —
+Sordida ſ. 80. —
+Brasſicae haͤufig. 81. —
+Inſtabilis ſ. 82. —
+Lota nicht gemein. 83. —
+Flavicornis nicht haͤufig. 84. —
+Trapezina haͤufig. 85. —
+Delphinii ſ. ſ. 86. —
+Oo nicht gemein. 87. —
+Sulphurago nicht gemein. 88. —
+Croceago ſ. 89. —
+Gilvago ſ. 90. —
+Turca ſ. ſ. 91. —</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1677223457032_133" custom="readingOrder {index:0;}">
+      <Coords points="780,1711 787,1711 787,473 780,473"/>
+    </NoiseRegion>
   </Page>
 </PcGts>
