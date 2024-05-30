@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-348">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:16Z</Created>
     <LastChange>2024-01-19T13:08:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-340370-p0034-4_ger.jpg" imageWidth="1578" imageHeight="2346" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/34e5638f-3971-4736-82a9-53d8c6782c8a/00000034.jpg" imageWidth="1578" imageHeight="2346" type="content" primaryLanguage="German">
     <Border>
       <Coords points="213,152 223,2254 1473,2287 1471,150"/>
     </Border>
@@ -17,10 +31,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1674038349396_4991"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1683701006908_102" custom="readingOrder {index:0;}">
-      <Coords points="852,301 1029,301 1029,343 852,343"/>
-    </GraphicRegion>
-    <TextRegion orientation="-1.2917163" type="page-number" readingDirection="left-to-right" id="TextRegion_1674038327261_4974" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1674038327261_4974" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-1.2917163" type="page-number" readingDirection="left-to-right">
       <Coords points="507,298 580,298 580,340 507,340"/>
       <TextLine id="line_1674038327300_4977" custom="readingOrder {index:0;}">
         <Coords points="507,298 580,298 580,340 507,340"/>
@@ -38,7 +49,7 @@
         <Unicode>30 mnnn</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.2917163" readingDirection="left-to-right" id="TextRegion_1674038349396_4992" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1674038349396_4992" custom="readingOrder {index:2;}" orientation="-1.2917163" readingDirection="left-to-right">
       <Coords points="464,367 1327,367 1331,1939 1331,1998 463,1998 463,1939"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="932,370 927,374 894,370 856,377 850,371 839,371 832,380 782,377 760,367 675,367 642,373 620,372 618,367 592,367 585,372 555,372 550,367 464,367 464,410 548,414 654,415 684,419 688,423 698,425 704,425 710,419 720,418 738,420 742,425 751,426 757,425 761,420 922,424 927,428 937,428 942,424 971,423 1046,425 1116,430 1138,436 1142,433 1202,434 1207,429 1207,406 1204,402 1173,401 1172,392 1165,387 1101,385 1096,384 1089,376 1070,375 1064,383 985,380 957,377 946,370"/>
@@ -1221,7 +1232,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0001" custom="readingOrder {index:28;}">
-        <Coords points="1025,1944 994,1950 978,1949 973,1945 953,1946 928,1943 879,1945 866,1949 850,1948 846,1945 812,1947 807,1943 797,1943 785,1950 769,1950 697,1946 694,1940 655,1940 652,1943 637,1939 603,1944 579,1940 463,1939 463,1987 556,1990 563,1995 575,1995 580,1990 590,1989 656,1990 662,1996 671,1996 680,1990 687,1990 789,1997 795,2002 805,2002 812,1997 872,1996 1027,1998 1066,2001 1071,2006 1099,2008 1105,2002 1168,2001 1201,2004 1207,2010 1214,2011 1226,2006 1276,2003 1298,1993 1299,1961 1294,1956 1227,1955 1219,1948 1211,1948 1201,1956 1164,1956 1123,1952 1114,1946 1095,1946 1090,1950 1083,1945 1064,1948 1058,1945"/>
+        <Coords points="994,1950 978,1949 973,1945 953,1946 928,1943 879,1945 866,1949 850,1948 846,1945 812,1947 807,1943 797,1943 785,1950 769,1950 697,1946 694,1940 655,1940 652,1943 637,1939 603,1944 579,1940 463,1939 463,1987 556,1990 563,1995 575,1995 580,1990 590,1989 656,1990 662,1996 671,1996 680,1990 687,1990 789,1997 790,1998 810,1998 812,1997 872,1996 1027,1998 1287,1998 1298,1993 1299,1961 1294,1956 1227,1955 1219,1948 1211,1948 1201,1956 1164,1956 1123,1952 1114,1946 1095,1946 1090,1950 1083,1945 1064,1948 1058,1945 1025,1944"/>
         <Baseline points="463,1977 1298,1993"/>
         <Word id="region0008_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="469,1947 538,1948 537,1985 468,1984"/>
@@ -1301,7 +1312,7 @@ misguͤnſtig, die was zu zeigen haben!
 Und (was hier noch das Bedenklichſte war)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.2917163" type="catch-word" readingDirection="left-to-right" id="TextRegion_1674038349396_4991" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1674038349396_4991" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="-1.2917163" type="catch-word" readingDirection="left-to-right">
       <Coords points="463,1998 1331,1998 1331,2043 463,2043"/>
       <TextLine id="line_1674038349434_4998" custom="readingOrder {index:0;}">
         <Coords points="1213,2012 1226,2007 1285,2003 1291,1998 1310,1998 1313,2003 1331,2003 1330,2043 1213,2040"/>
@@ -1320,5 +1331,8 @@ Und (was hier noch das Bedenklichſte war)</Unicode>
         <Unicode>ein</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683701006908_102" custom="readingOrder {index:0;}">
+      <Coords points="852,301 1029,301 1029,343 852,343"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

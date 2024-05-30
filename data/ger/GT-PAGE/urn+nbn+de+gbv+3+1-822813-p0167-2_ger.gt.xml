@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-968">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:46Z</Created>
     <LastChange>2024-01-19T13:10:46Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-822813-p0167-2_ger.png" imageWidth="1627" imageHeight="2415" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a67fe834-b08e-40af-ab14-2b38f474806e/00000167.jpg" imageWidth="1627" imageHeight="2415" type="content" primaryLanguage="German">
     <Border>
       <Coords points="72,238 61,2283 1309,2326 1294,258"/>
     </Border>
@@ -20,13 +34,7 @@
         <RegionRefIndexed index="13" regionRef="region_1683097905533_1838"/>
       </OrderedGroup>
     </ReadingOrder>
-    <MathsRegion id="Maths_1683097899001_1835" custom="readingOrder {index:0;}">
-      <Coords points="145,1671 1122,1671 1122,2086 145,2086"/>
-    </MathsRegion>
-    <SeparatorRegion id="Separator_1683097865960_1831" custom="readingOrder {index:1;}">
-      <Coords points="184,1106 1115,1106 1115,1162 184,1162"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1683097852224_1815" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="region_1683097852224_1815" custom="readingOrder {index:2;} structure {type:page-number;}" type="page-number">
       <Coords points="1029,402 1029,452 1110,452 1110,402"/>
       <TextLine id="line_1683097852300_1818" custom="readingOrder {index:0;}">
         <Coords points="1029,402 1029,452 1110,452 1110,402"/>
@@ -44,25 +52,7 @@
         <Unicode>127</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1683097847305_1812" custom="readingOrder {index:3;}">
-      <Coords points="534,389 761,389 761,422 534,422"/>
-    </GraphicRegion>
-    <MathsRegion id="Maths_1670234564848_2272" custom="readingOrder {index:4;}">
-      <Coords points="621,1711 992,1711 992,1773 621,1773"/>
-    </MathsRegion>
-    <MathsRegion id="Maths_1670234561079_2269" custom="readingOrder {index:5;}">
-      <Coords points="969,1808 366,1808 366,1746 969,1746"/>
-    </MathsRegion>
-    <MathsRegion id="Maths_1670234557531_2266" custom="readingOrder {index:6;}">
-      <Coords points="652,1905 360,1905 360,1860 652,1860"/>
-    </MathsRegion>
-    <MathsRegion id="Maths_1670234554323_2263" custom="readingOrder {index:7;}">
-      <Coords points="1014,1971 475,1971 475,1914 1014,1914"/>
-    </MathsRegion>
-    <MathsRegion id="Maths_1670234550296_2260" custom="readingOrder {index:8;}">
-      <Coords points="659,2030 989,2030 989,2086 659,2086"/>
-    </MathsRegion>
-    <TextRegion orientation="0.45502934" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:9;}">
+    <TextRegion id="region0001" custom="readingOrder {index:9;}" orientation="0.45502934" readingDirection="left-to-right">
       <Coords points="178,486 1118,486 1118,1072 178,1072"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="195,487 193,491 178,492 179,541 198,544 213,541 231,542 240,548 247,547 255,542 275,544 287,540 399,541 409,548 418,548 426,542 471,541 491,543 495,545 538,545 549,552 559,547 834,543 865,546 868,550 879,552 888,550 891,545 1083,547 1092,556 1101,554 1106,548 1118,548 1118,505 1069,502 1061,492 1052,492 1038,498 998,493 993,498 959,496 954,501 933,501 892,497 890,491 884,487 874,487 860,497 848,497 843,491 832,487 759,486 742,489 731,500 690,501 685,494 672,492 664,502 649,502 559,500 550,490 542,490 527,499 513,499 465,496 461,493 435,495 428,493 422,486 385,486 364,495 320,496 257,493 254,486 230,487 224,493 220,493 217,487"/>
@@ -594,7 +584,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0011_word0002" custom="readingOrder {index:2;}">
-          <Coords points="419,1010 368,1011 327,1009 327,1057 419,1058"/>
+          <Coords points="327,1057 419,1058 419,1013 368,1011 327,1011"/>
           <TextEquiv>
             <Unicode>=0</Unicode>
           </TextEquiv>
@@ -635,7 +625,7 @@ klein wird. Und das geht doch wohl an, weil
 ſie gar =0 ſeyn kann (6).</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45502934" type="heading" readingDirection="left-to-right" id="TextRegion_1670234136986_2051" custom="readingOrder {index:10;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670234136986_2051" custom="readingOrder {index:10;} structure {type:heading;}" orientation="0.45502934" type="heading" readingDirection="left-to-right">
       <Coords points="188,1187 1117,1187 1118,1254 188,1254"/>
       <TextLine id="line_1670234137017_2054" custom="readingOrder {index:0;}">
         <Coords points="521,1192 590,1192 626,1188 760,1187 757,1246 752,1252 710,1254 539,1254 530,1252 527,1242 519,1240 516,1236 516,1197"/>
@@ -654,7 +644,7 @@ klein wird. Und das geht doch wohl an, weil
         <Unicode>16.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45502934" readingDirection="left-to-right" id="TextRegion_1670234136986_2050" custom="readingOrder {index:11;}">
+    <TextRegion id="TextRegion_1670234136986_2050" custom="readingOrder {index:11;}" orientation="0.45502934" readingDirection="left-to-right">
       <Coords points="188,1254 1118,1254 1120,1319 1120,1468 247,1451 188,1337"/>
       <TextLine id="line_1670234137017_2057" custom="readingOrder {index:0;}">
         <Coords points="188,1254 248,1254 271,1263 296,1267 307,1257 318,1257 325,1267 330,1268 374,1268 413,1260 479,1260 529,1272 566,1271 581,1263 597,1263 606,1270 652,1271 682,1281 709,1280 712,1271 724,1269 731,1273 733,1281 823,1270 859,1272 887,1278 897,1277 907,1283 995,1285 1002,1280 1012,1279 1017,1284 1067,1287 1072,1280 1082,1279 1090,1283 1092,1289 1117,1289 1117,1335 775,1336 738,1333 638,1333 634,1336 619,1337 616,1333 553,1328 541,1328 530,1336 517,1336 513,1327 410,1327 299,1319 237,1327 189,1328"/>
@@ -749,7 +739,7 @@ klein wird. Und das geht doch wohl an, weil
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:2;}">
-        <Coords points="264,1380 246,1382 247,1444 333,1444 421,1451 547,1450 763,1457 781,1458 791,1467 803,1465 806,1468 820,1467 825,1460 831,1460 833,1467 852,1467 861,1460 868,1460 910,1463 916,1464 919,1468 940,1467 944,1463 998,1461 1089,1463 1120,1461 1120,1410 1040,1412 910,1407 903,1400 894,1400 888,1407 882,1407 879,1400 875,1398 865,1398 859,1404 823,1396 812,1397 804,1405 782,1405 770,1404 764,1399 752,1402 727,1398 716,1393 702,1395 689,1391 678,1392 669,1399 652,1400 632,1399 627,1393 613,1393 609,1398 527,1395 469,1396 457,1393 450,1387 441,1390 414,1387 404,1391 361,1391 354,1390 348,1384 334,1382 322,1382 317,1385 302,1382 290,1383 285,1380"/>
+        <Coords points="246,1382 247,1444 333,1444 421,1451 547,1450 763,1457 781,1458 785,1461 823,1462 825,1460 831,1460 832,1462 857,1463 861,1460 868,1460 910,1463 916,1464 916,1464 942,1465 944,1463 998,1461 1089,1463 1120,1461 1120,1410 1040,1412 910,1407 903,1400 894,1400 888,1407 882,1407 879,1400 875,1398 865,1398 859,1404 823,1396 812,1397 804,1405 782,1405 770,1404 764,1399 752,1402 727,1398 716,1393 702,1395 689,1391 678,1392 669,1399 652,1400 632,1399 627,1393 613,1393 609,1398 527,1395 469,1396 457,1393 450,1387 441,1390 414,1387 404,1391 361,1391 354,1390 348,1384 334,1382 322,1382 317,1385 302,1382 290,1383 285,1380 264,1380"/>
         <Baseline points="247,1434 923,1453 1120,1451"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="251,1392 251,1444 333,1444 338,1444 397,1444 396,1391"/>
@@ -803,7 +793,7 @@ Winkel gegeben, und der beyden uͤbrigen
 Seiten Summe oder Unterſchied; u. a. m.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45502934" readingDirection="left-to-right" id="TextRegion_1670234121163_2042" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1670234121163_2042" custom="readingOrder {index:12;}" orientation="0.45502934" readingDirection="left-to-right">
       <Coords points="189,1501 1120,1501 1120,1904 1120,2088 192,2088 189,1822"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="189,1502 190,1554 213,1552 243,1561 287,1562 316,1557 349,1567 359,1561 392,1562 396,1559 404,1561 425,1558 452,1562 465,1567 481,1564 487,1568 513,1570 608,1576 637,1573 646,1578 677,1581 707,1581 720,1577 727,1581 747,1578 766,1581 823,1583 836,1580 841,1583 862,1584 907,1581 942,1584 968,1580 1010,1586 1120,1583 1120,1541 969,1535 967,1529 961,1525 948,1526 944,1534 921,1534 917,1531 908,1531 901,1523 889,1523 883,1533 872,1534 833,1525 804,1526 797,1521 773,1524 760,1518 740,1516 660,1516 643,1522 636,1515 623,1516 617,1526 520,1517 514,1511 504,1512 496,1517 475,1516 446,1505 421,1508 412,1503 404,1503 378,1511 374,1502 358,1502 355,1513 335,1510 307,1501"/>
@@ -1004,7 +994,7 @@ Seiten Summe oder Unterſchied; u. a. m.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0004_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1013,1767 1122,1766 1115,1724 1035,1722 1023,1714 1009,1714 1006,1717"/>
+          <Coords points="1119,1766 1119,1751 1115,1724 1035,1722 1023,1714 1009,1714 1006,1717 1013,1767"/>
           <TextEquiv conf="0.9298838">
             <Unicode>ferner</Unicode>
           </TextEquiv>
@@ -1023,7 +1013,7 @@ Seiten Summe oder Unterſchied; u. a. m.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0005_word0002" custom="readingOrder {index:1;}">
-          <Coords points="570,1805 569,1760 532,1754 522,1754 505,1762 484,1761 484,1755 478,1747 445,1747 446,1803 485,1802 485,1801 488,1802"/>
+          <Coords points="569,1760 555,1757 538,1757 532,1754 522,1754 505,1762 484,1761 484,1755 478,1747 459,1747 455,1754 458,1756 458,1759 450,1758 445,1754 445,1797 458,1797 458,1802 484,1802 485,1801 488,1802 570,1805"/>
           <TextEquiv>
             <Unicode>+BC</Unicode>
           </TextEquiv>
@@ -1096,7 +1086,7 @@ Seiten Summe oder Unterſchied; u. a. m.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="902,1802 898,1803 898,1844 1026,1843 1026,1822"/>
+          <Coords points="902,1802 898,1803 898,1811 898,1812 894,1816 894,1817 898,1820 898,1844 1026,1843 1026,1823 1011,1825 990,1826 986,1823 977,1823 968,1817 960,1817 954,1822 946,1817 926,1814 902,1816 902,1815 900,1813 902,1809"/>
           <TextEquiv conf="0.92593145">
             <Unicode>Seiten</Unicode>
           </TextEquiv>
@@ -1176,7 +1166,7 @@ Seiten Summe oder Unterſchied; u. a. m.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0010_line0001_word0003" custom="readingOrder {index:4;}">
-          <Coords points="582,1968 682,1972 682,1919 627,1928 592,1927 582,1925"/>
+          <Coords points="595,1968 644,1968 644,1970 668,1971 669,1969 682,1970 682,1928 675,1929 671,1927 670,1920 645,1924 644,1928 629,1927 627,1928 592,1927 582,1925 582,1968"/>
           <TextEquiv>
             <Unicode>m+</Unicode>
           </TextEquiv>
@@ -1344,7 +1334,7 @@ terſchied 2 z= c— a.
 = b. ſin A; ſo iſt auch AD= b. coſ A.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683097905533_1838" custom="readingOrder {index:13;} structure {type:catch-word;}">
+    <TextRegion id="region_1683097905533_1838" custom="readingOrder {index:13;} structure {type:catch-word;}" type="catch-word">
       <Coords points="956,2095 956,2146 1115,2146 1115,2095"/>
       <TextLine id="line_1683097905637_1841" custom="readingOrder {index:0;}">
         <Coords points="956,2095 956,2146 1115,2146 1115,2095"/>
@@ -1368,5 +1358,29 @@ terſchied 2 z= c— a.
         <Unicode>5) Folg⸗</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683097847305_1812" custom="readingOrder {index:3;}">
+      <Coords points="534,389 761,389 761,422 534,422"/>
+    </GraphicRegion>
+    <SeparatorRegion id="Separator_1683097865960_1831" custom="readingOrder {index:1;}">
+      <Coords points="184,1106 1115,1106 1115,1162 184,1162"/>
+    </SeparatorRegion>
+    <MathsRegion id="Maths_1683097899001_1835" custom="readingOrder {index:0;}">
+      <Coords points="145,1671 1122,1671 1122,2086 145,2086"/>
+    </MathsRegion>
+    <MathsRegion id="Maths_1670234564848_2272" custom="readingOrder {index:4;}">
+      <Coords points="621,1711 992,1711 992,1773 621,1773"/>
+    </MathsRegion>
+    <MathsRegion id="Maths_1670234561079_2269" custom="readingOrder {index:5;}">
+      <Coords points="969,1808 366,1808 366,1746 969,1746"/>
+    </MathsRegion>
+    <MathsRegion id="Maths_1670234557531_2266" custom="readingOrder {index:6;}">
+      <Coords points="652,1905 360,1905 360,1860 652,1860"/>
+    </MathsRegion>
+    <MathsRegion id="Maths_1670234554323_2263" custom="readingOrder {index:7;}">
+      <Coords points="1014,1971 475,1971 475,1914 1014,1914"/>
+    </MathsRegion>
+    <MathsRegion id="Maths_1670234550296_2260" custom="readingOrder {index:8;}">
+      <Coords points="659,2030 989,2030 989,2086 659,2086"/>
+    </MathsRegion>
   </Page>
 </PcGts>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-493">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:51Z</Created>
     <LastChange>2024-01-19T13:08:51Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-517721-p0449-8_ger.png" imageWidth="1728" imageHeight="2706" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/f603fd72-10e3-4d42-84c4-d6942dab4e67/00000449.jpg" imageWidth="1728" imageHeight="2706" type="content" primaryLanguage="German">
     <Border>
       <Coords points="131,229 106,2620 1447,2630 1463,212"/>
     </Border>
@@ -20,7 +34,7 @@
         <RegionRefIndexed index="5" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.49614835" type="header" readingDirection="left-to-right" id="TextRegion_1670409118605_3443" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1670409118605_3443" custom="readingOrder {index:0;} structure {type:header;}" orientation="0.49614835" type="header" readingDirection="left-to-right">
       <Coords points="452,394 1085,394 1085,469 452,469"/>
       <TextLine id="line_1670409118653_3446" custom="readingOrder {index:0;}">
         <Coords points="452,397 497,395 524,394 528,398 569,405 614,403 623,395 633,394 640,402 691,395 772,395 806,399 821,399 824,395 858,394 860,398 930,403 1072,403 1085,409 1085,460 1053,459 1030,454 954,457 948,462 930,464 919,457 907,456 899,461 891,461 880,455 854,456 846,463 837,463 828,455 786,453 547,458 537,465 523,465 513,458 453,458"/>
@@ -45,7 +59,7 @@
         <Unicode>Allgemeine Betrachtungen. 434</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.49614835" type="page-number" readingDirection="left-to-right" id="TextRegion_1670409118605_3442" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1670409118605_3442" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.49614835" type="page-number" readingDirection="left-to-right">
       <Coords points="1085,394 1213,394 1213,469 1085,469"/>
       <TextLine id="line_1670409118653_3445" custom="readingOrder {index:0;}">
         <Coords points="1085,409 1094,414 1140,410 1213,412 1213,461 1199,462 1197,469 1178,469 1176,464 1085,460"/>
@@ -64,7 +78,7 @@
         <Unicode>431</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.49614835" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="0.49614835" readingDirection="left-to-right">
       <Coords points="250,493 1221,493 1221,909 250,909"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="260,494 250,497 251,547 328,546 338,551 347,551 352,547 444,546 449,551 458,551 465,546 535,545 537,549 554,549 559,544 582,544 585,548 594,548 604,544 707,540 764,542 769,546 778,545 782,542 811,542 823,545 829,542 853,541 925,540 1000,543 1036,546 1043,551 1054,551 1060,546 1089,547 1092,550 1147,546 1153,552 1162,552 1173,546 1221,546 1221,503 1180,503 1175,496 1167,493 1156,493 1151,501 1079,502 979,501 974,493 959,493 955,500 899,500 834,500 831,493 812,493 806,499 792,496 790,493 735,493 702,496 697,493 682,493 671,498 633,500 630,494 614,493 591,493 584,501 571,501 567,498 558,498 554,501 524,501 518,495 507,496 501,501 464,502 458,496 443,499 435,493 427,493 421,500 414,494 394,494 385,499 364,501 355,501 348,494 335,494 326,501 305,503"/>
@@ -475,7 +489,7 @@ verurſachen, der gar zu großen Ausbreitung des menſch⸗
 lichen Geſchlechts Schranken zu ſetzen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.49614835" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:3;}">
+    <TextRegion id="region0002" custom="readingOrder {index:3;}" orientation="0.49614835" readingDirection="left-to-right">
       <Coords points="248,927 1222,927 1222,1190 248,1190"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="381,928 304,930 299,935 299,964 308,969 310,977 330,981 386,982 400,977 414,980 514,979 521,974 531,974 541,978 549,971 557,971 572,978 587,978 594,972 603,971 608,975 608,979 613,981 618,981 622,977 709,978 734,980 746,986 760,980 783,978 788,983 798,983 803,978 855,977 957,978 984,982 1018,979 1037,981 1047,986 1062,980 1140,980 1150,983 1156,989 1173,989 1181,983 1221,982 1221,940 1169,940 1113,936 1109,933 1085,936 1036,936 1017,934 1011,927 978,927 938,927 924,932 901,932 897,927 881,928 877,933 833,934 828,927 791,927 784,933 735,935 718,933 712,927 696,927 694,930 676,927 672,930 627,933 623,928 583,927 578,934 507,935 501,929 477,928 469,936 441,937 427,930"/>
@@ -748,7 +762,7 @@ widrige Witterung und Winde zu Huͤlfe kommen, den
 Strom des Lebens wieder in ſeine Ufer einzuſchraͤnken.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.49614835" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:4;}">
+    <TextRegion id="region0003" custom="readingOrder {index:4;}" orientation="0.49614835" readingDirection="left-to-right">
       <Coords points="245,1207 1231,1207 1231,2307 245,2307"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="401,1209 398,1212 306,1212 301,1218 301,1247 310,1252 313,1260 321,1262 387,1264 436,1260 484,1262 489,1267 498,1267 504,1262 513,1261 649,1255 718,1256 723,1259 752,1256 756,1261 771,1255 796,1254 874,1259 1061,1259 1107,1262 1118,1265 1130,1262 1186,1262 1191,1268 1207,1262 1230,1261 1230,1221 1183,1221 1147,1214 1136,1215 1131,1211 1118,1211 1111,1217 1105,1208 1091,1208 1087,1218 1073,1218 1059,1217 1051,1212 1039,1212 1034,1216 1003,1213 997,1207 983,1209 975,1214 949,1214 933,1212 927,1208 902,1207 837,1208 821,1211 792,1207 722,1208 712,1212 647,1214 611,1213 604,1208 594,1208 589,1213 584,1213 579,1208 562,1207 560,1215 545,1215 519,1213 508,1215 501,1209 491,1209 481,1214 475,1209 466,1209 459,1215 455,1215 449,1209 431,1209 423,1214 416,1214 409,1209"/>
@@ -1911,7 +1925,7 @@ welche er leidet oder verurſacht, erfordern an einem
 andern Orte eine beſondere Unterſuchung.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.49614835" type="catch-word" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region0004" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0.49614835" type="catch-word" readingDirection="left-to-right">
       <Coords points="303,2295 1231,2295 1231,2367 303,2367"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1099,2295 1096,2299 1097,2326 1106,2332 1106,2343 1111,2348 1231,2347 1230,2299 1215,2295"/>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-847">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:06Z</Created>
     <LastChange>2024-01-19T13:10:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-767505_urn+nbn+de+gbv+3+1-767490-p0274-8_ger.png" imageWidth="3025" imageHeight="4191" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/762222a1-a323-4eb2-b3ac-20b0e16e9193/00000274.jpg" imageWidth="3025" imageHeight="4191" type="content" primaryLanguage="German">
     <Border>
       <Coords points="328,658 274,4076 2937,4100 2946,695"/>
     </Border>
@@ -15,13 +29,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1647934773227_886"/>
       </OrderedGroup>
     </ReadingOrder>
-    <ImageRegion id="Image_1647935036397_895" custom="readingOrder {index:0;}">
-      <Coords points="445,482 2616,482 2616,2638 445,2638"/>
-    </ImageRegion>
-    <ImageRegion id="Image_1647935101769_898" custom="readingOrder {index:1;}">
-      <Coords points="424,2638 2544,2638 2544,3736 424,3686"/>
-    </ImageRegion>
-    <TextRegion orientation="-0.9029531" readingDirection="left-to-right" id="TextRegion_1647934773227_886" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1647934773227_886" custom="readingOrder {index:2;}" orientation="-0.9029531" readingDirection="left-to-right">
       <Coords points="406,3686 1579,3707 2488,3752 2487,3810 1843,3825 1577,3821 404,3798"/>
       <TextLine id="line_1647934782618_892" custom="readingOrder {index:0;}">
         <Coords points="429,3689 481,3688 1223,3703 1578,3711 2305,3750 2477,3764 2482,3769 2481,3803 2476,3808 1678,3821 1647,3821 690,3803 481,3799 404,3781 405,3727 425,3692"/>
@@ -110,7 +118,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1647935155895_927" custom="readingOrder {index:14;}">
-          <Coords points="2377,3752 2477,3752 2477,3808 2377,3808"/>
+          <Coords points="2477,3764 2377,3755 2377,3808 2476,3808 2477,3807"/>
           <TextEquiv>
             <Unicode>See.</Unicode>
           </TextEquiv>
@@ -123,5 +131,11 @@
         <Unicode>Ein Grundriſs von Nice u: einigen Gebäuden in demſelben; u: eine Charte von dem See.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <ImageRegion id="Image_1647935036397_895" custom="readingOrder {index:0;}">
+      <Coords points="445,2638 2616,2638 2616,690 445,659"/>
+    </ImageRegion>
+    <ImageRegion id="Image_1647935101769_898" custom="readingOrder {index:1;}">
+      <Coords points="424,2638 2544,2638 2544,3736 424,3686"/>
+    </ImageRegion>
   </Page>
 </PcGts>

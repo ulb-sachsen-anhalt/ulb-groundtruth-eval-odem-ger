@@ -1,11 +1,26 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-227">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:50Z</Created>
     <LastChange>2024-01-19T13:07:50Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-229680-p0163-0_ger.png" imageWidth="1679" imageHeight="2570" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/ce18366a-7d1f-4460-9703-45cd5e0b4fa1/00000163.jpg" imageWidth="1679" imageHeight="2570" type="content" primaryLanguage="German">
     <Border>
       <Coords points="77,145 100,2505 1532,2493 1516,143"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.9343845" readingDirection="left-to-right" id="TextRegion_1661955387941_908" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1661955387941_908" custom="readingOrder {index:0;}" orientation="0.9343845" readingDirection="left-to-right">
       <Coords points="150,433 1274,433 1275,1997 1275,2117 218,2117 150,1999"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="418,435 403,437 396,446 356,445 352,442 338,445 331,438 318,438 308,443 284,439 161,442 156,447 156,478 159,482 168,484 168,492 174,497 312,493 316,498 329,499 337,493 345,492 393,491 408,492 411,498 419,501 429,499 432,492 474,495 480,501 490,500 496,494 602,492 626,492 631,498 642,500 651,498 655,492 682,490 692,485 705,484 711,488 723,489 802,489 810,490 816,495 826,495 830,491 850,491 856,496 870,496 874,490 914,489 969,495 1028,496 1035,501 1050,500 1057,495 1076,496 1083,503 1104,501 1110,494 1139,492 1199,493 1204,498 1214,498 1222,493 1274,488 1273,444 1232,442 1217,434 1151,435 1130,446 1119,446 1114,439 1108,437 1070,439 1063,448 1050,448 1037,447 1019,439 992,437 959,440 938,445 905,445 898,436 883,438 877,433 862,435 855,442 833,441 827,435 812,436 805,442 690,444 686,441 677,441 673,444 654,444 647,437 636,437 623,443 613,443 607,439 596,439 590,446 556,446 517,440 514,433 497,433 494,443 450,447 440,435"/>
@@ -553,7 +568,7 @@
         <Coords points="255,1034 246,1042 167,1047 165,1051 166,1084 177,1093 289,1093 301,1101 310,1100 316,1094 323,1099 340,1099 344,1094 380,1091 461,1092 470,1101 481,1100 488,1092 510,1091 515,1097 524,1099 532,1096 534,1091 546,1091 577,1091 583,1097 594,1097 605,1091 609,1099 619,1099 631,1089 665,1088 727,1092 733,1096 756,1091 762,1097 784,1097 791,1090 815,1088 824,1095 832,1095 840,1090 854,1095 869,1089 886,1089 893,1097 903,1096 908,1089 991,1091 994,1096 1002,1098 1009,1098 1014,1091 1027,1090 1097,1092 1102,1096 1119,1092 1126,1097 1139,1099 1149,1093 1160,1093 1168,1101 1182,1101 1192,1091 1273,1091 1274,1046 1240,1044 1234,1039 1206,1045 1203,1038 1198,1034 1189,1034 1184,1040 1178,1037 1165,1039 1157,1046 1146,1047 1108,1047 1054,1043 1048,1035 1033,1033 990,1034 975,1037 965,1043 942,1043 935,1041 934,1033 928,1029 918,1030 913,1038 898,1035 889,1043 869,1042 862,1035 847,1037 839,1033 830,1033 820,1043 806,1043 799,1042 791,1034 754,1033 689,1034 655,1044 630,1042 622,1037 607,1040 603,1037 573,1038 559,1044 523,1048 487,1047 480,1039 469,1039 452,1046 366,1049 339,1045 334,1041 323,1041 315,1036 289,1037 279,1045 267,1034"/>
         <Baseline points="166,1083 1273,1080"/>
         <Word id="word_1661955477853_947" custom="readingOrder {index:0;}">
-          <Coords points="232,1045 278,1044 336,1043 636,1042 671,1042 672,1088 288,1093 232,1093"/>
+          <Coords points="232,1045 232,1093 288,1093 369,1092 380,1091 412,1091 659,1088 665,1088 666,1088 672,1088 671,1042 662,1042 655,1044 630,1042 563,1042 559,1044 523,1048 487,1047 483,1043 460,1043 452,1046 366,1049 339,1045 336,1043 336,1043 280,1044 279,1045 278,1044"/>
           <TextEquiv>
             <Unicode>taͤriſch ⸗ mathematiſchen</Unicode>
           </TextEquiv>
@@ -755,7 +770,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0015_word0001" custom="readingOrder {index:1;}">
-          <Coords points="427,1269 425,1269 382,1271 371,1273 287,1288 288,1317 428,1315 427,1285"/>
+          <Coords points="426,1269 422,1273 425,1277 423,1280 423,1285 423,1286 406,1287 391,1287 389,1274 382,1271 371,1273 368,1279 360,1280 355,1287 350,1284 339,1284 334,1288 287,1289 288,1317 428,1315 427,1289 431,1285 431,1280 427,1276 427,1269"/>
           <TextEquiv conf="0.9222145">
             <Unicode>verdient</Unicode>
           </TextEquiv>
@@ -1365,7 +1380,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0025_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1202,1875 1201,1876 1202,1925 1268,1924 1267,1880"/>
+          <Coords points="1202,1875 1201,1876 1201,1880 1197,1884 1197,1885 1201,1889 1202,1925 1268,1924 1267,1881 1253,1880 1239,1887 1205,1885 1205,1884 1202,1881 1203,1875"/>
           <TextEquiv conf="0.9300896">
             <Unicode>daß</Unicode>
           </TextEquiv>
@@ -1528,7 +1543,7 @@ bei den Regimentern fuͤr zwekmaͤßigen Unterricht ge⸗
 ſorgt wird.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.9343845" type="floating" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:1;}">
+    <TextRegion id="region0005" custom="readingOrder {index:1;}" orientation="0.9343845" type="floating" readingDirection="left-to-right">
       <Coords points="202,2116 1309,2116 1309,2247 202,2247"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="269,2117 267,2152 274,2158 281,2158 285,2169 293,2171 449,2168 453,2177 471,2175 473,2168 505,2167 563,2169 571,2177 579,2177 587,2169 637,2167 675,2169 682,2178 692,2178 700,2169 800,2170 826,2178 830,2178 834,2172 907,2170 936,2171 942,2180 953,2180 960,2173 973,2172 977,2178 983,2180 991,2180 999,2172 1036,2172 1038,2177 1048,2180 1063,2179 1067,2172 1226,2179 1280,2176 1298,2166 1309,2172 1308,2134 1272,2132 1253,2124 1235,2121 1172,2122 1166,2119 1148,2120 1135,2126 1098,2127 1064,2125 1058,2119 1044,2119 1028,2125 1003,2122 994,2117 972,2120 968,2118 946,2117 940,2122 909,2125 891,2125 882,2120 843,2124 836,2123 835,2117 816,2116 813,2116 812,2123 804,2119 793,2119 787,2123 712,2125 707,2124 701,2117 693,2116 683,2123 627,2122 615,2120 611,2116 570,2117 567,2120 532,2123 517,2123 512,2118 500,2118 495,2122 486,2122 483,2116 456,2117 452,2123 433,2124 421,2122 414,2117"/>

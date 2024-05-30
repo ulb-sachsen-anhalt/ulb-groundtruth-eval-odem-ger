@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-346">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:16Z</Created>
     <LastChange>2024-01-19T13:08:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-339927-p0087-0_ger.png" imageWidth="1477" imageHeight="2176" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/80ab4bd7-30a0-4eec-8d74-b7f764e7a53e/00000087.jpg" imageWidth="1477" imageHeight="2176" type="content" primaryLanguage="German">
     <Border>
       <Coords points="84,169 93,2091 1328,2084 1324,164"/>
     </Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="1" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.74279857" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;}" orientation="0.74279857" readingDirection="left-to-right">
       <Coords points="250,451 963,451 963,1637 250,1637"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="403,451 399,456 363,458 296,454 272,463 250,464 251,497 266,499 405,491 411,498 426,499 433,491 452,489 691,494 760,493 788,490 963,490 962,457 920,455 915,451 821,455 819,452 801,451 796,457 667,459 661,453 652,453 646,457 619,457 618,451 560,451 557,455 539,455 533,451 512,454 465,451 462,454 460,451 442,452 440,456 428,456 425,452"/>
@@ -590,7 +604,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1662117757501_220" custom="readingOrder {index:1;}">
-          <Coords points="339,1114 371,1113 526,1110 551,1113 551,1136 443,1144 339,1145"/>
+          <Coords points="339,1114 339,1145 443,1144 551,1136 551,1113 532,1114 526,1110 442,1111 440,1118 390,1118 368,1113"/>
           <TextEquiv>
             <Unicode>Morgen - Thau</Unicode>
           </TextEquiv>

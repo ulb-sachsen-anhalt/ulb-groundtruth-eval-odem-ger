@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-756">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:35Z</Created>
     <LastChange>2024-01-19T13:09:35Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-733613-p0114-3_ger.jpg" imageWidth="1634" imageHeight="2362" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9b79f811-d5be-4cd7-9160-d0abf0173974/00000114.jpg" imageWidth="1634" imageHeight="2362" type="content" primaryLanguage="German">
     <Border>
       <Coords points="42,229 80,2327 1542,2296 1518,221"/>
     </Border>
@@ -16,10 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0012"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682069359660_3069" custom="readingOrder {index:0;}">
-      <Coords points="734,404 1166,404 1166,475 734,475"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682069354100_3060" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682069354100_3060" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="946,420 946,467 1001,467 1001,420"/>
       <TextLine id="line_1682069354183_3063" custom="readingOrder {index:0;}">
         <Coords points="946,420 946,467 1001,467 1001,420"/>
@@ -37,7 +48,7 @@
         <Unicode>98</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.18518417" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:2;}">
+    <TextRegion id="region0012" custom="readingOrder {index:2;}" orientation="-0.18518417" readingDirection="left-to-right">
       <Coords points="517,499 1412,499 1412,2070 517,2070"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1368,500 1362,511 1356,513 1306,509 1296,502 1285,502 1278,510 1270,511 1255,504 1222,505 1210,511 1189,514 1176,513 1168,505 1148,506 1144,509 1116,505 1079,513 1054,512 1049,507 1037,507 1030,512 1003,514 998,509 988,510 981,505 967,508 960,504 948,504 942,509 924,509 883,507 873,501 862,501 856,506 831,509 820,502 811,502 805,509 785,507 781,504 754,504 722,513 703,513 697,506 686,506 676,515 668,508 660,508 650,518 604,517 596,509 571,506 519,511 518,558 611,560 733,553 756,553 762,558 770,558 776,553 799,551 897,550 940,557 954,565 961,560 975,559 998,565 1005,557 1198,557 1214,558 1220,562 1227,562 1233,558 1239,563 1248,563 1259,558 1276,558 1281,562 1290,562 1296,557 1412,553 1412,511 1387,511 1384,500"/>
@@ -1379,7 +1390,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1662990950393_1495" custom="readingOrder {index:1;}">
-          <Coords points="649,2023 758,2020 798,2013 853,2012 952,2012 1072,2020 1072,2058 853,2057 758,2053 654,2061"/>
+          <Coords points="649,2023 654,2061 758,2053 853,2057 1072,2058 1072,2021 958,2019 952,2012 952,2012 937,2012 931,2017 922,2017 904,2013 903,2012 853,2012 798,2013 792,2018 742,2021 722,2028 702,2026 701,2022"/>
           <TextEquiv>
             <Unicode>Zu ⸗ und Abneigungen</Unicode>
           </TextEquiv>
@@ -1438,5 +1449,8 @@ wir falſchen Schritten ausgeſetzt, wenn es uns
 ſeine Zu ⸗ und Abneigungen in einem hoͤhern</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682069359660_3069" custom="readingOrder {index:0;}">
+      <Coords points="734,404 1166,404 1166,475 734,475"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-697">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:23Z</Created>
     <LastChange>2024-01-19T13:09:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-709130_urn+nbn+de+gbv+3+1-709130-p0104-8_ger.png" imageWidth="1534" imageHeight="2220" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/35e81938-c05c-4e98-946d-d160207a1840/00000104.jpg" imageWidth="1534" imageHeight="2220" type="content" primaryLanguage="German">
     <Border>
       <Coords points="219,274 229,2154 1454,2119 1446,259"/>
     </Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="0" regionRef="region0013"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.44166172" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:0;}">
+    <TextRegion id="region0013" custom="readingOrder {index:0;}" orientation="0.44166172" readingDirection="left-to-right">
       <Coords points="1446,435 472,441 478,1401 1450,1395"/>
       <TextLine id="region0013_line0001" custom="readingOrder {index:0;}">
         <Coords points="578,442 571,445 566,452 520,451 509,445 496,445 489,450 472,450 472,514 477,514 479,519 497,524 502,521 504,514 548,514 556,515 560,523 579,523 583,513 609,512 623,519 633,516 639,510 669,508 769,511 941,510 955,517 964,517 969,510 982,509 984,514 1000,517 1006,516 1009,509 1044,508 1048,515 1061,518 1067,517 1078,508 1110,507 1124,508 1128,511 1206,510 1211,515 1241,509 1243,514 1259,518 1267,509 1279,508 1385,506 1396,509 1400,506 1445,506 1445,446 1430,444 1365,448 1277,441 1236,442 1230,439 1209,438 1202,445 1196,446 1189,440 1166,440 1154,444 1149,450 1098,452 1091,444 1080,444 1074,451 1025,449 1023,443 1015,438 1002,438 989,449 966,450 959,442 948,442 934,451 813,454 788,453 783,449 767,453 730,452 726,450 722,440 680,441 672,449 626,453 602,451 592,442"/>
@@ -164,7 +178,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651047214341_3677" custom="readingOrder {index:1;}">
-          <Coords points="573,662 836,660 873,664 873,711 759,722 719,725 713,725 579,722 574,718"/>
+          <Coords points="873,711 873,664 836,660 573,662 574,718 579,722 589,721 593,718 597,721 607,721 612,717 694,715 704,716 713,725 719,725 725,721 727,715 744,715 748,720 759,722 770,715 841,714 862,712 864,711 870,711"/>
           <TextEquiv>
             <Unicode>Unterſcheid/</Unicode>
           </TextEquiv>
@@ -398,7 +412,7 @@
       <TextLine id="region0013_line0009" custom="readingOrder {index:8;}">
         <Coords points="960,981 944,994 842,993 835,983 822,984 811,993 797,994 753,994 747,986 735,985 729,994 652,997 635,996 628,986 614,987 609,996 582,997 575,994 552,998 543,997 536,988 524,988 518,997 476,999 476,1055 618,1054 624,1063 636,1066 651,1065 660,1055 713,1055 719,1060 728,1060 737,1053 777,1051 831,1053 942,1049 947,1056 957,1059 965,1058 969,1049 1085,1050 1127,1053 1216,1049 1231,1051 1253,1046 1261,1049 1273,1046 1293,1046 1297,1049 1313,1046 1448,1048 1448,1007 1438,1006 1438,997 1434,992 1405,983 1393,988 1313,989 1303,983 1292,983 1286,989 1224,992 1219,987 1209,987 1204,991 1174,990 1150,982 1123,982 1111,989 1080,991 1014,990 998,984 983,991 975,980"/>
         <Word id="word_1651047276384_3710" custom="readingOrder {index:0;}">
-          <Coords points="487,999 698,998 744,998 744,1052 737,1053 653,1062 623,1062 487,1054"/>
+          <Coords points="744,1052 744,998 698,998 487,999 487,1054 501,1055 618,1054 623,1062 653,1062 654,1062 660,1055 713,1055 714,1056 737,1053"/>
           <TextEquiv>
             <Unicode>niedriger/</Unicode>
           </TextEquiv>
@@ -518,7 +532,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651047443530_3733" custom="readingOrder {index:5;}">
-          <Coords points="1265,1131 1378,1123 1408,1123 1409,1194 1374,1196 1353,1196 1277,1190 1265,1186"/>
+          <Coords points="1265,1131 1265,1186 1277,1190 1288,1190 1296,1186 1323,1186 1348,1191 1353,1196 1374,1196 1375,1196 1379,1194 1409,1194 1408,1123 1378,1123 1311,1128 1309,1128 1309,1128"/>
           <TextEquiv>
             <Unicode>Loth/</Unicode>
           </TextEquiv>
@@ -554,7 +568,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651047457062_3739" custom="readingOrder {index:4;}">
-          <Coords points="1003,1202 1165,1191 1172,1191 1179,1201 1179,1251 1166,1260 1157,1260 1019,1256 1003,1255"/>
+          <Coords points="1003,1202 1003,1255 1019,1256 1150,1252 1157,1260 1166,1260 1174,1252 1177,1251 1179,1251 1179,1201 1172,1191 1165,1191 1164,1192 1142,1194 1120,1194"/>
           <TextEquiv>
             <Unicode>Graͤn/</Unicode>
           </TextEquiv>
@@ -584,7 +598,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651047473334_3750" custom="readingOrder {index:1;}">
-          <Coords points="915,1270 1042,1269 1081,1272 1081,1324 1068,1330 1058,1330 964,1329 915,1321"/>
+          <Coords points="1081,1272 1042,1269 915,1270 915,1321 916,1321 941,1322 956,1319 959,1326 963,1329 964,1329 971,1329 979,1328 989,1320 1001,1320 1010,1324 1048,1324 1052,1329 1055,1330 1058,1330 1068,1330 1069,1330 1073,1324 1081,1324"/>
           <TextEquiv>
             <Unicode>1693./</Unicode>
           </TextEquiv>

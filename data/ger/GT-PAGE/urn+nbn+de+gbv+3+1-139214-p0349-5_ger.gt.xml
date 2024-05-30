@@ -1,11 +1,26 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-92">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:18Z</Created>
     <LastChange>2024-01-19T13:07:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-139214-p0349-5_ger.jpg" imageWidth="2856" imageHeight="3153" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a24261e4-bf89-4129-b2f9-89f1d4fbe824/00000349.jpg" imageWidth="2856" imageHeight="3153" type="content" primaryLanguage="German">
     <Border>
       <Coords points="375,486 1943,486 1943,2744 375,2744"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="6" regionRef="region_1676461728524_6764"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676461692107_6731" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676461692107_6731" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="686,497 686,563 1626,563 1626,497"/>
       <TextLine id="line_1676461692195_6734" custom="readingOrder {index:0;}">
         <Coords points="686,497 1626,497 1626,563 686,563"/>
@@ -68,7 +83,7 @@
         <Unicode>Von der Kunſt unter den Griechen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676461715163_6755" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676461715163_6755" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1828,503 1828,563 1940,563 1940,503"/>
       <TextLine id="line_1676461715244_6758" custom="readingOrder {index:0;}">
         <Coords points="1828,503 1828,563 1940,563 1940,503"/>
@@ -86,7 +101,7 @@
         <Unicode>259</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.47045267" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644314298579_946" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644314298579_946" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="-0.47045267" type="paragraph" readingDirection="left-to-right">
       <Coords points="385,614 1937,604 1943,1487 1943,1782 1935,2412 377,2412 375,1794"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1604,609 1595,617 1544,620 1475,617 1469,609 1455,609 1444,617 1379,619 1375,610 1363,609 1352,620 1190,622 1183,616 1175,616 1166,622 1125,623 1114,615 1103,615 1093,624 1066,625 1016,623 1014,616 1008,612 995,613 988,623 935,622 893,616 885,611 841,612 838,616 815,617 805,616 801,611 791,611 776,612 772,615 756,613 746,619 716,618 711,622 681,616 673,623 657,622 650,618 508,616 500,617 495,622 495,660 503,667 503,680 507,685 592,687 666,681 672,688 684,686 690,680 754,676 764,676 768,684 779,685 789,675 822,674 857,674 864,682 873,682 880,674 902,675 909,682 918,682 925,675 1003,676 1035,679 1045,688 1060,689 1069,686 1075,680 1089,680 1093,687 1104,688 1112,679 1131,679 1140,688 1158,688 1172,679 1186,680 1192,685 1201,685 1207,680 1262,675 1408,671 1629,672 1762,678 1769,686 1780,686 1790,678 1846,677 1850,685 1863,686 1872,677 1937,677 1937,631 1937,621 1928,616 1916,618 1911,614 1900,613 1892,621 1872,622 1866,614 1844,614 1837,622 1819,623 1811,612 1795,612 1787,620 1777,613 1743,610 1684,611 1651,617 1626,617 1619,609"/>
@@ -1463,7 +1478,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0008" custom="readingOrder {index:22;}">
-        <Coords points="707,2347 695,2348 689,2353 683,2349 674,2349 666,2357 633,2359 618,2359 608,2350 597,2350 587,2359 573,2360 471,2359 461,2358 454,2351 445,2351 436,2358 378,2357 379,2410 467,2416 476,2424 497,2424 507,2416 552,2415 582,2415 588,2423 599,2424 606,2414 683,2415 688,2423 700,2425 707,2415 790,2416 795,2411 795,2401 804,2400 809,2395 809,2355 804,2350"/>
+        <Coords points="695,2348 689,2353 683,2349 674,2349 666,2357 633,2359 618,2359 608,2350 597,2350 587,2359 573,2360 471,2359 461,2358 454,2351 445,2351 436,2358 378,2357 379,2410 408,2412 794,2412 795,2411 795,2401 804,2400 809,2395 809,2355 804,2350 707,2347"/>
         <Word id="region0004_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="390,2360 458,2361 458,2405 390,2404"/>
           <TextEquiv conf="0.9300215">
@@ -1512,7 +1527,7 @@ ein Urtheil erwecket, welches von meiner Abſicht gaͤnzlich entfer⸗
 net geweſen geweſen iſt. iſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.47045267" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644314298579_945" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644314298579_945" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="-0.47045267" type="paragraph" readingDirection="left-to-right">
       <Coords points="377,2412 1935,2412 1933,2665 379,2665"/>
       <TextLine id="region0004_line0009" custom="readingOrder {index:0;}">
         <Coords points="1387,2415 1371,2425 1324,2429 1301,2429 1294,2419 1272,2421 1265,2428 1246,2428 1235,2420 1226,2420 1220,2426 1158,2422 1134,2424 1110,2433 1077,2432 1069,2424 1057,2424 1048,2432 1014,2433 1000,2433 994,2427 976,2428 971,2433 965,2426 954,2426 943,2429 939,2435 830,2441 803,2440 800,2434 794,2432 783,2431 776,2435 770,2430 762,2430 754,2435 719,2429 644,2432 612,2428 519,2427 491,2431 483,2435 478,2449 478,2489 483,2494 563,2497 628,2494 764,2496 770,2505 782,2504 787,2497 833,2498 838,2506 849,2507 857,2498 918,2494 979,2494 985,2502 996,2502 1005,2494 1210,2487 1215,2496 1226,2497 1233,2487 1240,2486 1276,2487 1281,2496 1293,2497 1302,2487 1360,2484 1518,2487 1528,2488 1534,2496 1542,2499 1559,2498 1569,2489 1609,2488 1840,2495 1847,2503 1857,2503 1865,2494 1931,2493 1931,2426 1882,2425 1870,2429 1839,2426 1773,2426 1719,2436 1671,2436 1667,2428 1652,2426 1645,2436 1630,2435 1555,2432 1540,2429 1534,2421 1514,2421 1501,2422 1496,2427 1478,2428 1460,2428 1455,2424 1440,2424 1433,2427 1401,2426 1397,2417"/>
@@ -1635,7 +1650,7 @@ net geweſen geweſen iſt. iſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0011" custom="readingOrder {index:2;}">
-        <Coords points="1505,2584 1494,2594 1483,2587 1408,2588 1383,2589 1348,2597 1321,2595 1313,2587 1295,2586 1285,2594 1279,2594 1273,2588 1260,2587 1238,2594 1231,2587 1218,2586 1209,2593 1202,2588 1192,2588 1177,2594 1140,2593 1122,2598 1103,2598 1099,2593 1091,2591 1082,2591 1073,2597 1034,2597 1028,2591 1005,2590 992,2594 988,2599 945,2593 899,2591 870,2593 833,2601 781,2598 772,2592 761,2592 754,2596 748,2590 737,2590 731,2595 724,2587 714,2587 702,2593 682,2593 676,2587 662,2587 653,2593 615,2595 556,2593 551,2588 541,2588 535,2592 506,2592 499,2583 479,2586 464,2584 454,2592 418,2594 412,2586 397,2584 385,2592 379,2592 379,2610 380,2654 386,2663 398,2663 407,2653 429,2653 448,2654 455,2663 466,2663 472,2654 483,2654 488,2663 503,2664 511,2654 522,2653 548,2654 553,2662 563,2663 571,2653 627,2651 631,2654 640,2654 664,2652 676,2655 680,2652 694,2652 732,2654 736,2657 756,2655 787,2659 797,2669 815,2669 822,2659 879,2662 886,2665 928,2664 940,2667 944,2664 994,2661 1008,2663 1012,2660 1065,2659 1094,2661 1109,2657 1155,2657 1182,2657 1184,2664 1190,2669 1201,2668 1210,2657 1256,2657 1258,2665 1262,2668 1273,2669 1281,2661 1288,2669 1298,2669 1302,2666 1304,2658 1328,2656 1467,2660 1474,2667 1488,2667 1496,2658 1573,2656 1623,2657 1630,2668 1641,2670 1650,2668 1657,2658 1702,2656 1709,2664 1725,2665 1734,2662 1741,2654 1751,2652 1824,2649 1832,2657 1851,2657 1863,2648 1932,2646 1931,2592 1781,2596 1777,2588 1764,2587 1754,2588 1750,2596 1712,2600 1563,2601 1523,2599 1517,2587"/>
+        <Coords points="1494,2594 1483,2587 1408,2588 1383,2589 1348,2597 1321,2595 1313,2587 1295,2586 1285,2594 1279,2594 1273,2588 1260,2587 1238,2594 1231,2587 1218,2586 1209,2593 1202,2588 1192,2588 1177,2594 1140,2593 1122,2598 1103,2598 1099,2593 1091,2591 1082,2591 1073,2597 1034,2597 1028,2591 1005,2590 992,2594 988,2599 945,2593 899,2591 870,2593 833,2601 781,2598 772,2592 761,2592 754,2596 748,2590 737,2590 731,2595 724,2587 714,2587 702,2593 682,2593 676,2587 662,2587 653,2593 615,2595 556,2593 551,2588 541,2588 535,2592 506,2592 499,2583 479,2586 464,2584 454,2592 418,2594 412,2586 397,2584 385,2592 379,2592 379,2610 380,2654 386,2663 398,2663 407,2653 429,2653 448,2654 455,2663 466,2663 472,2654 483,2654 488,2663 503,2664 511,2654 522,2653 548,2654 553,2662 563,2663 571,2653 627,2651 631,2654 640,2654 664,2652 676,2655 680,2652 694,2652 732,2654 736,2657 756,2655 787,2659 793,2665 817,2665 822,2659 879,2662 886,2665 928,2664 932,2665 942,2665 944,2664 994,2661 1008,2663 1012,2660 1065,2659 1094,2661 1109,2657 1155,2657 1182,2657 1184,2664 1185,2665 1203,2665 1210,2657 1256,2657 1258,2665 1277,2665 1281,2661 1284,2665 1302,2665 1304,2658 1328,2656 1467,2660 1472,2665 1489,2665 1496,2658 1573,2656 1623,2657 1628,2665 1652,2665 1657,2658 1702,2656 1709,2664 1725,2665 1734,2662 1741,2654 1751,2652 1824,2649 1832,2657 1851,2657 1863,2648 1932,2646 1931,2592 1781,2596 1777,2588 1764,2587 1754,2588 1750,2596 1712,2600 1563,2601 1523,2599 1517,2587 1505,2584"/>
         <Word id="region0004_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="416,2591 386,2591 385,2592 385,2655 405,2655 407,2653 429,2653 448,2654 449,2656 471,2656 472,2654 483,2654 484,2656 509,2656 511,2654 522,2653 548,2654 550,2657 568,2657 569,2656 569,2593 556,2593 556,2593 454,2592 454,2592 418,2594"/>
           <TextEquiv conf="0.9199202">
@@ -1706,8 +1721,8 @@ nen nachgedacht haben, da ſie daſſelbe in erſchaffenen Dingen er⸗
 forſchet, und bis zur Quelle des hoͤchſten Schoͤnen zu gelangen</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="marginalia" id="region_1643973546160_4514" custom="readingOrder {index:4;} structure {type:marginalia;}">
-      <Coords points="1942,598 2197,598 2197,776 1942,776"/>
+    <TextRegion id="region_1643973546160_4514" custom="readingOrder {index:4;} structure {type:marginalia;}" type="marginalia">
+      <Coords points="1942,598 1942,776 1943,776 1943,598"/>
       <TextLine id="line_1643973556627_4517" custom="readingOrder {index:0;}">
         <Coords points="1946,623 2184,623 2184,663 1946,663"/>
         <Word id="word_1643973566397_4526" custom="readingOrder {index:0;}">
@@ -1717,13 +1732,13 @@ forſchet, und bis zur Quelle des hoͤchſten Schoͤnen zu gelangen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643973567986_4529" custom="readingOrder {index:1;}">
-          <Coords points="2008,624 2090,624 2090,666 2008,666"/>
+          <Coords points="2090,624 2008,624 2008,663 2090,663"/>
           <TextEquiv>
             <Unicode>Der</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643973569924_4532" custom="readingOrder {index:2;}">
-          <Coords points="2099,623 2186,623 2186,661 2099,661"/>
+          <Coords points="2099,623 2099,661 2184,661 2184,623"/>
           <TextEquiv>
             <Unicode>beja⸗</Unicode>
           </TextEquiv>
@@ -1735,13 +1750,13 @@ forſchet, und bis zur Quelle des hoͤchſten Schoͤnen zu gelangen</Unicode>
       <TextLine id="line_1643973559611_4520" custom="readingOrder {index:1;}">
         <Coords points="1948,666 2177,666 2177,700 1948,700"/>
         <Word id="word_1643973572206_4535" custom="readingOrder {index:0;}">
-          <Coords points="1951,664 2031,664 2031,697 1951,697"/>
+          <Coords points="1951,697 2031,697 2031,666 1951,666"/>
           <TextEquiv>
             <Unicode>hende</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643973574309_4538" custom="readingOrder {index:1;}">
-          <Coords points="2044,666 2158,666 2158,703 2044,703"/>
+          <Coords points="2044,666 2044,700 2158,700 2158,666"/>
           <TextEquiv>
             <Unicode>Begriff</Unicode>
           </TextEquiv>
@@ -1768,7 +1783,7 @@ hende Begriff
 derſelben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676461732318_6773" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676461732318_6773" custom="readingOrder {index:5;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="1087,2686 1087,2737 1237,2737 1237,2686"/>
       <TextLine id="line_1676461732417_6776" custom="readingOrder {index:0;}">
         <Coords points="1087,2686 1087,2737 1237,2737 1237,2686"/>
@@ -1792,7 +1807,7 @@ derſelben.</Unicode>
         <Unicode>Kk 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676461728524_6764" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region_1676461728524_6764" custom="readingOrder {index:6;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1779,2672 1779,2730 1856,2730 1856,2672"/>
       <TextLine id="line_1676461728626_6767" custom="readingOrder {index:0;}">
         <Coords points="1779,2672 1779,2730 1856,2730 1856,2672"/>

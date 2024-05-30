@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-534">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:57Z</Created>
     <LastChange>2024-01-19T13:08:57Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-644763-p0106-1_ger.jpg" imageWidth="1665" imageHeight="2576" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9c36cfb9-d66c-4c32-bdbc-3669c37f0264/00000106.jpg" imageWidth="1665" imageHeight="2576" type="content" primaryLanguage="German">
     <Border>
       <Coords points="407,299 386,2427 1550,2461 1572,323"/>
     </Border>
@@ -17,10 +31,7 @@
         <RegionRefIndexed index="3" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682588664695_2069" custom="readingOrder {index:0;}">
-      <Coords points="859,2167 1096,2167 1096,2205 859,2205"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682588607791_1963" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682588607791_1963" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="556,451 556,495 621,495 621,451"/>
       <TextLine id="line_1682588607874_1966" custom="readingOrder {index:0;}">
         <Coords points="556,451 556,495 621,495 621,451"/>
@@ -38,7 +49,7 @@
         <Unicode>90</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682588611731_1972" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1682588611731_1972" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="689,433 689,489 1336,489 1336,433"/>
       <TextLine id="line_1682588611812_1975" custom="readingOrder {index:0;}">
         <Coords points="689,433 689,489 1336,489 1336,433"/>
@@ -74,7 +85,7 @@
         <Unicode>Die aͤchte Aufmerkſamkeit ꝛc.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.533517" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:3;}">
+    <TextRegion id="region0001" custom="readingOrder {index:3;}" orientation="-1.533517" readingDirection="left-to-right">
       <Coords points="513,521 1478,521 1478,2144 513,2144"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1432,525 1422,529 1417,536 1392,537 1256,534 1251,530 1238,530 1232,534 1170,535 1135,532 1131,529 1114,531 1107,522 1094,522 1088,524 1083,530 1060,531 1004,527 922,529 907,522 885,521 832,522 820,527 801,524 794,529 786,529 736,521 703,523 678,529 651,525 646,529 626,528 624,522 599,521 593,528 514,533 513,558 514,571 551,573 552,580 556,581 581,580 592,573 612,573 723,577 819,574 876,578 904,576 967,577 1039,573 1090,578 1095,583 1103,583 1111,578 1162,581 1164,588 1176,589 1185,581 1192,579 1319,579 1435,584 1445,581 1478,581 1478,539 1450,537 1445,526"/>
@@ -1531,5 +1542,8 @@ gen in den himmliſchen ewigdauernden Feyerlich⸗
 keiten zubereitet haſt. Amen.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682588664695_2069" custom="readingOrder {index:0;}">
+      <Coords points="859,2167 1096,2167 1096,2205 859,2205"/>
+    </GraphicRegion>
   </Page>
 </PcGts>
