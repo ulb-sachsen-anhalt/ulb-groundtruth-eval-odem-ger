@@ -215,7 +215,7 @@ An image database</p>
                         Metadata for the complete collection and the components are in METS format.</p>
    <ul>
       <li>
-         <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases/tag/v1.0.2">The BagIt 'ocrd.zip' files for the current version, please download them from the latest release.: Release 5_v1.0.2</a>
+         <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases/tag/v1.0.3">The BagIt 'ocrd.zip' files for the current version, please download them from the latest release.: Release 6_v1.0.3</a>
       </li>
       <li>
          <a href="https://github.com/ulb-sachsen-anhalt/ulb-groundtruth-eval-odem-ger/releases">Version archive</a>
