@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-192">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:43Z</Created>
     <LastChange>2024-01-19T13:07:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-212551-p0073-6_ger.jpg" imageWidth="1445" imageHeight="2097" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/74f8152d-7020-4666-acde-f545b60ec618/00000073.jpg" imageWidth="1445" imageHeight="2097" type="content" primaryLanguage="German">
     <Border>
       <Coords points="79,176 97,1989 1234,1999 1261,160"/>
     </Border>
@@ -17,10 +31,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1668680613778_1180"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1683038811339_442" custom="readingOrder {index:0;}">
-      <Coords points="461,294 711,294 711,347 461,347"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1683038807505_433" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683038807505_433" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="548,294 548,345 621,345 621,294"/>
       <TextLine id="line_1683038807579_436" custom="readingOrder {index:0;}">
         <Coords points="548,294 548,345 621,345 621,294"/>
@@ -38,7 +49,7 @@
         <Unicode>63</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6544098" readingDirection="left-to-right" id="TextRegion_1668680613778_1181" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1668680613778_1181" custom="readingOrder {index:2;}" orientation="1.6544098" readingDirection="left-to-right">
       <Coords points="201,372 1010,372 1010,1457 201,1457"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="408,374 401,378 399,387 343,389 336,380 320,381 314,390 244,388 202,390 202,429 331,428 490,422 497,429 509,428 516,419 525,422 676,424 841,419 881,421 891,430 907,430 918,421 937,419 1009,416 1010,407 1009,372 949,374 939,372 908,373 904,380 837,382 825,374 789,374 783,383 770,385 768,378 763,374 688,373 680,377 678,384 637,385 609,384 602,374 590,375 583,384 567,384 546,382 497,383 493,376 480,373"/>
@@ -881,7 +892,7 @@ dann es mit verdoppelter Grausamkeit
 wieder foltert.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6544098" readingDirection="left-to-right" id="TextRegion_1668680613778_1180" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1668680613778_1180" custom="readingOrder {index:3;}" orientation="1.6544098" readingDirection="left-to-right">
       <Coords points="201,1457 1010,1457 1010,1779 201,1779"/>
       <TextLine id="region0001_line0021" custom="readingOrder {index:0;}">
         <Coords points="265,1466 260,1471 261,1497 266,1502 267,1513 271,1515 521,1509 641,1513 822,1506 855,1501 880,1505 989,1506 1009,1505 1010,1497 1009,1465 722,1472 716,1463 703,1463 697,1466 692,1463 668,1462 618,1464 608,1472 597,1473 569,1473 559,1462 546,1462 539,1473 490,1471 486,1468 459,1473 416,1474 401,1465 389,1466 383,1472 369,1473 361,1466 350,1464"/>
@@ -1150,5 +1161,8 @@ fast die ganze Nacht zubrachte, in dem
 frohen Getümmel seiner Unterthanen zu</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683038811339_442" custom="readingOrder {index:0;}">
+      <Coords points="461,294 711,294 711,347 461,347"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

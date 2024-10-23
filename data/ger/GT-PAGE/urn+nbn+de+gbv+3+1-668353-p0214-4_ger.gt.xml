@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-608">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:08Z</Created>
     <LastChange>2024-01-19T13:09:08Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-668353-p0214-4_ger.png" imageWidth="1626" imageHeight="2271" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/b4983a76-b58a-4c23-b366-c8a7a2a17a71/00000214.jpg" imageWidth="1626" imageHeight="2271" type="content" primaryLanguage="German">
     <Border>
       <Coords points="570,275 1459,275 1459,1965 570,1965"/>
     </Border>
@@ -16,10 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1673853912683_69" custom="readingOrder {index:0;}">
-      <Coords points="878,279 1162,279 1162,336 878,336"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.07027998" type="page-number" readingDirection="left-to-right" id="TextRegion_1673853899675_61" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673853899675_61" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.07027998" type="page-number" readingDirection="left-to-right">
       <Coords points="586,281 683,281 683,328 586,328"/>
       <TextLine id="line_1673853899726_64" custom="readingOrder {index:0;}">
         <Coords points="586,281 683,281 683,328 586,328"/>
@@ -37,7 +48,7 @@
         <Unicode>202 — a —</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.07027998" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-0.07027998" readingDirection="left-to-right">
       <Coords points="575,373 1453,373 1453,1960 575,1960"/>
       <TextLine id="line_1673942927236_151" custom="readingOrder {index:0;}">
         <Coords points="580,378 1452,378 1452,435 580,435"/>
@@ -513,7 +524,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0010_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1274,849 1256,849 1248,849 1239,856 1233,856 1221,855 1214,849 1181,851 1147,849 1146,848 1146,898 1193,899 1195,901 1215,901 1216,900 1237,900 1238,901 1274,901"/>
+          <Coords points="1248,849 1239,856 1233,856 1221,855 1214,849 1181,851 1147,849 1146,848 1146,898 1193,899 1195,901 1215,901 1216,900 1237,900 1238,901 1257,901 1258,900 1274,900 1274,857 1266,857 1256,849"/>
           <TextEquiv>
             <Unicode>Behufe</Unicode>
           </TextEquiv>
@@ -1595,5 +1606,8 @@ Rath. Dreyßig Jahre war Joſeph alt, als er
 aus dem Staube der Niedrigkeit zu dieſen an⸗</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1673853912683_69" custom="readingOrder {index:0;}">
+      <Coords points="878,279 1162,279 1162,336 878,336"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-198">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:43Z</Created>
     <LastChange>2024-01-19T13:07:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-215071-p0032-9_ger.jpg" imageWidth="1340" imageHeight="2118" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/7e0353c3-ef0f-4fe4-bed0-7fb6f12cb1f5/00000032.jpg" imageWidth="1340" imageHeight="2118" type="content" primaryLanguage="German">
     <Border>
       <Coords points="113,167 103,2047 1271,2042 1282,191"/>
     </Border>
@@ -19,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region_1682585936542_284"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682585918177_269" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682585918177_269" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="338,270 338,312 417,312 417,270"/>
       <TextLine id="line_1682585918192_272" custom="readingOrder {index:0;}">
         <Coords points="338,270 338,312 417,312 417,270"/>
@@ -37,7 +51,7 @@
         <Unicode>28</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44650882" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:1;}">
+    <TextRegion id="region0006" custom="readingOrder {index:1;}" orientation="0.44650882" readingDirection="left-to-right">
       <Coords points="742,328 835,328 835,401 742,401"/>
       <TextLine id="region0006_line" custom="readingOrder {index:0;}">
         <Coords points="742,328 835,328 835,401 742,401"/>
@@ -91,7 +105,7 @@
         <Unicode>Q.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682585936542_284" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1682585936542_284" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1150,1905 1150,1954 1207,1954 1207,1905"/>
       <TextLine id="line_1682585936568_287" custom="readingOrder {index:0;}">
         <Coords points="1150,1905 1150,1954 1207,1954 1207,1905"/>
@@ -119,7 +133,7 @@
       <Coords points="683,1595 826,1595 826,1698 683,1698"/>
     </GraphicRegion>
     <GraphicRegion id="Graphic_1666253987004_2204" custom="readingOrder {index:8;}">
-      <Coords points="265,169 430,169 430,281 265,281"/>
+      <Coords points="265,281 430,281 430,173 265,170"/>
     </GraphicRegion>
     <GraphicRegion id="Graphic_1666253980911_2201" custom="readingOrder {index:9;}">
       <Coords points="718,241 914,241 914,325 718,325"/>

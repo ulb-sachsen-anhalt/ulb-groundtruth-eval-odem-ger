@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-597">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:06Z</Created>
     <LastChange>2024-01-19T13:09:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-659095-p0271-3_ger.jpg" imageWidth="1681" imageHeight="2500" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/785cfe4b-bff1-4c25-83c0-2dc15dc1b6d6/00000271.jpg" imageWidth="1681" imageHeight="2500" type="content" primaryLanguage="German">
     <Border>
       <Coords points="65,242 85,2382 1298,2408 1326,250"/>
     </Border>
@@ -18,7 +32,7 @@
         <RegionRefIndexed index="4" regionRef="region0003"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1683701073844_135" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1683701073844_135" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="1005,354 1005,410 1088,410 1088,354"/>
       <TextLine id="line_1683701073992_138" custom="readingOrder {index:0;}">
         <Coords points="1005,354 1005,410 1088,410 1088,354"/>
@@ -36,10 +50,7 @@
         <Unicode>235</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1674460323601_273" custom="readingOrder {index:1;}">
-      <Coords points="510,330 738,330 738,415 510,415"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.10492395" readingDirection="left-to-right" id="TextRegion_1674460308490_268" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1674460308490_268" custom="readingOrder {index:2;}" orientation="-0.10492395" readingDirection="left-to-right">
       <Coords points="157,425 1103,425 1103,696 1102,750 158,750 157,696"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="177,425 177,454 181,457 210,458 211,484 225,487 252,487 258,483 270,483 277,487 294,484 390,484 412,489 432,485 443,490 452,490 456,487 489,485 520,488 527,483 585,478 610,482 615,478 627,477 673,480 685,489 692,483 713,484 718,491 728,493 737,492 746,485 759,485 764,488 907,490 915,498 933,497 941,490 948,489 1102,489 1102,443 1092,443 1086,438 1076,438 1065,444 961,444 955,440 947,440 942,444 913,444 875,441 869,435 857,435 845,441 837,441 819,432 787,430 751,431 727,438 722,430 711,429 703,435 695,436 687,426 675,427 665,435 657,427 647,427 640,435 627,435 622,426 603,426 593,436 557,438 529,430 500,429 495,432 449,438 435,436 426,428"/>
@@ -289,7 +300,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0001" custom="readingOrder {index:5;}">
-        <Coords points="631,681 594,684 552,692 466,691 463,682 357,682 340,685 331,693 319,695 302,695 297,691 286,691 281,694 244,691 232,695 226,689 216,689 212,692 206,687 190,690 182,686 171,686 159,689 159,746 167,754 176,754 184,746 189,746 196,752 206,752 214,745 222,744 424,739 430,740 440,750 451,750 459,740 541,739 565,740 593,747 623,750 689,745 697,752 706,752 714,750 718,745 792,742 830,745 839,753 854,751 858,754 868,754 876,746 881,746 906,747 914,755 924,755 931,747 941,747 1039,751 1088,758 1101,756 1101,709 1096,708 1046,706 1014,702 1008,697 997,697 988,702 931,702 925,693 913,693 903,700 885,698 878,692 865,692 858,697 849,692 836,692 829,697 818,697 702,695 693,687 682,687 677,692 672,692 655,685"/>
+        <Coords points="594,684 552,692 466,691 463,682 357,682 340,685 331,693 319,695 302,695 297,691 286,691 281,694 244,691 232,695 226,689 216,689 212,692 206,687 190,690 182,686 171,686 159,689 159,746 163,750 180,750 184,746 189,746 193,750 208,750 214,745 222,744 424,739 430,740 440,750 451,750 459,740 541,739 565,740 593,747 623,750 689,745 694,750 714,750 718,745 792,742 830,745 835,750 872,750 876,746 881,746 906,747 909,750 928,750 931,747 941,747 1014,750 1101,750 1101,709 1096,708 1046,706 1014,702 1008,697 997,697 988,702 931,702 925,693 913,693 903,700 885,698 878,692 865,692 858,697 849,692 836,692 829,697 818,697 702,695 693,687 682,687 677,692 672,692 655,685 631,681"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="165,692 165,743 262,743 264,742 264,692 256,692 241,692 232,695 229,692 212,692"/>
           <TextEquiv conf="0.9199643">
@@ -345,7 +356,7 @@ berts neuem Organon ꝛc. im Kapittel vom Unter⸗
 ſchied des Wahren und Jrrigen nachſuchen kann;</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10492395" type="catch-word" readingDirection="left-to-right" id="TextRegion_1674460308490_267" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1674460308490_267" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="-0.10492395" type="catch-word" readingDirection="left-to-right">
       <Coords points="158,750 1102,750 1102,801 159,801"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="949,756 940,757 935,762 935,795 940,800 1101,801 1101,758"/>
@@ -364,7 +375,7 @@ berts neuem Organon ꝛc. im Kapittel vom Unter⸗
         <Unicode>nem⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10492395" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:4;}">
+    <TextRegion id="region0003" custom="readingOrder {index:4;}" orientation="-0.10492395" readingDirection="left-to-right">
       <Coords points="240,871 1105,871 1105,2178 240,2178"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="394,872 393,901 402,908 402,915 408,921 512,920 545,923 547,926 559,928 567,924 586,925 588,928 602,928 606,925 676,926 690,924 693,918 702,912 702,884 697,879 640,878 613,874 595,875 591,872 581,872 577,875 566,872"/>
@@ -755,7 +766,7 @@ berts neuem Organon ꝛc. im Kapittel vom Unter⸗
           </TextEquiv>
         </Word>
         <Word id="region0003_line0008_word0004" custom="readingOrder {index:4;}">
-          <Coords points="721,1190 685,1191 674,1197 664,1197 664,1229 690,1237 697,1234 721,1234"/>
+          <Coords points="674,1197 664,1197 664,1229 690,1237 697,1234 721,1234 721,1195 701,1193 680,1193"/>
           <TextEquiv>
             <Unicode>Er</Unicode>
           </TextEquiv>
@@ -1969,5 +1980,8 @@ Beſtaͤndigkeit beleuchtet, ſo klein werden, daß ſie Ekel
 erregen, und wichtige Betrachtungen ſchaͤnden. —</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1674460323601_273" custom="readingOrder {index:1;}">
+      <Coords points="510,330 738,330 738,415 510,415"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-330">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:12Z</Created>
     <LastChange>2024-01-19T13:08:12Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-331527-p0035-8_ger.jpg" imageWidth="1503" imageHeight="2242" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/17fd0316-20f8-4bb0-92be-423bdb1a8baf/00000035.jpg" imageWidth="1503" imageHeight="2242" type="content" primaryLanguage="German">
     <Border>
       <Coords points="122,139 127,2185 1399,2197 1364,145"/>
     </Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="0" regionRef="region0000"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.14609091" readingDirection="left-to-right" id="region0000" custom="readingOrder {index:0;}">
+    <TextRegion id="region0000" custom="readingOrder {index:0;}" orientation="0.14609091" readingDirection="left-to-right">
       <Coords points="168,357 1030,357 1031,1838 169,1838"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
         <Coords points="221,361 214,368 199,363 169,363 169,415 397,418 404,424 412,424 417,419 427,418 514,417 827,417 859,420 866,426 875,426 884,420 903,419 926,419 933,424 947,424 955,419 982,418 991,419 997,425 1009,425 1017,419 1030,419 1030,374 981,373 972,361 959,362 952,374 929,373 921,362 911,363 907,373 859,370 854,366 837,369 832,365 820,366 816,363 806,363 794,371 777,372 754,373 748,367 737,367 727,373 719,365 710,365 702,374 546,374 535,362 524,362 515,372 508,367 497,367 491,372 458,372 432,369 424,364 406,364 397,370 383,370 353,362 298,371 288,370 283,365 271,365 264,370 240,370 232,361"/>
@@ -64,7 +78,7 @@
         </Word>
         <Word id="region0000_line0002_word0007" custom="readingOrder {index:7;}">
           <Coords points="957,365 952,374 933,373 933,412 1024,412 1024,373 981,373 975,365"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>gaͤnz⸗</Unicode>
           </TextEquiv>
         </Word>
@@ -565,7 +579,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660638032652_3252" custom="readingOrder {index:5;}">
-          <Coords points="656,1076 677,1071 707,1071 769,1083 769,1139 759,1143 729,1144 673,1144 656,1121"/>
+          <Coords points="678,1071 672,1076 656,1077 656,1121 656,1121 657,1121 671,1123 674,1144 729,1144 759,1143 769,1139 769,1083 740,1077 734,1078 711,1077 706,1071"/>
           <TextEquiv>
             <Unicode>offenen</Unicode>
           </TextEquiv>

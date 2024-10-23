@@ -1,11 +1,26 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-451">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:41Z</Created>
     <LastChange>2024-01-19T13:08:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-483578-p0079-7_ger.jpg" imageWidth="1635" imageHeight="2531" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/222b5d03-2f24-42f4-9e21-195d5e6bc16d/00000079.jpg" imageWidth="1635" imageHeight="2531" type="content" primaryLanguage="German">
     <Border>
       <Coords points="105,316 107,2407 1344,2446 1347,330"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1660643425063_5523"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.014527329" readingDirection="left-to-right" id="TextRegion_1660643465178_5537" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660643465178_5537" custom="readingOrder {index:0;}" orientation="-0.014527329" readingDirection="left-to-right">
       <Coords points="215,500 1176,500 1177,861 215,861"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="300,500 297,505 235,502 215,504 215,545 231,542 241,548 256,543 261,550 274,547 322,549 340,553 346,548 365,547 428,550 458,548 480,556 515,555 521,559 579,557 598,553 605,558 686,560 700,557 709,562 734,560 744,556 746,561 760,565 832,559 844,562 848,558 892,560 901,565 950,564 962,561 1083,566 1088,569 1101,562 1129,566 1175,565 1175,521 1160,516 1106,520 1100,513 1090,513 1081,518 1075,513 1066,513 1056,521 1006,515 975,519 969,514 959,514 953,522 946,522 934,520 921,513 903,512 898,516 889,517 860,514 855,517 810,520 765,513 760,508 722,515 713,509 704,509 694,512 691,516 666,517 613,514 607,508 598,508 590,514 542,513 535,504 514,505 510,502 495,503 476,510 447,510 440,501 431,501 419,508 410,508 403,500 353,508 342,507 337,500"/>
@@ -415,7 +430,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660643683847_5632" custom="readingOrder {index:8;}">
-          <Coords points="1059,773 1067,773 1074,779 1091,781 1104,774 1120,774 1120,821 1059,821"/>
+          <Coords points="1059,773 1059,819 1062,819 1067,821 1120,821 1120,774 1104,774 1091,781 1074,779 1067,773"/>
           <TextEquiv>
             <Unicode>das</Unicode>
           </TextEquiv>
@@ -431,7 +446,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0008" custom="readingOrder {index:7;}">
-        <Coords points="227,788 215,790 215,848 229,850 283,844 291,851 299,851 305,846 310,846 321,853 330,853 335,848 404,850 412,851 418,858 428,858 434,852 509,855 515,862 525,862 532,856 555,856 563,864 573,863 578,856 611,856 619,864 628,864 635,857 681,859 743,854 755,858 766,856 812,861 821,866 856,871 906,867 910,870 920,870 925,865 980,865 992,866 1001,874 1046,875 1116,866 1133,869 1155,866 1160,871 1175,870 1175,827 1157,827 1140,822 1076,825 1068,821 1050,820 1041,825 1028,825 976,824 966,819 957,819 953,824 946,825 922,818 889,823 845,820 799,821 779,820 766,815 755,817 717,812 639,815 630,810 613,814 608,810 581,808 568,808 559,812 535,812 528,807 510,814 504,810 480,810 473,805 452,808 443,804 427,803 368,804 361,799 325,799 311,803 264,802 248,797 240,789"/>
+        <Coords points="215,790 215,848 229,850 283,844 291,851 299,851 305,846 310,846 321,853 330,853 335,848 404,850 412,851 418,858 428,858 434,852 509,855 514,861 526,861 532,856 555,856 560,861 574,861 578,856 611,856 616,861 631,861 635,857 681,859 743,854 755,858 766,856 812,861 1175,861 1175,827 1157,827 1140,822 1076,825 1068,821 1050,820 1041,825 1028,825 976,824 966,819 957,819 953,824 946,825 922,818 889,823 845,820 799,821 779,820 766,815 755,817 717,812 639,815 630,810 613,814 608,810 581,808 568,808 559,812 535,812 528,807 510,814 504,810 480,810 473,805 452,808 443,804 427,803 368,804 361,799 325,799 311,803 264,802 248,797 240,789 227,788"/>
         <Word id="region0001_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="221,797 221,843 391,843 391,803 368,804 361,799 325,799 311,803 264,802 248,797"/>
           <TextEquiv>
@@ -507,10 +522,10 @@ Dieweil nun 49) die Lehre vom Glauben, die das 50)
 Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.014527329" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1660643481970_5548" custom="readingOrder {index:1;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1660643481970_5548" custom="readingOrder {index:1;} structure {type:signature-mark;}" orientation="-0.014527329" type="signature-mark" readingDirection="left-to-right">
       <Coords points="215,861 849,861 849,908 215,908"/>
       <TextLine id="line_1660643482027_5551" custom="readingOrder {index:0;}">
-        <Coords points="682,859 740,855 752,856 755,859 766,857 812,862 821,867 849,870 849,902 848,903 794,904 679,904 675,901 674,872"/>
+        <Coords points="821,867 812,862 802,861 680,861 674,872 675,901 679,904 794,904 848,903 849,902 849,870"/>
         <Baseline points="675,894 849,894"/>
         <Word id="region0001_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="751,872 724,872 724,904 751,904"/>
@@ -532,10 +547,10 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
         <Unicode>D 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.014527329" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660643481970_5547" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660643481970_5547" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.014527329" type="catch-word" readingDirection="left-to-right">
       <Coords points="849,861 1177,861 1177,908 849,908"/>
       <TextLine id="region0001_line0010" custom="readingOrder {index:0;}">
-        <Coords points="1116,867 1088,869 1063,875 1065,907 1069,910 1175,910 1175,871 1160,872 1155,867 1144,870"/>
+        <Coords points="1088,869 1063,875 1065,907 1066,908 1175,908 1175,871 1160,872 1155,867 1144,870 1116,867"/>
         <Baseline points="1064,900 1175,900"/>
         <Word id="region0001_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="1116,874 1170,874 1170,907 1116,907"/>
@@ -551,10 +566,10 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
         <Unicode>wie</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.014527329" readingDirection="left-to-right" id="TextRegion_1660643540225_5578" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1660643540225_5578" custom="readingOrder {index:3;}" orientation="-0.014527329" readingDirection="left-to-right">
       <Coords points="215,908 1177,908 1179,1436 1179,1766 1015,1768 1018,1811 228,1811 226,1766 215,1390"/>
       <TextLine id="region0001_line0011" custom="readingOrder {index:0;}">
-        <Coords points="306,898 298,906 215,908 215,944 229,944 239,940 245,945 307,943 314,950 321,947 394,951 466,950 500,957 512,952 521,952 526,955 557,957 575,962 597,958 686,961 690,957 698,957 704,961 727,964 768,959 786,964 814,963 837,969 847,966 872,969 883,966 896,969 922,966 928,971 968,966 976,970 997,973 1048,971 1055,968 1064,968 1069,972 1175,973 1175,934 1135,932 1130,928 1114,930 1097,928 1090,924 1049,932 1017,932 1013,925 1006,922 995,922 986,931 925,930 888,927 877,921 867,921 861,926 833,926 814,918 786,916 744,921 723,916 718,920 710,913 700,914 696,921 648,919 632,912 614,915 603,911 594,911 584,917 553,918 522,916 509,908 494,909 490,906 480,906 475,910 460,913 456,906 448,904 404,904 386,912 367,911 360,902 350,901 345,909 341,910 325,907 314,898"/>
+        <Coords points="215,944 229,944 239,940 245,945 307,943 314,950 321,947 394,951 466,950 500,957 512,952 521,952 526,955 557,957 575,962 597,958 686,961 690,957 698,957 704,961 727,964 768,959 786,964 814,963 837,969 847,966 872,969 883,966 896,969 922,966 928,971 968,966 976,970 997,973 1048,971 1055,968 1064,968 1069,972 1175,973 1175,934 1135,932 1130,928 1114,930 1097,928 1090,924 1049,932 1017,932 1013,925 1006,922 995,922 986,931 925,930 888,927 877,921 867,921 861,926 833,926 814,918 786,916 744,921 723,916 718,920 710,913 700,914 696,921 648,919 632,912 614,915 603,911 594,911 584,917 553,918 522,916 509,908 494,909 492,908 477,908 475,910 460,913 457,908 395,908 386,912 367,911 364,908 345,908 345,909 341,910 330,908 215,908"/>
         <Word id="word_1660643470097_5544" custom="readingOrder {index:0;}">
           <Coords points="258,908 322,908 322,944 308,944 307,943 276,944 258,944"/>
           <TextEquiv conf="0.9321384">
@@ -1263,7 +1278,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
         <Coords points="215,1323 263,1321 294,1321 359,1322 508,1325 591,1327 659,1329 1021,1342 1164,1349 1174,1352 1174,1393 1160,1394 1010,1382 215,1361"/>
         <Baseline points="629,1360 953,1374 997,1382 1174,1382"/>
         <Word id="region0001_line0022_word0000" custom="readingOrder {index:0;}">
-          <Coords points="311,1331 255,1331 255,1369 261,1371 266,1371 279,1364 311,1363"/>
+          <Coords points="255,1331 255,1362 301,1363 311,1363 311,1331"/>
           <TextEquiv conf="0.92235726">
             <Unicode>fels</Unicode>
           </TextEquiv>
@@ -1299,19 +1314,19 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0002" custom="readingOrder {index:6;}">
-          <Coords points="806,1356 775,1356 775,1376 780,1381 806,1379"/>
+          <Coords points="775,1356 775,1375 806,1376 806,1356"/>
           <TextEquiv conf="0.91851515">
             <Unicode>zu</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0003" custom="readingOrder {index:7;}">
-          <Coords points="980,1352 819,1352 819,1379 862,1382 877,1379 899,1386 937,1382 958,1386 965,1384 969,1387 974,1385 980,1388"/>
+          <Coords points="819,1352 819,1376 980,1381 980,1352"/>
           <TextEquiv conf="0.9285987">
             <Unicode>mancherley</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0004" custom="readingOrder {index:8;}">
-          <Coords points="995,1350 1099,1350 1099,1390 995,1390"/>
+          <Coords points="1099,1350 995,1350 995,1381 1010,1382 1099,1389"/>
           <TextEquiv conf="0.76616883">
             <Unicode>Jrtum</Unicode>
           </TextEquiv>
@@ -1359,7 +1374,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="926,1425 977,1425 977,1387 974,1386 969,1388 965,1385 958,1387 937,1383 926,1384"/>
+          <Coords points="972,1425 977,1424 977,1387 974,1386 969,1388 965,1385 958,1387 937,1383 926,1384 926,1422 942,1425"/>
           <TextEquiv conf="0.9322957">
             <Unicode>daß</Unicode>
           </TextEquiv>
@@ -1371,7 +1386,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1080,1392 1178,1397 1176,1429 1084,1425"/>
+          <Coords points="1080,1392 1084,1425 1174,1428 1174,1396"/>
           <TextEquiv conf="0.9261331">
             <Unicode>wiſſen</Unicode>
           </TextEquiv>
@@ -1903,7 +1918,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0009" custom="readingOrder {index:21;}">
-        <Coords points="268,1706 260,1711 228,1709 228,1749 287,1748 297,1743 305,1748 326,1746 331,1750 409,1755 432,1753 437,1756 448,1755 482,1761 490,1761 497,1757 517,1758 523,1755 534,1758 557,1755 561,1759 582,1761 632,1761 637,1757 644,1757 650,1761 696,1763 710,1769 776,1769 782,1775 791,1775 797,1770 951,1770 1023,1771 1029,1776 1041,1776 1046,1771 1072,1771 1079,1768 1086,1768 1092,1772 1103,1766 1178,1772 1178,1734 1120,1735 1072,1732 1068,1729 1012,1731 1008,1728 963,1733 878,1729 846,1732 799,1729 790,1725 749,1732 683,1726 676,1721 672,1721 667,1727 659,1721 614,1721 603,1717 552,1722 445,1718 440,1714 427,1714 421,1719 412,1720 409,1710 399,1716 390,1711 383,1719 374,1716 350,1719 342,1715 315,1716"/>
+        <Coords points="260,1711 228,1709 228,1749 287,1748 297,1743 305,1748 326,1746 331,1750 409,1755 432,1753 437,1756 448,1755 482,1761 490,1761 497,1757 517,1758 523,1755 534,1758 557,1755 561,1759 582,1761 632,1761 637,1757 644,1757 650,1761 696,1763 710,1769 776,1769 782,1775 791,1775 797,1770 951,1770 1015,1770 1015,1768 1101,1766 1103,1766 1113,1766 1178,1766 1178,1734 1120,1735 1072,1732 1068,1729 1012,1731 1008,1728 963,1733 878,1729 846,1732 799,1729 790,1725 749,1732 683,1726 676,1721 672,1721 667,1727 659,1721 614,1721 603,1717 552,1722 445,1718 440,1714 427,1714 421,1719 412,1720 409,1710 399,1716 390,1711 383,1719 374,1716 350,1719 342,1715 315,1716 268,1706"/>
         <Word id="region0003_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="258,1713 258,1748 287,1748 297,1743 302,1746 302,1713 300,1713"/>
           <TextEquiv conf="0.9292658">
@@ -1971,7 +1986,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
       <TextLine id="region0003_line0010" custom="readingOrder {index:22;}">
         <Coords points="295,1744 287,1749 228,1750 228,1796 270,1795 303,1790 310,1791 315,1796 325,1796 330,1792 444,1796 466,1805 496,1799 607,1800 692,1805 754,1805 759,1800 759,1779 756,1775 711,1773 709,1769 696,1764 650,1762 644,1758 637,1758 632,1762 582,1762 561,1760 557,1756 538,1759 530,1756 517,1759 497,1758 490,1762 482,1762 457,1757 437,1757 432,1754 409,1756 331,1751 326,1747 305,1749"/>
         <Word id="word_1660644376171_5909" custom="readingOrder {index:0;}">
-          <Coords points="237,1749 288,1748 303,1748 315,1748 327,1748 371,1753 371,1766 371,1790 237,1790"/>
+          <Coords points="289,1748 287,1749 237,1750 237,1790 303,1790 371,1790 371,1766 371,1754 331,1751 327,1748 327,1748 316,1748 305,1749 303,1748"/>
           <TextEquiv>
             <Unicode>gelehret</Unicode>
           </TextEquiv>
@@ -1983,7 +1998,7 @@ Hauptſtuͤck iſt in chriſtlichem Weſen 51), ſo lange Zeit 52),</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660644385395_5918" custom="readingOrder {index:2;}">
-          <Coords points="464,1758 530,1756 557,1756 594,1762 594,1766 594,1792 464,1792"/>
+          <Coords points="464,1792 594,1792 594,1766 594,1762 582,1762 561,1760 557,1756 538,1759 530,1756 517,1759 497,1758 490,1762 482,1762 464,1758"/>
           <TextEquiv>
             <Unicode>getrieben</Unicode>
           </TextEquiv>
@@ -2024,7 +2039,7 @@ beide Lehre, das Evangelium von der Barmherzigkeit in Chri⸗
 gelehret und getrieben wird...</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.014527329" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660643527171_5569" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660643527171_5569" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.014527329" type="catch-word" readingDirection="left-to-right">
       <Coords points="1018,1766 1179,1766 1179,1811 1018,1811"/>
       <TextLine id="region0003_line0011" custom="readingOrder {index:0;}">
         <Coords points="1103,1767 1092,1773 1086,1769 1075,1770 1071,1772 1070,1783 1055,1784 1052,1788 1053,1808 1178,1810 1178,1773"/>
@@ -2043,7 +2058,7 @@ gelehret und getrieben wird...</Unicode>
         <Unicode>Wo</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.014527329" type="footnote" readingDirection="left-to-right" id="TextRegion_1660643425063_5523" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1660643425063_5523" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.014527329" type="footnote" readingDirection="left-to-right">
       <Coords points="215,1818 1180,1818 1180,2197 1178,2260 251,2260 215,2197"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="251,1818 215,1825 215,1863 230,1865 248,1861 258,1865 267,1860 274,1860 299,1864 323,1863 338,1867 360,1864 378,1872 410,1867 423,1871 488,1870 495,1873 556,1877 595,1877 605,1872 642,1879 655,1878 661,1873 667,1876 688,1874 698,1878 716,1878 724,1875 768,1882 839,1882 843,1885 852,1885 856,1882 913,1880 970,1884 1051,1881 1059,1884 1082,1882 1096,1889 1179,1888 1179,1840 1134,1843 1111,1838 1054,1836 1042,1839 998,1833 933,1840 880,1835 855,1837 848,1832 833,1833 827,1839 784,1840 739,1837 733,1834 706,1836 699,1832 681,1836 671,1834 664,1828 644,1828 638,1832 602,1828 597,1825 581,1828 547,1826 540,1828 536,1833 529,1833 524,1825 514,1824 507,1833 493,1833 445,1829 432,1825 391,1826 384,1820 374,1820 365,1826 349,1827 312,1825 285,1818"/>
@@ -2374,7 +2389,7 @@ gelehret und getrieben wird...</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0007" custom="readingOrder {index:7;}">
-          <Coords points="965,2074 1018,2072 1018,2037 1036,2042 1031,2035 1021,2038 977,2031 968,2031 965,2032"/>
+          <Coords points="965,2074 1018,2072 1018,2037 1036,2042 1031,2035 965,2032"/>
           <TextEquiv conf="0.9270885">
             <Unicode>felt</Unicode>
           </TextEquiv>
@@ -2573,25 +2588,25 @@ gelehret und getrieben wird...</Unicode>
       <TextLine id="region0005_line0001" custom="readingOrder {index:11;}">
         <Coords points="279,2163 251,2165 251,2200 1177,2236 1174,2197 1032,2193 992,2188 969,2196 960,2182 363,2175"/>
         <Word id="region0005_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="311,2173 257,2173 257,2203 258,2204 277,2200 296,2208 311,2207"/>
+          <Coords points="257,2173 257,2200 272,2200 277,2200 279,2201 311,2202 311,2173"/>
           <TextEquiv conf="0.8698835">
             <Unicode>52)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="368,2172 344,2172 344,2209 350,2209 354,2207 368,2206"/>
+          <Coords points="344,2203 368,2204 368,2175 363,2175 344,2172"/>
           <TextEquiv conf="0.9286805">
             <Unicode>ſo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0002" custom="readingOrder {index:2;}">
-          <Coords points="387,2170 387,2209 400,2212 415,2210 421,2213 462,2213 462,2174 456,2176 428,2176 421,2172 405,2174 401,2170"/>
+          <Coords points="387,2205 462,2208 462,2176 448,2176 428,2176 428,2176 387,2175"/>
           <TextEquiv conf="0.9155943">
             <Unicode>lange</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="481,2173 481,2212 558,2212 558,2177 539,2177 529,2173 521,2173 510,2175 506,2173"/>
+          <Coords points="481,2208 558,2211 558,2177 481,2176"/>
           <TextEquiv conf="0.9256586">
             <Unicode>Zeit,</Unicode>
           </TextEquiv>
@@ -2609,13 +2624,13 @@ gelehret und getrieben wird...</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0006" custom="readingOrder {index:6;}">
-          <Coords points="723,2184 717,2177 705,2177 699,2175 695,2168 685,2167 685,2210 736,2210 739,2184"/>
-          <TextEquiv conf="0.0">
+          <Coords points="718,2179 685,2178 685,2210 736,2210 739,2184 723,2184"/>
+          <TextEquiv conf="0.">
             <Unicode>b.;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0007" custom="readingOrder {index:7;}">
-          <Coords points="758,2208 817,2208 817,2183 811,2183 802,2173 792,2174 786,2182 758,2181"/>
+          <Coords points="817,2208 817,2183 811,2183 808,2180 787,2179 786,2182 758,2181 758,2208"/>
           <TextEquiv conf="0.9047849">
             <Unicode>wie</Unicode>
           </TextEquiv>
@@ -2627,13 +2642,13 @@ gelehret und getrieben wird...</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0009" custom="readingOrder {index:9;}">
-          <Coords points="927,2208 1073,2208 1073,2191 1032,2193 987,2190 979,2181 978,2171 977,2185 967,2185 961,2187 957,2186 943,2186 938,2182 929,2182 927,2183"/>
+          <Coords points="1073,2208 1073,2194 1032,2193 987,2190 987,2190 969,2196 963,2186 961,2187 957,2186 943,2186 938,2182 929,2182 927,2183 927,2208"/>
           <TextEquiv conf="0.90801215">
             <Unicode>bekennen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0001_word0010" custom="readingOrder {index:10;}">
-          <Coords points="1088,2232 1177,2232 1177,2187 1168,2187 1161,2193 1162,2209 1137,2208 1135,2201 1122,2193 1108,2193 1102,2197 1097,2188 1088,2187"/>
+          <Coords points="1176,2232 1174,2197 1161,2196 1162,2209 1137,2208 1135,2201 1126,2195 1104,2195 1102,2197 1100,2194 1088,2194 1088,2232"/>
           <TextEquiv>
             <Unicode>mus,</Unicode>
           </TextEquiv>

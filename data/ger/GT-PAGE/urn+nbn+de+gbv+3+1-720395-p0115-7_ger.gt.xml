@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-728">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:29Z</Created>
     <LastChange>2024-01-19T13:09:29Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-720395-p0115-7_ger.jpg" imageWidth="1645" imageHeight="2430" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/36a5ad11-783e-4ae6-ad9d-e3ccf7de2fce/00000115.jpg" imageWidth="1645" imageHeight="2430" type="content" primaryLanguage="German">
     <Border>
       <Coords points="73,124 52,2323 1516,2386 1502,116"/>
     </Border>
@@ -20,10 +34,7 @@
         <RegionRefIndexed index="6" regionRef="region_1682069324528_3040"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682069298141_3029" custom="readingOrder {index:0;}">
-      <Coords points="479,356 737,356 737,390 479,390"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682069293601_3020" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682069293601_3020" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="981,350 981,402 1067,402 1067,350"/>
       <TextLine id="line_1682069293693_3023" custom="readingOrder {index:0;}">
         <Coords points="981,350 981,402 1067,402 1067,350"/>
@@ -41,7 +52,7 @@
         <Unicode>105</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6091717" readingDirection="left-to-right" id="TextRegion_1662989704660_802" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1662989704660_802" custom="readingOrder {index:2;}" orientation="0.6091717" readingDirection="left-to-right">
       <Coords points="149,435 1089,435 1089,1015 149,1015"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="206,437 201,442 202,471 207,474 244,474 246,491 251,496 345,496 349,499 358,499 362,496 441,497 471,499 476,504 490,498 565,497 568,503 572,504 589,497 602,497 605,504 613,509 625,507 631,497 649,498 667,504 685,497 807,495 813,500 832,499 836,496 864,499 869,495 951,485 1026,491 1089,490 1088,447 1056,446 1054,440 1047,436 1037,437 1031,446 1026,446 964,439 960,435 947,436 937,440 934,436 858,435 856,444 808,447 803,447 796,437 729,439 718,441 705,451 662,452 657,443 645,441 638,445 636,452 627,452 619,442 608,444 603,440 594,440 587,445 575,443 567,454 542,454 535,453 534,446 529,441 518,441 513,444 478,443 459,446 446,452 422,452 402,449 395,443 364,447 357,438 338,441 316,436"/>
@@ -509,7 +520,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0010" custom="readingOrder {index:9;}">
-        <Coords points="156,962 150,965 149,1014 206,1015 212,1023 222,1023 229,1015 279,1015 532,1018 635,1014 690,1016 700,1023 717,1022 724,1016 740,1014 1000,1013 1008,1016 1027,1013 1044,1019 1062,1016 1069,1021 1088,1020 1089,958 1049,957 1020,964 1013,959 1004,959 987,969 922,971 894,970 885,964 863,968 836,962 792,960 769,962 747,970 661,974 579,970 535,965 497,972 464,970 459,965 446,966 441,971 339,972 333,962 316,964 312,971 260,968 255,963 246,963 239,968 208,969"/>
+        <Coords points="150,965 149,1014 206,1015 229,1015 279,1015 609,1015 635,1014 662,1015 732,1015 740,1014 1000,1013 1005,1015 1014,1015 1027,1013 1032,1015 1088,1015 1089,958 1049,957 1020,964 1013,959 1004,959 987,969 922,971 894,970 885,964 863,968 836,962 792,960 769,962 747,970 661,974 579,970 535,965 497,972 464,970 459,965 446,966 441,971 339,972 333,962 316,964 312,971 260,968 255,963 246,963 239,968 208,969 156,962"/>
         <Baseline points="149,1004 1040,1002 1088,1008"/>
         <Word id="word_1662989704721_804" custom="readingOrder {index:0;}">
           <Coords points="158,972 227,971 227,1015 206,1015 158,1014"/>
@@ -570,7 +581,7 @@ tern, auf einmal raubt, und der in wenig Stun⸗
 den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6091717" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1662989710189_809" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1662989710189_809" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="0.6091717" type="signature-mark" readingDirection="left-to-right">
       <Coords points="149,1015 696,1015 696,1086 149,1086"/>
       <TextLine id="line_1662989710241_812" custom="readingOrder {index:0;}">
         <Coords points="516,1023 593,1016 639,1019 673,1025 696,1025 696,1079 627,1080 605,1073 527,1070 515,1060 513,1027"/>
@@ -595,7 +606,7 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
         <Unicode>5 G</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6091717" type="catch-word" readingDirection="left-to-right" id="TextRegion_1662989710189_808" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1662989710189_808" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.6091717" type="catch-word" readingDirection="left-to-right">
       <Coords points="696,1015 1089,1015 1089,1086 696,1086"/>
       <TextLine id="line_1662989710240_811" custom="readingOrder {index:0;}">
         <Coords points="696,1025 721,1026 916,1024 922,1017 951,1015 1000,1014 1010,1017 1023,1014 1035,1015 1044,1020 1062,1017 1069,1022 1088,1022 1089,1072 1054,1075 1043,1071 930,1073 925,1068 925,1058 922,1056 736,1058 735,1074 730,1079 696,1079"/>
@@ -614,7 +625,7 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
         <Unicode>G Nicht</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6091717" type="footnote" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0002" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="0.6091717" type="footnote" readingDirection="left-to-right">
       <Coords points="190,1109 1101,1109 1103,2070 190,2079"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="208,1112 190,1113 191,1178 199,1177 203,1168 234,1169 240,1163 263,1163 271,1158 281,1159 289,1154 295,1157 317,1157 325,1151 347,1160 379,1159 385,1154 395,1154 409,1161 443,1161 461,1155 534,1157 630,1153 645,1150 674,1154 690,1152 696,1155 705,1152 714,1151 718,1154 754,1154 765,1151 798,1151 808,1153 832,1150 837,1154 854,1154 859,1158 872,1155 901,1154 917,1149 960,1154 994,1148 1004,1152 1030,1152 1040,1149 1059,1153 1100,1152 1100,1114 1053,1113 1052,1110 1026,1110 1024,1113 1015,1114 968,1114 963,1110 880,1113 871,1110 833,1110 819,1114 797,1116 751,1113 735,1109 647,1110 636,1113 601,1110 598,1113 566,1114 562,1110 548,1109 546,1112 520,1110 502,1115 496,1111 484,1111 481,1114 437,1112 408,1120 397,1113 389,1113 382,1119 347,1120 339,1119 332,1113 320,1116 296,1112"/>
@@ -1348,13 +1359,13 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
         <Coords points="222,1659 289,1658 294,1661 322,1663 356,1657 388,1660 400,1657 406,1661 423,1661 434,1664 446,1659 462,1663 490,1656 513,1660 524,1654 530,1654 535,1658 592,1655 612,1657 626,1653 649,1656 692,1652 702,1654 710,1649 722,1652 744,1651 752,1657 773,1654 819,1656 824,1653 867,1647 917,1652 957,1645 975,1646 982,1650 1014,1646 1030,1653 1099,1651 1099,1686 669,1690 215,1695 217,1661"/>
         <Baseline points="222,1695 897,1677 1100,1680"/>
         <Word id="word_1662990223115_1078" custom="readingOrder {index:0;}">
-          <Coords points="270,1657 324,1657 324,1693 270,1693"/>
+          <Coords points="270,1693 324,1693 324,1662 322,1663 294,1661 289,1658 270,1658"/>
           <TextEquiv>
             <Unicode>Jm</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662990225011_1081" custom="readingOrder {index:1;}">
-          <Coords points="345,1659 460,1659 460,1687 345,1687"/>
+          <Coords points="345,1659 345,1687 460,1687 460,1662 446,1659 434,1664 423,1661 406,1661 403,1659 392,1659 388,1660 377,1659"/>
           <TextEquiv>
             <Unicode>Kriege</Unicode>
           </TextEquiv>
@@ -1384,7 +1395,7 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662990236587_1096" custom="readingOrder {index:6;}">
-          <Coords points="951,1647 1088,1647 1088,1685 951,1685"/>
+          <Coords points="951,1647 951,1685 1088,1685 1088,1651 1030,1653 1016,1647 1006,1647 982,1650 976,1647"/>
           <TextEquiv>
             <Unicode>Polizey,</Unicode>
           </TextEquiv>
@@ -1433,7 +1444,7 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662990254381_1117" custom="readingOrder {index:6;}">
-          <Coords points="992,1685 1089,1685 1089,1724 992,1724"/>
+          <Coords points="1089,1724 1089,1686 992,1686 992,1724 997,1724 1037,1721 1060,1723 1061,1724"/>
           <TextEquiv>
             <Unicode>Reich⸗</Unicode>
           </TextEquiv>
@@ -1817,7 +1828,7 @@ den, den bemittelten Untertan zum Bettler macht.*)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0024" custom="readingOrder {index:24;}">
-        <Coords points="906,2025 893,2027 885,2032 873,2029 780,2032 757,2028 741,2035 729,2036 723,2036 713,2028 698,2032 684,2030 679,2033 635,2030 632,2033 617,2032 559,2037 453,2037 448,2040 432,2037 427,2034 397,2040 368,2036 354,2039 305,2040 220,2037 215,2042 216,2069 226,2075 262,2075 266,2078 287,2076 321,2079 327,2082 362,2078 536,2078 628,2072 749,2072 754,2077 774,2077 780,2072 802,2071 995,2069 1006,2072 1016,2067 1044,2064 1064,2066 1075,2059 1083,2060 1086,2064 1101,2064 1100,2029 1031,2030 1014,2029 1008,2025 969,2030"/>
+        <Coords points="893,2027 885,2032 873,2029 780,2032 757,2028 741,2035 729,2036 723,2036 713,2028 698,2032 684,2030 679,2033 635,2030 632,2033 617,2032 559,2037 453,2037 448,2040 432,2037 427,2034 397,2040 368,2036 354,2039 305,2040 220,2037 215,2042 216,2069 226,2075 262,2075 266,2078 287,2076 307,2077 579,2075 628,2072 749,2072 750,2073 778,2073 780,2072 802,2071 995,2069 1002,2070 1008,2070 1016,2067 1044,2064 1064,2066 1075,2059 1083,2060 1086,2064 1101,2064 1100,2029 1031,2030 1014,2029 1008,2025 969,2030 906,2025"/>
         <Baseline points="216,2066 1101,2056"/>
         <Word id="region0002_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="266,2044 341,2043 342,2073 267,2074"/>
@@ -1893,7 +1904,7 @@ Landes, iſt unter den Waffen und zittert. Und
 nun denke man an die uͤberſpannte Vermehrung</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682069324528_3040" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region_1682069324528_3040" custom="readingOrder {index:6;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1039,2073 1039,2097 1089,2097 1089,2073"/>
       <TextLine id="line_1682069324779_3043" custom="readingOrder {index:0;}">
         <Coords points="1039,2073 1039,2097 1089,2097 1089,2073"/>
@@ -1911,5 +1922,8 @@ nun denke man an die uͤberſpannte Vermehrung</Unicode>
         <Unicode>des</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682069298141_3029" custom="readingOrder {index:0;}">
+      <Coords points="479,356 737,356 737,390 479,390"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

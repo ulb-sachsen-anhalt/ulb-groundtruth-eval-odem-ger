@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-850">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:07Z</Created>
     <LastChange>2024-01-19T13:10:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-768072-p0197-9_ger.png" imageWidth="1768" imageHeight="2576" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a9041b92-ec58-43a9-baec-b37aaa8ca601/00000197.jpg" imageWidth="1768" imageHeight="2576" type="content" primaryLanguage="German">
     <Border>
       <Coords points="87,220 83,2459 1575,2534 1592,230"/>
     </Border>
@@ -22,7 +36,7 @@
         <RegionRefIndexed index="7" regionRef="region_1683624106697_2372"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683624046926_2317" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683624046926_2317" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="511,494 511,535 756,535 756,494"/>
       <TextLine id="line_1683624047013_2320" custom="readingOrder {index:0;}">
         <Coords points="511,494 511,535 756,535 756,494"/>
@@ -46,7 +60,7 @@
         <Unicode>des Socrates</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683624183134_2445" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683624183134_2445" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1041,515 1041,552 1100,552 1100,515"/>
       <TextLine id="line_1683624183234_2448" custom="readingOrder {index:0;}">
         <Coords points="1041,515 1041,552 1100,552 1100,515"/>
@@ -64,7 +78,7 @@
         <Unicode>193</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25029224" readingDirection="left-to-right" id="TextRegion_1664346928332_345" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1664346928332_345" custom="readingOrder {index:2;}" orientation="-0.25029224" readingDirection="left-to-right">
       <Coords points="155,575 1102,575 1102,1358 155,1358"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="392,575 321,576 296,580 284,580 279,575 266,575 257,580 231,582 199,580 188,575 156,578 156,631 217,631 223,635 236,636 269,632 274,635 294,633 358,638 401,634 411,639 429,636 439,642 450,641 455,636 477,635 490,640 507,633 548,634 552,638 574,634 620,638 629,642 676,637 682,640 716,640 721,644 739,640 759,641 768,644 776,640 826,638 840,638 849,643 862,639 903,642 997,639 1072,646 1078,640 1088,637 1096,645 1102,645 1102,601 1030,590 988,590 986,582 981,578 970,579 964,587 914,581 910,578 887,579 877,587 865,587 857,578 847,578 834,585 813,587 811,581 804,577 738,576 727,579 720,588 711,588 689,586 684,582 626,583 622,580 613,580 609,576 596,576 590,583 579,583 574,576 553,576 545,582 523,581 521,575 484,575 477,584 461,583 455,575"/>
@@ -728,7 +742,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0014" custom="readingOrder {index:13;}">
-        <Coords points="190,1302 177,1308 168,1303 156,1303 156,1369 205,1368 287,1356 298,1356 303,1361 320,1357 358,1367 374,1359 382,1359 398,1367 423,1359 428,1359 439,1366 448,1362 472,1362 504,1363 511,1367 519,1367 536,1361 577,1362 617,1367 625,1361 654,1362 673,1359 678,1354 678,1327 668,1321 586,1321 571,1313 535,1318 528,1311 515,1311 501,1319 489,1319 449,1315 435,1309 421,1312 411,1307 396,1309 388,1314 375,1314 328,1310 321,1305 305,1305 295,1309 244,1307 237,1303 217,1305"/>
+        <Coords points="177,1308 168,1303 156,1303 156,1358 273,1358 287,1356 298,1356 300,1358 315,1358 320,1357 323,1358 674,1358 678,1354 678,1327 668,1321 586,1321 571,1313 535,1318 528,1311 515,1311 501,1319 489,1319 449,1315 435,1309 421,1312 411,1307 396,1309 388,1314 375,1314 328,1310 321,1305 305,1305 295,1309 244,1307 237,1303 217,1305 190,1302"/>
         <Baseline points="156,1359 167,1358"/>
         <Word id="region0002_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="332,1316 168,1315 168,1368 205,1368 287,1356 298,1356 303,1361 320,1357 332,1360"/>
@@ -769,7 +783,7 @@ hat, und er muß daher nicht ſehr weit in die
 Zukunft geſehen haben.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25029224" readingDirection="left-to-right" id="TextRegion_1664346928331_344" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1664346928331_344" custom="readingOrder {index:3;}" orientation="-0.25029224" readingDirection="left-to-right">
       <Coords points="155,1358 1102,1358 1102,2057 155,2057"/>
       <TextLine id="region0002_line0015" custom="readingOrder {index:0;}">
         <Coords points="287,1357 235,1365 233,1410 236,1414 280,1418 361,1418 368,1426 376,1425 387,1418 399,1417 464,1416 565,1421 613,1417 623,1423 634,1419 647,1421 655,1428 676,1430 681,1429 687,1420 835,1424 854,1427 898,1424 922,1435 932,1429 949,1437 961,1433 962,1430 983,1430 989,1437 999,1437 1007,1432 1101,1432 1101,1385 1050,1383 1045,1379 1034,1379 1030,1382 1013,1381 1007,1373 988,1375 979,1367 954,1371 943,1380 874,1380 827,1374 814,1369 801,1369 796,1373 774,1372 767,1368 707,1371 703,1363 693,1360 665,1360 647,1365 625,1362 617,1368 577,1363 536,1362 519,1368 505,1365 439,1367 428,1360 421,1361 417,1366 398,1368 388,1366 382,1360 374,1360 358,1368 320,1358 307,1362 298,1357"/>
@@ -1275,7 +1289,7 @@ Zukunft geſehen haben.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0026" custom="readingOrder {index:11;}">
-        <Coords points="170,1977 156,1978 156,2030 213,2038 224,2046 236,2043 256,2046 265,2055 273,2055 279,2048 347,2053 361,2054 369,2064 380,2064 391,2055 424,2055 432,2062 448,2062 457,2055 476,2054 487,2054 493,2060 503,2060 509,2054 616,2055 717,2060 775,2060 782,2069 790,2069 800,2061 807,2061 813,2070 821,2070 835,2060 946,2064 995,2061 1102,2061 1102,2015 1029,2016 1022,2009 1010,2009 1005,2015 966,2014 961,2006 947,2006 939,2013 925,2013 876,2009 866,2004 845,2011 810,2009 809,2004 796,1998 783,1999 778,2003 765,2003 756,1997 743,1996 731,2002 690,2006 670,2002 603,2000 587,1993 564,1990 513,1994 506,1986 501,1985 491,1994 492,1999 477,1997 472,2001 413,2003 403,2006 395,2003 355,2001 349,1995 326,1996 321,2000 301,2000 295,1998 293,1993 285,1990 267,1989 259,1993 237,1983 207,1984 184,1977"/>
+        <Coords points="156,1978 156,2030 213,2038 224,2046 236,2043 256,2046 265,2055 273,2055 279,2048 347,2053 361,2054 363,2057 388,2057 391,2055 424,2055 426,2057 454,2057 457,2055 476,2054 487,2054 490,2057 506,2057 509,2054 616,2055 656,2057 1102,2057 1102,2015 1029,2016 1022,2009 1010,2009 1005,2015 966,2014 961,2006 947,2006 939,2013 925,2013 876,2009 866,2004 845,2011 810,2009 809,2004 796,1998 783,1999 778,2003 765,2003 756,1997 743,1996 731,2002 690,2006 670,2002 603,2000 587,1993 564,1990 513,1994 506,1986 501,1985 491,1994 492,1999 477,1997 472,2001 413,2003 403,2006 395,2003 355,2001 349,1995 326,1996 321,2000 301,2000 295,1998 293,1993 285,1990 267,1989 259,1993 237,1983 207,1984 184,1977 170,1977"/>
         <Baseline points="156,2022 372,2045 1102,2051"/>
         <Word id="region0002_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="245,2040 245,1988 173,1988 173,2032 213,2038 215,2040"/>
@@ -1338,7 +1352,7 @@ ben ſein Anſehen dadurch zu erhoͤhen geſuchet,
 daß ſie bezeuget, Socrates ſey durch einen</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25029224" type="catch-word" readingDirection="left-to-right" id="TextRegion_1664346921287_340" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1664346921287_340" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.25029224" type="catch-word" readingDirection="left-to-right">
       <Coords points="909,2055 1102,2057 1102,2141 909,2139"/>
       <TextLine id="region0002_line0027" custom="readingOrder {index:0;}">
         <Coords points="995,2062 943,2064 925,2068 920,2076 921,2113 925,2116 1102,2115 1101,2070 1082,2069 1079,2063 1072,2062 1060,2062 1053,2066"/>
@@ -1357,10 +1371,10 @@ daß ſie bezeuget, Socrates ſey durch einen</Unicode>
         <Unicode>Aus⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25029224" type="footnote" readingDirection="left-to-right" id="TextRegion_1664346919213_336" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1664346919213_336" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.25029224" type="footnote" readingDirection="left-to-right">
       <Coords points="155,2155 1093,2176 1099,2239 153,2225"/>
       <TextLine id="region0002_line0029" custom="readingOrder {index:0;}">
-        <Coords points="156,2153 156,2192 219,2193 220,2207 225,2212 278,2214 352,2225 357,2233 367,2236 377,2235 382,2228 537,2228 544,2235 561,2235 568,2226 593,2224 663,2223 735,2227 739,2230 754,2227 877,2227 911,2229 919,2236 930,2236 936,2230 995,2232 1000,2227 999,2197 995,2194 962,2192 961,2181 956,2176 817,2176 791,2181 787,2178 775,2178 770,2182 726,2178 671,2184 648,2182 640,2175 631,2175 623,2181 615,2174 594,2173 587,2182 486,2184 484,2166 480,2163 471,2163 466,2168 466,2179 459,2187 424,2188 402,2186 394,2180 370,2183 329,2178 317,2166 267,2156"/>
+        <Coords points="156,2192 219,2193 220,2207 225,2212 278,2214 352,2225 354,2228 382,2228 382,2228 537,2228 540,2231 564,2231 568,2226 593,2224 663,2223 735,2227 739,2230 754,2227 877,2227 911,2229 919,2236 930,2236 936,2230 995,2232 1000,2227 999,2197 995,2194 962,2192 961,2181 956,2176 817,2176 791,2181 787,2178 775,2178 770,2182 726,2178 671,2184 648,2182 640,2175 631,2175 623,2181 615,2174 594,2173 587,2182 486,2184 484,2166 480,2163 471,2163 466,2168 466,2179 459,2187 424,2188 402,2186 394,2180 370,2183 329,2178 317,2166 275,2158 156,2155"/>
         <Baseline points="230,2195 405,2219 691,2215 1000,2223"/>
         <Word id="region0002_line0029_word0000" custom="readingOrder {index:0;}">
           <Coords points="253,2200 253,2159 217,2159 217,2192 219,2193 219,2200"/>
@@ -1412,18 +1426,18 @@ daß ſie bezeuget, Socrates ſey durch einen</Unicode>
         <Unicode>*) Xenophon de expeditione Cyri L. VII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="footer" id="region_1683624123697_2389" custom="readingOrder {index:6;} structure {type:footer;}">
+    <TextRegion id="region_1683624123697_2389" custom="readingOrder {index:6;} structure {type:footer;}" type="footer">
       <Coords points="220,2223 220,2275 474,2293 474,2241"/>
       <TextLine id="line_1683624123868_2392" custom="readingOrder {index:0;}">
         <Coords points="226,2222 226,2274 474,2293 474,2241"/>
         <Word id="word_1683624140026_2403" custom="readingOrder {index:0;}">
-          <Coords points="226,2226 360,2234 360,2286 226,2278"/>
+          <Coords points="360,2234 226,2226 226,2274 360,2284"/>
           <TextEquiv>
             <Unicode>Dritter</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1683624140025_2402" custom="readingOrder {index:1;}">
-          <Coords points="360,2234 474,2241 474,2293 360,2286"/>
+          <Coords points="360,2234 360,2284 474,2293 474,2241"/>
           <TextEquiv>
             <Unicode>Theil.</Unicode>
           </TextEquiv>
@@ -1436,7 +1450,7 @@ daß ſie bezeuget, Socrates ſey durch einen</Unicode>
         <Unicode>Dritter Theil.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1683624106697_2372" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="region_1683624106697_2372" custom="readingOrder {index:7;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="642,2242 642,2295 691,2295 691,2242"/>
       <TextLine id="line_1683624106846_2375" custom="readingOrder {index:0;}">
         <Coords points="642,2242 642,2295 691,2295 691,2242"/>

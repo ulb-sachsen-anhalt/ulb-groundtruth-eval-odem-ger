@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-510">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:54Z</Created>
     <LastChange>2024-01-19T13:08:54Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-630427-p0089-5_ger.jpg" imageWidth="1550" imageHeight="2190" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/de80b42f-a7f9-4c6a-9909-21ade8dcd53f/00000089.jpg" imageWidth="1550" imageHeight="2190" type="content" primaryLanguage="German">
     <Border>
       <Coords points="71,143 93,2039 1353,2013 1327,129"/>
     </Border>
@@ -17,7 +31,7 @@
         <RegionRefIndexed index="2" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1682068260051_2293" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1682068260051_2293" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="239,283 239,325 829,325 829,283"/>
       <TextLine id="line_1682068260133_2296" custom="readingOrder {index:0;}">
         <Coords points="239,283 239,325 829,325 829,283"/>
@@ -53,7 +67,7 @@
         <Unicode>Der Span. Succeſſionskrieg ꝛc.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682068264056_2302" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682068264056_2302" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="901,280 901,329 948,329 948,280"/>
       <TextLine id="line_1682068264128_2305" custom="readingOrder {index:0;}">
         <Coords points="901,280 901,329 948,329 948,280"/>
@@ -71,7 +85,7 @@
         <Unicode>71</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.0864315" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="1.0864315" readingDirection="left-to-right">
       <Coords points="146,368 988,368 988,1808 146,1808"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="671,368 665,375 660,371 646,372 641,376 604,380 546,380 537,374 525,373 514,380 496,377 483,383 438,386 431,387 422,379 412,379 405,386 390,385 386,382 371,386 340,384 335,388 311,388 307,385 258,385 249,392 230,394 165,391 160,396 146,396 146,439 251,435 257,441 266,441 273,435 426,428 437,428 445,434 457,434 466,428 494,425 512,425 518,431 527,431 533,424 565,422 642,422 648,426 661,426 667,421 693,419 697,419 703,425 711,425 718,418 742,417 803,417 809,421 839,421 854,416 868,418 873,414 899,415 905,421 914,420 919,416 932,417 936,420 988,418 987,385 968,385 967,372 964,368 855,369 853,372 823,372 820,368 799,369 795,373 741,375 725,374 718,370 701,371"/>

@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-197">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:43Z</Created>
     <LastChange>2024-01-19T13:07:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-215071-p0030-8_ger.jpg" imageWidth="1340" imageHeight="2118" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/70c11068-b623-455c-9722-dec3d779c8f7/00000030.jpg" imageWidth="1340" imageHeight="2118" type="content" primaryLanguage="German">
     <Border>
       <Coords points="320,129 1229,129 1229,1956 320,1956"/>
     </Border>
@@ -18,13 +32,7 @@
         <RegionRefIndexed index="5" regionRef="region_1671461810682_1665"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1671461785216_1652" custom="readingOrder {index:0;}">
-      <Coords points="640,222 908,222 908,292 640,292"/>
-    </GraphicRegion>
-    <GraphicRegion id="Graphic_1671461782810_1649" custom="readingOrder {index:1;}">
-      <Coords points="259,171 373,171 373,244 259,244"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.0" type="page-number" readingDirection="left-to-right" id="TextRegion_1671461774807_1641" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671461774807_1641" custom="readingOrder {index:2;} structure {type:page-number;}" orientation="0." type="page-number" readingDirection="left-to-right">
       <Coords points="326,227 417,227 417,304 326,304"/>
       <TextLine id="line_1671461774813_1644" custom="readingOrder {index:0;}">
         <Coords points="326,239 336,239 339,227 356,227 358,238 417,237 417,288 326,290"/>
@@ -42,7 +50,7 @@
         <Unicode>26</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" readingDirection="left-to-right" id="TextRegion_1671461771169_1636" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1671461771169_1636" custom="readingOrder {index:3;}" orientation="0." readingDirection="left-to-right">
       <Coords points="326,304 994,304 994,672 326,672"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
         <Coords points="557,303 551,309 518,305 432,308 426,305 411,305 403,311 326,310 326,353 331,354 329,366 331,370 340,373 378,372 384,368 388,371 398,371 403,367 412,366 423,368 458,365 475,365 494,370 503,368 509,372 520,366 554,366 577,373 597,365 615,369 627,366 662,369 673,364 689,364 719,369 749,366 776,376 827,375 832,380 855,380 863,375 877,375 883,380 892,380 898,375 909,375 938,378 954,383 993,381 993,317 912,317 899,307 886,307 877,316 843,316 841,310 835,306 827,306 811,316 790,316 755,307 719,305 678,306 632,314 622,313 616,305 577,303 571,306 567,303"/>
@@ -96,7 +104,7 @@
       <TextLine id="region0000_line0005" custom="readingOrder {index:2;}">
         <Coords points="572,420 564,425 550,423 546,426 539,423 506,427 491,422 481,427 472,425 459,429 435,429 426,433 413,425 406,426 400,431 380,433 348,429 345,433 345,450 341,458 326,459 326,498 331,499 332,508 339,514 346,510 346,498 354,494 380,496 384,488 402,485 409,480 428,485 436,479 458,476 505,477 510,480 521,476 531,479 552,476 562,478 568,485 578,485 585,479 602,476 617,480 641,476 649,482 659,482 670,477 704,477 708,480 722,479 730,482 746,478 770,484 791,481 803,487 837,492 847,487 957,486 964,484 968,479 981,479 986,474 986,432 981,427 827,429 824,422 813,420 802,425 788,424 785,428 781,425 766,428 763,423 747,422 738,431 730,422 697,422 683,427 661,427 644,422 634,427 626,427 619,422 608,422 598,426 589,420"/>
         <Word id="word_1671461884368_1693" custom="readingOrder {index:0;}">
-          <Coords points="345,432 405,432 446,440 446,477 342,512 336,512 335,510 335,458"/>
+          <Coords points="345,432 345,433 345,450 341,458 335,458 335,510 335,511 336,512 342,512 343,511 346,510 346,498 354,494 380,496 384,488 402,485 409,480 424,484 432,481 436,479 442,478 446,477 446,440 405,432 390,432 380,433 372,432"/>
           <TextEquiv>
             <Unicode>Joh.</Unicode>
           </TextEquiv>
@@ -120,19 +128,19 @@
       <TextLine id="line_1671461998366_1760" custom="readingOrder {index:3;}">
         <Coords points="334,489 821,489 821,534 334,534"/>
         <Word id="word_1671462001614_1763" custom="readingOrder {index:0;}">
-          <Coords points="348,488 448,488 448,537 348,537"/>
+          <Coords points="448,489 348,489 348,534 448,534"/>
           <TextEquiv>
             <Unicode>Joh.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671462003296_1766" custom="readingOrder {index:1;}">
-          <Coords points="454,484 651,484 651,532 454,532"/>
+          <Coords points="454,532 651,532 651,489 454,489"/>
           <TextEquiv>
             <Unicode>Friedrich</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671462004881_1769" custom="readingOrder {index:2;}">
-          <Coords points="665,486 811,486 811,536 665,536"/>
+          <Coords points="811,489 665,489 665,534 811,534"/>
           <TextEquiv>
             <Unicode>Uhlich.</Unicode>
           </TextEquiv>
@@ -151,13 +159,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671461987513_1755" custom="readingOrder {index:1;}">
-          <Coords points="471,538 531,536 665,536 665,596 586,593 582,599 574,599 565,591 543,592 534,596 528,593 510,596 506,593 471,593"/>
+          <Coords points="531,536 471,538 471,593 506,593 510,596 528,593 534,596 543,592 565,591 574,599 582,599 586,593 635,595 652,594 664,590 665,590 665,536"/>
           <TextEquiv>
             <Unicode>Gottfried</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0006_word0002" custom="readingOrder {index:2;}">
-          <Coords points="698,524 698,596 705,603 713,603 722,595 729,593 755,597 769,583 776,586 785,583 793,592 801,594 806,591 822,597 834,592 851,597 878,596 882,599 938,597 938,537 936,536 928,536 920,544 809,543 794,552 767,552 760,544 766,537 773,536 810,538 852,534 855,530 855,524"/>
+          <Coords points="698,596 705,603 713,603 722,595 729,593 755,597 769,583 776,586 785,583 793,592 801,594 806,591 822,597 834,592 851,597 878,596 882,599 938,597 938,558 802,547 794,552 767,552 760,544 760,543 698,537"/>
           <TextEquiv>
             <Unicode>Hoffmann.</Unicode>
           </TextEquiv>
@@ -218,7 +226,7 @@ Johann Gottfried Muͤller.</Unicode>
         <Unicode>K.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1671461810682_1665" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1671461810682_1665" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1145,1899 1145,1956 1200,1956 1200,1899"/>
       <TextLine id="line_1671461810705_1668" custom="readingOrder {index:0;}">
         <Coords points="1145,1899 1145,1956 1200,1956 1200,1899"/>
@@ -236,5 +244,11 @@ Johann Gottfried Muͤller.</Unicode>
         <Unicode>L.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1671461785216_1652" custom="readingOrder {index:0;}">
+      <Coords points="640,222 908,222 908,292 640,292"/>
+    </GraphicRegion>
+    <GraphicRegion id="Graphic_1671461782810_1649" custom="readingOrder {index:1;}">
+      <Coords points="373,244 373,171 320,171 320,244"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

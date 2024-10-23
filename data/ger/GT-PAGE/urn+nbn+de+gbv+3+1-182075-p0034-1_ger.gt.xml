@@ -1,12 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-157">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:36Z</Created>
     <LastChange>2024-01-19T13:07:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-182075-p0034-1_ger.jpg" imageWidth="1579" imageHeight="2265" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a09cd5a2-db9b-45b4-85f0-af406da811d6/00000034.jpg" imageWidth="1579" imageHeight="2265" type="content" primaryLanguage="German">
     <Border>
       <Coords points="163,80 146,2189 1496,2189 1500,90"/>
     </Border>
@@ -15,7 +29,7 @@
         <RegionRefIndexed index="0" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.18579838" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="-0.18579838" readingDirection="left-to-right">
       <Coords points="401,302 1334,302 1334,1679 401,1679"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1046,302 1031,305 989,303 979,307 936,310 907,310 902,306 889,309 839,308 788,305 786,302 731,304 708,309 656,308 652,303 635,303 629,308 585,309 553,302 406,302 405,327 410,332 447,333 450,355 472,355 478,359 518,360 555,355 606,357 608,363 612,364 632,357 710,358 725,361 757,356 774,365 786,358 919,357 978,360 992,367 1001,367 1014,361 1117,358 1138,366 1155,359 1186,364 1188,369 1193,371 1202,371 1208,365 1217,364 1249,367 1334,367 1334,309 1313,309 1306,303 1297,303 1291,307 1280,307 1274,303 1252,303 1242,310 1232,311 1184,310 1176,304 1161,304 1156,309 1127,310 1098,306 1094,302"/>

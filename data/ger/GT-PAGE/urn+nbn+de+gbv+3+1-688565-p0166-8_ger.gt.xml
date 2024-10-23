@@ -1,11 +1,26 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-REPAIR-644">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:14Z</Created>
     <LastChange>2024-01-19T13:09:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-688565-p0166-8_ger.jpg" imageWidth="1596" imageHeight="2386" type="content" primaryLanguage="German">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/e4c64880-e1e3-4549-acbf-a770685a44d0/00000166.jpg" imageWidth="1596" imageHeight="2386" type="content" primaryLanguage="German">
     <Border>
       <Coords points="490,383 1361,383 1361,1980 490,1980"/>
     </Border>
@@ -15,10 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1676623593398_2836" custom="readingOrder {index:0;}">
-      <Coords points="766,389 1107,389 1107,432 766,432"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1676623586963_2827" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676623586963_2827" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="514,392 514,442 597,442 597,392"/>
       <TextLine id="line_1676623587042_2830" custom="readingOrder {index:0;}">
         <Coords points="514,392 514,442 597,442 597,392"/>
@@ -36,7 +48,7 @@
         <Unicode>156</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2674702" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="-0.2674702" readingDirection="left-to-right">
       <Coords points="496,481 1353,481 1353,1975 496,1975"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1185,481 1173,488 1137,483 1076,483 1050,491 1022,490 1015,483 1004,483 992,491 972,492 915,490 909,482 898,482 889,488 882,482 864,483 852,492 845,491 843,482 821,482 817,491 793,487 788,491 740,492 697,492 694,482 673,482 671,491 648,490 642,485 597,490 565,487 559,483 548,483 542,487 519,482 515,485 497,485 497,534 831,536 840,543 852,543 862,536 896,536 903,540 917,536 944,535 1000,536 1006,543 1016,543 1022,536 1079,540 1177,537 1353,539 1351,492 1336,490 1326,494 1299,495 1238,492 1233,489 1203,490 1197,483"/>
@@ -1485,5 +1497,8 @@ und wo moͤglich zu benehmen, und bemuͤhte mich,
 ihr alle die tauſend unangenehmen Empfindun⸗</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1676623593398_2836" custom="readingOrder {index:0;}">
+      <Coords points="766,389 1107,389 1107,432 766,432"/>
+    </GraphicRegion>
   </Page>
 </PcGts>
